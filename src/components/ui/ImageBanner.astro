@@ -9,9 +9,10 @@ interface Props {
   desc: string;
   ctaLabel: string;
   ctaHref: string;
+  as?: 'h1' | 'h2';
 }
 
-const { imageSrc, imageAlt, bgColor, title, desc, ctaLabel, ctaHref } =
+const { imageSrc, imageAlt, bgColor, title, desc, ctaLabel, ctaHref, as: HeadingTag = 'h2' } =
   Astro.props;
 ---
 
@@ -25,11 +26,11 @@ const { imageSrc, imageAlt, bgColor, title, desc, ctaLabel, ctaHref } =
       fetchpriority="high"
     />
     <div class={`w-full p-4 lg:p-6 ${bgColor}`}>
-      <h2
+      <HeadingTag
         class="text-3xl md:text-6xl lg:text-[6rem] leading-[1.05] font-medium tracking-tight mb-4 lg:mb-6 max-w-5xl text-black whitespace-pre-line"
       >
         {title}
-      </h2>
+      </HeadingTag>
       <p
         class="text-lg md:text-2xl mb-4 lg:mb-12 max-w-5xl text-black whitespace-pre-line"
       >
