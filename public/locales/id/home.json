@@ -1,0 +1,75 @@
+{
+  "seo": {
+    "meta_title": "Tur & Pendakian Gunung Rinjani | Go2Rinjani",
+    "meta_description": "Rencanakan pendakian Gunung Rinjani Anda bersama Go2Rinjani - pemandu lokal bersertifikat, pendakian tepi kawah, pendakian puncak & turun ke danau Segara Anak. Pesan petualangan Anda hari ini."
+  },
+  "hero": {
+    "title": "Pendakian & Puncak Gunung Rinjani untuk Setiap Petualang",
+    "desc": "Dari hutan Senaru hingga puncak di ketinggian 3.726 m — Go2Rinjani menawarkan tur tepi kawah berpemandu, pendakian puncak, perjalanan ke danau Segara Anak, dan ekspedisi beberapa hari, semuanya dipimpin oleh pemandu lokal bersertifikat.",
+    "cta_label": "Temukan Pendakian Kami"
+  },
+  "destinations": {
+    "section_title": "Rute Pendakian Gunung Rinjani",
+    "items": [
+      {
+        "id": "crater-rim",
+        "title": "Tepi Kawah",
+        "desc": "Jalur pejalan kaki yang ikonik di atas danau Segara Anak, dengan pemandangan luas melintasi Lombok dan Bali."
+      },
+      {
+        "id": "summit-climb",
+        "title": "Puncak",
+        "desc": "Pendakian berpemandu hingga 3.726 m — titik tertinggi Lombok, di atas awan saat matahari terbit."
+      },
+      {
+        "id": "segara-anak",
+        "title": "Segara Anak",
+        "desc": "Kami turun ke danau kawah yang sakral dan berkemah di tepi perairannya yang berwarna biru kehijauan dan sumber air panas."
+      },
+      {
+        "id": "sembalun-route",
+        "title": "Rute Sembalun",
+        "desc": "Jalur sabana modern melalui padang rumput terbuka, beberapa langkah dari desa lembah Sembalun."
+      }
+    ]
+  },
+  "about": {
+    "label": "Tentang",
+    "cta_label": "Baca Tentang Go2Rinjani",
+    "desc": "Go2Rinjani adalah operator tur Gunung Rinjani bersertifikat yang berbasis di Lombok — bertindak sebagai pemandu lokal, advokat pelestarian lingkungan, dan komunitas. Tempat berlindung yang tepercaya bagi para pendaki yang mencari puncak gunung, sensasi penemuan, dan hangatnya petualangan bersama di gunung berapi tertinggi kedua di Indonesia."
+  },
+  "experience": {
+    "title": "Kehidupan di Jalur Rinjani: Alami, Nyata, Tak Terlupakan",
+    "desc": "Gunung tidak pernah hanya sekadar gunung — ia adalah rasa pencapaian yang Anda bawa pulang darinya.",
+    "cta_label": "Temukan Cerita Kami",
+    "section_title": "Di Jalur Pendakian",
+    "items": [
+      {
+        "id": "senaru-trail",
+        "title": "Jalur Senaru",
+        "desc": "Jalurnya rimbun dan penuh kehidupan, berkelok-kelok melalui hutan hujan yang lebat. Dari fajar hingga senja, gunung ini milik Anda untuk dijelajahi."
+      },
+      {
+        "id": "crater-camp",
+        "title": "Kawah Berkemah",
+        "desc": "Di Go2Rinjani kami menikmati sarapan, makanan hangat, dan beristirahat di perkemahan — kapan saja, di mana saja di sekitar pegunungan."
+      },
+      {
+        "id": "sembalun-savannah",
+        "title": "Sabana Sembalun",
+        "desc": "Jejak kami luas dan menawan, dibentuk oleh lahan pertanian Sasak tradisional tepat di luar batas taman nasional."
+      }
+    ]
+  },
+  "agenda": {
+    "label": "Agenda",
+    "cta_label": "Temukan Acara Kami",
+    "title": "Pastikan Anda tidak ketinggalan apa yang ada di Go2Rinjani",
+    "desc": "Go2Rinjani menyatukan para petualang yang sepemikiran di mana mereka dapat melakukan pendakian, menjalin koneksi, dan menciptakan kenangan bersama."
+  },
+  "featured_post": {
+    "title": "Mendaki dengan Cerdas di Gunung Rinjani: Panduan Persiapan Lengkap Anda",
+    "desc": "Merencanakan pendakian pertama Anda ke Gunung Rinjani dan bingung harus mulai dari mana? Go2Rinjani mencakup semuanya — mulai dari perizinan dan daftar barang bawaan hingga pemilihan rute dan tips menuju puncak.",
+    "cta_label": "Baca Selengkapnya"
+  }
+}

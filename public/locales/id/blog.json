@@ -1,0 +1,38 @@
+{
+  "seo": {
+    "meta_title": "Blog Trekking Gunung Rinjani — Panduan, Tips & Cerita",
+    "meta_description": "Baca blog trekking terkemuka dari Go2Rinjani untuk panduan Gunung Rinjani, tip pengepakan, informasi cuaca, kisah perjalanan, dan penawaran eksklusif."
+  },
+  "hero": {
+    "title": "Blog Trekking Gunung Rinjani: Panduan, Cerita & Wawasan",
+    "desc": "Semua yang Anda butuhkan untuk merencanakan, mempersiapkan, dan mendaki Gunung Rinjani — ditulis oleh pemandu lokal Go2Rinjani. Dari tips rute Sembalun dan danau Segara Anak hingga pembaruan cuaca, ini adalah sumber daya utama Anda."
+  },
+  "featured": {
+    "title": "Mendaki dengan Cerdas di Gunung Rinjani: Panduan Pemula",
+    "desc": "Baru dalam pendakian Gunung Rinjani? Pemandu kami memandu Anda melalui segalanya — mulai dari memilih rute Anda (Sembalun atau Senaru), apa yang harus dikemas, bagaimana izin bekerja, dan apa yang diharapkan pada hari puncak di 3.726 m.",
+    "cta_label": "Baca Selengkapnya"
+  },
+  "specials": {
+    "section_title": "Spesial Trek Go2Rinjani & Penawaran Eksklusif",
+    "posts": [
+      {
+        "badge": "SPESIAL",
+        "date": "07 OKTOBER 2025",
+        "title": "Promo Trek Musim Hujan Gunung Rinjani — Hemat 15% Bulan Desember Ini",
+        "desc": "Pesan perjalanan Gunung Rinjani Anda sebelum 31 Desember dan hemat 15% untuk setiap perjalanan 3 hari atau 4 hari yang berangkat Minggu hingga Rabu. Trek musim hujan menawarkan jalur yang lebih tenang dengan lanskap hijau."
+      },
+      {
+        "badge": "SPESIAL",
+        "date": "15 SEPTEMBER 2025",
+        "title": "Go2Rinjani x Eiger: Koleksi Alat Trekking Eksklusif Rinjani",
+        "desc": "Go2Rinjani telah berkolaborasi dengan Eiger untuk meluncurkan koleksi perlengkapan trekking dan pakaian eksklusif yang dirancang khusus untuk Rinjani. Dibuat untuk gunung, digunakan oleh komunitas."
+      },
+      {
+        "badge": "SPESIAL",
+        "date": "15 SEPTEMBER 2025",
+        "title": "Puncak & Pemberian Kembali: Go2Rinjani Mendukung Porter Sasak & Konservasi",
+        "desc": "Setiap pendakian Gunung Rinjani yang dipesan bulan ini berkontribusi untuk dua alasan yang sangat berarti: kesejahteraan para porter Sasak lokal dan pelestarian jalur Rinjani melalui Balai Taman Nasional Gunung Rinjani."
+      }
+    ]
+  }
+}

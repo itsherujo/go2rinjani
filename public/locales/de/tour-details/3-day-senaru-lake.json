@@ -1,0 +1,158 @@
+{
+  "seo": {
+    "meta_title": "Mount Rinjani 3-Tage Senaru Trek — Kraterrand, See & Heiße Quellen | Go2Rinjani",
+    "meta_description": "Trekken Sie auf den Mount Rinjani über Senaru in 3 Tagen — Regenwald zum Pelawangan Senaru, Abstieg zum Segara Anak See und heiße Thermalquellen. Kein Gipfel."
+  },
+  "hero": {
+    "title": "Mount Rinjani 3-Tage Senaru Trek — Regenwald, See & Heiße Quellen",
+    "desc": "Go2Rinjanis immersivstes Rinjani-Erlebnis ohne Gipfelbesteigung — der 3-tägige Senaru See-Trek führt durch tropischen Regenwald zum Pelawangan Senaru Kraterrand, hinab in den Krater zum Segara Anak See und zu den heißen Vulkangquellen.",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+  },
+  "intro": {
+    "label": "3 Tage 2 Nächte — Senaru Route",
+    "title": "Rinjanis heiliger Kratersee — Durch den Regenwald, ohne Gipfel",
+    "desc": "Der 3-tägige Senaru Trek richtet sich an Trekker, die das Herz des Nationalparks erkunden möchten — den heiligen Segara Anak See auf 2.008 m — ohne die körperliche Anstrengung eines Gipfelaufstiegs. Von Senaru aus führt der Weg zum Kraterrand (2.641 m) und dann hinunter zum See, wo Sie in den natürlichen heißen Quellen baden können."
+  },
+  "highlights": {
+    "section_title": "Was Sie erwartet",
+    "items": [
+      {
+        "id": "senaru-rainforest",
+        "title": "Senaru Regenwald-Pfad",
+        "desc": "Die Senaru-Route schlängelt sich durch den artenreichsten Teil des Rinjanis mit üppiger Flora und Fauna."
+      },
+      {
+        "id": "pelawangan-senaru",
+        "title": "Pelawangan Senaru auf 2.641 m",
+        "desc": "Erreichen Sie Pelawangan Senaru — den Kraterrand — mit Panoramablick auf den See und den Mount Rinjani Gipfel."
+      },
+      {
+        "id": "segara-anak-descent",
+        "title": "Abstieg zum Segara Anak See",
+        "desc": "Abstieg in den Vulkankrater zum heiligen türkisfarbenen See, einem Ort von tiefer spiritueller Bedeutung."
+      },
+      {
+        "id": "hot-springs",
+        "title": "Heiße Vulkanquellen",
+        "desc": "Entspannen Sie in den natürlichen heißen Thermalquellen an den Ufern des Segara Anak Sees."
+      },
+      {
+        "id": "sasak-culture",
+        "title": "Sasak Kultur",
+        "desc": "Die Route durchquert historisches Sasak-Land und bietet eine tiefgehende kulturelle Verbindung."
+      }
+    ]
+  },
+  "itinerary": {
+    "section_title": "3-Tage Senaru Reiseroute",
+    "intro": "Drei Tage, zwei Nächte auf der Senaru Route — Regenwald, Kraterrand, See und heiße Quellen.",
+    "days": [
+      {
+        "day": "Tag 1",
+        "title": "Senaru Village zum Pelawangan Senaru",
+        "desc": "Nach dem Frühstück Transfer zum Ausgangspunkt. Wanderung durch den Regenwald bis zum Kraterrand (2.641 m). Abendessen und Camping am Kraterrand.",
+        "highlights": [
+          "Frühstück & Briefing in Senaru",
+          "Transfer zum Senaru Ausgangspunkt",
+          "Wanderung durch den Regenwald",
+          "Ankunft am Pelawangan Senaru (2.641 m)",
+          "Panoramablick über den Caldera",
+          "Abendessen & Camping am Kraterrand"
+        ]
+      },
+      {
+        "day": "Tag 2",
+        "title": "Abstieg zum Segara Anak See — Heiße Quellen",
+        "desc": "Sonnenaufgang am Kraterrand, dann Abstieg zum See. Am Mittag erreichen Sie den Heiligen See. Entspannen Sie in den heißen Thermalquellen. Camping am Ufer.",
+        "highlights": [
+          "Sonnenaufgang am Kraterrand",
+          "Frühstück",
+          "Abstieg in den Vulkankrater",
+          "Ankunft am Segara Anak See",
+          "Bad in heißen thermalquellen",
+          "Abendessen & Camping am See"
+        ]
+      },
+      {
+        "day": "Tag 3",
+        "title": "Segara Anak See — Aufstieg & Abstieg nach Senaru",
+        "desc": "Nach dem Frühstück am See Aufstieg zurück zum Kraterrand und vollständiger Abstieg durch den Regenwald zurück zum Dorf Senaru. Transfer zum Hotel.",
+        "highlights": [
+          "Sonnenaufgang am Segara Anak See",
+          "Frühstück am Ufer-Camp",
+          "Aufstieg zum Pelawangan Senaru",
+          "Kompletter Abstieg durch den Regenwald",
+          "Transfer zurück zur Unterkunft"
+        ]
+      }
+    ],
+    "schedule_label": "Reiseplan"
+  },
+  "inclusions": {
+    "section_title": "Trek Inklusivleistungen",
+    "intro": "Jeder Trek ist voll unterstützt. Das ist inklusive:",
+    "included": [
+      "Zertifizierter lokaler Guide",
+      "Träger",
+      "Nationalpark-Ticket",
+      "Alle Mahlzeiten (3x täglich)",
+      "Volle Campingausrüstung",
+      "Hotelabholung und -rückgabe",
+      "1 Nacht Unterkunft vor dem Trek"
+    ],
+    "excluded": [
+      "Persönliche Ausrüstung",
+      "Reiseversicherung",
+      "Trinkgelder"
+    ],
+    "included_label": "Inklusive",
+    "excluded_label": "Nicht Inklusive"
+  },
+  "trek_details": {
+    "section_title": "Trek auf einen Blick",
+    "intro": "Alles, was Sie vor der Buchung wissen müssen.",
+    "details": [
+      { "label": "Dauer", "value": "3 Tage 2 Nächte" },
+      { "label": "Route", "value": "Senaru Route" },
+      { "label": "Kraterrand", "value": "Pelawangan Senaru — 2.641 m" },
+      { "label": "See Höhe", "value": "2.008 m" },
+      { "label": "Gipfel", "value": "Kein Gipfel auf diesem Paket" },
+      { "label": "Ausgangspunkt", "value": "Senaru village" },
+      { "label": "Schwierigkeit", "value": "Moderat — für normale Fitness" },
+      { "label": "Beste Jahreszeit", "value": "April – Dezember" },
+      { "label": "Permit", "value": "Inklusive" },
+      { "label": "Gruppengröße", "value": "Min 2 — max 6" },
+      { "label": "Torean Route", "value": "Nicht verfügbar" }
+    ]
+  },
+  "choose_duration": {
+    "section_title": "Welches Paket ist das richtige für Sie?",
+    "items": [
+      {
+        "duration": "2 Tage 1 Nacht",
+        "best_for": "Nur Kraterrand ohne Abstieg zum See",
+        "cta_label": "2-Tage-Paket",
+        "cta_url": "/tours/mount-rinjani-trek/2-day-senaru-crater-rim"
+      },
+      {
+        "duration": "3 Tage 2 Nächte",
+        "best_for": "Kraterrand, Segara Anak See & heiße Quellen",
+        "cta_label": "Sie sind hier",
+        "cta_url": "/tours/mount-rinjani-trek/3-day-senaru-lake"
+      },
+      {
+        "duration": "4 Tage 3 Nächte",
+        "best_for": "Die volle Senaru Erfahrung inklusive Gipfel",
+        "cta_label": "4-Tage-Paket",
+        "cta_url": "/tours/mount-rinjani-trek/4-day-senaru-summit-lake"
+      }
+    ],
+    "read_more_label": "Mehr lesen"
+  },
+  "cta": {
+    "section_title": "Bereit für den heiligen See?",
+    "title": "Buchen Sie Ihren 3-Tage Trek",
+    "desc": "Erleben Sie unberührten Regenwald, den tiefblauen See und entspannende heiße Quellen.",
+    "cta_label": "Trek Buchen"
+  }
+}

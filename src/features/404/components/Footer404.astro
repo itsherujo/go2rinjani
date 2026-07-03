@@ -1,0 +1,104 @@
+---
+import logoUrl from "../../../assets/Go2rinjani.svg";
+import { COMPANY_INFO } from "../../../constants/company";
+---
+
+<footer class="footer" id="contact">
+  <section>
+    <div class="contact contact--is-vertical">
+      <article class="contact__general">
+        <h2 class="text text--small contact__heading">General</h2>
+        <p class="text text--small contact__text-block">
+          <a
+            href="mailto:info@acolorbright.com"
+            class="link"
+            rel="noopener noreferrer"
+            target="_blank">go2rinjani@gmail.com</a
+          >
+          <br />
+          <a
+            href="tel:+4930577049450"
+            class="link"
+            rel="noopener noreferrer"
+            target="_blank">+62 819 1603 0378</a
+          >
+          <br /><br />
+        </p>
+      </article>
+      <article class="contact__address">
+        <h2 class="text text--small contact__heading">Find Us</h2>
+        <a
+          href={COMPANY_INFO.mapsUrl}
+          class="link link--block"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <p class="text text--small contact__text-block">
+            {COMPANY_INFO.name}
+            <br />
+            {COMPANY_INFO.address}
+          </p>
+        </a>
+      </article>
+      <article class="contact__accessibility contact__legal">
+        <p class="label label--small contact__text-block">
+          Our office is not fully accessible for people with disabilities. <br
+          />
+          However, please reach out, and we'll do our best to find a solution. <br
+          />
+        </p>
+      </article>
+      <a
+        class="link contact__code-of-conduct text text--small"
+        href="/legal/terms-and-conditions">Terms and Conditions</a
+      >
+      <a
+        class="link contact__privacy-policy text text--small"
+        href="/legal/privacy-policy">Privacy Policy</a
+      >
+      <article class="contact__social">
+        <h2 class="text text--small contact__heading">Follow Us</h2>
+        <p class="text text--small contact__text-block">
+          <a
+            href="https://www.instagram.com/acolorbright/"
+            class="link"
+            rel="noopener noreferrer"
+            target="_blank">Instagram</a
+          >
+          <br />
+          <a
+            href="https://www.linkedin.com/company/a-color-bright/"
+            class="link"
+            rel="noopener noreferrer"
+            target="_blank">LinkedIn</a
+          >
+          <br />
+        </p>
+      </article>
+      <article class="contact__legal">
+        <p class="label label--small contact__text-block">
+          NIB: {COMPANY_INFO.licenses.nib}
+          <br />
+          NPWP: {COMPANY_INFO.licenses.npwp}
+          <br />
+          PB-UMKU: {COMPANY_INFO.licenses.pbPwja}
+          <br />
+        </p>
+      </article>
+    </div>
+  </section>
+  <div class="footer__bottom">
+    <a
+      aria-label="Go2Rinjani logo home link"
+      class="link link--underlined footer__logo"
+      href="/"
+    >
+      <img
+        src={logoUrl.src}
+        alt="Go2Rinjani Logo"
+        class="logo"
+        style="--min-height: 2.5rem; height: 100%; object-fit: contain; border-radius: 0;"
+      />
+    </a>
+  </div>
+</footer>

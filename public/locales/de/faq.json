@@ -1,0 +1,61 @@
+{
+  "seo": {
+    "meta_title": "Häufig gestellte Fragen zum Mount Rinjani | Go2Rinjani",
+    "meta_description": "Alles, was Sie vor dem Trekking auf den Mount Rinjani wissen müssen — von Höhe und Zugang bis hin zu Sicherheit, Genehmigungen und der besten Reisezeit."
+  },
+  "title": "(FAQ)",
+  "number": "03",
+  "heading": "Häufig gestellte Fragen zum Mount Rinjani",
+  "paragraph": "Alles, was Sie vor dem Trekking auf den Mount Rinjani wissen müssen — von Höhe und Zugang bis hin zu Sicherheit, Genehmigungen und der besten Reisezeit.",
+  "button": {
+    "front": "Preis anfragen",
+    "back": "Preis anfragen"
+  },
+  "items": [
+    {
+      "id": "01",
+      "title": "Wie hoch ist der Mount Rinjani?",
+      "text": "Der Mount Rinjani erhebt sich 3.726 Meter (12.224 ft) über dem Meeresspiegel und ist damit der zweithöchste Vulkan in Indonesien."
+    },
+    {
+      "id": "02",
+      "title": "Ist der Mount Rinjani während der Regenzeit geöffnet?",
+      "text": "Nein. Der Nationalpark ist von Januar bis März wegen starker Regenfälle, starker Winde und Erdrutschgefahr offiziell geschlossen. Die beste Zeit zum Klettern ist während der Trockenzeit von April bis November."
+    },
+    {
+      "id": "03",
+      "title": "Kann man den Mount Rinjani ohne Führer besteigen?",
+      "text": "Nein, es ist obligatorisch, einen lizenzierten Führer und Träger zu engagieren, um den Mount Rinjani Nationalpark zu betreten. Go2Rinjani stellt zertifizierte lokale Führer zur Verfügung, die Ihre Sicherheit und Ihren Komfort gewährleisten."
+    },
+    {
+      "id": "04",
+      "title": "Wie lange dauert die Besteigung des Mount Rinjani?",
+      "text": "Ein Trekking zum Kraterrand dauert in der Regel 2 Tage/1 Nacht. Ein Gipfeltrek dauert 3 Tage/2 Nächte. Für ein komplettes Erlebnis einschließlich Kratersee und heißen Quellen benötigen Sie ein 4-tägiges/3-nächtiges Trekking."
+    },
+    {
+      "id": "05",
+      "title": "Wie kommt man zum Mount Rinjani?",
+      "text": "Die meisten Besucher fliegen zum Lombok International Airport (LOP) oder reisen mit dem Schnellboot von Bali an. Von dort aus sind es 2,5 bis 3 Stunden Fahrt zu den Trekkingtoren in den Dörfern Senaru oder Sembalun."
+    },
+    {
+      "id": "06",
+      "title": "Ist der Mount Rinjani ein aktiver Vulkan?",
+      "text": "Ja, der Mount Rinjani ist ein aktiver Vulkan. Sein letzter Ausbruch ereignete sich 2016 aus dem Gunung Barujari, dem kleinen Vulkankegel im Kratersee."
+    },
+    {
+      "id": "07",
+      "title": "Ist der Mount Rinjani sicher?",
+      "text": "Trekking am Mount Rinjani ist im Allgemeinen sicher, wenn Sie mit einem erfahrenen, lizenzierten Führer und der richtigen Ausrüstung gehen. Das Gelände ist jedoch anspruchsvoll und ab 3.000 Metern kann die Höhenkrankheit auftreten. Eine gute körperliche Fitness wird dringend empfohlen."
+    },
+    {
+      "id": "08",
+      "title": "Was für ein Vulkan ist der Mount Rinjani?",
+      "text": "Der Mount Rinjani ist ein massiver Stratovulkan (auch als Schichtvulkan bekannt). Er verfügt über eine 6 mal 8,5 Kilometer große Caldera, die teilweise vom atemberaubenden Segara-Anak-Kratersee gefüllt ist."
+    },
+    {
+      "id": "09",
+      "title": "Wo liegt der Mount Rinjani?",
+      "text": "Der Mount Rinjani befindet sich im zentral-nördlichen Teil der Insel Lombok in der indonesischen Provinz West-Nusa Tenggara."
+    }
+  ]
+}

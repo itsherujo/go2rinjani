@@ -1,0 +1,70 @@
+<script>
+  function initPaymentPage() {
+    const tabButtons = document.querySelectorAll<HTMLButtonElement>("[data-tab]");
+    const cards = document.querySelectorAll<HTMLElement>("[data-payment-card]");
+
+    tabButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const target = btn.dataset.tab!;
+
+        tabButtons.forEach((b) => {
+          const isActive = b.dataset.tab === target;
+          b.classList.toggle("bg-foreground", isActive);
+          b.classList.toggle("border-foreground", isActive);
+          b.classList.toggle("text-background", isActive);
+          b.classList.toggle("bg-background", !isActive);
+          b.classList.toggle("text-foreground/70", !isActive);
+
+          const icon = b.querySelector("img");
+          if (icon) {
+            icon.classList.toggle("brightness-0", isActive);
+            icon.classList.toggle("invert", isActive);
+          }
+        });
+
+        cards.forEach((card) => {
+          const cardType = card.dataset.paymentCard!;
+          if (cardType === target) {
+            card.classList.remove("hidden");
+          } else {
+            card.classList.add("hidden");
+          }
+        });
+      });
+    });
+
+    const copyButtons = document.querySelectorAll<HTMLButtonElement>("[data-copy]");
+
+    copyButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const text = btn.dataset.copy!;
+        navigator.clipboard.writeText(text).then(() => {
+          const copyIcon = btn.querySelector(".copy-icon") as HTMLElement;
+          const checkIcon = btn.querySelector(".check-icon") as HTMLElement;
+
+          if (copyIcon && checkIcon) {
+            copyIcon.classList.add("hidden");
+            checkIcon.classList.remove("hidden");
+          }
+          btn.classList.add("bg-foreground", "text-background", "border-foreground");
+          btn.classList.remove("bg-background", "text-foreground");
+
+          setTimeout(() => {
+            if (copyIcon && checkIcon) {
+              copyIcon.classList.remove("hidden");
+              checkIcon.classList.add("hidden");
+            }
+            btn.classList.remove("bg-foreground", "text-background");
+            btn.classList.add("bg-background", "text-foreground");
+          }, 1800);
+        }).catch(() => {});
+      });
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initPaymentPage);
+  } else {
+    initPaymentPage();
+  }
+</script>

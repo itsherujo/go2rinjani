@@ -1,0 +1,158 @@
+{
+  "seo": {
+    "meta_title": "林查尼火山3天2夜塞纳鲁徒步 — 火山口、火山湖及温泉 | Go2Rinjani",
+    "meta_description": "3天徒步前往林查尼塞纳鲁 — 热带雨林路线至Pelawangan Senaru火山口，下至Segara Anak湖和天然温泉。无需登顶，包含专业向导。"
+  },
+  "hero": {
+    "title": "林查尼火山3天塞纳鲁徒步 — 雨林，湖泊与温泉",
+    "desc": "最深度体验林查尼山且无需登顶的行程 — 3天塞纳鲁徒步带您穿过茂密的热带雨林，抵达Pelawangan Senaru火山口，接着往下进入神圣的火山口到达Segara Anak湖畔露营，并在火山口底享受天然温泉。专业当地向导团队保驾护航。",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+  },
+  "intro": {
+    "label": "3天2夜 — 塞纳鲁路线",
+    "title": "林查尼的神圣火山口湖 — 穿越雨林，无需登顶",
+    "desc": "3天塞纳鲁火山湖徒步专为那些想深入林查尼国家公园心脏地带——海拔2008米的神圣Segara Anak湖的徒步者设计，同时避免了登顶的肉体折磨。从古老的萨萨克村落Senaru出发，在茂密的热带雨林中穿梭至海拔2641米的Pelawangan Senaru火山口，然后下降到湖畔露营，享天然火山温泉。将自然奇观与萨萨克文化遗产完美连接。"
+  },
+  "highlights": {
+    "section_title": "本次徒步的亮点",
+    "items": [
+      {
+        "id": "senaru-rainforest",
+        "title": "塞纳鲁雨林漫道",
+        "desc": "塞纳鲁路线是林查尼生物多样性最丰富的路径，蜿蜒在茂密的热带雨林中，沿途拥有珍稀的原生植物和鸟鸣生态。"
+      },
+      {
+        "id": "pelawangan-senaru",
+        "title": "Pelawangan Senaru 火山口 (2,641 米)",
+        "desc": "抵达海拔2,641米的Pelawangan Senaru，全景俯瞰下方蓝光荡漾的Segara Anak湖及对面的主峰风光。"
+      },
+      {
+        "id": "segara-anak-descent",
+        "title": "下降至Segara Anak火山湖",
+        "desc": "从火山口边缘下降到神圣的林查尼火山口内，并在海拔2008米的Segara Anak湖边扎营。"
+      },
+      {
+        "id": "hot-springs",
+        "title": "火山口底的天然温泉",
+        "desc": "在Segara Anak湖畔浸泡天然火山温泉，这是整个徒步过程中最放松难忘的时光之一。"
+      },
+      {
+        "id": "sasak-culture",
+        "title": "萨萨克文化遗产",
+        "desc": "塞纳鲁路线途经古老的萨萨克村落，这是一条几个世纪以来连接着本地农业与林查尼山信仰的文化之路。"
+      }
+    ]
+  },
+  "itinerary": {
+    "section_title": "3天塞纳鲁湖泊行程安排",
+    "intro": "塞纳鲁路线上的三天两夜 — 热带雨林、火山口、Segara Anak湖和天然地热温泉，无登顶压力。",
+    "days": [
+      {
+        "day": "第一天",
+        "title": "Senaru村到Pelawangan Senaru火山口",
+        "desc": "在Senaru住宿地享用早餐并进行徒步简报后，Go2Rinjani会将您送至起点。穿越热带雨林和三个休息点后，在傍晚抵达海拔2,641米的Pelawangan Senaru。在此享用晚餐并在火山口扎营，欣赏壮丽的湖景。",
+        "highlights": [
+          "Senaru早餐及出发简报",
+          "转车至Senaru入口起点",
+          "热带雨林徒步 — 1至3号休息站",
+          "到达Pelawangan Senaru火山口",
+          "饱览Segara Anak湖全景",
+          "晚餐和火山口上的星空露营"
+        ]
+      },
+      {
+        "day": "第二天",
+        "title": "下降至Segara Anak湖 — 享受天然温泉",
+        "desc": "在Pelawangan Senaru欣赏壮丽的火山口日出后开始往湖泊区下降(海拔2008米)。中午抵达后，在湖畔扎营，并步行前往火山口底部的天然温泉放松身心。晚间在神圣的湖畔休息露营。",
+        "highlights": [
+          "Pelawangan Senaru火山口日出",
+          "在营地享用早餐",
+          "从火山口下撤至Segara Anak湖",
+          "中午抵达海拔2,008米的湖畔",
+          "体验火山口底天然温泉水",
+          "晚餐与Segara Anak湖畔露营"
+        ]
+      },
+      {
+        "day": "第三天",
+        "title": "Segara Anak湖 — 攀升并原路下撤至Senaru村",
+        "desc": "伴随湖畔日出醒来，随后开始攀升回到Pelawangan Senaru火山口边缘，接着再一路穿过热带雨林返回Senaru村庄。徒步结束后将您转送至预先安排好的酒店住处。",
+        "highlights": [
+          "Segara Anak湖日出风光",
+          "湖畔营地早餐",
+          "从湖攀升至Pelawangan Senaru火山口",
+          "轻松从雨林一路下撤回Senaru村庄",
+          "接送至您的下榻住宿"
+        ]
+      }
+    ],
+    "schedule_label": "行程时间表"
+  },
+  "inclusions": {
+    "section_title": "行程包含与不含",
+    "intro": "每个Go2Rinjani提供的3天塞纳鲁火山湖行程都得到了全方位支持，以下包含内容详情。",
+    "included": [
+      "官方认可向导",
+      "挑夫服务（分担个人装备上限25kg）",
+      "林查尼国家公园门票与许可",
+      "山上所有餐饮 (三餐/天) ＋热饮矿泉水",
+      "提供齐全的高标准露营装备",
+      "指定区域酒店来回接送",
+      "徒步前1晚Senaru村庄住宿安排"
+    ],
+    "excluded": [
+      "个人徒步基本装备",
+      "旅行意外保险",
+      "给向导或挑夫自愿性的小费"
+    ],
+    "included_label": "包含内容",
+    "excluded_label": "不含内容"
+  },
+  "trek_details": {
+    "section_title": "徒步概览信息",
+    "intro": "预订3天塞纳鲁林查尼火山湖徒步前您需要了解的重点事项。",
+    "details": [
+      { "label": "徒步时长", "value": "3天2夜" },
+      { "label": "路线设定", "value": "塞纳鲁路线 — 从Senaru村庄往返" },
+      { "label": "火山口海拔", "value": "Pelawangan Senaru — 海拔2,641米" },
+      { "label": "火山湖海拔", "value": "海平面上2,008米" },
+      { "label": "顶峰挑战", "value": "此路线不含登顶 — 行脚点至湖泊与火山口" },
+      { "label": "起点位置", "value": "北龙目岛Senaru村" },
+      { "label": "困难程度", "value": "中等 — 只需要拥有正常基本的体能健康条件" },
+      { "label": "最佳徒步季节", "value": "4月 – 12月。每年1月到3月闭山" },
+      { "label": "徒步凭证", "value": "包含林查尼国家公园门票入场凭证" },
+      { "label": "服务规模", "value": "最低2人独立出发成团，最高6人拼团。可另外提供私团" },
+      { "label": "Torean特殊路线", "value": "不在本塞纳鲁套餐选项内" }
+    ]
+  },
+  "choose_duration": {
+    "section_title": "不确定该选哪个套餐？",
+    "items": [
+      {
+        "duration": "2天1夜",
+        "best_for": "只想要一览火山口美景而跳过下撤到湖泊的人",
+        "cta_label": "查看2天套餐",
+        "cta_url": "/tours/mount-rinjani-trek/2-day-senaru-crater-rim"
+      },
+      {
+        "duration": "3天2夜",
+        "best_for": "适合深度游火山口、温泉的非登顶路线爱好者",
+        "cta_label": "您在此页面",
+        "cta_url": "/tours/mount-rinjani-trek/3-day-senaru-lake"
+      },
+      {
+        "duration": "4天3夜",
+        "best_for": "适合想挑战登顶并兼顾温泉湖泊享受的挑战者",
+        "cta_label": "查看4天套餐",
+        "cta_url": "/tours/mount-rinjani-trek/4-day-senaru-summit-lake"
+      }
+    ],
+    "read_more_label": "阅读更多"
+  },
+  "cta": {
+    "section_title": "准备好游览火山口神圣的Segara Anak湖了吗？",
+    "title": "立刻向Go2Rinjani预定您完美的3天塞纳鲁体验",
+    "desc": "沉浸于热带雨林、圣湖、天然温泉的世界 — 这是针对非登顶客能获得的最极致林查尼体验。Go2Rinjani负责为您安排办理许可并提供接送。 ",
+    "cta_label": "预订该行程"
+  }
+}

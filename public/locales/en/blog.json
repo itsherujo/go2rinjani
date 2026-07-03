@@ -1,0 +1,38 @@
+{
+  "seo": {
+    "meta_title": "Mount Rinjani Trekking Blog — Guides, Tips & Trail Stories",
+    "meta_description": "Read Go2Rinjani's trekking blog for Mount Rinjani guides, packing tips, weather info, trail stories, and exclusive deals — written by certified local guides."
+  },
+  "hero": {
+    "title": "Mount Rinjani Trekking Blog: Guides, Stories & Trail Insights",
+    "desc": "Everything you need to plan, prepare, and summit Mount Rinjani — written by Go2Rinjani's certified local guides. From Sembalun route tips and Segara Anak lake guides to Mount Rinjani weather updates and packing lists, this is your go-to resource for the mountain."
+  },
+  "featured": {
+    "title": "Trekking Smart on Mount Rinjani: A Beginner's Complete Guide",
+    "desc": "New to Mount Rinjani trekking? Go2Rinjani's certified guides walk you through everything — choosing your route (Sembalun or Senaru), what to pack, how permits work, and what to expect on summit day at 3,726 m.",
+    "cta_label": "Read More"
+  },
+  "specials": {
+    "section_title": "Go2Rinjani Trek Specials & Exclusive Rinjani Offers",
+    "posts": [
+      {
+        "badge": "SPECIALS",
+        "date": "07 OCTOBER 2025",
+        "title": "Mount Rinjani Wet Season Trek Deals — Save 15% This December",
+        "desc": "Book your Mount Rinjani trek before December 31 and save 15% on any 3-day or 4-day itinerary departing Sunday through Wednesday. Wet season treks offer quieter trails, lush green landscapes, and an intimate Rinjani experience."
+      },
+      {
+        "badge": "SPECIALS",
+        "date": "15 SEPTEMBER 2025",
+        "title": "Go2Rinjani x Eiger: Limited Rinjani Trekking Gear Collection",
+        "desc": "Go2Rinjani has partnered with Eiger — Indonesia's leading outdoor brand — to launch a limited collection of trekking gear and apparel designed specifically for Rinjani's trails. Built for the mountain, worn by the community."
+      },
+      {
+        "badge": "SPECIALS",
+        "date": "15 SEPTEMBER 2025",
+        "title": "Summit & Give Back: Go2Rinjani Supports Sasak Porters & Rinjani Conservation",
+        "desc": "Every Mount Rinjani trek booked this month contributes to two causes close to our heart: the welfare of local Sasak porters and the conservation of Rinjani's trails through the Balai Taman Nasional Gunung Rinjani. Trek with purpose."
+      }
+    ]
+  }
+}

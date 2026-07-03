@@ -1,0 +1,113 @@
+{
+  "footer": {
+    "newsletter": {
+      "title": "Stay Updated on Mount Rinjani",
+      "subtitle": "PERSONALIZE THE NEWSLETTER YOU ARE INTERESTED IN RECEIVING",
+      "destinations": {
+        "label": "DESTINATIONS",
+        "items": ["Mount Rinjani", "Mount Stampol"]
+      },
+      "newsletter_type": {
+        "label": "NEWSLETTER TYPE",
+        "items": [
+          "Trek Deals & Promotions",
+          "Rinjani News & Updates",
+          "Trekking Tips & Guides"
+        ]
+      },
+      "form": {
+        "name_placeholder": "NAME",
+        "email_placeholder": "E-MAIL ADDRESS",
+        "submit_label": "SUBMIT",
+        "privacy_label": "I agree to the Go2Rinjani Privacy Policy"
+      }
+    },
+    "contact": {
+      "title": "Find Us",
+      "address": "Jl. Pariwisata Senaru, Dusun, Tumpang Sari, Kec. Bayan, Mataram, Nusa Tenggara Bar. 83354",
+      "maps_url": "https://maps.google.com/?q=-8.285074,116.414391",
+      "hours": {
+        "title": "Operating Hours",
+        "online": {
+          "label": "Online Service",
+          "value": "Daily 07:00 — 23:30 (Closed on Fridays)"
+        },
+        "offline": {
+          "label": "On-Site Office",
+          "value": "Open 24 Hours Daily (Closed on Fridays)"
+        }
+      }
+    },
+    "social": {
+      "title": "Connect With Us",
+      "items": [
+        {
+          "platform": "WhatsApp",
+          "handle": "+6281916030378",
+          "url": "https://wa.me/6281916030378"
+        },
+        {
+          "platform": "Instagram",
+          "handle": "@go2rinjaniofficial",
+          "url": "https://instagram.com/go2rinjaniofficial"
+        },
+        {
+          "platform": "Facebook",
+          "handle": "Go2Rinjani",
+          "url": "https://facebook.com/Go2Rinjani"
+        }
+      ]
+    },
+    "nav": {
+      "items": [
+        {
+          "label": "FAQ",
+          "url": "/faq"
+        },
+        {
+          "label": "Contact",
+          "url": "/contact"
+        },
+        {
+          "label": "How It Works",
+          "url": "/how-it-works"
+        },
+        {
+          "label": "Payment Information",
+          "url": "/payment-information"
+        },
+        {
+          "label": "Terms & Conditions",
+          "url": "/legal/terms-and-conditions"
+        },
+        {
+          "label": "Cancellation Policy",
+          "url": "/legal/cancellation-policy"
+        },
+        {
+          "label": "Privacy Policy",
+          "url": "/legal/privacy-policy"
+        }
+      ]
+    },
+    "license": {
+      "title": "Company License",
+      "subtitle": "Fully Licensed Under",
+      "items": [
+        {
+          "label": "NIB",
+          "value": "2707220027085"
+        },
+        {
+          "label": "NPWP",
+          "value": "65.992.957.4-914.000"
+        },
+        {
+          "label": "PB-PWJA",
+          "value": "27072200270850001"
+        }
+      ]
+    },
+    "copyright": "©2026 Go2Rinjani. All Rights Reserved."
+  }
+}

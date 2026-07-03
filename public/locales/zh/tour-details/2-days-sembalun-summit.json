@@ -1,0 +1,165 @@
+{
+  "seo": {
+    "meta_title": "林贾尼火山两日冲顶徒步 — 森巴伦路线 | Go2Rinjani",
+    "meta_description": "在2天内通过Sembalun路线征服海拔3,726米的林贾尼火山主峰。认证向导，全面的营地支持保障。欢迎在Go2Rinjani预订您的旅程。"
+  },
+  "hero": {
+    "title": "林贾尼火山主峰 | 两日Sembalun路线冲顶",
+    "desc": "以最快的路线登顶龙目岛！Go2Rinjani的2天1夜冲顶配套将带您从开阔的Sembalun地貌一直攀登至海拔3,726米的印尼第二高火山峰顶，并在那里尽享林贾尼火山湖壮丽美景。"
+  },
+  "intro": {
+    "label": "2天1夜 — Sembalun 路线",
+    "title": "最直接的登顶指尖之路",
+    "desc": "这条路线是众多想要直奔山顶的徒步者的首选。从海拔1,156米的Sembalun山谷出发，穿越开阔的热带大草原地形，最终到达海拔2,639米的火山口边缘营地，并最终冲击3,726米的顶峰。"
+  },
+  "highlights": {
+    "section_title": "您能期待什么",
+    "items": [
+      {
+        "id": "sembalun-savannah",
+        "title": "Sembalun 大草原路线",
+        "desc": "徒步旅行将在开阔的大草原上展开，欣赏由当地农业自然形成的迷人地形。"
+      },
+      {
+        "id": "plawangan-sembalun",
+        "title": "Plawangan Sembalun 营地",
+        "desc": "达到海拔2,639米的火山边缘露营地，为您呈现火山湖与大海遥遥相望的美景。"
+      },
+      {
+        "id": "rinjani-summit",
+        "title": "雄伟的 3,726 米主峰",
+        "desc": "黎明前出发，到达印度尼西亚第二高的活火山顶点去探索它惊人的视野范围。天气好时，巴厘岛、松巴哇岛也尽收眼底。"
+      },
+      {
+        "id": "sunrise-summit",
+        "title": "在云端之上的日出",
+        "desc": "在日出时分欣赏印度尼西亚最美的日出之一。"
+      }
+    ]
+  },
+  "itinerary": {
+    "section_title": "2日徒步行程安排",
+    "intro": "快速突破登顶配套——2天，1晚火山口边缘露营及无与伦比的云上日出。",
+    "days": [
+      {
+        "day": "第一天",
+        "title": "从Sembalun向火山口营地出发",
+        "desc": "经过早餐和简单培训之后出发，我们穿越开阔的大草原前往海拔2,639米处的营地。傍晚在美丽的Segara Anak湖景中入睡。",
+        "highlights": [
+          "早餐 & 行前指导",
+          "转移前往徒步起点",
+          "穿越开阔的山坡草地 — 1、2、3号休息站",
+          "达到火山边缘 (2,639 米)",
+          "欣赏火山边缘日落",
+          "营地晚餐和休息"
+        ]
+      },
+      {
+        "day": "第二天",
+        "title": "登顶 —— 下撤至 Sembalun",
+        "desc": "黎明破晓前出发前往海拔3,726米的主峰登顶，享受云海上的壮观日出并摄影之后，回到营地进行早餐，随即完成长长的下撤路线回到山谷。",
+        "highlights": [
+          "拂晓出发进行最终冲顶 (2,639 米起点)",
+          "在日出之时到达顶峰 (3,726 米)",
+          "远望巴厘岛以及其它岛屿全景",
+          "撤回营地进行丰盛的早餐",
+          "全面下撤回Sembalun小镇",
+          "转送到您预定的住所"
+        ]
+      }
+    ],
+    "schedule_label": "行程安排"
+  },
+  "inclusions": {
+    "section_title": "包含与不包含",
+    "intro": "Go2Rinjani确保每个冲顶行程都有全面的支持与物资保障。",
+    "included": [
+      "官方认证的本地向导",
+      "搬运工 (帮您拿个人登山和露营设备不超过 25 千克)",
+      "林贾尼国家公园森林许可证与门票",
+      "山上丰富餐饮设施 (每天3餐) + 热饮和饮用水",
+      "完善露营设备：帐篷，睡袋，防潮垫及枕头等",
+      "当地酒店免费接送服务",
+      "徒步前1晚在Sembalun的酒店住宿"
+    ],
+    "excluded": [
+      "个人登山徒步物品 (夹克，登山鞋，登山杖等)",
+      "旅行意外保障保险",
+      "对向导及搬运工给的一些小费"
+    ],
+    "included_label": "包含项目",
+    "excluded_label": "不包含项目"
+  },
+  "trek_details": {
+    "section_title": "快速一览行程参数",
+    "intro": "以下是您在下订单前必须了解的相关数据信息。",
+    "details": [
+      {
+        "label": "徒步时长",
+        "value": "2天1晚"
+      },
+      {
+        "label": "路线",
+        "value": "Sembalun路线 — 起点和终点均为Sembalun"
+      },
+      {
+        "label": "最高海拔",
+        "value": "海拔3,726米 — 龙目岛最高峰"
+      },
+      {
+        "label": "进山起点",
+        "value": "东龙目岛，Sembalun山谷 (1,156米)"
+      },
+      {
+        "label": "徒步难度",
+        "value": "挑战级 — 建议有徒步经验"
+      },
+      {
+        "label": "最佳季节",
+        "value": "4月至12月 (旱季)。1月至3月关闭。"
+      },
+      {
+        "label": "许可证",
+        "value": "林贾尼国家公园许可证 — 已包含"
+      },
+      {
+        "label": "团队人数",
+        "value": "每组最少2人 — 最多6人。可安排独立团。"
+      },
+      {
+        "label": "Torean 路线选项",
+        "value": "两日游不包含此选项"
+      }
+    ]
+  },
+  "choose_duration": {
+    "section_title": "不确定哪个套餐适合您？",
+    "items": [
+      {
+        "duration": "2天1夜",
+        "best_for": "只为了征服顶峰，时间匆忙的人",
+        "cta_label": "查看 2 天套餐",
+        "cta_url": "/tours/mount-rinjani-trek/2-days-sembalun-summit"
+      },
+      {
+        "duration": "3天2晚",
+        "best_for": "能够完整领略火山顶峰，火山湖与温泉的神奇体验",
+        "cta_label": "您在此行程",
+        "cta_url": "/tours/mount-rinjani-trek/3-days-sembalun-summit-lake"
+      },
+      {
+        "duration": "4天3晚",
+        "best_for": "适合时间充裕且乐于享受深度大自然的旅行者",
+        "cta_label": "查看 4 天套餐",
+        "cta_url": "/tours/mount-rinjani-trek/4-days-sembalun-expedition"
+      }
+    ],
+    "read_more_label": "阅读更多"
+  },
+  "cta": {
+    "section_title": "准备好冲击林贾尼火山之巅了吗？",
+    "title": "跟Go2Rinjani预订您的2日行程",
+    "desc": "我们将妥善安排一切。您只需打包您的探险精神。",
+    "cta_label": "现在去预定"
+  }
+}

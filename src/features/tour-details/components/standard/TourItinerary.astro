@@ -1,0 +1,76 @@
+---
+import { useTranslations } from "../../../../i18n/utils";
+import SectionTitle from "../../../../components/ui/Typography/SectionTitle.astro";
+import SectionDesc from "../../../../components/ui/Typography/SectionDesc.astro";
+
+interface Props {
+  lang: string;
+  slug: string;
+}
+
+const { lang, slug } = Astro.props;
+const t = useTranslations(lang, `tour-details/${slug}`);
+
+const days = t("itinerary.days", { returnObjects: true }) as any[];
+---
+
+{
+  days && days.length > 0 && (
+    <section class="w-full px-4 xl:px-5">
+      <div class="mb-4">
+        <SectionTitle>{t("itinerary.section_title")}</SectionTitle>
+        <SectionDesc class="lg:max-w-[75%]!">
+          {t("itinerary.intro")}
+        </SectionDesc>
+      </div>
+
+      <div class="w-full border-t border-foreground pt-8">
+        <div class="w-full bg-stampol-yellow">
+          <div class="w-full p-4 lg:p-6 text-foreground border min-[481px]:border border-foreground">
+            <h3 class="text-3xl md:text-4xl font-normal tracking-tight mb-8">
+              {t("itinerary.schedule_label", {
+                defaultValue: "Itinerary Schedule",
+              })}
+            </h3>
+            <div
+              class={
+                days.length > 3
+                  ? "grid grid-cols-1 lg:grid-cols-2 gap-12 gap-y-12 lg:gap-y-16"
+                  : "flex flex-col lg:flex-row gap-12"
+              }
+            >
+              {days.map((day: any, idx: number) => (
+                <div
+                  class={
+                    days.length > 3
+                      ? "flex flex-col border-b border-foreground/30 pb-8 last:border-0 last:pb-0 lg:nth-last-[-n+2]:border-0 lg:nth-last-[-n+2]:pb-0"
+                      : "flex-1 border-b lg:border-b-0 lg:border-r border-foreground/30 pb-8 lg:pb-0 lg:pr-12 last:border-0 last:pb-0 lg:last:pr-0"
+                  }
+                >
+                  <span class="block text-sm font-medium tracking-widest uppercase mb-3 text-foreground/70">
+                    {day.day}
+                  </span>
+                  <span class="block text-2xl md:text-3xl font-medium mb-4">
+                    {day.title}
+                  </span>
+                  <p class="block text-base md:text-lg mb-6 leading-relaxed max-w-4xl text-foreground/80">
+                    {day.desc}
+                  </p>
+                  {day.highlights && (
+                    <ul class="list-disc pl-5 space-y-2 max-w-3xl">
+                      {day.highlights.map((hl: string) => (
+                        <li class="text-sm md:text-base text-foreground/80">
+                          {hl}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}

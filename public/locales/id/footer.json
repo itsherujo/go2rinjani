@@ -1,0 +1,116 @@
+{
+  "footer": {
+    "newsletter": {
+      "title": "Dapatkan Info Terbaru Gunung Rinjani",
+      "subtitle": "PERSONALISASI BULETIN YANG INGIN ANDA TERIMA",
+      "destinations": {
+        "label": "DESTINASI",
+        "items": [
+          "Gunung Rinjani",
+          "Gunung Stampol"
+        ]
+      },
+      "newsletter_type": {
+        "label": "TIPE BULETIN",
+        "items": [
+          "Promo & Penawaran Trek",
+          "Berita & Info Rinjani",
+          "Tips & Panduan Trekking"
+        ]
+      },
+      "form": {
+        "name_placeholder": "NAMA",
+        "email_placeholder": "ALAMAT E-MAIL",
+        "submit_label": "KIRIM",
+        "privacy_label": "Saya setuju dengan Kebijakan Privasi Go2Rinjani"
+      }
+    },
+    "contact": {
+      "title": "Temukan Kami",
+      "address": "Jl. Pariwisata Senaru, Dusun, Tumpang Sari, Kec. Bayan, Mataram, Nusa Tenggara Bar. 83354",
+      "maps_url": "https://maps.google.com/?q=-8.285074,116.414391",
+      "hours": {
+        "title": "Jam Operasional",
+        "online": {
+          "label": "Layanan Online",
+          "value": "Setiap Hari 07:00 — 23:30 (Tutup setiap Jumat)"
+        },
+        "offline": {
+          "label": "Kantor Fisik",
+          "value": "Buka 24 Jam Setiap Hari (Tutup setiap Jumat)"
+        }
+      }
+    },
+    "social": {
+      "title": "Terhubung Dengan Kami",
+      "items": [
+        {
+          "platform": "WhatsApp",
+          "handle": "+6281916030378",
+          "url": "https://wa.me/6281916030378"
+        },
+        {
+          "platform": "Instagram",
+          "handle": "@go2rinjaniofficial",
+          "url": "https://instagram.com/go2rinjaniofficial"
+        },
+        {
+          "platform": "Facebook",
+          "handle": "Go2Rinjani",
+          "url": "https://facebook.com/Go2Rinjani"
+        }
+      ]
+    },
+    "nav": {
+      "items": [
+        {
+          "label": "FAQ",
+          "url": "/faq"
+        },
+        {
+          "label": "Kontak",
+          "url": "/contact"
+        },
+        {
+          "label": "Cara Kerja",
+          "url": "/how-it-works"
+        },
+        {
+          "label": "Informasi Pembayaran",
+          "url": "/payment-information"
+        },
+        {
+          "label": "Syarat & Ketentuan",
+          "url": "/legal/terms-and-conditions"
+        },
+        {
+          "label": "Kebijakan Pembatalan",
+          "url": "/legal/cancellation-policy"
+        },
+        {
+          "label": "Kebijakan Privasi",
+          "url": "/legal/privacy-policy"
+        }
+      ]
+    },
+    "license": {
+      "title": "Lisensi Perusahaan",
+      "subtitle": "Berlisensi Penuh Di Bawah",
+      "items": [
+        {
+          "label": "NIB",
+          "value": "2707220027085"
+        },
+        {
+          "label": "NPWP",
+          "value": "65.992.957.4-914.000"
+        },
+        {
+          "label": "PB-PWJA",
+          "value": "27072200270850001"
+        }
+      ]
+    },
+    "copyright": "©2026 Go2Rinjani. Semua Hak Dilindungi."
+  }
+}

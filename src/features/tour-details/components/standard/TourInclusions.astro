@@ -1,0 +1,56 @@
+---
+import { useTranslations } from "../../../../i18n/utils";
+import SectionTitle from "../../../../components/ui/Typography/SectionTitle.astro";
+import SectionDesc from "../../../../components/ui/Typography/SectionDesc.astro";
+
+interface Props {
+  lang: string;
+  slug: string;
+}
+
+const { lang, slug } = Astro.props;
+const t = useTranslations(lang, `tour-details/${slug}`);
+
+const inclusions = t("inclusions.included", {
+  returnObjects: true,
+}) as string[];
+const exclusions = t("inclusions.excluded", {
+  returnObjects: true,
+}) as string[];
+---
+
+{
+  (inclusions?.length > 0 || exclusions?.length > 0) && (
+    <section class="w-full px-4 xl:px-5 bg-background">
+      <div class="mb-4">
+        <SectionTitle>{t("inclusions.section_title")}</SectionTitle>
+        <SectionDesc class="lg:max-w-[75%]!">
+          {t("inclusions.intro")}
+        </SectionDesc>
+      </div>
+      <div class="w-full h-px bg-foreground/30 mb-6 md:mb-8" />
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12">
+        <div class="flex flex-col border-r border-transparent md:border-foreground/30 pr-0 md:pr-12">
+          <h4 class="text-xl font-medium mb-4">
+            {t("inclusions.included_label", { defaultValue: "Included" })}
+          </h4>
+          {inclusions?.map((inc) => (
+            <div class="border-b border-foreground/30 py-1.5 flex justify-between items-center text-base md:text-lg">
+              <span class="text-foreground/90">{inc}</span>
+            </div>
+          ))}
+        </div>
+        <div class="flex flex-col md:pl-12 mt-12 md:mt-0">
+          <h4 class="text-xl font-medium mb-4">
+            {t("inclusions.excluded_label", { defaultValue: "Not Included" })}
+          </h4>
+          {exclusions?.map((exc) => (
+            <div class="border-b border-foreground/30 py-1.5 flex justify-between items-center text-base md:text-lg">
+              <span class="text-foreground/90">{exc}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}

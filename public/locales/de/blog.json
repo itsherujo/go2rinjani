@@ -1,0 +1,38 @@
+{
+  "seo": {
+    "meta_title": "Mount Rinjani Trekking Blog — Guides, Tipps & Geschichten",
+    "meta_description": "Lesen Sie den Trekking-Blog von Go2Rinjani für Rinjani-Guides, Packtipps, Wetterinfos, Trailgeschichten und exklusive Angebote."
+  },
+  "hero": {
+    "title": "Mount Rinjani Trekking Blog: Guides, Geschichten & Insider",
+    "desc": "Alles, was Sie zum Mount Rinjani wissen müssen — von Go2Rinjanis Guides. Von Sembalun-Tipps über Segara Anak bis zu Ausrüstung und Genehmigungen. Ihr Wissen, direkt am Berg gesammelt."
+  },
+  "featured": {
+    "title": "Schlaues Trekking am Mount Rinjani: Ihr Beginner-Guide",
+    "desc": "Neu beim Rinjani-Trekking? Guides erklären Routen (Sembalun oder Senaru), Packlisten und was am Gipfeltag auf 3.726 m los ist.",
+    "cta_label": "Weiterlesen"
+  },
+  "specials": {
+    "section_title": "Go2Rinjani Trek Specials & Exklusive Rinjani-Angebote",
+    "posts": [
+      {
+        "badge": "SPECIAL",
+        "date": "07 OKTOBER 2025",
+        "title": "Regenzeit-Trek-Angebote am Mount Rinjani — 15% Rabatt",
+        "desc": "Buchen Sie bis 31. Dezember und sparen Sie 15% auf 3- oder 4-Tages-Routen. Regenzeit-Touren bieten ruhigere Pfade und grüne Landschaften."
+      },
+      {
+        "badge": "SPECIAL",
+        "date": "15 SEPTEMBER 2025",
+        "title": "Go2Rinjani x Eiger: Limitierte Rinjani-Ausrüstung",
+        "desc": "Go2Rinjani bringt exklusiv mit Eiger eine Trekking-Kleiderkollektion heraus, die genau auf den Rinjani abgestimmt ist."
+      },
+      {
+        "badge": "SPECIAL",
+        "date": "15 SEPTEMBER 2025",
+        "title": "Gipfel & Spenden: Wir unterstützen Sasak-Träger",
+        "desc": "Jeder gebuchte Mount Rinjani-Trek diesen Monat unterstützt unsere Träger und den Naturschutz in Zusammenarbeit mit dem Nationalpark."
+      }
+    ]
+  }
+}

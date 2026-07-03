@@ -1,0 +1,61 @@
+{
+  "seo": {
+    "meta_title": "Preguntas frecuentes sobre el Monte Rinjani | Go2Rinjani",
+    "meta_description": "Todo lo que necesitas saber antes de hacer senderismo en el Monte Rinjani — desde la altitud y el acceso hasta la seguridad, los permisos y la mejor época para escalar."
+  },
+  "title": "(FAQ)",
+  "number": "03",
+  "heading": "Preguntas frecuentes sobre el Monte Rinjani",
+  "paragraph": "Todo lo que necesitas saber antes de hacer senderismo en el Monte Rinjani — desde la altitud y el acceso hasta la seguridad, los permisos y la mejor época para escalar.",
+  "button": {
+    "front": "Solicitar precio",
+    "back": "Solicitar precio"
+  },
+  "items": [
+    {
+      "id": "01",
+      "title": "¿Qué altura tiene el Monte Rinjani?",
+      "text": "El Monte Rinjani se eleva a 3.726 metros (12.224 pies) sobre el nivel del mar, lo que lo convierte en el segundo volcán más alto de Indonesia."
+    },
+    {
+      "id": "02",
+      "title": "¿Está abierto el Monte Rinjani durante la temporada de lluvias?",
+      "text": "No. El Parque Nacional está cerrado oficialmente de enero a marzo debido a las fuertes lluvias, los fuertes vientos y el riesgo de deslizamientos de tierra. La mejor época para escalar es durante la estación seca, de abril a noviembre."
+    },
+    {
+      "id": "03",
+      "title": "¿Se puede escalar el Monte Rinjani sin guía?",
+      "text": "No, es obligatorio contratar un guía autorizado y porteadores para ingresar al Parque Nacional Monte Rinjani. Go2Rinjani proporciona guías locales certificados que garantizan tu seguridad y comodidad."
+    },
+    {
+      "id": "04",
+      "title": "¿Cuánto tiempo se tarda en escalar el Monte Rinjani?",
+      "text": "Una caminata hasta el borde del cráter suele durar 2 días / 1 noche. Una caminata hasta la cima dura 3 días / 2 noches. Para una experiencia completa que incluya el lago del cráter y las aguas termales, necesitarás una caminata de 4 días / 3 noches."
+    },
+    {
+      "id": "05",
+      "title": "¿Cómo se llega al Monte Rinjani?",
+      "text": "La mayoría de los visitantes vuelan al Aeropuerto Internacional de Lombok (LOP) o llegan en lancha rápida desde Bali. Desde allí, es un viaje de 2,5 a 3 horas en coche hasta las puertas de inicio en los pueblos de Senaru o Sembalun."
+    },
+    {
+      "id": "06",
+      "title": "¿Es el Monte Rinjani un volcán activo?",
+      "text": "Sí, el Monte Rinjani es un volcán activo. Su erupción más reciente ocurrió en 2016 desde Gunung Barujari, el pequeño cono volcánico situado dentro del lago del cráter."
+    },
+    {
+      "id": "07",
+      "title": "¿Es seguro el Monte Rinjani?",
+      "text": "Hacer senderismo en el Monte Rinjani es generalmente seguro si vas con un guía experimentado y con licencia y el equipo adecuado. Sin embargo, el terreno es desafiante y el mal de altura puede ocurrir por encima de los 3.000 metros. Se recomienda encarecidamente una buena condición física."
+    },
+    {
+      "id": "08",
+      "title": "¿Qué tipo de volcán es el Monte Rinjani?",
+      "text": "El Monte Rinjani es un estratovolcán masivo (también conocido como volcán compuesto). Cuenta con una gran caldera de 6 por 8,5 kilómetros, parcialmente llena por el impresionante lago del cráter Segara Anak."
+    },
+    {
+      "id": "09",
+      "title": "¿Dónde está el Monte Rinjani?",
+      "text": "El Monte Rinjani se encuentra en la parte centro-norte de la isla de Lombok, dentro de la provincia de Nusa Tenggara Occidental, Indonesia."
+    }
+  ]
+}

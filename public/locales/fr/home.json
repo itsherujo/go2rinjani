@@ -1,0 +1,75 @@
+{
+  "seo": {
+    "meta_title": "Treks au Mont Rinjani & Randonnées Guidées | Go2Rinjani",
+    "meta_description": "Planifiez votre trek au Mont Rinjani avec Go2Rinjani - guides locaux certifiés, randonnées sur le bord du cratère, ascensions du sommet et descentes au lac Segara Anak."
+  },
+  "hero": {
+    "title": "Treks au Mont Rinjani et Ascensions pour Tous les Aventuriers",
+    "desc": "Des forêts de Senaru au sommet à 3 726 m — Go2Rinjani propose des treks guidés sur le bord du cratère, des ascensions, des descentes au lac Segara Anak et des expéditions, tous dirigés par des guides certifiés.",
+    "cta_label": "Découvrez Nos Treks"
+  },
+  "destinations": {
+    "section_title": "Itinéraires de Trekking du Mont Rinjani",
+    "items": [
+      {
+        "id": "crater-rim",
+        "title": "Bord du Cratère",
+        "desc": "La marche iconique sur la crête au-dessus du lac Segara Anak, offrant des vues sur Lombok et Bali."
+      },
+      {
+        "id": "summit-climb",
+        "title": "Ascension du Sommet",
+        "desc": "Une étape guidée jusqu'à 3 726 m — le point culminant de Lombok, au-dessus des nuages au lever du soleil."
+      },
+      {
+        "id": "segara-anak",
+        "title": "Segara Anak",
+        "desc": "Nous descendons dans le lac sacré du cratère et campons au bord de ses eaux turquoise et sources chaudes."
+      },
+      {
+        "id": "sembalun-route",
+        "title": "Route de Sembalun",
+        "desc": "Un sentier de savane moderne à travers de vastes prairies, à quelques pas du village de Sembalun."
+      }
+    ]
+  },
+  "about": {
+    "label": "À Propos",
+    "cta_label": "En Savoir Plus Sur Go2Rinjani",
+    "desc": "Go2Rinjani est un voyagiste certifié basé à Lombok. Une partie guide local, une partie conservation et une partie communauté. Un refuge pour les trekkeurs cherchant le sommet et l'aventure sur le 2e plus haut volcan d'Indonésie."
+  },
+  "experience": {
+    "title": "La Vie sur le Sentier Rinjani : Brute, Réelle, Inoubliable",
+    "desc": "La montagne n'est jamais qu'une montagne, c'est ce sentiment d'accomplissement que vous en ramenez.",
+    "cta_label": "Découvrez Notre Histoire",
+    "section_title": "Sur Le Sentier",
+    "items": [
+      {
+        "id": "senaru-trail",
+        "title": "Le Sentier de Senaru",
+        "desc": "Le sentier est luxuriant et plein de vie, traversant une dense forêt. De l'aube au crépuscule, la montagne est à vous."
+      },
+      {
+        "id": "crater-camp",
+        "title": "Le Camp du Cratère",
+        "desc": "Chez Go2Rinjani, nous avons le petit-déjeuner, des repas chauds et du repos au camp."
+      },
+      {
+        "id": "sembalun-savannah",
+        "title": "La Savane de Sembalun",
+        "desc": "Notre sentier est vaste et captivant, façonné par les terres agricoles traditionnelles Sasak."
+      }
+    ]
+  },
+  "agenda": {
+    "label": "Agenda",
+    "cta_label": "Découvrez Nos Événements",
+    "title": "Ne manquez pas ce qui se passe chez Go2Rinjani",
+    "desc": "Go2Rinjani rassemble des aventuriers pour trekker, se connecter et créer des souvenirs."
+  },
+  "featured_post": {
+    "title": "Un Trek Intelligent au Mont Rinjani : Votre Guide de Préparation",
+    "desc": "Vous planifiez votre premier trek au Rinjani et ne savez pas par où commencer ? Go2Rinjani couvre tout : permis, équipement et itinéraires.",
+    "cta_label": "Lire la suite"
+  }
+}

@@ -1,0 +1,18 @@
+---
+import ImageBanner from "../../../components/ui/ImageBanner.astro";
+import { getLangFromUrl, useTranslations } from '../../../i18n/utils';
+import { homeImages } from '../data/images';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "home");
+---
+
+<ImageBanner
+  imageSrc={homeImages.experience.src}
+  imageAlt={homeImages.experience.alt}
+  bgColor="bg-brand-coral"
+  title={t("experience.title")}
+  desc={t("experience.desc")}
+  ctaLabel={t("experience.cta_label")}
+  ctaHref="/about"
+/>

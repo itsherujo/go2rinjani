@@ -1,0 +1,58 @@
+---
+import { useTranslations } from "../../../../i18n/utils";
+import Section from "../../../../components/ui/Layout/Section.astro";
+import SectionTitle from "../../../../components/ui/Typography/SectionTitle.astro";
+import SectionDesc from "../../../../components/ui/Typography/SectionDesc.astro";
+
+import { alternativeHighlightsMap as imageMap } from "./data/alternativeImages";
+
+interface Props {
+  lang: string;
+  slug: string;
+}
+
+const { lang, slug } = Astro.props;
+const t = useTranslations(lang, `tour-details/${slug}`);
+
+const highlights = t("highlights.items", { returnObjects: true }) as any[];
+const title = t("hero.title") as string;
+---
+
+<Section class="pb-0">
+  <SectionTitle>
+    {t("intro.title") !== "intro.title" && `${t("intro.title")} `}
+  </SectionTitle>
+  <SectionDesc>{t("intro.desc")}</SectionDesc>
+</Section>
+{
+  highlights && highlights.length > 0 && (
+    <Section class="pt-0">
+      <div class="border-b border-black w-full pt-4 mb-8" />
+      <h3 class="text-[2rem] leading-[1.05] min-[481px]:text-4xl lg:text-[3.5rem] lg:leading-[1.1] font-medium tracking-tight text-foreground mb-8 min-[481px]:mb-12">
+        {t("highlights.section_title")}
+      </h3>
+
+      <div class="flex overflow-x-auto snap-x snap-mandatory gap-4 min-[481px]:grid min-[481px]:grid-cols-2 md:grid-cols-4 min-[481px]:gap-6 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] scrollbar-none">
+        {highlights.map((hl: any) => (
+          <div class="flex-none w-[80vw] min-[481px]:w-auto snap-start flex flex-col group cursor-pointer">
+            <div class="aspect-4/5 md:aspect-3/4 w-full bg-gray-100 mb-4 border border-black/10 overflow-hidden">
+              <img
+                src={imageMap[hl.id]?.src || `https://picsum.photos/seed/${hl.title.replace(/ /g, "")}/600/800`}
+                width={imageMap[hl.id]?.width}
+                height={imageMap[hl.id]?.height}
+                alt={imageMap[hl.id]?.alt || hl.title}
+                class="w-full h-full object-cover [@media(hover:hover)]:grayscale opacity-90 transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0 group-active:scale-105"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              />
+            </div>
+            <h4 class="text-xl font-medium mb-1">{hl.title}</h4>
+            <p class="text-sm border-transparent font-normal text-black/80 leading-relaxed">
+              {hl.desc}
+            </p>
+          </div>
+        ))}
+      </div>
+    </Section>
+  )
+}

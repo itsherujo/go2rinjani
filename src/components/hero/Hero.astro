@@ -1,0 +1,17 @@
+---
+import ImageBanner from "../ui/ImageBanner.astro";
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "home");
+---
+
+<ImageBanner
+  imageSrc="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop"
+  imageAlt="Person looking in mirror"
+  bgColor="bg-brand-teal"
+  title={t("hero.title")}
+  desc={t("hero.desc")}
+  ctaLabel={t("hero.cta_label")}
+  ctaHref="/tours"
+/>

@@ -1,0 +1,19 @@
+---
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+import PackageCallout from "../../../components/ui/PackageCallout.astro";
+import { stampolCalloutLayout } from "../data/tourLayouts";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "tours");
+---
+
+<PackageCallout
+  sectionTitle={t("stampol_callout.section_title")}
+  title={t("stampol_callout.title")}
+  desc={t("stampol_callout.desc")}
+  ctaLabel={t("stampol_callout.cta_label")}
+  ctaUrl={t("stampol_callout.cta_url")}
+  images={stampolCalloutLayout.images}
+  layoutCols={stampolCalloutLayout.cols}
+  bgColor="bg-brand-coral"
+/>

@@ -1,0 +1,61 @@
+{
+  "seo": {
+    "meta_title": "Foire aux questions sur le mont Rinjani | Go2Rinjani",
+    "meta_description": "Tout ce que vous devez savoir avant de faire un trek sur le mont Rinjani — de l'altitude et de l'accès à la sécurité, aux permis et à la meilleure période pour l'ascension."
+  },
+  "title": "(FAQ)",
+  "number": "03",
+  "heading": "Foire aux questions sur le mont Rinjani",
+  "paragraph": "Tout ce que vous devez savoir avant de faire un trek sur le mont Rinjani — de l'altitude et de l'accès à la sécurité, aux permis et à la meilleure période pour l'ascension.",
+  "button": {
+    "front": "Demander un prix",
+    "back": "Demander un prix"
+  },
+  "items": [
+    {
+      "id": "01",
+      "title": "Quelle est la hauteur du mont Rinjani ?",
+      "text": "Le mont Rinjani culmine à 3 726 mètres (12 224 pieds) au-dessus du niveau de la mer, ce qui en fait le deuxième plus haut volcan d'Indonésie."
+    },
+    {
+      "id": "02",
+      "title": "Le mont Rinjani est-il ouvert pendant la saison des pluies ?",
+      "text": "Non. Le parc national est officiellement fermé de janvier à mars en raison de fortes pluies, de vents violents et de risques de glissements de terrain. La meilleure période pour l'ascension est pendant la saison sèche, d'avril à novembre."
+    },
+    {
+      "id": "03",
+      "title": "Peut-on gravir le mont Rinjani sans guide ?",
+      "text": "Non, il est obligatoire d'engager un guide agréé et des porteurs pour entrer dans le parc national du mont Rinjani. Go2Rinjani fournit des guides locaux certifiés qui assurent votre sécurité et votre confort."
+    },
+    {
+      "id": "04",
+      "title": "Combien de temps faut-il pour gravir le mont Rinjani ?",
+      "text": "Un trek jusqu'au bord du cratère prend généralement 2 jours / 1 nuit. Un trek jusqu'au sommet prend 3 jours / 2 nuits. Pour une expérience complète incluant le lac de cratère et les sources chaudes, il faut prévoir un trek de 4 jours / 3 nuits."
+    },
+    {
+      "id": "05",
+      "title": "Comment se rendre au mont Rinjani ?",
+      "text": "La plupart des visiteurs atterrissent à l'aéroport international de Lombok (LOP) ou arrivent en bateau rapide depuis Bali. De là, il faut compter 2,5 à 3 heures de route jusqu'aux portes de trek dans les villages de Senaru ou Sembalun."
+    },
+    {
+      "id": "06",
+      "title": "Le mont Rinjani est-il un volcan actif ?",
+      "text": "Oui, le mont Rinjani est un volcan actif. Sa plus récente éruption a eu lieu en 2016 à partir du Gunung Barujari, le petit cône volcanique situé à l'intérieur du lac de cratère."
+    },
+    {
+      "id": "07",
+      "title": "Le mont Rinjani est-il sûr ?",
+      "text": "Faire un trek sur le mont Rinjani est généralement sûr si vous êtes accompagné d'un guide expérimenté et agréé, et si vous avez l'équipement approprié. Cependant, le terrain est difficile et le mal des montagnes peut survenir au-dessus de 3 000 mètres. Une bonne condition physique est fortement recommandée."
+    },
+    {
+      "id": "08",
+      "title": "Quel type de volcan est le mont Rinjani ?",
+      "text": "Le mont Rinjani est un stratovolcan massif (également appelé volcan composite). Il possède une grande caldeira de 6 sur 8,5 kilomètres, partiellement remplie par le magnifique lac de cratère Segara Anak."
+    },
+    {
+      "id": "09",
+      "title": "Où se trouve le mont Rinjani ?",
+      "text": "Le mont Rinjani est situé dans la partie centre-nord de l'île de Lombok, dans la province de Nusa Tenggara Barat, en Indonésie."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "seo": {
+    "meta_title": "Información de Pago | Go2Rinjani",
+    "meta_description": "Opciones de pago seguras para su trek al Monte Rinjani — transferencia bancaria, Wise, Revolut y PayPal. Pague con seguridad con Go2Rinjani."
+  },
+  "title": "Información de Pago",
+  "subtitle": "A continuación encontrará los métodos de pago disponibles para enviar su pago de forma segura.",
+  "trust": {
+    "secure": {
+      "title": "Seguro y Confiable",
+      "desc": "Cifrado a nivel bancario en todas las transacciones."
+    },
+    "help": {
+      "title": "¿Necesita Ayuda?",
+      "desc": "Nuestro equipo está siempre dispuesto a ayudarle."
+    }
+  },
+  "tabletSub": "Elija su método preferido \u2014 todos pagos se procesan de forma segura.",
+  "methods": {
+    "bank": "Transferencia Bancaria",
+    "wise": "Wise",
+    "revolut": "Revolut",
+    "paypal": "PayPal"
+  },
+  "bankTransfer": {
+    "desc": "Transfiera directamente desde su cuenta bancaria",
+    "recommended": "Recomendado",
+    "bankName": "Nombre del Banco",
+    "accountNumber": "Número de Cuenta",
+    "accountHolder": "Titular de la Cuenta",
+    "swiftCode": "Código SWIFT",
+    "bankAddress": "Dirección del Banco",
+    "copyAccountNumber": "Copiar número de cuenta",
+    "copySwiftCode": "Copiar código SWIFT",
+    "copyBankAddress": "Copiar dirección del banco",
+    "notice": "Por favor incluya su <1>número de factura</1> en la referencia de pago."
+  },
+  "wise": {
+    "desc": "Transferencias internacionales, bajas comisiones",
+    "step1": "Abrir Wise",
+    "step2": "Transferir",
+    "step3": "Nuestros datos",
+    "feature": "Transferencia ráp. \u00b7 comisiones bajas"
+  },
+  "revolut": {
+    "desc": "Pagar mediante la función de transferencia bancaria",
+    "international": "Internacional",
+    "multicurency": "Multidivisa",
+    "secure": "Seguro",
+    "notice": "Use los mismos datos que en Transferencia Bancaria."
+  },
+  "paypal": {
+    "desc": "Disponible mediante factura bajo petición",
+    "optional": "Opcional",
+    "fee": "La comisión del 4.5% de PayPal corre a cargo del usuario",
+    "invoiceInfo": "Le crearemos una factura",
+    "sendEmail": "La factura se enviará por correo electrónico",
+    "btnRequest": "Solicitar Factura"
+  },
+  "mobileSecure": "Los pagos se procesan con cifrado a nivel de banco",
+  "footerNote": "Una vez enviado el pago, comparta el comprobante de pago con nosotros para una confirmación más rápida."
+}

@@ -1,0 +1,63 @@
+---
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+import { blogImages } from "../data/constants";
+
+interface Post {
+  badge: string;
+  date: string;
+  title: string;
+  desc: string;
+}
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "blog");
+
+const posts = (t("specials.posts", { returnObjects: true }) || []) as Post[];
+const images = blogImages.specials;
+---
+
+<section class="w-full px-4 xl:px-5 py-8">
+  <div class="mb-8 lg:mb-12">
+    <h2
+      class="text-[2rem] leading-[1.05] min-[481px]:text-4xl lg:text-[3.5rem] lg:leading-[1.1] font-medium tracking-tight text-foreground"
+    >
+      {t("specials.section_title")}
+    </h2>
+  </div>
+
+  <div
+    class="grid grid-cols-2 lg:grid-cols-3 gap-y-8 min-[481px]:gap-y-10 gap-x-2 min-[481px]:gap-x-4 lg:gap-x-5"
+  >
+    {
+      posts.map((post, idx) => (
+        <div class="flex flex-col w-full group cursor-pointer">
+          {/* Image Wrap */}
+          <div class="relative w-full aspect-square min-[481px]:aspect-4/3 lg:aspect-16/10 bg-gray-100 overflow-hidden mb-3 lg:mb-4">
+            <img
+              src={images[idx % images.length]}
+              alt={post.title}
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+            {/* Badge */}
+            <div class="absolute top-0 left-0 bg-brand-pink px-2 py-1 min-[481px]:px-4 min-[481px]:py-2 text-foreground font-medium text-[9px] min-[481px]:text-[11px] lg:text-[13px] tracking-widest uppercase">
+              {post.badge}
+            </div>
+          </div>
+
+          {/* Content Wrap */}
+          <div class="flex flex-col">
+            <span class="text-[10px] min-[481px]:text-[11px] lg:text-[13px] uppercase tracking-wide text-foreground font-medium mb-1 min-[481px]:mb-2">
+              {post.date}
+            </span>
+            <h3 class="text-[1.25rem] min-[481px]:text-[1.75rem] lg:text-[2.25rem] leading-[1.1] tracking-tight font-medium text-foreground mb-1 min-[481px]:mb-2 lg:mb-3">
+              {post.title}
+            </h3>
+            <p class="text-[0.95rem] min-[481px]:text-base lg:text-[1.1rem] leading-snug min-[481px]:leading-relaxed font-light text-foreground">
+              {post.desc}
+            </p>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</section>

@@ -1,0 +1,47 @@
+---
+export const prerender = true;
+import { getCollection, render } from "astro:content";
+import BlogLayout from "../../../layouts/BlogLayout.astro";
+
+export async function getStaticPaths() {
+  const allBlogEntries = await getCollection("blog");
+  const supportedLangs = ["id", "zh", "de", "fr", "es"];
+
+  const paths = [];
+
+  for (const lang of supportedLangs) {
+    const langEntries = allBlogEntries.filter((entry) =>
+      entry.id.startsWith(`locales/${lang}/`)
+    );
+
+    for (const entry of langEntries) {
+      const slug = entry.id.replace(new RegExp(`^locales/${lang}/`), "");
+      paths.push({
+        params: { lang, slug },
+        props: { entry, lang },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { entry, lang } = Astro.props;
+const { slug } = Astro.params;
+const { Content } = await render(entry);
+
+import blogImages from "../../../content/blog/data/images.json";
+const images = blogImages as Record<string, string>;
+---
+
+<BlogLayout
+  title={entry.data.title}
+  description={entry.data.description}
+  category={entry.data.category}
+  location={entry.data.location}
+  date={entry.data.date}
+  image={images[slug] || entry.data.image}
+  slug={slug}
+>
+  <Content />
+</BlogLayout>

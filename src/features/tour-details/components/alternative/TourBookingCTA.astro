@@ -1,0 +1,66 @@
+---
+import { useTranslations } from "../../../../i18n/utils";
+import Section from "../../../../components/ui/Layout/Section.astro";
+import SectionTitle from "../../../../components/ui/Typography/SectionTitle.astro";
+import SectionDesc from "../../../../components/ui/Typography/SectionDesc.astro";
+import SharedCTA from "../../../../components/ui/SharedCTA.astro";
+
+interface Props {
+  lang: string;
+  slug: string;
+}
+
+const { lang, slug } = Astro.props;
+const t = useTranslations(lang, `tour-details/${slug}`);
+
+const trekDetails = t("trek_details.details", { returnObjects: true }) as any[];
+const heroTitle = t("hero.title", { defaultValue: "" }) as string;
+
+// For Stampol, hide the duration/route selects and just pre-fill the package name
+const bookingDataJson = JSON.stringify({
+  packageName: heroTitle,
+  hideOptions: true,
+});
+---
+
+<Section class="mb-0 lg:mb-0">
+  <div class="mb-8 lg:mb-12">
+    <SectionTitle>{t("trek_details.section_title")}</SectionTitle>
+    <SectionDesc>{t("trek_details.intro")}</SectionDesc>
+  </div>
+
+  <div class="w-full border-t border-black pt-8">
+    <div class="w-full border border-black p-4 lg:p-6 bg-stampol-green">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
+        {trekDetails?.map((detail: any) => (
+          <div class="flex flex-col border-b border-black/40 pb-4">
+            <span class="text-sm font-medium uppercase tracking-widest text-black/70 mb-1">
+              {detail.label}
+            </span>
+            <span class="text-lg md:text-xl font-medium text-black">
+              {detail.value}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</Section>
+
+<div class="py-8 w-full">
+  <SharedCTA
+    subtitle={t("cta.section_title") as string}
+    title={t("cta.title") as string}
+    desc={t("cta.desc") as string}
+    ctaLabel={t("cta.cta_label") as string}
+    ctaHref="#book"
+    bgColorClass="bg-stampol-yellow"
+    className="w-full"
+  />
+</div>
+
+<script define:vars={{ bookingDataJson }}>
+  // Set page-level booking data so the booking form auto-fills
+  window.__pageBookingData = JSON.parse(bookingDataJson);
+</script>
+

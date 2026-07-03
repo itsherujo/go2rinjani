@@ -1,0 +1,666 @@
+---
+import testimonials from '../../data/testimonials.json';
+import googleLogo from '@/assets/review/google/google-logo.svg';
+import googleVerifiedBadge from '@/assets/review/google/google-verified-badge.svg';
+import tripadvisorLogo from '@/assets/review/tripadvisor/tripadvisor-logo.svg';
+import tripadvisorVerifiedBadge from '@/assets/review/tripadvisor/tripadvisor-verified-badge.svg';
+
+const avatars = import.meta.glob<{ default: ImageMetadata }>('/src/assets/review/**/*.{jpeg,jpg,png,gif,avif}', { eager: true });
+
+const getAvatarSrc = (imagePath: string) => {
+  if (!imagePath) return "https://cdn.prod.website-files.com/6350808bc45bd0c902af10e6/67572f6d09dc73acabbf029a_testimonial-jobbatical.png";
+  if (imagePath.startsWith('/assets/review/')) {
+    const localPath = '/src' + imagePath;
+    return avatars[localPath]?.default?.src || imagePath;
+  }
+  return imagePath;
+};
+
+// Divide testimonials into 3 columns
+const col1 = testimonials.slice(0, 16);
+const col2 = testimonials.slice(16, 32);
+const col3 = testimonials.slice(32, 48);
+
+// Helper function to render stars (since Astro maps perfectly like JSX)
+const renderStars = (t: any, idx: number) => {
+  return Array.from({ length: 5 }).map((_, i) => {
+    const rating = t.rating || 5;
+    const isFull = i < Math.floor(rating);
+    const isHalf = !isFull && i < rating;
+
+    if (t.source === 'google') {
+      if (isFull) {
+        return `<svg class="w-4 h-4 text-yellow-400 fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>`;
+      } else if (isHalf) {
+        return `<svg class="w-4 h-4" viewBox="0 0 24 24"><defs><linearGradient id="half-${idx}-${i}" x1="0" x2="1" y1="0" y2="0"><stop offset="50%" stop-color="#facc15" /><stop offset="50%" stop-color="#e5e7eb" /></linearGradient></defs><path fill="url(#half-${idx}-${i})" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>`;
+      } else {
+        return `<svg class="w-4 h-4 text-gray-200 fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>`;
+      }
+    } else {
+      if (isFull) {
+        return `<div class="w-3.5 h-3.5 rounded-full bg-[#00852f]"></div>`;
+      } else if (isHalf) {
+        return `<div class="w-3.5 h-3.5 rounded-full border-[1.5px] border-[#00852f] overflow-hidden flex"><div class="w-[50%] h-full bg-[#00852f]"></div></div>`;
+      } else {
+        return `<div class="w-3.5 h-3.5 rounded-full border-[1.5px] border-[#00852f]"></div>`;
+      }
+    }
+  }).join('');
+};
+
+---
+
+<section class="am-section am-padding-100 bg-white border-t border-black">
+  <div class="am-container am-is-small">
+    <div class="am-wall-of-love-section">
+      <div class="am-customers-wall-of-love-heading-wrapper">
+        <h2 class="am-heading-44 text-gray-900! am-text-align-center am-max-width-348 am-text-wrap-balance">
+          Some love from our trekkers!
+        </h2>
+        <img
+          loading="lazy"
+          src="https://cdn.prod.website-files.com/6350808bc45bd0c902af10e6/684063eae82e11938808fb29_doodle-wall-of-love.avif"
+          alt="Wall of love doodle background"
+          class="am-doodle is-wall-of-love invert opacity-20"
+        />
+      </div>
+      <div class="am-customers-wall-of-love-grid relative" id="testimonial-grid">
+        <div class="absolute inset-x-0 bottom-0 h-40 bg-linear-to-t from-white to-transparent z-10 pointer-events-none"></div>
+        <div class="absolute inset-x-0 top-0 h-40 bg-linear-to-b from-white to-transparent z-10 pointer-events-none"></div>
+        
+        {/* Stripe 1 */}
+        <div class="am-customers-wall-of-love-stripe is-up">
+          <div class="am-customers-wall-of-love-collection w-dyn-list">
+            <div role="list" class="am-customers-wall-of-love-column w-dyn-items">
+              {col1.map((t, idx) => (
+                <div role="listitem" class="w-dyn-item">
+                  <div class="am-customers-wall-of-love-card relative bg-white! shadow-sm! border! border-black! rounded-none!">
+                    <div class="am-customer-stories-testimonial-details relative w-full mb-4">
+                      {t.source === 'google' && (
+                        <img src={googleLogo.src} alt="Google Logo" class="absolute top-0 right-0 h-6 w-auto object-contain object-top-right" />
+                      )}
+                      {t.source === 'tripadvisor' && (
+                        <img src={tripadvisorLogo.src} alt="TripAdvisor Logo" class="absolute top-0 right-0 h-5 w-auto object-contain object-top-right mt-0.5" />
+                      )}
+                      <div class="am-case-study-person-details flex items-start gap-4">
+                        <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image)} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        <div class="am-paragraph-14 flex-1 text-gray-900! flex flex-col pt-0">
+                          <div class="font-bold flex items-center gap-1.5 leading-tight">
+                            {t.name}
+                            {t.verified && t.source === 'google' && (
+                              <img src={googleVerifiedBadge.src} alt="Verified Review" class="w-4 h-4" />
+                            )}
+                            {t.verified && t.source === 'tripadvisor' && (
+                              <img src={tripadvisorVerifiedBadge.src} alt="Verified Review" class="w-4 h-4" />
+                            )}
+                          </div>
+                          <div class="text-xs text-gray-500! mb-1.5 leading-tight mt-1">{t.date}</div>
+                          <div class={`flex items-center ${t.source === 'google' ? 'gap-px' : 'gap-[1.5px]'}`} set:html={renderStars(t, idx)} />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="am-paragraph-20 am-max-width-544 am-text-wrap-pretty mt-4 text-gray-800!">{t.content}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div class="am-customers-wall-of-love-collection w-dyn-list">
+            <div role="list" class="am-customers-wall-of-love-column w-dyn-items">
+              {col1.map((t, idx) => (
+                <div role="listitem" class="w-dyn-item">
+                  <div class="am-customers-wall-of-love-card relative bg-white! shadow-sm! border! border-black! rounded-none!">
+                    <div class="am-customer-stories-testimonial-details relative w-full mb-4">
+                      {t.source === 'google' && (
+                        <img src={googleLogo.src} alt="Google Logo" class="absolute top-0 right-0 h-6 w-auto object-contain object-top-right" />
+                      )}
+                      {t.source === 'tripadvisor' && (
+                        <img src={tripadvisorLogo.src} alt="TripAdvisor Logo" class="absolute top-0 right-0 h-5 w-auto object-contain object-top-right mt-0.5" />
+                      )}
+                      <div class="am-case-study-person-details flex items-start gap-4">
+                        <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image)} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        <div class="am-paragraph-14 flex-1 text-gray-900! flex flex-col pt-0">
+                          <div class="font-bold flex items-center gap-1.5 leading-tight">
+                            {t.name}
+                            {t.verified && t.source === 'google' && (
+                              <img src={googleVerifiedBadge.src} alt="Verified Review" class="w-4 h-4" />
+                            )}
+                            {t.verified && t.source === 'tripadvisor' && (
+                              <img src={tripadvisorVerifiedBadge.src} alt="Verified Review" class="w-4 h-4" />
+                            )}
+                          </div>
+                          <div class="text-xs text-gray-500! mb-1.5 leading-tight mt-1">{t.date}</div>
+                          <div class={`flex items-center ${t.source === 'google' ? 'gap-px' : 'gap-[1.5px]'}`} set:html={renderStars(t, idx)} />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="am-paragraph-20 am-max-width-544 am-text-wrap-pretty mt-4 text-gray-800!">{t.content}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        
+        {/* Stripe 2 */}
+        <div class="am-customers-wall-of-love-stripe is-down am-hide-mobile-portrait">
+          <div class="am-customers-wall-of-love-collection w-dyn-list">
+            <div role="list" class="am-customers-wall-of-love-column w-dyn-items">
+              {col2.map((t, idx) => (
+                <div role="listitem" class="w-dyn-item">
+                  <div class="am-customers-wall-of-love-card relative bg-white! shadow-sm! border! border-black! rounded-none!">
+                    <div class="am-customer-stories-testimonial-details relative w-full mb-4">
+                      {t.source === 'google' && (
+                        <img src={googleLogo.src} alt="Google Logo" class="absolute top-0 right-0 h-6 w-auto object-contain object-top-right" />
+                      )}
+                      {t.source === 'tripadvisor' && (
+                        <img src={tripadvisorLogo.src} alt="TripAdvisor Logo" class="absolute top-0 right-0 h-5 w-auto object-contain object-top-right mt-0.5" />
+                      )}
+                      <div class="am-case-study-person-details flex items-start gap-4">
+                        <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image)} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        <div class="am-paragraph-14 flex-1 text-gray-900! flex flex-col pt-0">
+                          <div class="font-bold flex items-center gap-1.5 leading-tight">
+                            {t.name}
+                            {t.verified && t.source === 'google' && (
+                              <img src={googleVerifiedBadge.src} alt="Verified Review" class="w-4 h-4" />
+                            )}
+                            {t.verified && t.source === 'tripadvisor' && (
+                              <img src={tripadvisorVerifiedBadge.src} alt="Verified Review" class="w-4 h-4" />
+                            )}
+                          </div>
+                          <div class="text-xs text-gray-500! mb-1.5 leading-tight mt-1">{t.date}</div>
+                          <div class={`flex items-center ${t.source === 'google' ? 'gap-px' : 'gap-[1.5px]'}`} set:html={renderStars(t, idx)} />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="am-paragraph-20 am-max-width-544 am-text-wrap-pretty mt-4 text-gray-800!">{t.content}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div class="am-customers-wall-of-love-collection w-dyn-list">
+            <div role="list" class="am-customers-wall-of-love-column w-dyn-items">
+              {col2.map((t, idx) => (
+                <div role="listitem" class="w-dyn-item">
+                  <div class="am-customers-wall-of-love-card relative bg-white! shadow-sm! border! border-black! rounded-none!">
+                    <div class="am-customer-stories-testimonial-details relative w-full mb-4">
+                      {t.source === 'google' && (
+                        <img src={googleLogo.src} alt="Google Logo" class="absolute top-0 right-0 h-6 w-auto object-contain object-top-right" />
+                      )}
+                      {t.source === 'tripadvisor' && (
+                        <img src={tripadvisorLogo.src} alt="TripAdvisor Logo" class="absolute top-0 right-0 h-5 w-auto object-contain object-top-right mt-0.5" />
+                      )}
+                      <div class="am-case-study-person-details flex items-start gap-4">
+                        <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image)} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        <div class="am-paragraph-14 flex-1 text-gray-900! flex flex-col pt-0">
+                          <div class="font-bold flex items-center gap-1.5 leading-tight">
+                            {t.name}
+                            {t.verified && t.source === 'google' && (
+                              <img src={googleVerifiedBadge.src} alt="Verified Review" class="w-4 h-4" />
+                            )}
+                            {t.verified && t.source === 'tripadvisor' && (
+                              <img src={tripadvisorVerifiedBadge.src} alt="Verified Review" class="w-4 h-4" />
+                            )}
+                          </div>
+                          <div class="text-xs text-gray-500! mb-1.5 leading-tight mt-1">{t.date}</div>
+                          <div class={`flex items-center ${t.source === 'google' ? 'gap-px' : 'gap-[1.5px]'}`} set:html={renderStars(t, idx)} />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="am-paragraph-20 am-max-width-544 am-text-wrap-pretty mt-4 text-gray-800!">{t.content}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        
+        {/* Stripe 3 */}
+        <div class="am-customers-wall-of-love-stripe is-up am-hide-mobile">
+          <div class="am-customers-wall-of-love-collection w-dyn-list">
+            <div role="list" class="am-customers-wall-of-love-column w-dyn-items">
+              {col3.map((t, idx) => (
+                <div role="listitem" class="w-dyn-item">
+                  <div class="am-customers-wall-of-love-card relative bg-white! shadow-sm! border! border-black! rounded-none!">
+                    <div class="am-customer-stories-testimonial-details relative w-full mb-4">
+                      {t.source === 'google' && (
+                        <img src={googleLogo.src} alt="Google Logo" class="absolute top-0 right-0 h-6 w-auto object-contain object-top-right" />
+                      )}
+                      {t.source === 'tripadvisor' && (
+                        <img src={tripadvisorLogo.src} alt="TripAdvisor Logo" class="absolute top-0 right-0 h-5 w-auto object-contain object-top-right mt-0.5" />
+                      )}
+                      <div class="am-case-study-person-details flex items-start gap-4">
+                        <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image)} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        <div class="am-paragraph-14 flex-1 text-gray-900! flex flex-col pt-0">
+                          <div class="font-bold flex items-center gap-1.5 leading-tight">
+                            {t.name}
+                            {t.verified && t.source === 'google' && (
+                              <img src={googleVerifiedBadge.src} alt="Verified Review" class="w-4 h-4" />
+                            )}
+                            {t.verified && t.source === 'tripadvisor' && (
+                              <img src={tripadvisorVerifiedBadge.src} alt="Verified Review" class="w-4 h-4" />
+                            )}
+                          </div>
+                          <div class="text-xs text-gray-500! mb-1.5 leading-tight mt-1">{t.date}</div>
+                          <div class={`flex items-center ${t.source === 'google' ? 'gap-px' : 'gap-[1.5px]'}`} set:html={renderStars(t, idx)} />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="am-paragraph-20 am-max-width-544 am-text-wrap-pretty mt-4 text-gray-800!">{t.content}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div class="am-customers-wall-of-love-collection w-dyn-list">
+            <div role="list" class="am-customers-wall-of-love-column w-dyn-items">
+              {col3.map((t, idx) => (
+                <div role="listitem" class="w-dyn-item">
+                  <div class="am-customers-wall-of-love-card relative bg-white! shadow-sm! border! border-black! rounded-none!">
+                    <div class="am-customer-stories-testimonial-details relative w-full mb-4">
+                      {t.source === 'google' && (
+                        <img src={googleLogo.src} alt="Google Logo" class="absolute top-0 right-0 h-6 w-auto object-contain object-top-right" />
+                      )}
+                      {t.source === 'tripadvisor' && (
+                        <img src={tripadvisorLogo.src} alt="TripAdvisor Logo" class="absolute top-0 right-0 h-5 w-auto object-contain object-top-right mt-0.5" />
+                      )}
+                      <div class="am-case-study-person-details flex items-start gap-4">
+                        <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image)} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        <div class="am-paragraph-14 flex-1 text-gray-900! flex flex-col pt-0">
+                          <div class="font-bold flex items-center gap-1.5 leading-tight">
+                            {t.name}
+                            {t.verified && t.source === 'google' && (
+                              <img src={googleVerifiedBadge.src} alt="Verified Review" class="w-4 h-4" />
+                            )}
+                            {t.verified && t.source === 'tripadvisor' && (
+                              <img src={tripadvisorVerifiedBadge.src} alt="Verified Review" class="w-4 h-4" />
+                            )}
+                          </div>
+                          <div class="text-xs text-gray-500! mb-1.5 leading-tight mt-1">{t.date}</div>
+                          <div class={`flex items-center ${t.source === 'google' ? 'gap-px' : 'gap-[1.5px]'}`} set:html={renderStars(t, idx)} />
+                        </div>
+                      </div>
+                    </div>
+                    <p class="am-paragraph-20 am-max-width-544 am-text-wrap-pretty mt-4 text-gray-800!">{t.content}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function initTestimonial() {
+    const gridParent = document.getElementById("testimonial-grid");
+    if (!gridParent) return;
+
+    const baseSpeed = 0.25;
+    const mobileMultiplier = 2;
+    const breakpoint = 992;
+
+    const allStripes = gridParent.querySelectorAll(".am-customers-wall-of-love-stripe");
+    const stripes: any[] = [];
+    let animationFrameId: number;
+
+    const resizeListener = () => {
+      const isMobile = window.innerWidth < breakpoint;
+      stripes.forEach((stripe) => {
+        const newBase = isMobile ? baseSpeed * mobileMultiplier : baseSpeed;
+        stripe.ispeed = stripe.directionMultiplier * newBase;
+        stripe.targetSpeed = window.innerWidth >= breakpoint && stripe.hovered ? 0 : stripe.ispeed;
+      });
+    };
+
+    function setupStripe(el: Element, directionMultiplier: number) {
+      const firstChild = el.firstElementChild as HTMLElement;
+      if (!firstChild) return;
+      
+      const length = firstChild.getBoundingClientRect().height;
+      const isMobile = window.innerWidth < breakpoint;
+      const dynamicBase = isMobile ? baseSpeed * mobileMultiplier : baseSpeed;
+      const ispeed = directionMultiplier * dynamicBase;
+
+      const stripeObj = {
+        el: el as HTMLElement,
+        length,
+        directionMultiplier,
+        currentPos: 0,
+        speed: 0,
+        targetSpeed: ispeed,
+        ispeed,
+        hovered: false
+      };
+      stripes.push(stripeObj);
+
+      const onEnter = () => {
+        stripeObj.hovered = true;
+        if (window.innerWidth >= breakpoint) {
+          stripeObj.targetSpeed = 0;
+        }
+      };
+      const onLeave = () => {
+        stripeObj.hovered = false;
+        if (window.innerWidth >= breakpoint) {
+          stripeObj.targetSpeed = stripeObj.ispeed;
+        }
+      };
+
+      el.addEventListener("mouseenter", onEnter);
+      el.addEventListener("mouseleave", onLeave);
+      
+      return () => {
+        el.removeEventListener("mouseenter", onEnter);
+        el.removeEventListener("mouseleave", onLeave);
+      };
+    }
+
+    const cleanupFns: Array<() => void> = [];
+
+    allStripes.forEach((el) => {
+      const directionMultiplier = el.classList.contains("is-up") ? -1 : 1;
+      const cleanup = setupStripe(el, directionMultiplier);
+      if (cleanup) cleanupFns.push(cleanup);
+    });
+
+    window.addEventListener("resize", resizeListener);
+
+    function loop() {
+      animationFrameId = requestAnimationFrame(loop);
+      stripes.forEach((stripe) => {
+        stripe.speed += (stripe.targetSpeed - stripe.speed) * 0.05;
+        stripe.currentPos += stripe.speed;
+
+        if (stripe.speed < 0 && stripe.currentPos <= -stripe.length) {
+          stripe.currentPos = 0;
+        } else if (stripe.speed > 0 && stripe.currentPos >= stripe.length) {
+          stripe.currentPos = 0;
+        }
+
+        stripe.el.style.transform = `translate3d(0, ${stripe.currentPos}px, 0)`;
+      });
+    }
+
+    loop();
+    
+    // Allow cleanup to be called via Astro lifecycle if needed later
+    (window as any).__cleanupTestimonial = () => {
+      cancelAnimationFrame(animationFrameId);
+      window.removeEventListener("resize", resizeListener);
+      cleanupFns.forEach(fn => fn());
+    };
+  }
+
+  // Hook into Astro's client-side routing if view transitions are enabled
+  document.addEventListener('astro:page-load', () => {
+    if ((window as any).__cleanupTestimonial) {
+        (window as any).__cleanupTestimonial();
+    }
+    initTestimonial();
+  });
+  
+  // Run initially
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initTestimonial);
+  } else {
+    initTestimonial();
+  }
+</script>
+
+<style is:global>
+  /* Base CSS Variables for Testimonial */
+  :root {
+    --am--primary-dark: #111;
+    --am--border-white: #ffffff0d;
+    --am--secondary-dark: #272625;
+    --am--neutral--neutral-02: #373634;
+  }
+  .am-section {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    position: relative;
+  }
+  .am-container {
+    width: 100%;
+    max-width: 83rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .am-container.am-is-small {
+    max-width: 69rem;
+  }
+  .am-paragraph-20 {
+    color: var(--am--primary-dark);
+    letter-spacing: -0.4px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+  .am-text-align-center {
+    text-align: center;
+  }
+  .am-padding-100 {
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+  }
+  .am-heading-44 {
+    color: var(--am--primary-dark);
+    letter-spacing: -1.76px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.75rem;
+    font-weight: 400;
+    line-height: 1.1;
+  }
+  .am-customer-stories-testimonial-details {
+    justify-content: space-between;
+    align-items: flex-end;
+    display: flex;
+  }
+  .am-customer-stories-testimonial-img {
+    border-radius: 0.5rem;
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+  .am-case-study-person-details {
+    gap: 0.75rem;
+    display: flex;
+  }
+  .am-paragraph-14 {
+    color: var(--am--primary-dark);
+    letter-spacing: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+  .am-doodle {
+    z-index: 1;
+    pointer-events: none;
+    position: absolute;
+  }
+  .am-doodle.is-wall-of-love {
+    height: 5.25rem;
+    inset: -1.5rem -1.25rem auto auto;
+  }
+  .am-max-width-544 {
+    max-width: 34rem;
+  }
+  .am-max-width-348 {
+    max-width: 21.75rem;
+  }
+  .am-wall-of-love-section {
+    gap: 3.5rem;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    display: flex;
+  }
+  .am-text-wrap-balance {
+    text-wrap: balance;
+  }
+  .am-customers-wall-of-love-grid {
+    gap: 1.25rem;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: row;
+    height: 100%;
+    max-height: 46rem;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  .am-customers-wall-of-love-card {
+    gap: 1.75rem;
+    border: 1px solid var(--am--border-white);
+    background-color: var(--am--secondary-dark);
+    border-radius: 0.75rem;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 1.25rem;
+    transition: all 0.25s cubic-bezier(0.23, 1, 0.32, 1);
+    display: flex;
+  }
+  .am-customers-wall-of-love-card:hover {
+    background-color: var(--am--neutral--neutral-02);
+  }
+  .am-customers-wall-of-love-column {
+    gap: 1.25rem;
+    flex-flow: column;
+    display: flex;
+  }
+  .am-customers-wall-of-love-collection {
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 1.25rem;
+    display: flex;
+    overflow: hidden;
+  }
+  .am-customers-wall-of-love-stripe {
+    flex-flow: column;
+    display: flex;
+  }
+  .am-customers-wall-of-love-stripe.is-up {
+    align-self: flex-start;
+  }
+  .am-customers-wall-of-love-stripe.is-down {
+    align-self: flex-end;
+  }
+  .am-text-wrap-pretty {
+    text-wrap: pretty;
+  }
+  .am-customers-wall-of-love-heading-wrapper {
+    position: relative;
+  }
+  @media screen and (max-width: 991px) {
+    .am-section {
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+    }
+    .am-paragraph-20 {
+      letter-spacing: -0.36px;
+      font-size: 1.125rem;
+    }
+    .am-padding-100 {
+      padding-top: 5.25rem;
+      padding-bottom: 5.25rem;
+    }
+    .am-heading-44 {
+      letter-spacing: -1.08px;
+      font-size: 2.25rem;
+    }
+    .am-customer-stories-testimonial-img {
+      border-radius: 0.375rem;
+      width: 2rem;
+      height: 2rem;
+    }
+    .am-case-study-person-details {
+      gap: 0.5rem;
+    }
+    .am-paragraph-14 {
+      font-size: 0.75rem;
+    }
+    .am-doodle.is-wall-of-love {
+      right: -1.5rem;
+    }
+    .am-max-width-544 {
+      max-width: 28rem;
+    }
+    .am-max-width-348 {
+      max-width: 18rem;
+    }
+    .am-wall-of-love-section {
+      gap: 2.25rem;
+    }
+    .am-customers-wall-of-love-grid {
+      gap: 0.75rem;
+      max-height: 40rem;
+    }
+    .am-customers-wall-of-love-card {
+      gap: 1.25rem;
+      border-radius: 0.625rem;
+      padding: 1rem;
+    }
+    .am-customers-wall-of-love-column {
+      gap: 0.75rem;
+    }
+    .am-customers-wall-of-love-collection {
+      padding-bottom: 0.75rem;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .am-section {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .am-paragraph-20 {
+      letter-spacing: -0.16px;
+      font-size: 1rem;
+    }
+    .am-padding-100 {
+      padding-top: 3.25rem;
+      padding-bottom: 3.25rem;
+    }
+    .am-heading-44 {
+      letter-spacing: -0.7px;
+      font-size: 1.75rem;
+    }
+    .am-customer-stories-testimonial-img {
+      border-radius: 0.25rem;
+    }
+    .am-doodle.is-wall-of-love {
+      height: 4.5rem;
+      right: -0.75rem;
+    }
+    .am-max-width-544 {
+      max-width: 22.5rem;
+    }
+    .am-hide-mobile {
+      display: none;
+    }
+    .am-max-width-348 {
+      max-width: 15.5rem;
+    }
+    .am-wall-of-love-section {
+      gap: 1.75rem;
+    }
+    .am-customers-wall-of-love-card {
+      gap: 1rem;
+      padding: 0.75rem;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .am-hide-mobile-portrait {
+      display: none;
+    }
+  }
+</style>

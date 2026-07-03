@@ -1,0 +1,75 @@
+{
+  "seo": {
+    "meta_title": "林贾尼火山徒步与向导 | Go2Rinjani",
+    "meta_description": "通过Go2Rinjani计划您的林贾尼火山徒步 - 认证当地向导，火山口边缘徒步，登顶及塞加拉阿纳克湖下降线。立即预订您的冒险之旅。"
+  },
+  "hero": {
+    "title": "适合每位冒险者的林贾尼火山徒步与登顶游",
+    "desc": "从Senaru森林到海拔3726米的顶峰 — Go2Rinjani提供有指导的火山口、登顶游及塞加拉阿纳克湖多日探险，均由认证当地向导带领。",
+    "cta_label": "探索我们的徒步路线"
+  },
+  "destinations": {
+    "section_title": "林贾尼火山徒步路线",
+    "items": [
+      {
+        "id": "crater-rim",
+        "title": "火山口边缘",
+        "desc": "塞加拉阿纳克湖上方标志性的山脊步道，可将龙目岛和巴厘岛的美景尽收眼底。"
+      },
+      {
+        "id": "summit-climb",
+        "title": "登顶游",
+        "desc": "在导游带领下冲向海拔3,726米 — 龙目岛的最高点，在日出时分处于云海之上。"
+      },
+      {
+        "id": "segara-anak",
+        "title": "塞加拉阿纳克湖",
+        "desc": "我们下到神圣的火山口湖边，在其绿松石般的湖水和温泉旁露营。"
+      },
+      {
+        "id": "sembalun-route",
+        "title": "Sembalun路线",
+        "desc": "穿过开阔草地的现代大草原步道，距离Sembalun山谷村庄仅几步之遥。"
+      }
+    ]
+  },
+  "about": {
+    "label": "关于",
+    "cta_label": "阅读关于Go2Rinjani",
+    "desc": "Go2Rinjani是一家位于龙目岛且经过认证的林贾尼火山旅游运营商 — 既是当地向导，也是自然保护倡导者。是印尼第二高火山上寻找刺激、登顶与冒险共同回忆的旅行者的避风港。"
+  },
+  "experience": {
+    "title": "林贾尼小径的生活：原始、真实、难忘",
+    "desc": "山不仅仅是山 —— 它是你从中带回家的那份成就感。",
+    "cta_label": "发现我们的故事",
+    "section_title": "在小径上",
+    "items": [
+      {
+        "id": "senaru-trail",
+        "title": "Senaru小径",
+        "desc": "这条小径葱郁且充满生机，蜿蜒穿过茂密的热带雨林。从黎明到黄昏，您可以自由探索这座山。"
+      },
+      {
+        "id": "crater-camp",
+        "title": "火山口营地",
+        "desc": "在Go2Rinjani，我们在营地享用早餐、热食并休息——在这个山上的任何时间，任何地点。"
+      },
+      {
+        "id": "sembalun-savannah",
+        "title": "Sembalun大草原",
+        "desc": "我们的小径广阔迷人，由国家公园边界外的传统萨萨克农田塑造而成。"
+      }
+    ]
+  },
+  "agenda": {
+    "label": "日程",
+    "cta_label": "发现我们的活动",
+    "title": "千万不要错过Go2Rinjani的精彩活动",
+    "desc": "Go2Rinjani汇聚了志同道合的探险家，他们可以在这里徒步旅行、建立联系并共同创造回忆。"
+  },
+  "featured_post": {
+    "title": "林贾尼火山精明徒步预备：完整的准备指南",
+    "desc": "计划您的第一次林贾尼火山徒步但不知道从哪里开始？Go2Rinjani无所不包——从许可证和行李清单到路线选择和登顶提示。",
+    "cta_label": "阅读更多"
+  }
+}

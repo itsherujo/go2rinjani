@@ -1,0 +1,91 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ToursHero from "./components/ToursHero.astro";
+import ToursPackage from "./components/ToursPackage.astro";
+import ToursCallout from "./components/ToursCallout.astro";
+import { packageLayouts } from "./data/tourLayouts";
+import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+import { getCanonicalUrl } from "../../utils/seo";
+import { buildItemListSchema } from "../../utils/schema";
+import { PAGE_OG_IMAGES } from "../../data/page-og-images";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "tours");
+
+const title = t("seo.meta_title", {
+  defaultValue: "Go2Rinjani - Tours & Packages",
+});
+const description = t("seo.meta_description", {
+  defaultValue: "Explore our Rinjani trekking packages.",
+});
+
+const packages = (t("packages", { returnObjects: true }) || []) as Array<{
+  id: string;
+  title: string;
+  desc: string;
+  cta_label: string;
+  cta_url: string;
+}>;
+
+const listItems = packages.map((pkg) => ({
+  name: pkg.title,
+  url: getCanonicalUrl(Astro.site, pkg.cta_url, lang as any),
+  description: pkg.desc,
+}));
+
+const stampol = t("stampol_callout", { returnObjects: true }) as {
+  title: string;
+  desc: string;
+  cta_url: string;
+} | null;
+
+if (stampol) {
+  listItems.push({
+    name: stampol.title,
+    url: getCanonicalUrl(Astro.site, stampol.cta_url, lang as any),
+    description: stampol.desc,
+  });
+}
+
+const schemas = [
+  buildItemListSchema({
+    name: title as string,
+    description: description as string,
+    items: listItems,
+  }),
+];
+---
+
+<BaseLayout
+  title={title as string}
+  description={description as string}
+  ogImage={PAGE_OG_IMAGES.tours}
+  schemas={schemas}
+>
+  <div class="flex flex-col w-full bg-background">
+    <ToursHero />
+
+    <div class="flex flex-col w-full pb-8 lg:pb-6 mt-4 lg:mt-6">
+      {
+        packages.map((pkg) => {
+          const layoutData = packageLayouts[pkg.id];
+          if (!layoutData) return null;
+
+          return (
+            <ToursPackage
+              id={pkg.id}
+              title={pkg.title}
+              desc={pkg.desc}
+              ctaLabel={pkg.cta_label}
+              ctaUrl={pkg.cta_url}
+              images={layoutData.images}
+              layoutCols={layoutData.cols}
+            />
+          );
+        })
+      }
+
+      <ToursCallout />
+    </div>
+  </div>
+</BaseLayout>

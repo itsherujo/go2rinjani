@@ -1,0 +1,11 @@
+{
+	"name": "go2rinjani",
+	"compatibility_date": "2025-05-01",
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "go2rinjani-subscribers",
+			"database_id": "95841f77-81c9-4bd3-83d1-7886499315d3"
+		}
+	]
+}

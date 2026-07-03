@@ -1,0 +1,138 @@
+{
+  "seo": {
+    "meta_title": "林查尼火山2天1夜塞纳鲁火山口边缘徒步 — 无登顶 | Go2Rinjani",
+    "meta_description": "2天徒步前往林查尼的塞纳鲁火山口边缘 — 穿过茂密的热带雨林，到达海拔2,641米的Pelawangan Senaru，全景俯瞰Segara Anak湖。无需登顶，适合各个体能水平。"
+  },
+  "hero": {
+    "title": "林查尼火山2天塞纳鲁徒步 — 穿越雨林的火山口边缘",
+    "desc": "并非每次林查尼徒步都必须以登顶结束 — Go2Rinjani的2天1夜塞纳鲁火山口徒步带您穿过茂密的热带雨林，抵达海拔2,641米的Pelawangan Senaru，欣赏Segara Anak湖和火山口的全景。壮观的体验，适合各个体能水平。",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+  },
+  "intro": {
+    "label": "2天1夜 — 塞纳鲁路线",
+    "title": "最容易前往的林查尼徒步 — 壮观全景，无需登顶",
+    "desc": "2天1夜的塞纳鲁火山口边缘徒步是想要体验真实山地风光，但不想承受登顶疲劳的徒步者的理想选择。从位于林查尼立马山坡上的古老萨萨克村庄Senaru出发，小径穿过生物多样性丰富的热带雨林，抵达海拔2,641米的Pelawangan Senaru，俯瞰火山口和蓝色的Segara Anak湖。"
+  },
+  "highlights": {
+    "section_title": "本次徒步的亮点",
+    "items": [
+      {
+        "id": "senaru-village",
+        "title": "Senaru村起点",
+        "desc": "徒步开始于西坡上的古老萨萨克村Senaru，体验浓厚的本土文化氛围。"
+      },
+      {
+        "id": "rainforest-trail",
+        "title": "茂密的热带雨林",
+        "desc": "塞纳鲁路线以其茂密的热带雨林为特色，与Sembalun开阔的草原截然不同。徒步者穿行在参天大树和丰富的生态环境中。"
+      },
+      {
+        "id": "pelawangan-senaru",
+        "title": "海拔2,641米的塞纳鲁火山口边缘",
+        "desc": "到达Pelawangan Senaru火山口边缘，欣赏神圣的Segara Anak火山湖和对面的顶峰。"
+      },
+      {
+        "id": "caldera-views",
+        "title": "俯瞰火山口全景",
+        "desc": "从Pelawangan Senaru，您可以一睹整个火山口的壮丽风光。在晴朗的早晨，甚至可以看到巴厘岛的阿贡火山。"
+      }
+    ]
+  },
+  "itinerary": {
+    "section_title": "2天塞纳鲁火山口边缘行程",
+    "intro": "两天一夜的塞纳鲁线路 — 雨林，火山口边缘和绝佳风景。",
+    "days": [
+      {
+        "day": "第一天",
+        "title": "Senaru村到Pelawangan Senaru火山口",
+        "desc": "在您的住所享用早餐并参加徒步简报后，将您送到Senaru徒步起点。穿过雨林和三个休息站，傍晚到达火山口边缘（2,641米）。在这里享用晚餐并在火山口扎营过夜。",
+        "highlights": [
+          "在Senaru吃早餐与简报",
+          "转车至村庄入口的起点",
+          "热带雨林徒步 — 途径1，2，3号营地",
+          "到达Pelawangan Senaru (2,641 米)",
+          "晚餐和火山口边缘的帐篷露营"
+        ]
+      },
+      {
+        "day": "第二天",
+        "title": "火山口日出 — 下撤回Senaru村",
+        "desc": "破晓前醒来迎接日出，早餐后沿着原路穿过雨林返回Senaru村。结束后送您回住宿地。",
+        "highlights": [
+          "林查尼火山口壮阔日出",
+          "在营地享用早餐",
+          "穿越雨林下撤 — 3，2，1号营地",
+          "到达Senaru村",
+          "接送回您的住宿地"
+        ]
+      }
+    ],
+    "schedule_label": "行程时间表"
+  },
+  "inclusions": {
+    "section_title": "行程包含与不含",
+    "intro": "我们为您提供全方位的支持，包含内容如下。",
+    "included": [
+      "受认证的当地向导",
+      "挑夫 (搬运最多 25 kg的营地设备)",
+      "林查尼国家公园门票",
+      "山上所有三餐饮食、热饮及矿泉水",
+      "全套露营装备：帐篷、睡袋、防潮垫、烹饪工具",
+      "酒店接送",
+      "第一天徒步前的1晚Senaru住宿"
+    ],
+    "excluded": [
+      "个人徒步装备（外套、鞋子、登山杖等）",
+      "旅行保险",
+      "向导和挑夫的小费"
+    ],
+    "included_label": "包含",
+    "excluded_label": "不含"
+  },
+  "trek_details": {
+    "section_title": "徒步概览",
+    "intro": "预订2天塞纳鲁徒步前您需要知道的一切信息。",
+    "details": [
+      { "label": "持续时间", "value": "2天1夜" },
+      { "label": "路线", "value": "塞纳鲁路线 — 从Senaru村出发和结束" },
+      { "label": "火山口海拔", "value": "Pelawangan Senaru — 2,641 米" },
+      { "label": "登顶", "value": "本行程无登顶 — 仅火山口边缘" },
+      { "label": "起点", "value": "北龙目岛，Senaru村" },
+      { "label": "难度", "value": "中等 — 适合具备基本体能的游客" },
+      { "label": "最佳季节", "value": "4月至12月（旱季）。1月至3月关闭。" },
+      { "label": "许可证", "value": "已包含国家公园门票" },
+      { "label": "团队规模", "value": "最少2人 — 最多6人。可安排独立成团。" },
+      { "label": "Torean 路线", "value": "本套餐不提供" }
+    ]
+  },
+  "choose_duration": {
+    "section_title": "不确定该选哪个套餐？",
+    "items": [
+      {
+        "duration": "2天1夜",
+        "best_for": "想看火山口但不登顶的游客",
+        "cta_label": "您在此处",
+        "cta_url": "/tours/mount-rinjani-trek/2-day-senaru-crater-rim"
+      },
+      {
+        "duration": "3天2夜",
+        "best_for": "火山口，Segara Anak湖和天然温泉",
+        "cta_label": "查看3天行程",
+        "cta_url": "/tours/mount-rinjani-trek/3-day-senaru-lake"
+      },
+      {
+        "duration": "4天3夜",
+        "best_for": "深度塞纳鲁体验，包括登顶",
+        "cta_label": "查看4天行程",
+        "cta_url": "/tours/mount-rinjani-trek/4-day-senaru-summit-lake"
+      }
+    ],
+    "read_more_label": "阅读更多"
+  },
+  "cta": {
+    "section_title": "准备好体验塞纳鲁徒步了吗？",
+    "title": "立即预订Go2Rinjani 2天塞纳鲁游",
+    "desc": "最容易的林查尼徒步 — 全包服务。",
+    "cta_label": "预订此行程"
+  }
+}

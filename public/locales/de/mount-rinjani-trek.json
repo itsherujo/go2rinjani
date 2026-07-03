@@ -1,0 +1,134 @@
+{
+  "seo": {
+    "meta_title": "Mount Rinjani Trekking-Pakete — Sembalun & Senaru Routen | Go2Rinjani",
+    "meta_description": "Entdecken Sie alle Mount Rinjani Trekking-Pakete mit Go2Rinjani — 2-, 3- und 4-Tages-Routen über Sembalun und Senaru. Gipfelbesteigungen, Kraterrand-Wanderungen und Abstiege zum Segara Anak See für alle Niveaus."
+  },
+  "hero": {
+    "title": "Mount Rinjani Trek — Wählen Sie Ihre Route & Dauer",
+    "desc": "Go2Rinjani bietet sechs geführte Mount Rinjani Trekking-Pakete über zwei ikonische Routen — Sembalun und Senaru. Egal, ob Sie den Gipfel auf 3.726 m jagen, zum Segara Anak See absteigen oder am Kraterrand wandern, jede Trekkingtour wird vollständig von zertifizierten lokalen Guides, Trägern und Genehmigungen unterstützt."
+  },
+  "routes": [
+    {
+      "id": "sembalun-route",
+      "title": "Sembalun-Route",
+      "desc": "Die Sembalun-Route nähert sich dem Mount Rinjani von Osten durch offene Savannenlandschaften und traditionelles Sasak-Ackerland — und bietet den direktesten Weg zum Gipfel auf 3.726 m. Alle Sembalun-Pakete beinhalten die Möglichkeit, die Torean-Route beim Abstieg für eine erweiterte Expedition hinzuzufügen.",
+      "packages": [
+        {
+          "id": "2-day-sembalun-summit",
+          "duration": "2 Tage 1 Nacht",
+          "title": "Kraterrand & Gipfel",
+          "highlights": [
+            "Gipfelaufstieg auf 3.726 m",
+            "Blick vom Kraterrand über den Segara Anak See",
+            "Sembalun Savannen-Pfad",
+            "Zertifizierter Guide & Träger inklusive"
+          ],
+          "cta_label": "Mehr Entdecken",
+          "cta_url": "/tours/mount-rinjani-trek/2-day-sembalun-summit"
+        },
+        {
+          "id": "3-day-sembalun-summit-lake",
+          "duration": "3 Tage 2 Nächte",
+          "title": "Gipfel, See & Heiße Quelle",
+          "highlights": [
+            "Gipfelaufstieg auf 3.726 m",
+            "Abstieg zum Segara Anak See",
+            "Bad in den vulkanischen heißen Quellen",
+            "Optionaler Abstieg über die Torean-Route"
+          ],
+          "cta_label": "Mehr Entdecken",
+          "cta_url": "/tours/mount-rinjani-trek/3-day-sembalun-summit-lake"
+        },
+        {
+          "id": "4-day-sembalun-expedition",
+          "duration": "4 Tage 3 Nächte",
+          "title": "Vollständige Sembalun-Expedition",
+          "highlights": [
+            "Gipfelaufstieg auf 3.726 m",
+            "Längere Zeit am Segara Anak See",
+            "Bad in den vulkanischen heißen Quellen",
+            "Optionaler Abstieg über die Torean-Route"
+          ],
+          "cta_label": "Mehr Entdecken",
+          "cta_url": "/tours/mount-rinjani-trek/4-day-sembalun-expedition"
+        }
+      ]
+    },
+    {
+      "id": "senaru-route",
+      "title": "Senaru-Route",
+      "desc": "Die Senaru-Route nähert sich dem Mount Rinjani von Westen durch dichten tropischen Regenwald und das alte Sasak-Dorf Senaru — ein üppiger, eindringlicher Weg, ideal für Trekker, die die volle Artenvielfalt des Rinjani-Nationalparks erleben möchten.",
+      "packages": [
+        {
+          "id": "2-day-senaru-crater-rim",
+          "duration": "2 Tage 1 Nacht",
+          "title": "Kraterrand Senaru",
+          "highlights": [
+            "Kraterrand bei Pelawangan Senaru",
+            "Panoramablick über den Segara Anak See",
+            "Trek durch den dichten Rinjani-Regenwald",
+            "Kein Gipfel — für alle Fitnesslevel geeignet"
+          ],
+          "cta_label": "Mehr Entdecken",
+          "cta_url": "/tours/mount-rinjani-trek/2-day-senaru-crater-rim"
+        },
+        {
+          "id": "3-day-senaru-lake",
+          "duration": "3 Tage 2 Nächte",
+          "title": "Kraterrand, See & Heiße Quelle",
+          "highlights": [
+            "Kraterrand bei Pelawangan Senaru",
+            "Abstieg zum Segara Anak See",
+            "Bad in den vulkanischen heißen Quellen",
+            "Kein Gipfel — mittlerer Schwierigkeitsgrad"
+          ],
+          "cta_label": "Mehr Entdecken",
+          "cta_url": "/tours/mount-rinjani-trek/3-day-senaru-lake"
+        },
+        {
+          "id": "4-day-senaru-summit-lake",
+          "duration": "4 Tage 3 Nächte",
+          "title": "Gipfel, See & Heiße Quelle",
+          "highlights": [
+            "Gipfelaufstieg auf 3.726 m",
+            "Abstieg zum Segara Anak See",
+            "Bad in den vulkanischen heißen Quellen",
+            "Volles Rinjani-Erlebnis über Senaru"
+          ],
+          "cta_label": "Mehr Entdecken",
+          "cta_url": "/tours/mount-rinjani-trek/4-day-senaru-summit-lake"
+        }
+      ]
+    }
+  ],
+  "why_trek": {
+    "section_title": "Warum Rinjani mit Go2Rinjani",
+    "items": [
+      {
+        "id": "certified-guides",
+        "title": "Zertifizierte lokale Guides",
+        "desc": "Jede Mount Rinjani Tour wird von zertifizierten lokalen Guides geleitet, die in den Dörfern rund um den Rinjani-Nationalpark geboren und aufgewachsen sind — Guides, die jeden Weg, jeden Campingplatz und jede Geschichte des Berges kennen."
+      },
+      {
+        "id": "full-support",
+        "title": "Rundum unterstützte Touren",
+        "desc": "Go2Rinjani kümmert sich um alle Genehmigungen, Träger, Campingausrüstung und Mahlzeiten — damit Sie ohne Logistikstress ankommen, wandern und den Gipfel erklimmen können. Jeder Trekker wird vom Start bis zum Ziel rundum betreut."
+      },
+      {
+        "id": "all-levels",
+        "title": "Alle Erfahrungsstufen willkommen",
+        "desc": "Von Erstwanderern, die den Senaru-Kraterrand in Angriff nehmen, bis hin zu erfahrenen Bergsteigern, die den Gipfel auf 3.726 m anstreben — Go2Rinjani hat ein Mount Rinjani Trekking-Paket, das zu Ihrer Fitness und Ihren Zielen passt."
+      },
+      {
+        "id": "conservation",
+        "title": "Verantwortungsvolles Trekking",
+        "desc": "Go2Rinjani setzt sich für den Schutz des Mount Rinjani Nationalparks und das Wohlergehen der lokalen Sasak-Träger und Gemeinden ein — ein Teil jeder Tour fließt direkt in die Erhaltung der Wege."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit für den Mount Rinjani?",
+    "desc": "Wählen Sie Ihre Route, Ihre Dauer und überlassen Sie Go2Rinjani den Rest. Sechs Mount Rinjani Trekking-Pakete — ein Berg, unzählige Geschichten.",
+    "cta_label": "Buchen Sie Ihre Tour"
+  }
+}

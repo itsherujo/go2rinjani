@@ -1,0 +1,75 @@
+{
+  "seo": {
+    "meta_title": "Mount Rinjani Trekking-Touren & Geführte Wanderungen | Go2Rinjani",
+    "meta_description": "Planen Sie Ihren Mount Rinjani-Trek mit Go2Rinjani – zertifizierte lokale Guides, Kraterrand-Wanderungen, Gipfelbesteigungen & Abstiege zum Segara Anak."
+  },
+  "hero": {
+    "title": "Mount Rinjani Treks & Gipfelstürme für Jeden Abenteurer",
+    "desc": "Von den Wäldern von Senaru bis zum Gipfel auf 3.726 m — Go2Rinjani bietet geführte Kraterrand-Treks, Gipfelaufstiege, Touren zum Segara Anak-See und mehrtägige Expeditionen, geführt von zertifizierten Einheimischen.",
+    "cta_label": "Entdecken Sie Unsere Treks"
+  },
+  "destinations": {
+    "section_title": "Mount Rinjani Trekking-Routen",
+    "items": [
+      {
+        "id": "crater-rim",
+        "title": "Kraterrand",
+        "desc": "Die ikonische Gratwanderung über dem Segara Anak-See mit weitem Blick über Lombok und Bali."
+      },
+      {
+        "id": "summit-climb",
+        "title": "Gipfelbesteigung",
+        "desc": "Ein geführter Aufstieg auf 3.726 m — der höchste Punkt Lomboks, über den Wolken bei Sonnenaufgang."
+      },
+      {
+        "id": "segara-anak",
+        "title": "Segara Anak",
+        "desc": "Wir steigen in den heiligen Kratersee hinab und campen an seinen türkisfarbenen Ufern und heißen Quellen."
+      },
+      {
+        "id": "sembalun-route",
+        "title": "Sembalun Route",
+        "desc": "Ein moderner Savannenpfad durch offene Wiesen, nur wenige Schritte vom Dorf im Sembalun-Tal entfernt."
+      }
+    ]
+  },
+  "about": {
+    "label": "Über uns",
+    "cta_label": "Lesen Sie Über Go2Rinjani",
+    "desc": "Go2Rinjani ist ein zertifizierter Tourenanbieter in Lombok. Teils Lokalführer, teils Naturschützer, teils Community. Ein Zufluchtsort für Trekker auf der Suche nach dem Gipfel auf Indonesiens zweithöchstem Vulkan."
+  },
+  "experience": {
+    "title": "Leben auf dem Rinjani-Pfad: Roh, Echt, Unvergesslich",
+    "desc": "Der Berg ist nie nur ein Berg – es ist dieses Erfolgsgefühl, das man mit nach Hause nimmt.",
+    "cta_label": "Entdecken Sie Unsere Geschichte",
+    "section_title": "Auf Dem Weg",
+    "items": [
+      {
+        "id": "senaru-trail",
+        "title": "Senaru-Pfad",
+        "desc": "Der Pfad ist üppig und voller Leben und schlängelt sich durch dichten Regenwald. Von der Morgendämmerung bis zur Abenddämmerung."
+      },
+      {
+        "id": "crater-camp",
+        "title": "Krater-Camp",
+        "desc": "Bei Go2Rinjani haben wir Frühstück, warme Mahlzeiten und Ruhe im Camp – jederzeit."
+      },
+      {
+        "id": "sembalun-savannah",
+        "title": "Sembalun Savanne",
+        "desc": "Unser Pfad ist weit und faszinierend, geprägt vom traditionellen Sasak-Ackerland direkt außerhalb der Nationalparkgrenze."
+      }
+    ]
+  },
+  "agenda": {
+    "label": "Agenda",
+    "cta_label": "Entdecken Sie Unsere Events",
+    "title": "Verpassen Sie nicht, was bei Go2Rinjani passiert",
+    "desc": "Go2Rinjani bringt Abenteurer zusammen, wo sie wandern, sich vernetzen und Erinnerungen schaffen können."
+  },
+  "featured_post": {
+    "title": "Schlaues Trekking am Mount Rinjani: Ihr Kompletter Vorbereitungsleitfaden",
+    "desc": "Planen Sie Ihren ersten Mount-Rinjani-Trek und wissen nicht, wo Sie anfangen sollen? Go2Rinjani deckt alles ab – von Genehmigungen bis zu Routen.",
+    "cta_label": "Weiterlesen"
+  }
+}

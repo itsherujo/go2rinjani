@@ -1,0 +1,26 @@
+{
+  "seo": {
+    "meta_title": "Mount Rinjani Tour Packages — Treks, Summit & Lake | Go2Rinjani",
+    "meta_description": "Explore Mount Rinjani tour packages with Go2Rinjani — crater rim treks, summit climbs, Segara Anak lake descents, and Sembalun route expeditions. All levels welcome."
+  },
+  "hero": {
+    "title": "Mount Rinjani Tour Packages for Every Type of Trekker",
+    "desc": "Go2Rinjani offers guided Mount Rinjani tour packages for all experience levels — from the open savannahs of Sembalun to the sacred shores of Segara Anak lake. Every trek includes certified local guides, porters, permits, and full camp support."
+  },
+  "packages": [
+    {
+      "id": "mount-rinjani",
+      "title": "Mount Rinjani Treks",
+      "desc": "Choose from six guided Mount Rinjani trek packages across two iconic routes — Sembalun and Senaru. From 2-day summit climbs to 4-day full expeditions with crater rim, hot springs, and Segara Anak lake. All itineraries include certified local guides, porters, permits, meals, and full camp support.",
+      "cta_label": "See All Rinjani Packages",
+      "cta_url": "/tours/mount-rinjani-trek"
+    }
+  ],
+  "stampol_callout": {
+    "section_title": "Rinjani Fully Booked or Closed on Your Dates?",
+    "title": "Mount Stampol Trek — Your Best Alternative in Lombok",
+    "desc": "When Mount Rinjani is closed for the season or fully booked on your dates, Mount Stampol offers a stunning 2-day crater rim trek on the outer slopes of Rinjani National Park — quieter trails, lush rainforest, and panoramic views of Rinjani's caldera and Segara Anak lake.",
+    "cta_label": "Discover Mount Stampol Trek",
+    "cta_url": "/tours/mount-stampol-trek"
+  }
+}

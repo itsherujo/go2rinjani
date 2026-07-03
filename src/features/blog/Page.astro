@@ -1,0 +1,55 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BlogHero from "./components/BlogHero.astro";
+import BlogFeatured from "./components/BlogFeatured.astro";
+import BlogSpecials from "./components/BlogSpecials.astro";
+import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+import { getCanonicalUrl } from "../../utils/seo";
+import { buildItemListSchema } from "../../utils/schema";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "blog");
+
+const title = t("seo.meta_title", { defaultValue: "Go2Rinjani - Blog" });
+const description = t("seo.meta_description", {
+  defaultValue: "Read Go2Rinjani's trekking blog for Mount Rinjani guides.",
+});
+
+const blogIndexPath = lang === "en" ? "/blog" : `/${lang}/blog`;
+const prefix = `locales/${lang}/`;
+const allPosts = await getCollection("blog");
+const langPosts = allPosts.filter((entry) => entry.id.startsWith(prefix));
+
+const listItems = langPosts.map((entry) => {
+  const slug = entry.id.replace(prefix, "");
+  return {
+    name: entry.data.title,
+    url: getCanonicalUrl(Astro.site, `${blogIndexPath}/${slug}`, lang as any),
+  };
+});
+
+const schemas = [
+  buildItemListSchema({
+    name: title as string,
+    description: description as string,
+    items:
+      listItems.length > 0
+        ? listItems
+        : [
+            {
+              name: title as string,
+              url: getCanonicalUrl(Astro.site, blogIndexPath, lang as any),
+            },
+          ],
+  }),
+];
+---
+
+<BaseLayout title={title as string} description={description as string} schemas={schemas}>
+  <div class="flex flex-col w-full bg-background pb-8 lg:pb-24">
+    <BlogHero />
+    <BlogFeatured />
+    <!-- <BlogSpecials /> -->
+  </div>
+</BaseLayout>

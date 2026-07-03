@@ -1,0 +1,156 @@
+{
+  "seo": {
+    "meta_title": "Trek Monte Rinjani 3 Días Senaru — Borde, Lago & Aguas Termales | Go2Rinjani",
+    "meta_description": "Camina el Monte Rinjani por Senaru en 3 días: selva tropical, borde del cráter, descenso al lago Segara Anak y aguas termales volcánicas. Sin cumbre."
+  },
+  "hero": {
+    "title": "Trek 3 Días Monte Rinjani Senaru — Selva, Lago & Aguas Termales",
+    "desc": "La experiencia más inmersiva sin cumbre de Go2Rinjani. El trek de 3 días te lleva a través de la densa selva hasta el borde del cráter Pelawangan Senaru, para luego descender al lago sagrado Segara Anak y relajarte en sus aguas termales volcánicas.",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+  },
+  "intro": {
+    "label": "3 Días 2 Noches — Ruta Senaru",
+    "title": "El Sagrado Lago del Cráter — A través de la Selva, Sin Cumbre",
+    "desc": "Este trek está diseñado para aquellos que desean descender al corazón del Parque Nacional del Monte Rinjani, el lago sagrado Segara Anak (2,008 m), sin el agotamiento físico que exige llegar a la cumbre. Comenzando desde la antigua aldea Sasak de Senaru, el sendero serpentea por la densa selva hasta el borde del cráter Pelawangan Senaru (2,641 m), para luego descender y acampar junto al lago."
+  },
+  "highlights": {
+    "section_title": "Qué esperar de este Trek",
+    "items": [
+      {
+        "id": "senaru-rainforest",
+        "title": "Sendero selvático de Senaru",
+        "desc": "Es el sendero más biodiverso de Rinjani, cruzando exuberante selva tropical y flora nativa."
+      },
+      {
+        "id": "pelawangan-senaru",
+        "title": "Borde del Cráter Pelawangan Senaru (2,641 m)",
+        "desc": "Alcanza vistas panorámicas del lago y el pico del Rinjani elevándose al otro lado del cráter."
+      },
+      {
+        "id": "segara-anak-descent",
+        "title": "Descenso al Lago Segara Anak",
+        "desc": "Desciende desde el borde del cráter hasta el profundo y turquesa lago Segara Anak."
+      },
+      {
+        "id": "hot-springs",
+        "title": "Aguas Termales del Cráter",
+        "desc": "Sumérgete en aguas termales naturales volcánicas en las orillas del lago."
+      },
+      {
+        "id": "sasak-culture",
+        "title": "Cultura Sasak",
+        "desc": "Conéctate de manera profunda con la tradición de las comunidades que veneran este volcán."
+      }
+    ]
+  },
+  "itinerary": {
+    "section_title": "Día a Día",
+    "intro": "Tres días completos explorando Senaru, el cráter, lago y aguas termales.",
+    "days": [
+      {
+        "day": "Día 1",
+        "title": "Senaru al Borde del Cráter Pelawangan Senaru",
+        "desc": "Tras un desayuno, te llevarán al inicio del sendero. Caminata a través de selva tropical para acampar por la tarde en el borde del cráter.",
+        "highlights": [
+          "Desayuno y sesión informativa",
+          "Trek en medio de selva densa",
+          "Llegada a Pelawangan Senaru",
+          "Vistas panorámicas espectaculares",
+          "Cena y acampada nocturna"
+        ]
+      },
+      {
+        "day": "Día 2",
+        "title": "Descenso hacia el Lago Segara Anak y Aguas Termales",
+        "desc": "Despierta para ver el amanecer antes de bajar hacia la caldera. Por la tarde disfrutarás de relajantes baños termales. Campamento a orillas del lago.",
+        "highlights": [
+          "Amanecer sobre la caldera",
+          "Desayuno",
+          "Descenso al interior del cráter",
+          "Llegada al lago Segara Anak",
+          "Aguas termales",
+          "Cena en el campamento junto al lago"
+        ]
+      },
+      {
+        "day": "Día 3",
+        "title": "Retorno a Senaru",
+        "desc": "Asciende nuevamente al borde del cráter en la madrugada, y desciende a través de la selva hasta la aldea Senaru para ser trasladado a tu destino.",
+        "highlights": [
+          "Amanecer junto al lago",
+          "Ascenso a Pelawangan Senaru",
+          "Descenso total de regreso al pueblo",
+          "Traslado al alojamiento"
+        ]
+      }
+    ],
+    "schedule_label": "Itinerario"
+  },
+  "inclusions": {
+    "section_title": "Inclusiones & Exclusiones",
+    "intro": "Todos los servicios apoyados por la agencia garantizando seguridad.",
+    "included": [
+      "Guía local certificado",
+      "Porteadores",
+      "Permiso del Parque Nacional",
+      "Todas las comidas en la montaña y bebidas",
+      "Equipo de campamento completo",
+      "Traslados",
+      "Alojamiento 1 noche previa en Senaru"
+    ],
+    "excluded": [
+      "Equipamiento personal para trekking",
+      "Seguros",
+      "Propinas (opcional)"
+    ],
+    "included_label": "Incluido",
+    "excluded_label": "No Incluido"
+  },
+  "trek_details": {
+    "section_title": "Detalles del Trek",
+    "intro": "Todo lo que necesitas saber de nuestra ruta de 3 días.",
+    "details": [
+      { "label": "Duración", "value": "3 Días 2 Noches" },
+      { "label": "Ruta", "value": "Senaru — inicio y final" },
+      { "label": "Elevación Cráter", "value": "2,641 msnm" },
+      { "label": "Elevación Lago", "value": "2,008 msnm" },
+      { "label": "Cumbre", "value": "Programa sin cumbre" },
+      { "label": "Inicio", "value": "Senaru, Lombok Norte" },
+      { "label": "Dificultad", "value": "Moderada" },
+      { "label": "Temporada", "value": "Abril – Diciembre" },
+      { "label": "Permisos", "value": "Incluidos" },
+      { "label": "Grupo", "value": "Mínimo 2 — Máximo 6" },
+      { "label": "Ruta Torean", "value": "No disponible" }
+    ]
+  },
+  "choose_duration": {
+    "section_title": "¿Buscas otro tipo de caminata?",
+    "items": [
+      {
+        "duration": "2 Días 1 Noche",
+        "best_for": "Solo cráter, sin descenso a lago",
+        "cta_label": "Ver Paquete 2 Días",
+        "cta_url": "/tours/mount-rinjani-trek/2-day-senaru-crater-rim"
+      },
+      {
+        "duration": "3 Días 2 Noches",
+        "best_for": "Borde del Cráter, Lago & Aguas Termales",
+        "cta_label": "Estás Aquí",
+        "cta_url": "/tours/mount-rinjani-trek/3-day-senaru-lake"
+      },
+      {
+        "duration": "4 Días 3 Noches",
+        "best_for": "La ruta de Senaru al completo con Cumbre",
+        "cta_label": "Ver Paquete 4 Días",
+        "cta_url": "/tours/mount-rinjani-trek/4-day-senaru-summit-lake"
+      }
+    ],
+    "read_more_label": "Leer más"
+  },
+  "cta": {
+    "section_title": "¿Listo para descender al sagrado lago?",
+    "title": "Reserva tu Aventura",
+    "desc": "Conoce los atractivos del Monte Rinjani y adéntrate en sus maravillas.",
+    "cta_label": "Reservar Trek"
+  }
+}

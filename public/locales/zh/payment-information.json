@@ -1,0 +1,62 @@
+{
+  "seo": {
+    "meta_title": "支付信息 | Go2Rinjani",
+    "meta_description": "林贾尼山徒步的安全付款方式 — 银行转账、Wise、Revolut 和 PayPal。通过 Go2Rinjani 安全付款。"
+  },
+  "title": "支付信息",
+  "subtitle": "以下是您可以安全发送付款的可用支付方式。",
+  "trust": {
+    "secure": {
+      "title": "安全可靠",
+      "desc": "所有交易采用银行级加密。"
+    },
+    "help": {
+      "title": "需要帮助？",
+      "desc": "我们的团队随时为您服务。"
+    }
+  },
+  "tabletSub": "选择您的首选方式——所有付款均安全处理。",
+  "methods": {
+    "bank": "银行转账",
+    "wise": "Wise",
+    "revolut": "Revolut",
+    "paypal": "PayPal"
+  },
+  "bankTransfer": {
+    "desc": "直接从您的银行账户转账",
+    "recommended": "推荐",
+    "bankName": "银行名称",
+    "accountNumber": "账号",
+    "accountHolder": "账户持有人",
+    "swiftCode": "SWIFT代码",
+    "bankAddress": "银行地址",
+    "copyAccountNumber": "复制账号",
+    "copySwiftCode": "复制SWIFT代码",
+    "copyBankAddress": "复制银行地址",
+    "notice": "请在付款备注中包含您的<1>发票号码</1>。"
+  },
+  "wise": {
+    "desc": "国际汇款，更低手续费",
+    "step1": "打开 Wise",
+    "step2": "银行转账",
+    "step3": "我们的信息",
+    "feature": "到账快 \u00b7 手续费低"
+  },
+  "revolut": {
+    "desc": "通过银行转账功能付款",
+    "international": "国际",
+    "multicurency": "多币种",
+    "secure": "安全",
+    "notice": "使用与银行转账相同的银行详细信息。"
+  },
+  "paypal": {
+    "desc": "根据要求提供发票进行支付",
+    "optional": "可选",
+    "fee": "由用户承担 4.5% 的 PayPal 费用",
+    "invoiceInfo": "我们将为您生成一张发票",
+    "sendEmail": "发票将通过电子邮件发送",
+    "btnRequest": "请求发票"
+  },
+  "mobileSecure": "所有支付均采用银行级别的加密处理",
+  "footerNote": "付款发送后，请与我们分享付款凭证以便更快确认。"
+}

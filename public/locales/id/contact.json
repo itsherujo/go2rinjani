@@ -1,0 +1,55 @@
+{
+  "title": "RENCANAKAN PERJALANAN GUNUNG RINJANI ANDA - HUBUNGI KAMI",
+  "address": "Jl. Pariwisata Senaru, Dusun, Tumpang Sari, Kec. Bayan, Mataram, Nusa Tenggara Bar. 83354",
+  "office": {
+    "title": "Kantor Fisik — Senaru, Lombok",
+    "schedule": {
+      "friday": "Tutup",
+      "saturday": "Buka 24 Jam",
+      "sunday": "Buka 24 Jam",
+      "monday": "Buka 24 Jam",
+      "tuesday": "Buka 24 Jam",
+      "wednesday": "Buka 24 Jam",
+      "thursday": "Buka 24 Jam"
+    }
+  },
+  "online": {
+    "title": "Layanan Online",
+    "schedule": {
+      "friday": "Tutup",
+      "saturday": "7.00 pagi - 11.30 malam",
+      "sunday": "7.00 pagi - 11.30 malam",
+      "monday": "7.00 pagi - 11.30 malam",
+      "tuesday": "7.00 pagi - 11.30 malam",
+      "wednesday": "7.00 pagi - 11.30 malam",
+      "thursday": "7.00 pagi - 11.30 malam"
+    }
+  },
+  "days": {
+    "friday": "Jumat",
+    "saturday": "Sabtu",
+    "sunday": "Minggu",
+    "monday": "Senin",
+    "tuesday": "Selasa",
+    "wednesday": "Rabu",
+    "thursday": "Kamis"
+  },
+  "form": {
+    "header": "ADA PERTANYAAN TENTANG RINJANI?",
+    "description": "Tanyakan apa saja — rute, tanggal, ukuran grup, atau paket kustom. Tim Go2Rinjani merespons dalam 24 jam.",
+    "yourDetails": "Detail Anda",
+    "firstName": "Nama*",
+    "firstNamePlaceholder": "Masukkan nama",
+    "lastName": "Nama belakang*",
+    "lastNamePlaceholder": "Masukkan nama belakang",
+    "phone": "Nomor telepon*",
+    "phonePlaceholder": "Masukkan nomor telepon",
+    "email": "Alamat E-mail*",
+    "emailPlaceholder": "Masukkan alamat e-mail",
+    "message": "Ceritakan tentang rencana pendakian Anda",
+    "messagePlaceholder": "misal: Saya tertarik dengan pendakian Sembalun 3 hari untuk 2 orang di bulan Juli...",
+    "termsAgree": "Dengan mengirimkan formulir ini, saya menyetujui pemrosesan data pribadi saya berdasarkan Kebijakan Privasi.",
+    "formComplete": "Saya mengerti bahwa formulir yang tidak lengkap akan ditolak dan saya telah melengkapi formulir saya.",
+    "submit": "KIRIM"
+  }
+}

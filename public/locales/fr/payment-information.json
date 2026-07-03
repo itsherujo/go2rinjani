@@ -1,0 +1,62 @@
+{
+  "seo": {
+    "meta_title": "Informations de Paiement | Go2Rinjani",
+    "meta_description": "Options de paiement sécurisées pour votre trek au Mont Rinjani — virement bancaire, Wise, Revolut et PayPal. Payez en toute sécurité avec Go2Rinjani."
+  },
+  "title": "Informations de Paiement",
+  "subtitle": "Voici les méthodes de paiement disponibles que vous pouvez utiliser pour envoyer votre paiement en toute sécurité.",
+  "trust": {
+    "secure": {
+      "title": "Sécurisé et Fiable",
+      "desc": "Cryptage de niveau bancaire sur toutes les transactions."
+    },
+    "help": {
+      "title": "Besoin d'Aide ?",
+      "desc": "Notre équipe est toujours prête à vous assister."
+    }
+  },
+  "tabletSub": "Choisissez votre méthode \u2014 tous les paiements sont sécurisés.",
+  "methods": {
+    "bank": "Virement Bancaire",
+    "wise": "Wise",
+    "revolut": "Revolut",
+    "paypal": "PayPal"
+  },
+  "bankTransfer": {
+    "desc": "Transférer directement depuis votre compte",
+    "recommended": "Recommandé",
+    "bankName": "Nom de la Banque",
+    "accountNumber": "Numéro de Compte",
+    "accountHolder": "Titular du Compte",
+    "swiftCode": "Code SWIFT",
+    "bankAddress": "Adresse de la Banque",
+    "copyAccountNumber": "Copier le numéro",
+    "copySwiftCode": "Copier le code SWIFT",
+    "copyBankAddress": "Copier l'adresse de la banque",
+    "notice": "Veuillez indiquer <1>votre numéro de facture</1> en référence."
+  },
+  "wise": {
+    "desc": "Virements internationaux, frais réduits",
+    "step1": "Ouvrir Wise",
+    "step2": "Virement Bancaire",
+    "step3": "Nos coordonnées",
+    "feature": "Virement rapide \u00b7 frais réduits"
+  },
+  "revolut": {
+    "desc": "Payer via la fonction de virement bancaire",
+    "international": "International",
+    "multicurency": "Multidevise",
+    "secure": "Sécurisé",
+    "notice": "Utilisez les mêmes coordonnées que pour le virement bancaire."
+  },
+  "paypal": {
+    "desc": "Disponible sur demande via une facture",
+    "optional": "Optionnel",
+    "fee": "Les frais PayPal de 4,5 % sont à la charge de l'utilisateur",
+    "invoiceInfo": "Nous créerons une facture pour vous",
+    "sendEmail": "La facture sera envoyée par email",
+    "btnRequest": "Demander une Facture"
+  },
+  "mobileSecure": "Tous les paiements ont un cryptage de niveau bancaire",
+  "footerNote": "Dès l'envoi de votre paiement, veuillez nous communiquer la preuve de paiement pour une confirmation plus rapide."
+}

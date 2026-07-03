@@ -1,0 +1,432 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import BlogHeroImageIsland from "../components/shared/BlogHeroImageIsland";
+import { getLangFromUrl } from "../i18n/utils";
+import {
+  getCanonicalUrl,
+  parseBlogDate,
+  toAbsoluteUrl,
+} from "../utils/seo";
+import {
+  buildArticleSchema,
+  buildBreadcrumbSchema,
+} from "../utils/schema";
+
+interface Props {
+  title?: string;
+  description?: string;
+  category?: string;
+  date?: string;
+  location?: string;
+  image?: string;
+  slug?: string;
+}
+
+const {
+  title,
+  description,
+  category,
+  date,
+  location,
+  image,
+  slug = "",
+} = Astro.props;
+
+const lang = getLangFromUrl(Astro.url);
+const heroImage =
+  image ||
+  "https://cdn.sanity.io/images/8tpq0e4r/production/b257f7ff58d72e08be98d5e033d5a9c718ebfc05-2667x4000.jpg?w=1920&q=60&auto=format";
+
+const blogPath =
+  lang === "en" ? `/blog/${slug}` : `/${lang}/blog/${slug}`;
+const pageUrl = getCanonicalUrl(Astro.site, blogPath, lang as any);
+const imageUrl = toAbsoluteUrl(Astro.site, heroImage);
+const datePublished = date ? parseBlogDate(date) : new Date().toISOString().split("T")[0]!;
+
+const schemas = [
+  buildArticleSchema({
+    title: title ?? "Blog",
+    description: description ?? "",
+    url: pageUrl,
+    image: imageUrl,
+    datePublished,
+  }),
+  buildBreadcrumbSchema([
+    { name: "Home", url: getCanonicalUrl(Astro.site, "/", lang as any) },
+    {
+      name: "Blog",
+      url: getCanonicalUrl(Astro.site, lang === "en" ? "/blog" : `/${lang}/blog`, lang as any),
+    },
+    { name: title ?? "Article", url: pageUrl },
+  ]),
+];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  pathname={blogPath}
+  ogImage={imageUrl}
+  ogType="article"
+  schemas={schemas}
+>
+  <div class="blog-container">
+    <main class="paddingBottom1">
+      <div class="page_box__lvt9Q paddingRight5 paddingLeft5">
+        <div class="infoBox_box__k7Pde">
+          <div class="infoBox_containerTrans__qCtga infoBox_container____Qkf paddingTop5 paddingBottom4">
+            <div>
+              <div class="infoBox_content__JD0Go">
+                <div style="width: 100%;" class="infoBox_title__AgwO8 paddingRight2 fontSize1">
+                  {title}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="page_head__6ru0R fontSize6 paddingRight5 paddingLeft5 marginTop3 marginBottom5">
+        <div class="page_category__Kw1vH page_headCol__szlFi">{category || "Category"}</div>
+        <div class="page_date__4mCAF page_headCol__szlFi">{date || "Date"}</div>
+        <div class="page_location__Jtgyg page_headCol__szlFi">
+          {location || "Location"}
+        </div>
+        <div class="page_address__ZjUy9 page_headCol__szlFi">Go2Rinjani Guide</div>
+      </div>
+
+      <div>
+        <div class="listGallery_gallery__5cY7_ marginTop7 paddingRight7 paddingLeft7">
+          <div class="listGallery_item__lYf_P paddingRight7 paddingLeft7">
+            <div class="listGallery_imageContainer__n3YNM">
+              <BlogHeroImageIsland client:visible highResUrl={heroImage} />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="page_content__kRXq7">
+        <div class="marginTop2 paddingBottom6">
+          <div class="page_text__ym3Et fontSize4">
+            <div class="paddingRight3 markdown-content">
+              <slot />
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </main>
+  </div>
+</BaseLayout>
+
+<style>
+  /* Base styles adapted from MainContent.css */
+  .blog-container {
+    box-sizing: border-box;
+  }
+  .blog-container a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .fontSize1 {
+    font-size: 7.407vw;
+    line-height: 91.2%;
+    letter-spacing: -1.28px;
+  }
+  .fontSize4 {
+    font-size: 2.083vw;
+    line-height: 104%;
+  }
+  .fontSize6 {
+    font-size: 1.157vw;
+    line-height: 120%;
+    letter-spacing: -0.2px;
+  }
+  .paddingBottom1 {
+    padding-bottom: 4.63vw;
+  }
+  .marginTop2 {
+    margin-top: 3.472vw;
+  }
+  .paddingRight2 {
+    padding-right: 3.472vw;
+  }
+  .marginTop3 {
+    margin-top: 2.604vw;
+  }
+  .paddingRight3 {
+    padding-right: 2.604vw;
+  }
+  .paddingBottom4 {
+    padding-bottom: 2.025vw;
+  }
+  .marginBottom5 {
+    margin-bottom: 1.157vw;
+  }
+  .paddingTop5 {
+    padding-top: 1.157vw;
+  }
+  .paddingRight5 {
+    padding-right: 1.157vw;
+  }
+  .paddingLeft5 {
+    padding-left: 1.157vw;
+  }
+  .paddingBottom6 {
+    padding-bottom: 0.868vw;
+  }
+  .marginTop7 {
+    margin-top: 0.579vw;
+  }
+  .paddingRight7 {
+    padding-right: 0.579vw;
+  }
+  .paddingLeft7 {
+    padding-left: 0.579vw;
+  }
+
+  .infoBox_box__k7Pde {
+    width: 100%;
+    height: auto;
+  }
+  .infoBox_container____Qkf {
+    width: 100%;
+    height: auto;
+  }
+  .infoBox_title__AgwO8 {
+    width: 75%;
+  }
+  .listGallery_gallery__5cY7_ {
+    width: 100%;
+    display: flex;
+  }
+  .listGallery_item__lYf_P {
+    flex: 1 1;
+  }
+  .listGallery_imageContainer__n3YNM {
+    width: 100%;
+    height: 48.322vw;
+    overflow: hidden;
+  }
+  .page_head__6ru0R {
+    width: 100%;
+    display: flex;
+    text-transform: uppercase;
+  }
+  .page_headCol__szlFi {
+    width: 25%;
+  }
+  .page_content__kRXq7 > div {
+    position: relative;
+  }
+  .page_content__kRXq7 a {
+    border-bottom: 1px solid #000;
+  }
+  .page_text__ym3Et > div {
+    padding-left: 25%;
+  }
+
+  @media (max-width: 1024px) {
+    main {
+      padding-bottom: 4.395vw !important;
+    }
+    main > div {
+      padding-right: 1.465vw !important;
+      padding-left: 1.465vw !important;
+    }
+    .page_box__lvt9Q {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+    .fontSize1 {
+      font-size: 9.375vw;
+      line-height: 104%;
+    }
+    .fontSize4 {
+      font-size: 3.125vw;
+    }
+    .fontSize6 {
+      font-size: 1.758vw;
+    }
+    .paddingBottom1 {
+      padding-bottom: 7.813vw;
+    }
+    .marginTop2,
+    .marginTop3 {
+      margin-top: 4.395vw;
+    }
+    .paddingRight2,
+    .paddingRight3 {
+      padding-right: 4.395vw;
+    }
+    .paddingBottom4 {
+      padding-bottom: 3.418vw;
+    }
+    .marginTop7 {
+      margin-top: 0.977vw;
+    }
+    .marginBottom5 {
+      margin-bottom: 0.977vw;
+    }
+    .paddingTop5 {
+      padding-top: 0.977vw;
+    }
+    .paddingRight5,
+    .paddingRight7 {
+      padding-right: 0.977vw;
+    }
+    .paddingBottom6 {
+      padding-bottom: 0.977vw;
+    }
+    .paddingLeft5,
+    .paddingLeft7 {
+      padding-left: 0.977vw;
+    }
+    .infoBox_title__AgwO8 {
+      width: 100% !important;
+      margin-top: 0 !important;
+    }
+    .infoBox_container____Qkf {
+      padding: 1.953vw 0 4.395vw;
+    }
+    .infoBox_container____Qkf > div {
+      padding-top: 0 !important;
+    }
+    .listGallery_gallery__5cY7_ {
+      width: calc(100% + 1.465vw);
+      margin-right: -0.732vw;
+      margin-left: -0.732vw;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+    .listGallery_item__lYf_P {
+      padding-right: 0.732vw;
+      padding-left: 0.732vw;
+    }
+    .page_content__kRXq7 > div {
+      margin-top: 3.846vw;
+      margin-bottom: 2.564vw;
+    }
+    .page_head__6ru0R > div {
+      width: 50% !important;
+    }
+    .page_head__6ru0R {
+      flex-wrap: wrap;
+      margin-top: 0 !important;
+    }
+    .page_text__ym3Et,
+    .page_text__ym3Et > div {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+  }
+
+  @media (max-width: 480px) {
+    main {
+      padding-bottom: 11.538vw !important;
+    }
+    main > div {
+      padding-right: 3.846vw !important;
+      padding-left: 3.846vw !important;
+    }
+    .fontSize1 {
+      font-size: 9.231vw;
+    }
+    .fontSize4 {
+      font-size: 4.673vw;
+    }
+    .fontSize6 {
+      font-size: 4.103vw;
+    }
+    .paddingBottom1 {
+      padding-bottom: 20.513vw;
+    }
+    .marginTop2,
+    .marginTop3 {
+      margin-top: 11.538vw;
+    }
+    .paddingRight2,
+    .paddingRight3 {
+      padding-right: 11.538vw;
+    }
+    .paddingBottom4 {
+      padding-bottom: 8.974vw;
+    }
+    .marginTop7 {
+      margin-top: 2.564vw;
+    }
+    .marginBottom5 {
+      margin-bottom: 2.564vw;
+    }
+    .paddingTop5 {
+      padding-top: 2.564vw;
+    }
+    .paddingRight5,
+    .paddingRight7 {
+      padding-right: 2.564vw;
+    }
+    .paddingBottom6 {
+      padding-bottom: 2.564vw;
+    }
+    .paddingLeft5,
+    .paddingLeft7 {
+      padding-left: 2.564vw;
+    }
+    .infoBox_title__AgwO8 {
+      padding-right: 0 !important;
+    }
+    .infoBox_container____Qkf {
+      padding: 3.846vw 0;
+    }
+    .listGallery_gallery__5cY7_ {
+      width: calc(100% + 7.692vw);
+      margin-right: -3.846vw;
+      margin-left: -3.846vw;
+      padding-right: 2.564vw !important;
+      padding-left: 2.564vw !important;
+      margin-top: 3.846vw;
+      flex-wrap: wrap;
+    }
+    .listGallery_item__lYf_P {
+      flex: none;
+      width: 100%;
+      padding-right: 1.282vw;
+      padding-left: 1.282vw;
+      margin-top: 3.846vw !important;
+    }
+    .listGallery_item__lYf_P:first-child {
+      margin-top: 0 !important;
+    }
+    .listGallery_imageContainer__n3YNM {
+      height: 86.916vw;
+    }
+  }
+</style>
+
+<style is:global>
+  .markdown-content p {
+    margin-bottom: 1em;
+  }
+  .markdown-content h1,
+  .markdown-content h2,
+  .markdown-content h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+  }
+  .markdown-content h2 {
+    font-size: 1.5em;
+  }
+  .markdown-content ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+    margin-bottom: 1em;
+  }
+  @media (max-width: 480px) {
+    .markdown-content p {
+      margin-top: 1.282vw;
+      margin-bottom: 1.282vw;
+    }
+  }
+</style>

@@ -1,0 +1,62 @@
+{
+  "seo": {
+    "meta_title": "Informasi Pembayaran | Go2Rinjani",
+    "meta_description": "Opsi pembayaran aman untuk trek Gunung Rinjani Anda — transfer bank, Wise, Revolut, dan PayPal. Bayar dengan aman melalui Go2Rinjani."
+  },
+  "title": "Informasi Pembayaran",
+  "subtitle": "Berikut adalah metode pembayaran yang tersedia yang dapat Anda gunakan untuk mengirim pembayaran dengan aman.",
+  "trust": {
+    "secure": {
+      "title": "Aman & Terpercaya",
+      "desc": "Enkripsi tingkat bank pada semua transaksi."
+    },
+    "help": {
+      "title": "Butuh Bantuan?",
+      "desc": "Tim kami selalu siap membantu Anda."
+    }
+  },
+  "tabletSub": "Pilih metode yang Anda inginkan \u2014 semua pembayaran diproses dengan aman.",
+  "methods": {
+    "bank": "Transfer Bank",
+    "wise": "Wise",
+    "revolut": "Revolut",
+    "paypal": "PayPal"
+  },
+  "bankTransfer": {
+    "desc": "Transfer langsung dari rekening bank Anda",
+    "recommended": "Direkomendasikan",
+    "bankName": "Nama Bank",
+    "accountNumber": "Nomor Rekening",
+    "accountHolder": "Pemilik Rekening",
+    "swiftCode": "Kode SWIFT",
+    "bankAddress": "Alamat Bank",
+    "copyAccountNumber": "Salin nomor rekening",
+    "copySwiftCode": "Salin kode SWIFT",
+    "copyBankAddress": "Salin alamat bank",
+    "notice": "Harap cantumkan <1>nomor invoice</1> Anda pada referensi pembayaran."
+  },
+  "wise": {
+    "desc": "Transfer internasional, biaya rendah",
+    "step1": "Buka Wise",
+    "step2": "Transfer Bank",
+    "step3": "Detail kami",
+    "feature": "Transfer cepat \u00b7 biaya lebih rendah"
+  },
+  "revolut": {
+    "desc": "Bayar via fitur transfer bank",
+    "international": "Internasional",
+    "multicurency": "Multi-mata uang",
+    "secure": "Aman",
+    "notice": "Gunakan detail bank yang sama seperti Transfer Bank."
+  },
+  "paypal": {
+    "desc": "Tersedia sesuai permintaan melalui invoice",
+    "optional": "Opsional",
+    "fee": "Biaya PayPal 4.5% akan ditanggung oleh pengguna",
+    "invoiceInfo": "Kami akan membuat invoice untuk Anda",
+    "sendEmail": "Invoice akan dikirim melalui email",
+    "btnRequest": "Minta Invoice"
+  },
+  "mobileSecure": "Semua pembayaran diproses dengan enkripsi tingkat bank",
+  "footerNote": "Setelah pembayaran Anda terkirim, harap bagikan bukti pembayaran kepada kami untuk konfirmasi lebih cepat."
+}

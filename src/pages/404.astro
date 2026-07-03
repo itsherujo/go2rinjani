@@ -1,0 +1,53 @@
+---
+export const prerender = true;
+import Header404 from "../features/404/components/Header404.astro";
+import Footer404 from "../features/404/components/Footer404.astro";
+import EyesIsland from "../features/404/islands/EyesIsland";
+import SEOHead from "../components/seo/SEOHead.astro";
+import { Font } from "astro:assets";
+import "../features/404/styles/404.css";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <SEOHead
+      title="Page Not Found | Go2Rinjani"
+      description="The page you are looking for could not be found on Go2Rinjani."
+      lang="en"
+      pathname="/404"
+      noindex={true}
+    />
+    <Font cssVariable="--font-inter" preload />
+  </head>
+  <body>
+    <div id="root">
+      <Header404 />
+      <div class="page">
+        <div class="overlay--transition overlay--transition-entered"></div>
+        <div
+          class="page--transition page--transition-entered"
+          style="transition-duration: 800ms;"
+        >
+          <main>
+            <div class="row vertical-margin reveal reveal--in">
+              <div
+                class="column"
+                style="--span-s: 6; --span-l: 6; --start-s: 0; --start-l: 0;"
+              >
+                <h1 class="text text--large">
+                  Uh oh, the page you’re looking for can’t be found.
+                </h1>
+              </div>
+            </div>
+            <EyesIsland client:load />
+          </main>
+        </div>
+      </div>
+      <Footer404 />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,134 @@
+{
+  "seo": {
+    "meta_title": "Paket Trekking Gunung Rinjani — Jalur Sembalun & Senaru | Go2Rinjani",
+    "meta_description": "Jelajahi semua paket trekking Gunung Rinjani bersama Go2Rinjani — program mendaki 2, 3, dan 4 hari melalui jalur Sembalun dan Senaru. Pendakian puncak, jelajah bibir kawah, dan turun ke danau Segara Anak."
+  },
+  "hero": {
+    "title": "Trekking Rinjani — Pilih Jalur & Durasi Anda",
+    "desc": "Go2Rinjani menawarkan enam paket trekking berpemandu untuk Gunung Rinjani melalui dua jalur ikonik — Sembalun dan Senaru. Baik mencari puncak di 3.726 mdpl, turun ke Danau Segara Anak, maupun mendaki ke kawah, semua mendapat dukungan penuh pemandu lokal bersertifikat, porter, dan tiket masuk."
+  },
+  "routes": [
+    {
+      "id": "sembalun-route",
+      "title": "Jalur Sembalun",
+      "desc": "Jalur Sembalun mendekati Gunung Rinjani dari arah timur melintasi sabana terbuka dan pertanian tradisional Sasak — menawarkan rute paling cepat ke puncak di 3.726 mdpl. Semua paket Sembalun meliputi opsi untuk melewati jalur Torean pada saat turun untuk pengalaman ekspedisi tambahan.",
+      "packages": [
+        {
+          "id": "2-day-sembalun-summit",
+          "duration": "2 Hari 1 Malam",
+          "title": "Kawah & Puncak",
+          "highlights": [
+            "Pendakian puncak di 3.726 mdpl",
+            "Pemandangan Danau Segara Anak dari Pelawangan",
+            "Jalur sabana Sembalun yang eksotis",
+            "Pemandu dan porter bersertifikat"
+          ],
+          "cta_label": "Lihat Detail",
+          "cta_url": "/tours/mount-rinjani-trek/2-day-sembalun-summit"
+        },
+        {
+          "id": "3-day-sembalun-summit-lake",
+          "duration": "3 Hari 2 Malam",
+          "title": "Puncak, Danau & Air Panas",
+          "highlights": [
+            "Pendakian puncak 3.726 mdpl",
+            "Turun ke Danau Segara Anak",
+            "Berendam di mata air panas vulkanik",
+            "Opsi turun via Jalur Torean"
+          ],
+          "cta_label": "Lihat Detail",
+          "cta_url": "/tours/mount-rinjani-trek/3-day-sembalun-summit-lake"
+        },
+        {
+          "id": "4-day-sembalun-expedition",
+          "duration": "4 Hari 3 Malam",
+          "title": "Ekspedisi Sembalun Penuh",
+          "highlights": [
+            "Pendakian puncak 3.726 mdpl",
+            "Hari ekstra di Danau Segara Anak",
+            "Berendam di mata air panas vulkanik",
+            "Opsi turun via Jalur Torean"
+          ],
+          "cta_label": "Lihat Detail",
+          "cta_url": "/tours/mount-rinjani-trek/4-day-sembalun-expedition"
+        }
+      ]
+    },
+    {
+      "id": "senaru-route",
+      "title": "Jalur Senaru",
+      "desc": "Jalur Senaru menuju Gunung Rinjani dari sisi barat melalui lebatnya rimbun hutan hujan tropis dan pedesaan tradisional Sasak Senaru — sebuah petualangan seru yang ideal bagi pendaki untuk menikmati total keanekaragaman hayati Taman Nasional Gunung Rinjani.",
+      "packages": [
+        {
+          "id": "2-day-senaru-crater-rim",
+          "duration": "2 Hari 1 Malam",
+          "title": "Pinggir Kawah Senaru",
+          "highlights": [
+            "Pelawangan Senaru",
+            "Pemandangan indah ke Danau Segara Anak",
+            "Trek melintasi hutan lebat Rinjani",
+            "Tanpa puncak — cocok untuk pemula"
+          ],
+          "cta_label": "Lihat Detail",
+          "cta_url": "/tours/mount-rinjani-trek/2-day-senaru-crater-rim"
+        },
+        {
+          "id": "3-day-senaru-lake",
+          "duration": "3 Hari 2 Malam",
+          "title": "Kawah, Danau & Air Panas",
+          "highlights": [
+            "Pelawangan Senaru",
+            "Turun ke Danau Segara Anak",
+            "Berendam di mata air panas vulkanik",
+            "Tanpa puncak — tingkat kesulitan menengah"
+          ],
+          "cta_label": "Lihat Detail",
+          "cta_url": "/tours/mount-rinjani-trek/3-day-senaru-lake"
+        },
+        {
+          "id": "4-day-senaru-summit-lake",
+          "duration": "4 Hari 3 Malam",
+          "title": "Puncak, Danau & Air Panas",
+          "highlights": [
+            "Pendakian Puncak di 3.726 mdpl",
+            "Turun ke Danau Segara Anak",
+            "Berendam di mata air panas vulkanik",
+            "Pengalaman Rinjani terlengkap via Senaru"
+          ],
+          "cta_label": "Lihat Detail",
+          "cta_url": "/tours/mount-rinjani-trek/4-day-senaru-summit-lake"
+        }
+      ]
+    }
+  ],
+  "why_trek": {
+    "section_title": "Mengapa Trekking Rinjani Bersama Go2Rinjani",
+    "items": [
+      {
+        "id": "certified-guides",
+        "title": "Pemandu Lokal Tersertifikasi",
+        "desc": "Setiap perjalanan dipandu oleh warga lokal tersertifikasi yang lahir dan dibesarkan di desa sekitar kawasan Rinjani — pemandu yang hafal di luar kepala setiap jalur, tempat kemah, dan cerita yang ada di gunung tersebut."
+      },
+      {
+        "id": "full-support",
+        "title": "Layanan Penuh yang Aman",
+        "desc": "Go2Rinjani mengatasi urusan tiket, porter, penyewaan alat kemah, dan logistik — agar Anda tiba dengan tenang, siap trekking mendaki puncak bebas stres."
+      },
+      {
+        "id": "all-levels",
+        "title": "Cocok untuk Segala Tingkat Kemampuan",
+        "desc": "Dari mulai pendaki perdana menuju kawah di Senaru, sampai ke pendaki berpengalaman yang berjuang menaklukkan ketinggian 3.726 mdpl."
+      },
+      {
+        "id": "conservation",
+        "title": "Trekking Bertanggungjawab",
+        "desc": "Go2Rinjani peduli untuk menjaga kebersihan dan melindungi Taman Nasional Gunung Rinjani serta memberdayakan para porter masyarakat sekitar. Sebagian pendapatan akan diberikan bagi pemeliharaan alam satwa."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap Mendaki Rinjani?",
+    "desc": "Pilih jalur, jumlah hari, dan tinggalkan kepengurusannya pada Go2Rinjani dan tim.",
+    "cta_label": "Pesan Perjalanan"
+  }
+}

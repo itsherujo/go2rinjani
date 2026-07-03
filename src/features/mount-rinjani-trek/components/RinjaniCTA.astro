@@ -1,0 +1,19 @@
+---
+import { useTranslations } from "../../../i18n/utils";
+import SharedCTA from "../../../components/ui/SharedCTA.astro";
+
+interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang, "mount-rinjani-trek");
+---
+
+<SharedCTA
+  title={t("cta.title") as string}
+  desc={t("cta.desc") as string}
+  ctaLabel={t("cta.cta_label") as string}
+  ctaHref="#book"
+  bgColorClass="bg-gray-100"
+/>

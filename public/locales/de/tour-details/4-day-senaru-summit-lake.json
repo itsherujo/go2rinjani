@@ -1,0 +1,170 @@
+{
+  "seo": {
+    "meta_title": "Mount Rinjani 4-Tage Senaru Trek — Gipfel, See & Quellen | Go2Rinjani",
+    "meta_description": "Das ultimative Senaru-Rinjani-Erlebnis — 4 Tage durch Regenwald, Gipfel auf 3.726 m, Segara Anak See und heiße Thermalquellen. Zertifizierte Guides inklusive."
+  },
+  "hero": {
+    "title": "Mount Rinjani 4-Tage Senaru Trek — Gipfel, See & Heiße Quellen",
+    "desc": "Go2Rinjanis umfassendstes Senaru-Paket — kombiniert alles, was der Nationalpark zu bieten hat: tropischen Regenwald, Kraterrand, den Mount Rinjani Gipfel, den heiligen Segara Anak See und vulkanische heiße Quellen.",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+  },
+  "intro": {
+    "label": "4 Tage 3 Nächte — Senaru Route",
+    "title": "Der Ultimative Senaru Trek — Gipfel, See & Regenwald in 4 Tagen",
+    "desc": "Dieses 4-Tage-Paket ist das umfassendste Rinjani-Erlebnis. Es beginnt im alten Dorf Senaru, führt uns über den Kraterrand auf den Hauptgipfel von 3.726 m. Zusätzliche Tage geben uns ungestörte Zeit am Kratersee."
+  },
+  "highlights": {
+    "section_title": "Was Sie erwartet auf diesem Trek",
+    "items": [
+      {
+        "id": "senaru-rainforest",
+        "title": "Senaru Regenwald-Pfad",
+        "desc": "Beginnt in der artenreichsten Region des Nationalparks, voller endemischer Vögel und unberührter Natur."
+      },
+      {
+        "id": "pelawangan-senaru",
+        "title": "Pelawangan Senaru auf 2.641 m",
+        "desc": "Erreichen Sie das Basislager mit Panoramablick auf den Kratersee."
+      },
+      {
+        "id": "rinjani-summit",
+        "title": "Mount Rinjani Gipfel auf 3.726 m",
+        "desc": "Gipfelsturm im Morgengrauen und spektakuläre Ausblicke auf Bali, Lombok und Sumbawa bei Sonnenaufgang über den Wolken."
+      },
+      {
+        "id": "segara-anak-lake",
+        "title": "Segara Anak See auf 2.008 m",
+        "desc": "Später steigen wir in den Vulkankrater zum heiligen türkisfarbenen See ab."
+      },
+      {
+        "id": "hot-springs",
+        "title": "Heiße Vulkanquellen",
+        "desc": "Bestaunen Sie die Naturgewalten entspannt aus dem wohltuend heißen Heilbad der Thermalquellen."
+      },
+      {
+        "id": "sasak-culture",
+        "title": "Tiefes Eintauchen in die Sasak-Kultur",
+        "desc": "Spüren und leben Sie diesen faszinierenden spirituellen Berg gemeinsam mit Ihrem einheimischen Team."
+      }
+    ]
+  },
+  "itinerary": {
+    "section_title": "4-Tage Senaru Reiseroute",
+    "intro": "Vier Tage, drei Nächte — Wald, Kraterrand, Gipfel (3.726 m), See und heiße Quellen.",
+    "days": [
+      {
+        "day": "Tag 1",
+        "title": "Senaru zum Pelawangan Senaru",
+        "desc": "Wanderung durch den tropischen Regenwald hinauf ins Basislager der Senaru-Seite zum Abendessen und Camp.",
+        "highlights": [
+          "Briefing in Senaru / Transfer Startpunkt",
+          "Dschungelwanderung hinauf",
+          "Abendessen und Übernachtung im Camp 2641m"
+        ]
+      },
+      {
+        "day": "Tag 2",
+        "title": "Gipfelsturm — Abstieg zum Segara Anak See",
+        "desc": "Nachts wecken wir Sie zum Aufstieg, erleben den Sonnenaufgang vom Gipfel, und steigen dann abwärts in den Vulkankrater an unserem Campingplatz am Ufer des Sees.",
+        "highlights": [
+          "Sehr früher Gipfelaufbruch ab Lager",
+          "Erreichen des Rinjani Gipfels 3.726m zum Sunrise",
+          "Abstieg zurück ins Basislager zum Frühstück",
+          "Wanderung innen am See 2008m mit Zeltplatz"
+        ]
+      },
+      {
+        "day": "Tag 3",
+        "title": "Erholung bei den Thermalquellen am Seeufer",
+        "desc": "An diesem vollen Erholungstag tauchen wir ein in Ruhe, heiße Quellen und unberührte Landschaften, eine unvergessliche Relax-Session im Rinjani Becken.",
+        "highlights": [
+          "Sonnenaufgang aus tiefster Caldera",
+          "Badeeinheiten an Thermalquellen & See",
+          "Erlebnistag inmitten von Natur ohne Eile",
+          "Wunderschönes Outdoor Dinner"
+        ]
+      },
+      {
+        "day": "Tag 4",
+        "title": "Aufstieg zum Krater und Rückweg über Senaru Dorf",
+        "desc": "Nach letztem entspannten Frühstück ein mäßiger Aufstieg retour zur Waldgrenze und schließlich zur Abholung an Ihrem Startplatz im Dorf Senaru.",
+        "highlights": [
+          "Seefrühstück",
+          "Rückaufstieg bis Pelawangan Senaru (2641m)",
+          "Ewige Talfahrt durch dichten Regenwald",
+          "Einholung & Ende der Reise"
+        ]
+      }
+    ],
+    "schedule_label": "Reiseplan"
+  },
+  "inclusions": {
+    "section_title": "Trek Inklusivleistungen",
+    "intro": "In Go2Rinjani 4-Tage Rinjani Paketen absolut alles Wichtige inkludiert:",
+    "included": [
+      "Lizensierter English Speaking Local Guide",
+      "Gute professionelle Helfer / Träger (Porter 25KG MAX Equip)",
+      "Nationale Park Eintrittspreise (Permit & Insurance Ticket)",
+      "Aufwendige Menü Variationen auf Bergtour + Wasser",
+      "Höchster Komfort an Camp Bedarf (Pillow, Mattress..)",
+      "Kostenloser Pickup & Dropout aus/ab bekannten Area Zielen",
+      "Erste Gratis Hotelübernachtung Rinjani Senaru Gebiet"
+    ],
+    "excluded": [
+      "Eure Outdoor-Gewänder (Wandersessel, Extra Gepäck...)",
+      "Auslandsunfallkrankenschutz",
+      "Tipping am Ende ehrlichen Personals der Guides"
+    ],
+    "included_label": "Inklusive",
+    "excluded_label": "Nicht Inklusive"
+  },
+  "trek_details": {
+    "section_title": "Trek auf einen Blick",
+    "intro": "Das wichtigste auf ein Blick übersichtlich gestylt:",
+    "details": [
+      { "label": "Dauer", "value": "4 Tage 3 Nächte Vollausblick" },
+      { "label": "Route", "value": "Senaru Linie – Identisch hin/zurück" },
+      { "label": "Gipfel Level", "value": "Tiefere Luft am Gipfel mit 3.726 KM Sealevel" },
+      { "label": "Kraterrand", "value": "Schlafbasis auf Pelawangan mit 2.641m" },
+      { "label": "See Höhe", "value": "Heißes Quellen Paradies bei 2008m" },
+      { "label": "Anfangspunkt", "value": "Senaru Start Point Nordwärts" },
+      { "label": "Fitness / Level", "value": "Viel Fitness ist eine Voraussetzung!" },
+      { "label": "Saison", "value": "Apr - Dez." },
+      { "label": "Tickets", "value": "All incl." },
+      { "label": "Größe", "value": "Kombi und Private Touren möglich" },
+      { "label": "Sonder", "value": "Torean Valley fällt aus dieser Kategorie raus" }
+    ]
+  },
+  "choose_duration": {
+    "section_title": "Interesse An Kurz Alternativ Modellen?",
+    "items": [
+      {
+        "duration": "2 Tage 1 Nacht",
+        "best_for": "Den Schnellen Trekker nur Panorama Views Basecamp",
+        "cta_label": "2-Tage-Paket",
+        "cta_url": "/tours/mount-rinjani-trek/2-day-senaru-crater-rim"
+      },
+      {
+        "duration": "3 Tage 2 Nächte",
+        "best_for": "Spezielle Hot Springs aber keine extra Summit Belastung",
+        "cta_label": "3-Tage-Paket",
+        "cta_url": "/tours/mount-rinjani-trek/3-day-senaru-lake"
+      },
+      {
+        "duration": "4 Tage 3 Nächte",
+        "best_for": "Für alle welche die totale Magie vom Vulkan greifen wollen",
+        "cta_label": "Sie sind hier",
+        "cta_url": "/tours/mount-rinjani-trek/4-day-senaru-summit-lake"
+      }
+    ],
+    "read_more_label": "Mehr lesen"
+  },
+  "cta": {
+    "section_title": "Stehen Sie Auf Ultimativ Abenteuer Bereit?",
+    "title": "Der Rinjani Summit Lake Guide buchen mit Profis heute!",
+    "desc": "Alle Facetten vom Dschungel über Top Of the Cloud BaseCamp zu Kraterquellen See abdecken.",
+    "cta_label": "Letz Trip Deal Checken",
+    "secondary_cta_label": "Komplettes Mount Angebot Aufrufen",
+    "secondary_cta_url": "/tours/mount-rinjani"
+  }
+}

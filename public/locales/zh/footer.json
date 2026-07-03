@@ -1,0 +1,116 @@
+{
+  "footer": {
+    "newsletter": {
+      "title": "获取林贾尼火山最新动态",
+      "subtitle": "定制您想要接收的订阅内容",
+      "destinations": {
+        "label": "目的地",
+        "items": [
+          "林贾尼火山",
+          "斯坦波尔山"
+        ]
+      },
+      "newsletter_type": {
+        "label": "订阅类型",
+        "items": [
+          "徒步优惠与促销",
+          "林贾尼新闻与动态",
+          "徒步提示与指南"
+        ]
+      },
+      "form": {
+        "name_placeholder": "姓名",
+        "email_placeholder": "电子邮件地址",
+        "submit_label": "提交",
+        "privacy_label": "我同意 Go2Rinjani 隐私政策"
+      }
+    },
+    "contact": {
+      "title": "联系我们",
+      "address": "Jl. Pariwisata Senaru, Dusun, Tumpang Sari, Kec. Bayan, Mataram, Nusa Tenggara Bar. 83354",
+      "maps_url": "https://maps.google.com/?q=-8.285074,116.414391",
+      "hours": {
+        "title": "营业时间",
+        "online": {
+          "label": "在线服务",
+          "value": "每天 07:00 — 23:30 (周五休息)"
+        },
+        "offline": {
+          "label": "现场办公室",
+          "value": "每天24小时营业 (周五休息)"
+        }
+      }
+    },
+    "social": {
+      "title": "关注我们",
+      "items": [
+        {
+          "platform": "WhatsApp",
+          "handle": "+6281916030378",
+          "url": "https://wa.me/6281916030378"
+        },
+        {
+          "platform": "Instagram",
+          "handle": "@go2rinjaniofficial",
+          "url": "https://instagram.com/go2rinjaniofficial"
+        },
+        {
+          "platform": "Facebook",
+          "handle": "Go2Rinjani",
+          "url": "https://facebook.com/Go2Rinjani"
+        }
+      ]
+    },
+    "nav": {
+      "items": [
+        {
+          "label": "常见问题",
+          "url": "/faq"
+        },
+        {
+          "label": "联系我们",
+          "url": "/contact"
+        },
+        {
+          "label": "运作方式",
+          "url": "/how-it-works"
+        },
+        {
+          "label": "付款信息",
+          "url": "/payment-information"
+        },
+        {
+          "label": "条款和条件",
+          "url": "/legal/terms-and-conditions"
+        },
+        {
+          "label": "取消政策",
+          "url": "/legal/cancellation-policy"
+        },
+        {
+          "label": "隐私政策",
+          "url": "/legal/privacy-policy"
+        }
+      ]
+    },
+    "license": {
+      "title": "公司执照",
+      "subtitle": "完全获得许可",
+      "items": [
+        {
+          "label": "NIB",
+          "value": "2707220027085"
+        },
+        {
+          "label": "NPWP",
+          "value": "65.992.957.4-914.000"
+        },
+        {
+          "label": "PB-PWJA",
+          "value": "27072200270850001"
+        }
+      ]
+    },
+    "copyright": "©2026 Go2Rinjani. 保留所有权利."
+  }
+}

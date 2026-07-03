@@ -1,0 +1,18 @@
+---
+import LanguageSwitcherIsland from "../../../components/layout/LanguageSwitcherIsland";
+import { getLangFromUrl } from "../../../i18n/utils";
+import logoUrl from "../../../assets/Go2rinjani.svg";
+
+const lang = getLangFromUrl(Astro.url);
+---
+
+<header class="sticky top-0 z-50 bg-background border-b border-foreground">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
+    <a href={lang === "en" ? "/" : `/${lang}`} class="flex items-center gap-2 hover:opacity-80 transition-opacity" data-astro-prefetch aria-label="Go to homepage">
+      <img src={logoUrl.src} alt="Go2Rinjani" class="h-5" />
+    </a>
+    <div class="flex items-center gap-4 h-full">
+      <LanguageSwitcherIsland client:idle currentLangCode={lang} />
+    </div>
+  </div>
+</header>

@@ -1,0 +1,141 @@
+{
+  "layout_type": "alternative",
+  "seo": {
+    "meta_title": "Trek du Mont Stampol — Meilleure alternative au Rinjani | Go2Rinjani",
+    "meta_description": "La meilleure alternative de Lombok quand le Rinjani est fermé ou complet. Trek de 2 jours jusqu'au bord du cratère."
+  },
+  "hero": {
+    "title": "Trek du Mont Stampol — La meilleure alternative au Rinjani",
+    "desc": "Lorsque le Rinjani est fermé ou complet, le Mont Stampol offre un superbe trek de 2 jours sur les pentes extérieures du parc national, avec vue panoramique.",
+    "cta_label": "Réserver ce trek"
+  },
+  "intro": {
+    "label": "Trek du Mont Stampol",
+    "title": "Toujours sur les pentes du Rinjani — Sans les foules",
+    "desc": "Culminant à 2 608 m, le mont Stampol est l'un des treks cachés les plus gratifiants de Lombok. Le sentier serpente à travers la forêt tropicale vierge."
+  },
+  "highlights": {
+    "section_title": "Ce qui vous attend sur le sentier",
+    "items": [
+      {
+        "id": "plantations",
+        "title": "Plantations d'épices",
+        "desc": "Traversez des plantations aromatiques de café, de clous de girofle et de vanille cultivées par les habitants du village."
+      },
+      {
+        "id": "rainforest",
+        "title": "Forêt tropicale vierge",
+        "desc": "Pénétrez dans la forêt dense et intacte des pentes supérieures : peu de passage, air frais de la montagne et bruits de la nature."
+      },
+      {
+        "id": "crater-rim",
+        "title": "Bord du cratère de Stampol",
+        "desc": "Atteignez le bord du cratère à 2 608 m pour un magnifique coucher de soleil, une nuit à la belle étoile et un lever de soleil."
+      },
+      {
+        "id": "rinjani-views",
+        "title": "Vue panoramique sur le Rinjani",
+        "desc": "Depuis le cratère, profitez d'une vue dégagée et panoramique sur le mont Rinjani et le lac Segara Anak."
+      }
+    ]
+  },
+  "inclusions": {
+    "section_title": "Inclusions et exclusions du trek",
+    "intro": "Chaque trek au Mont Stampol avec Go2Rinjani est entièrement pris en charge.",
+    "included_label": "Inclus",
+    "excluded_label": "Non Inclus",
+    "included": [
+      "Guide local certifié",
+      "Porteur (jusqu'à 25 kg d'équipement de camp)",
+      "Permis d'entrée au village",
+      "Tous les repas sur la montagne",
+      "Équipement de camping complet",
+      "Transferts aller-retour à l'hôtel",
+      "1 nuit d'hébergement avant le trek"
+    ],
+    "excluded": [
+      "Équipement de trekking personnel",
+      "Assurance voyage",
+      "Pourboires pour les guides et les porteurs",
+      "Transferts lointains (supplément applicable)"
+    ]
+  },
+  "itinerary": {
+    "section_title": "Votre aventure de 2 jours à Stampol",
+    "schedule_label": "Calendrier de l'itinéraire",
+    "intro": "Une expérience complète de la montagne en deux jours.",
+    "days": [
+      {
+        "day": "Jour 1",
+        "title": "Du village de Nangka Rempek au bord du cratère",
+        "desc": "Après le petit-déjeuner, début de la randonnée à travers les plantations d'épices et la forêt dense. Arrivée au bord du cratère à temps pour le coucher du soleil.",
+        "highlights": [
+          "Prise en charge à l'hébergement",
+          "Inscription au village",
+          "Trek à travers les plantations",
+          "Déjeuner préparé par les porteurs",
+          "Coucher de soleil et installation",
+          "Dîner et nuit au camping"
+        ]
+      },
+      {
+        "day": "Jour 2",
+        "title": "Lever de soleil — Descente",
+        "desc": "Réveil avant l'aube pour le lever du soleil. Après le petit-déjeuner au camp, début de la descente par le même chemin.",
+        "highlights": [
+          "Réveil matinal pour le lever du soleil",
+          "Petit-déjeuner au camping",
+          "Descente vers le village",
+          "Arrivée avant midi",
+          "Transfert de retour"
+        ]
+      }
+    ]
+  },
+  "trek_details": {
+    "section_title": "Le trek en un clin d'œil",
+    "intro": "Tout ce que vous devez savoir avant de réserver.",
+    "btn_book_spot": "Réserver une place",
+    "btn_read_details": "Voir tous les détails",
+    "details": [
+      {
+        "label": "Durée",
+        "value": "2 jours, 1 nuit"
+      },
+      {
+        "label": "Altitude maximale",
+        "value": "2 608 m"
+      },
+      {
+        "label": "Point de départ",
+        "value": "Village de Nangka Rempek"
+      },
+      {
+        "label": "Distance totale",
+        "value": "14 km aller-retour"
+      },
+      {
+        "label": "Difficulté",
+        "value": "Modérée"
+      },
+      {
+        "label": "Meilleure saison",
+        "value": "D'avril à décembre"
+      },
+      {
+        "label": "Permis",
+        "value": "Permis du village"
+      },
+      {
+        "label": "Taille du groupe",
+        "value": "2 à 6 personnes"
+      }
+    ]
+  },
+  "cta": {
+    "section_title": "Rinjani fermé ou complet ?",
+    "title": "Le Mont Stampol est ouvert — Réservez !",
+    "desc": "Contrairement au Mont Rinjani, le Mont Stampol fonctionne avec des permis locaux. Go2Rinjani s'occupe de tout.",
+    "cta_label": "Réserver"
+  }
+}

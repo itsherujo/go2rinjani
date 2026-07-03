@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "how-it-works": "HOW IT WORKS",
+    "destinations": "DESTINATIONS",
+    "about": "ABOUT",
+    "tours": "TOURS",
+    "blog": "BLOG",
+    "contact": "CONTACT",
+    "bookNow": "BOOK NOW",
+    "menu": "MENU",
+    "mountRinjani": "MOUNT RINJANI",
+    "mountStampol": "MOUNT STAMPOL"
+  },
+  "bookingForm": {
+    "title": "Booking Form",
+    "guestDetail": "Guest detail:",
+    "fullName": "full name",
+    "email": "email",
+    "groupSize": "group size",
+    "packageDetail": "Package detail",
+    "duration": "duration",
+    "route": "route",
+    "packageName": "package name",
+    "note": "Note",
+    "tourDate": "Tour date",
+    "dd": "dd",
+    "mm": "mm",
+    "yyyy": "yyyy",
+    "sendInquiry": "Send inquiry via",
+    "whatsapp": "WhatsApp",
+    "sendEmail": "Send Email",
+    "durations": {
+      "2d1n": "2 Days 1 Night",
+      "3d2n": "3 Days 2 Nights",
+      "4d3n": "4 Days 3 Nights"
+    },
+    "routes": {
+      "sembalun": "Sembalun",
+      "senaru": "Senaru"
+    }
+  },
+  "footer": {
+    "newsletterTitle": "Sign-up for our newsletter",
+    "personalize": "PERSONALIZE THE NEWSLETTER YOU ARE INTERESTED IN RECEIVING",
+    "destinations": "DESTINATIONS",
+    "newsletterType": "NEWSLETTER TYPE",
+    "name": "NAME",
+    "email": "E-MAIL ADDRESS",
+    "submit": "Submit",
+    "agreePrivacy": "Agree to our privacy policy",
+    "venezia": "VENEZIA",
+    "milano": "MILANO",
+    "torino": "TORINO",
+    "bologna": "BOLOGNA",
+    "promotions": "PROMOTIONS",
+    "events": "EVENTS",
+    "news": "NEWS",
+    "radio": "RADIO",
+    "specialProjects": "SPECIAL PROJECTS",
+    "jobOffers": "JOB OFFERS",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "linkedin": "Linkedin",
+    "about": "About",
+    "jobs": "Jobs",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy",
+    "reports": "Whistleblowing Reports",
+    "procedure": "Whistleblowing Procedure",
+    "ethics": "Code of Ethics"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "layout_type": "alternative",
+  "seo": {
+    "meta_title": "Caminata al Monte Stampol — La Mejor Alternativa a Rinjani | Go2Rinjani",
+    "meta_description": "Caminata al Monte Stampol — La mejor alternativa de Lombok cuando el Rinjani está cerrado o lleno. Caminata de 2 días con guías certificados."
+  },
+  "hero": {
+    "title": "Caminata al Monte Stampol — La Mejor Alternativa a Rinjani",
+    "desc": "Cuando el Monte Rinjani está cerrado por la temporada o completamente reservado en sus fechas, el Monte Stampol es la solución — una caminata de 2 días hasta el borde del cráter en las laderas exteriores, con vistas de Rinjani, el lago Segara Anak y Bali.",
+    "cta_label": "Reservar Caminata"
+  },
+  "intro": {
+    "label": "Monte Stampol",
+    "title": "Aún en las Laderas de Rinjani — Sin Multitudes",
+    "desc": "Con 2.608 m en las laderas exteriores, el Monte Stampol es uno de los recorridos ocultos más gratificantes de Lombok. El sendero serpentea a través de plantaciones de café antes de ingresar a la selva tropical prístina — llegando a un campamento tranquilo en el borde del cráter."
+  },
+  "highlights": {
+    "section_title": "Lo que te espera en el camino",
+    "items": [
+      {
+        "id": "plantations",
+        "title": "Plantaciones de especias",
+        "desc": "Camina a través de plantaciones aromáticas de café, clavo y vainilla cultivadas por los lugareños de la aldea."
+      },
+      {
+        "id": "rainforest",
+        "title": "Selva tropical prístina",
+        "desc": "Ingresa a la densa selva tropical en las laderas superiores — tráfico mínimo y los sonidos de la naturaleza en cada vuelta."
+      },
+      {
+        "id": "crater-rim",
+        "title": "Borde del cráter de Stampol",
+        "desc": "Llega al borde del cráter a 2.608 m para disfrutar de una puesta de sol impresionante y acampar bajo las estrellas."
+      },
+      {
+        "id": "rinjani-views",
+        "title": "Vistas panorámicas a Rinjani",
+        "desc": "Desde el borde, disfruta de vistas panorámicas ininterrumpidas del monte Rinjani y el monte Agung en Bali."
+      }
+    ]
+  },
+  "inclusions": {
+    "section_title": "Inclusiones y exclusiones",
+    "intro": "Cada excursión al Monte Stampol con Go2Rinjani tiene soporte completo. Esto es exactamente lo incluido:",
+    "included_label": "Incluido",
+    "excluded_label": "No Incluido",
+    "included": [
+      "Guía local certificado",
+      "Porteador (hasta 25 kg de equipo de campamento)",
+      "Permiso de entrada",
+      "Todas las comidas en la montaña (3 veces al día) + bedida caliente",
+      "Equipo completo de campamento",
+      "Servicio de recogida y regreso al hotel",
+      "1 noche de alojamiento antes de la caminata en Senaru"
+    ],
+    "excluded": [
+      "Equipo personal de trekking",
+      "Seguro de viaje",
+      "Propinas para guías y porteadores (opcional)",
+      "Traslados desde zonas alejadas"
+    ]
+  },
+  "itinerary": {
+    "section_title": "Tu aventura de 2 días",
+    "schedule_label": "Itinerario",
+    "intro": "Una experiencia de montaña completa en dos días.",
+    "days": [
+      {
+        "day": "Día 1",
+        "title": "Pueblo Nangka Rempek hasta el borde del cráter",
+        "desc": "Después del desayuno, traslado al inicio. Caminata a través de plantaciones y selva tropical. Llegada a 2.608 m al atardecer. Cena y acampada.",
+        "highlights": [
+          "Recogida",
+          "Caminata por la selva y plantaciones",
+          "Almuerzo en el bosque",
+          "Llegada al cráter al atardecer",
+          "Cena y alojamiento en el camping"
+        ]
+      },
+      {
+        "day": "Día 2",
+        "title": "Amanecer en el cráter — Descenso",
+        "desc": "Despierta antes del amanecer para ver el sol salir sobre la caldera del Rinjani. Después de desayunar, comienza el descenso.",
+        "highlights": [
+          "Amanecer sobre la caldera",
+          "Desayuno en el campamento",
+          "Descenso a través del bosque",
+          "Llegada antes del mediodía",
+          "Traslado a tu próximo destino"
+        ]
+      }
+    ]
+  },
+  "trek_details": {
+    "section_title": "La Caminata de un Vistazo",
+    "intro": "Todo lo que necesitas saber antes de reservar.",
+    "btn_book_spot": "Reservar lugar",
+    "btn_read_details": "Leer más detalles",
+    "details": [
+      {
+        "label": "Duración",
+        "value": "2 días, 1 noche"
+      },
+      {
+        "label": "Elevación",
+        "value": "2.608 m sobre el nivel del mar"
+      },
+      {
+        "label": "Distancia",
+        "value": "14 km ida y vuelta"
+      },
+      {
+        "label": "Dificultad",
+        "value": "Moderada"
+      },
+      {
+        "label": "Temporada",
+        "value": "Abril – diciembre"
+      },
+      {
+        "label": "Tamaño del grupo",
+        "value": "2 — 6 grupo"
+      }
+    ]
+  },
+  "cta": {
+    "section_title": "¿Rinjani cerrado o reservado?",
+    "title": "Monte Stampol está abierto — Reserva aquí",
+    "desc": "El Monte Stampol opera bajo permisos locales de la aldea. Go2Rinjani se encarga de todo.",
+    "cta_label": "Reservar Caminata"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "计划您的林贾尼火山徒步旅行 - 联系我们",
+  "address": "Jl. Pariwisata Senaru, Dusun, Tumpang Sari, Kec. Bayan, Mataram, Nusa Tenggara Bar. 83354",
+  "office": {
+    "title": "现场办公室 — 龙目岛赛纳鲁",
+    "schedule": {
+      "friday": "休息",
+      "saturday": "24小时营业",
+      "sunday": "24小时营业",
+      "monday": "24小时营业",
+      "tuesday": "24小时营业",
+      "wednesday": "24小时营业",
+      "thursday": "24小时营业"
+    }
+  },
+  "online": {
+    "title": "在线咨询",
+    "schedule": {
+      "friday": "休息",
+      "saturday": "上午 7:00 - 下午 11:30",
+      "sunday": "上午 7:00 - 下午 11:30",
+      "monday": "上午 7:00 - 下午 11:30",
+      "tuesday": "上午 7:00 - 下午 11:30",
+      "wednesday": "上午 7:00 - 下午 11:30",
+      "thursday": "上午 7:00 - 下午 11:30"
+    }
+  },
+  "days": {
+    "friday": "星期五",
+    "saturday": "星期六",
+    "sunday": "星期日",
+    "monday": "星期一",
+    "tuesday": "星期二",
+    "wednesday": "星期三",
+    "thursday": "星期四"
+  },
+  "form": {
+    "header": "关于林贾尼火山的任何问题？",
+    "description": "向我们询问任何事情 —— 路线、日期、团队规模或定制套餐。Go2Rinjani 团队会在 24 小时内回复。",
+    "yourDetails": "您的详细信息",
+    "firstName": "名字*",
+    "firstNamePlaceholder": "输入名字",
+    "lastName": "姓氏*",
+    "lastNamePlaceholder": "输入姓氏",
+    "phone": "电话号码*",
+    "phonePlaceholder": "输入电话号码",
+    "email": "电子邮件地址*",
+    "emailPlaceholder": "输入电子邮件地址",
+    "message": "告诉我们您的徒步计划",
+    "messagePlaceholder": "例如，我对7月份2人的3天Sembalun徒步旅行感兴趣...",
+    "termsAgree": "提交此表单即表示我同意根据《隐私政策》处理我的个人数据。",
+    "formComplete": "我了解不完整的表单将被拒绝，并且我已经填完了我的表单。",
+    "submit": "提交"
+  }
+}

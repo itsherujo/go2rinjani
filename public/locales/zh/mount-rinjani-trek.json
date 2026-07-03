@@ -1,0 +1,134 @@
+{
+  "seo": {
+    "meta_title": "林贾尼火山徒步套餐 — Sembalun & Senaru 路线 | Go2Rinjani",
+    "meta_description": "与 Go2Rinjani 一起探索所有林贾尼火山徒步套餐 — 涵盖 Sembalun 和 Senaru 路线的 2、3 或 4 天行程。包含登顶、火山口边缘徒步和 Segara Anak 湖下降之旅，适合各级徒步者。"
+  },
+  "hero": {
+    "title": "林贾尼火山徒步 — 选择您的路线与时间",
+    "desc": "Go2Rinjani 提供六种林贾尼火山带领徒步套餐，横跨 Sembalun 和 Senaru 两条经典路线。无论您是追求 3,726 米顶峰、下降至 Segara Anak 湖，还是游览火山口边缘，所有行程均配备专业的当地向导、挑夫及徒步许可证。"
+  },
+  "routes": [
+    {
+      "id": "sembalun-route",
+      "title": "Sembalun (林班伦) 路线",
+      "desc": "Sembalun 路线由东部穿过开阔的稀树草原景观与传统的萨萨克农田，是前往 3,726 米顶峰最直接的路径。所有 Sembalun 套餐均可在下山时选择加入 Torean 路线以获取进一步的探险体验。",
+      "packages": [
+        {
+          "id": "2-day-sembalun-summit",
+          "duration": "2 天 1 夜",
+          "title": "火山口与登顶",
+          "highlights": [
+            "冲刺 3,726 米的顶峰",
+            "俯瞰 Segara Anak 湖的火山口美景",
+            "Sembalun 稀树草原步道",
+            "包括专业向导及挑夫"
+          ],
+          "cta_label": "了解更多",
+          "cta_url": "/tours/mount-rinjani-trek/2-day-sembalun-summit"
+        },
+        {
+          "id": "3-day-sembalun-summit-lake",
+          "duration": "3 天 2 夜",
+          "title": "顶峰、火山湖与温泉",
+          "highlights": [
+            "冲刺 3,726 米的顶峰",
+            "下降至 Segara Anak 湖",
+            "尽享火山温泉",
+            "可选择 Torean 路线下山"
+          ],
+          "cta_label": "了解更多",
+          "cta_url": "/tours/mount-rinjani-trek/3-day-sembalun-summit-lake"
+        },
+        {
+          "id": "4-day-sembalun-expedition",
+          "duration": "4 天 3 夜",
+          "title": "Sembalun 全景探索",
+          "highlights": [
+            "冲刺 3,726 米的顶峰",
+            "在 Segara Anak 湖度过更多时间",
+            "尽享火山温泉",
+            "可选择 Torean 路线下山"
+          ],
+          "cta_label": "了解更多",
+          "cta_url": "/tours/mount-rinjani-trek/4-day-sembalun-expedition"
+        }
+      ]
+    },
+    {
+      "id": "senaru-route",
+      "title": "Senaru (塞纳鲁) 路线",
+      "desc": "Senaru 路线由西部穿越茂密的热带雨林及古老的萨萨克村落，是一条绝佳的沉浸式葱郁步道，最适合想要深入体验林贾尼国家公园热带生物多样性的徒步者。",
+      "packages": [
+        {
+          "id": "2-day-senaru-crater-rim",
+          "duration": "2 天 1 夜",
+          "title": "Senaru 火山口",
+          "highlights": [
+            "抵达 Pelawangan Senaru 火山口",
+            "全景俯瞰 Segara Anak 湖",
+            "穿越茂密的林贾尼雨林",
+            "无登顶挑战 — 适合各类体能水平"
+          ],
+          "cta_label": "了解更多",
+          "cta_url": "/tours/mount-rinjani-trek/2-day-senaru-crater-rim"
+        },
+        {
+          "id": "3-day-senaru-lake",
+          "duration": "3 天 2 夜",
+          "title": "火山口、火山湖与温泉",
+          "highlights": [
+            "抵达 Pelawangan Senaru 火山口",
+            "下降至 Segara Anak 湖",
+            "尽享火山温泉",
+            "无登顶挑战 — 中等难度"
+          ],
+          "cta_label": "了解更多",
+          "cta_url": "/tours/mount-rinjani-trek/3-day-senaru-lake"
+        },
+        {
+          "id": "4-day-senaru-summit-lake",
+          "duration": "4 天 3 夜",
+          "title": "顶峰、火山湖与温泉",
+          "highlights": [
+            "冲刺 3,726 米的顶峰",
+            "下降至 Segara Anak 湖",
+            "尽享火山温泉",
+            "穿越 Senaru 的林贾尼全方位体验"
+          ],
+          "cta_label": "了解更多",
+          "cta_url": "/tours/mount-rinjani-trek/4-day-senaru-summit-lake"
+        }
+      ]
+    }
+  ],
+  "why_trek": {
+    "section_title": "为何选择 Go2Rinjani 徒步",
+    "items": [
+      {
+        "id": "certified-guides",
+        "title": "专业的当地向导",
+        "desc": "每趟林贾尼火山攀登均由在林贾尼国家公园周边村庄出生的专业向导领队。他们不仅熟悉每条小径和营地，还知晓这座大山的所有故事。"
+      },
+      {
+        "id": "full-support",
+        "title": "全方位支持服务",
+        "desc": "Go2Rinjani 包办所有许可证、挑夫、露营装备和餐饮，让您无需为后勤苦恼即可开启攀峰之旅。每位徒步者都将在全程享受到最周全的服务。"
+      },
+      {
+        "id": "all-levels",
+        "title": "适合所有体能水平",
+        "desc": "从首次攀登 Senaru 火山口的新手，再到挑战 3,726 米顶峰的登山专家 —— Go2Rinjani 总有一个适合您的林贾尼配套项目。"
+      },
+      {
+        "id": "conservation",
+        "title": "负责任的徒步旅行",
+        "desc": "Go2Rinjani 致力于林贾尼国家公园的环境保育以及当地萨萨克挑夫及社区的福祉。每次徒步的收入将有部分直接用于生态保护。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "准备好攀登林贾尼了吗？",
+    "desc": "选择您的路线及天数，其余的交给 Go2Rinjani。六大林贾尼套餐 — 一座名山，无数故事等你探索。",
+    "cta_label": "预订您的行程"
+  }
+}

@@ -1,0 +1,140 @@
+---
+import { useTranslations } from "../../../../i18n/utils";
+import Section from "../../../../components/ui/Layout/Section.astro";
+
+interface Props {
+  lang: string;
+  slug: string;
+}
+
+const { lang, slug } = Astro.props;
+const t = useTranslations(lang, `tour-details/${slug}`);
+
+const details = t("trek_details.details", { returnObjects: true }) as any[];
+---
+
+{
+  details && details.length > 0 && (
+    <Section class="pt-0 mb-0 lg:mb-0">
+      <div class="w-full bg-stampol-blue">
+        {/* Desktop Layout -> hidden on mobile */}
+        <div class="hidden min-[481px]:grid grid-cols-2 md:grid-cols-4 gap-8 p-8 md:p-12">
+          {details.slice(0, 4).map((d: any) => (
+            <div class="flex flex-col">
+              <span class="text-xl mb-4 font-normal">{d.label}</span>
+              <span class="text-sm font-medium leading-relaxed max-w-[200px] whitespace-pre-wrap">
+                {d.value.replace(/ - /g, "\n")}
+              </span>
+            </div>
+          ))}
+        </div>
+        <div class="hidden min-[481px]:grid grid-cols-2 border-t border-black text-[10px] md:text-xs font-medium uppercase tracking-widest">
+          <button class="py-5 border-r border-black hover:bg-black/5 transition-colors flex justify-center items-center">
+            {t("trek_details.btn_book_spot")}
+          </button>
+          <button class="py-5 hover:bg-black/5 transition-colors flex justify-center items-center">
+            {t("trek_details.btn_read_details")}
+          </button>
+        </div>
+
+        {/* Mobile Layout -> hidden on desktop */}
+        <div class="flex flex-col min-[481px]:hidden">
+          {/* Top links: left column empty, right column has 2x2 grid */}
+          <div class="flex flex-row py-8 px-4">
+            <div class="w-[28%]" />
+            <div class="w-[72%] grid grid-cols-2 gap-y-4 gap-x-2 pr-2 items-start">
+              {details.slice(0, 4).map((d: any, i: number) => (
+                <div class="flex flex-col pr-2">
+                  <div
+                    class="tour-info-accordion-btn flex justify-between items-start cursor-pointer group"
+                    data-index={i}
+                  >
+                    <span class="text-base leading-tight font-normal group-hover:underline">
+                      {d.label}
+                    </span>
+                    <div class="tour-info-icon shrink-0 mt-0.5 ml-1 transition-transform duration-300">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="m7 7 10 10" />
+                        <path d="M17 7v10H7" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="tour-info-content overflow-hidden h-0 opacity-0 transition-all duration-300">
+                    <div class="pt-2 text-[13.5px] leading-snug font-medium text-black/80 whitespace-pre-wrap">
+                      {d.value.replace(/ - /g, "\n")}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* List layout for remaining details */}
+          <div class="flex flex-col border-t border-black">
+            {details.slice(4, 8).map((d: any) => (
+              <div class="flex flex-row items-start py-5 px-4 border-b border-black">
+                <div class="w-[28%] pr-2">
+                  <span class="text-[1.05rem] font-normal leading-tight">
+                    {d.label}
+                  </span>
+                </div>
+                <div class="w-[72%]">
+                  <span class="text-[1.05rem] font-normal whitespace-pre-wrap leading-snug block">
+                    {d.value.replace(/ - /g, "\n")}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Full width buttons stacked vertically */}
+          <div class="flex flex-col text-[13px] font-normal uppercase tracking-widest">
+            <button class="py-5 border-b border-black hover:bg-black/5 transition-colors flex justify-center items-center w-full">
+              {t("trek_details.btn_book_spot")}
+            </button>
+            <button class="py-5 hover:bg-black/5 transition-colors flex justify-center items-center w-full">
+              {t("trek_details.btn_read_details")}
+            </button>
+          </div>
+        </div>
+      </div>
+    </Section>
+  )
+}
+
+<script>
+  function setupAccordions() {
+    const btns = document.querySelectorAll(".tour-info-accordion-btn");
+    btns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const content = btn.nextElementSibling as HTMLElement;
+        const icon = btn.querySelector(".tour-info-icon") as HTMLElement;
+        if (!content || !icon) return;
+
+        const isOpen = content.classList.contains("h-auto");
+        if (isOpen) {
+          content.classList.remove("h-auto", "opacity-100");
+          content.classList.add("h-0", "opacity-0");
+          icon.style.transform = "rotate(0deg)";
+        } else {
+          content.classList.remove("h-0", "opacity-0");
+          content.classList.add("h-auto", "opacity-100");
+          icon.style.transform = "rotate(-180deg)";
+        }
+      });
+    });
+  }
+
+  setupAccordions();
+  document.addEventListener("astro:page-load", setupAccordions);
+</script>

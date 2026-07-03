@@ -1,0 +1,161 @@
+{
+  "seo": {
+    "meta_title": "Trek Sommet Mont Rinjani 2 Jours — Route Sembalun | Go2Rinjani",
+    "meta_description": "Atteignez le sommet du Mont Rinjani (3 726 m) en 2 jours via la route de Sembalun avec nos guides certifiés."
+  },
+  "hero": {
+    "title": "Sommet du Mont Rinjani | Trek Sembalun de 2 Jours",
+    "desc": "L'itinéraire le plus rapide pour atteindre le sommet de Lombok — Le trek de 2 jours de Go2Rinjani vous emmène depuis les savanes ouvertes de la vallée de Sembalun jusqu'au sommet du Mont Rinjani (3 726 m)."
+  },
+  "intro": {
+    "label": "2 Jours 1 Nuit — Route Sembalun",
+    "title": "Le chemin le plus direct vers le sommet",
+    "desc": "La voie de Sembalun est le choix préféré des randonneurs souhaitant atteindre le sommet de Rinjani. Débutant dans la vallée (1 156 m), le sentier traverse la savane et les terres agricoles avant d'atteindre Plawangan Sembalun."
+  },
+  "highlights": {
+    "section_title": "À quoi s'attendre lors de ce trek",
+    "items": [
+      {
+        "id": "sembalun-savannah",
+        "title": "Savane de Sembalun",
+        "desc": "Le trek commence par une large vue panoramique sur les plaines de la vallée de Sembalun."
+      },
+      {
+        "id": "plawangan-sembalun",
+        "title": "Bord du cratère Plawangan Sembalun",
+        "desc": "Arrivée à 2 639 m au bord du cratère pour un campement inoubliable avec vue sur le lac Segara Anak."
+      },
+      {
+        "id": "rinjani-summit",
+        "title": "Sommet du Mont Rinjani (3 726 m)",
+        "desc": "L'ascension finale vers le plus haut sommet de Lombok pour une vue incroyable."
+      },
+      {
+        "id": "sunrise-summit",
+        "title": "Lever de soleil au-dessus des nuages",
+        "desc": "Soyez au sommet juste à temps pour assister à l'un des plus magnifiques levers de soleil en Indonésie."
+      }
+    ]
+  },
+  "itinerary": {
+    "section_title": "Itinéraire de 2 jours à Sembalun",
+    "intro": "Un trek express vers le sommet du Mont Rinjani — deux jours intenses d'aventure.",
+    "days": [
+      {
+        "day": "Jour 1",
+        "title": "De Sembalun au bord du cratère Plawangan Sembalun",
+        "desc": "Après le petit-déjeuner et le briefing, marche à travers la savane jusqu'à notre campement à 2 639 m.",
+        "highlights": [
+          "Petit-déjeuner & briefing à Sembalun",
+          "Transfert au début de la piste (1 156 m)",
+          "Marche via la savane - Postes 1, 2, 3",
+          "Campement à Plawangan Sembalun (2 639 m)",
+          "Coucher de soleil sur le lac",
+          "Diner chaud préparé par notre équipe"
+        ]
+      },
+      {
+        "day": "Jour 2",
+        "title": "Ascension au sommet — Descente à Sembalun",
+        "desc": "Départ avant l'aube pour atteindre le sommet à 3 726 m à l'heure du lever du soleil. Ensuite, petit-déjeuner au camp, puis retour complet au village de Sembalun.",
+        "highlights": [
+          "Départ de nuit vers le sommet",
+          "Sommet du Rinjani (3 726 m) au lever du jour",
+          "Vues dégagées sur Lombok & Bali",
+          "Petit déjeuner chaud",
+          "Descente vers Sembalun",
+          "Transfert de retour"
+        ]
+      }
+    ],
+    "schedule_label": "Programme de l'Itinéraire"
+  },
+  "inclusions": {
+    "section_title": "Inclus et Exclus",
+    "intro": "Tout le soutien et l'équipement nécessaires pour vous assurer un trek fantastique.",
+    "included": [
+      "Guide local certifié",
+      "Porteurs pour l'équipement de camping",
+      "Permis du Parc National du Mont Rinjani",
+      "Tous les repas sur la montagne (x3) + boissons chaudes et eau",
+      "Equipement de camping (tente, matelas, sacs de couchage)",
+      "Navette depuis/vers votre hôtel",
+      "1 nuit avant le trek à Sembalun"
+    ],
+    "excluded": ["Equipement personnel", "Assurance voyage", "Pourboires"],
+    "included_label": "Inclus",
+    "excluded_label": "Non Inclus"
+  },
+  "trek_details": {
+    "section_title": "Détails du Trek",
+    "intro": "Les informations essentielles que vous devez savoir avant votre réservation.",
+    "details": [
+      {
+        "label": "Durée",
+        "value": "2 Jours 1 Nuit"
+      },
+      {
+        "label": "Itinéraire",
+        "value": "Route Sembalun — départ et retour à Sembalun"
+      },
+      {
+        "label": "Altitude Maximale",
+        "value": "3 726 m d'altitude — le plus haut sommet de Lombok"
+      },
+      {
+        "label": "Point de Départ",
+        "value": "Vallée de Sembalun, Est de Lombok (1 156 m)"
+      },
+      {
+        "label": "Difficulté",
+        "value": "Difficile — expérience en trekking recommandée"
+      },
+      {
+        "label": "Meilleure Saison",
+        "value": "Avril – Décembre (saison sèche). Fermé Janvier – Mars."
+      },
+      {
+        "label": "Permis",
+        "value": "Permis du Parc National du Mont Rinjani — inclus"
+      },
+      {
+        "label": "Taille du Groupe",
+        "value": "Minimum 2 — maximum 6 par groupe. Groupes privés disponibles."
+      },
+      {
+        "label": "Option Route Torean",
+        "value": "Indisponible sur 2 jours — disponible sur 3 et 4 jours"
+      }
+    ]
+  },
+  "choose_duration": {
+    "section_title": "Pas sûr du choix de votre package ?",
+    "items": [
+      {
+        "duration": "2 Jours 1 Nuit",
+        "best_for": "Les randonneurs pressés",
+        "cta_label": "Voir ce package",
+        "cta_url": "/tours/mount-rinjani-trek/2-day-sembalun-summit"
+      },
+      {
+        "duration": "3 Jours 2 Nuits",
+        "best_for": "Pour l'expérience complète: Sommet + Lac",
+        "cta_label": "Vous y êtes",
+        "cta_url": "/tours/mount-rinjani-trek/3-day-sembalun-summit-lake"
+      },
+      {
+        "duration": "4 Jours 3 Nuits",
+        "best_for": "Le trek le plus complet tout en douceur",
+        "cta_label": "Voir ce package 4 Jours",
+        "cta_url": "/tours/mount-rinjani-trek/4-day-sembalun-expedition"
+      }
+    ],
+    "read_more_label": "Lire la suite"
+  },
+  "cta": {
+    "section_title": "Prêt pour affronter la montagne ?",
+    "title": "Réservez votre Trek Rinjani avec Go2Rinjani",
+    "desc": "Nous nous occupons de toute la logistique pour que vous ne pensiez qu'à vous amuser et savourer l'aventure de votre vie.",
+    "cta_label": "Réserver Maintenant"
+  }
+}

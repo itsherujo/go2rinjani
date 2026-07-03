@@ -1,0 +1,65 @@
+{
+  "title": "PLAN YOUR MOUNT RINJANI TREK - GET IN TOUCH",
+  "address": "Jl. Pariwisata Senaru, Dusun, Tumpang Sari, Kec. Bayan, Mataram, Nusa Tenggara Bar. 83354",
+  "office": {
+    "title": "On-Site Office — Senaru, Lombok",
+    "schedule": {
+      "friday": "Closed",
+      "saturday": "Open 24 Hours",
+      "sunday": "Open 24 Hours",
+      "monday": "Open 24 Hours",
+      "tuesday": "Open 24 Hours",
+      "wednesday": "Open 24 Hours",
+      "thursday": "Open 24 Hours"
+    }
+  },
+  "online": {
+    "title": "Online Enquiries",
+    "schedule": {
+      "friday": "Closed",
+      "saturday": "7.00 am - 11.30 pm",
+      "sunday": "7.00 am - 11.30 pm",
+      "monday": "7.00 am - 11.30 pm",
+      "tuesday": "7.00 am - 11.30 pm",
+      "wednesday": "7.00 am - 11.30 pm",
+      "thursday": "7.00 am - 11.30 pm"
+    }
+  },
+  "days": {
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday"
+  },
+  "form": {
+    "header": "ANY QUESTION ABOUT RINJANI?",
+    "description": "Ask us anything — routes, dates, group size, or custom packages. Go2Rinjani's team responds within 24 hours.",
+    "yourDetails": "Your Details",
+    "firstName": "Name*",
+    "firstNamePlaceholder": "Enter name",
+    "lastName": "Last name*",
+    "lastNamePlaceholder": "Enter last name",
+    "phone": "Phone number*",
+    "phonePlaceholder": "Enter phone number",
+    "email": "E-mail address*",
+    "emailPlaceholder": "Enter e-mail address",
+    "message": "Tell us about your trek",
+    "messagePlaceholder": "e.g. I'm interested in a 3-day Sembalun trek for 2 people in July...",
+    "termsAgree": "By submitting this form, I agree the processing of my personal data under the terms of the Privacy Policy.",
+    "formComplete": "I understand that uncompleted forms will be rejected and I have completed my form.",
+    "submit": "SUBMIT",
+    "success": "Thank you! Your message has been sent successfully. We'll get back to you within 24 hours.",
+    "errorRequired": "Please fill in all required fields.",
+    "errorTerms": "You must accept the terms to submit.",
+    "errorNetwork": "Network error. Please check your connection and try again.",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "sending": "Sending..."
+  },
+  "seo": {
+    "meta_title": "Contact Go2Rinjani - Plan Your Mount Rinjani Trek",
+    "meta_description": "Get in touch with the Go2Rinjani team to plan your Mount Rinjani trek. We answer questions about routes, dates, group sizes, and custom packages."
+  }
+}

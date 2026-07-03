@@ -1,0 +1,26 @@
+{
+  "seo": {
+    "meta_title": "Paquetes Turísticos al Monte Rinjani — Cumbre y Lago | Go2Rinjani",
+    "meta_description": "Explore paquetes turísticos al Monte Rinjani con Go2Rinjani: cráter, ascensiones a la cumbre y el lago Segara Anak. Todos los niveles bienvenidos."
+  },
+  "hero": {
+    "title": "Paquetes Turísticos del Monte Rinjani para Todo Tipo de Excursionista",
+    "desc": "Go2Rinjani ofrece paquetes turísticos guiados al Monte Rinjani para todos los niveles, desde las sabanas de Sembalun hasta las orillas del lago Segara Anak. Incluye guías locales, porteadores, permisos y soporte completo."
+  },
+  "packages": [
+    {
+      "id": "mount-rinjani",
+      "title": "Caminatas al Monte Rinjani",
+      "desc": "Elija entre seis paquetes de caminatas guiadas al Monte Rinjani a través de dos rutas icónicas: Sembalun y Senaru. Desde ascensiones a la cumbre de 2 días hasta expediciones completas de 4 días con borde del cráter, aguas termales y el lago Segara Anak. Todos los itinerarios incluyen guías locales certificados, porteadores, permisos, comidas y soporte completo.",
+      "cta_label": "Ver todos los paquetes Rinjani",
+      "cta_url": "/tours/mount-rinjani"
+    }
+  ],
+  "stampol_callout": {
+    "section_title": "¿Rinjani Completamente Reservado o Cerrado en sus Fechas?",
+    "title": "Trek del Monte Stampol — Su Mejor Alternativa en Lombok",
+    "desc": "Cuando el Monte Rinjani está cerrado por la temporada o completamente reservado en las fechas de su viaje, el Monte Stampol ofrece una impresionante caminata de 2 días por el borde del cráter en las laderas exteriores del Parque Nacional — senderos más tranquilos, exuberante selva tropical y vistas panorámicas de la caldera de Rinjani y el lago Segara Anak.",
+    "cta_label": "Descubra el Trek del Monte Stampol",
+    "cta_url": "/tours/mount-stampol-trek"
+  }
+}

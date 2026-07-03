@@ -1,0 +1,138 @@
+{
+  "seo": {
+    "meta_title": "Mount Rinjani 2-Tage Senaru Kraterrand Trek — Ohne Gipfel | Go2Rinjani",
+    "meta_description": "Wandern Sie in 2 Tagen zum Senaru Kraterrand des Mount Rinjani — trekken Sie durch dichten Regenwald zum Pelawangan Senaru auf 2.641 m mit Panoramablick über den Segara Anak See. Kein Gipfel erforderlich. Für alle Fitnesslevel geeignet."
+  },
+  "hero": {
+    "title": "Mount Rinjani 2-Tage Senaru Trek — Kraterrand durch den Regenwald",
+    "desc": "Nicht jede Rinjani-Wanderung muss am Gipfel enden — der 2-tägige Senaru Kraterrand-Trek von Go2Rinjani führt Sie durch dichten tropischen Regenwald zum Pelawangan Senaru auf 2.641 m, mit weitem Panoramablick über den Segara Anak See und die massive Rinjani-Caldera. Ein spektakuläres Rinjani-Erlebnis, zugänglich für alle Fitnesslevel.",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+  },
+  "intro": {
+    "label": "2 Tage 1 Nacht — Senaru Route",
+    "title": "Die zugänglichste Rinjani-Wanderung — Spektakuläre Aussichten, ohne Gipfel",
+    "desc": "Der 2-tägige Senaru Kraterrand-Trek ist der ideale Einstieg. Keine physischen Anforderungen einer Gipfelbesteigung nötig. Ausgehend vom alten Sasak-Dorf Senaru führt der Weg durch dichten Regenwald vor der Ankunft am Pelawangan Senaru mit ungehindertem Blick über den Kratersee."
+  },
+  "highlights": {
+    "section_title": "Was Sie erwartet",
+    "items": [
+      {
+        "id": "senaru-village",
+        "title": "Senaru Village Ausgangspunkt",
+        "desc": "Der Trek beginnt im alten Sasak-Dorf Senaru an den westlichen Hängen des Mount Rinjani Nationalparks."
+      },
+      {
+        "id": "rainforest-trail",
+        "title": "Dichter Tropischer Regenwald",
+        "desc": "Die Senaru Route wird von ihrem üppigen Regenwald geprägt — eine völlig andere Landschaft als die offenen Savannen von Sembalun."
+      },
+      {
+        "id": "pelawangan-senaru",
+        "title": "Pelawangan Senaru Kraterrand auf 2.641 m",
+        "desc": "Erreichen Sie Pelawangan Senaru — den Senaru Kraterrand auf 2.641 m — mit Panoramablick über den Segara Anak See."
+      },
+      {
+        "id": "caldera-views",
+        "title": "Panoramablick über Rinjanis Caldera",
+        "desc": "Von Pelawangan Senaru aus offenbart sich die volle Größe der Rinjani-Caldera."
+      }
+    ]
+  },
+  "itinerary": {
+    "section_title": "2-Tage Senaru Reiseroute",
+    "intro": "Zwei Tage, eine Nacht auf der Senaru Route — Regenwald, Kraterrand und Panoramablick.",
+    "days": [
+      {
+        "day": "Tag 1",
+        "title": "Senaru Village zum Pelawangan Senaru Kraterrand",
+        "desc": "Nach dem Frühstück Transfer zum Senaru Ausgangspunkt. Wanderung durch den Regenwald bis zum Kraterrand (2.641 m) am späten Nachmittag. Abendessen und Camping am Kraterrand.",
+        "highlights": [
+          "Frühstück & Briefing in Senaru",
+          "Transfer zum Senaru Ausgangspunkt",
+          "Wanderung durch den Regenwald — Post 1, 2, 3",
+          "Ankunft am Pelawangan Senaru (2.641 m)",
+          "Abendessen & Camping"
+        ]
+      },
+      {
+        "day": "Tag 2",
+        "title": "Sonnenaufgang am Pelawangan Senaru — Abstieg",
+        "desc": "Aufwachen vor dem Morgengrauen für den Sonnenaufgang. Nach dem Frühstück Abstieg via Senaru Regenwald zurück zum Dorf. Transfer zum Hotel.",
+        "highlights": [
+          "Sonnenaufgang über der Rinjani-Caldera",
+          "Frühstück am Pelawangan Senaru Camp",
+          "Abstieg durch dichten Regenwald",
+          "Ankunft in Senaru Village",
+          "Transfer zurück zur Unterkunft"
+        ]
+      }
+    ],
+    "schedule_label": "Reiseplan"
+  },
+  "inclusions": {
+    "section_title": "Trek Inklusivleistungen",
+    "intro": "Jeder 2-tägige Mount Rinjani Senaru Trek ist voll unterstützt.",
+    "included": [
+      "Zertifizierter lokaler Guide",
+      "Träger (bis zu 25 kg)",
+      "Nationalpark-Eintritt",
+      "Alle Mahlzeiten (3x täglich)",
+      "Volle Campingausrüstung",
+      "Hotelabholung und -rückgabe",
+      "1 Nacht Unterkunft vor dem Trek"
+    ],
+    "excluded": [
+      "Persönliche Ausrüstung (Jacke, Schuhe)",
+      "Reiseversicherung",
+      "Trinkgelder"
+    ],
+    "included_label": "Inklusive",
+    "excluded_label": "Nicht Inklusive"
+  },
+  "trek_details": {
+    "section_title": "Trek auf einen Blick",
+    "intro": "Alles, was Sie vor der Buchung wissen müssen.",
+    "details": [
+      { "label": "Dauer", "value": "2 Tage 1 Nacht" },
+      { "label": "Route", "value": "Senaru Route" },
+      { "label": "Kraterrand", "value": "Pelawangan Senaru — 2.641 m" },
+      { "label": "Gipfel", "value": "Kein Gipfel auf diesem Paket" },
+      { "label": "Ausgangspunkt", "value": "Senaru village, Nord-Lombok" },
+      { "label": "Schwierigkeit", "value": "Moderat — für normale Fitness geeignet" },
+      { "label": "Beste Jahreszeit", "value": "April – Dezember" },
+      { "label": "Permit", "value": "Inklusive" },
+      { "label": "Gruppengröße", "value": "Min 2 — max 6" },
+      { "label": "Torean Route", "value": "Nicht verfügbar" }
+    ]
+  },
+  "choose_duration": {
+    "section_title": "Welches Senaru Paket ist das richtige für Sie?",
+    "items": [
+      {
+        "duration": "2 Tage 1 Nacht",
+        "best_for": "Für alle, die nur den Kraterrand möchten",
+        "cta_label": "Sie sind hier",
+        "cta_url": "/tours/mount-rinjani-trek/2-day-senaru-crater-rim"
+      },
+      {
+        "duration": "3 Tage 2 Nächte",
+        "best_for": "Kraterrand, Segara Anak See & heiße Quellen",
+        "cta_label": "3-Tage-Paket",
+        "cta_url": "/tours/mount-rinjani-trek/3-day-senaru-lake"
+      },
+      {
+        "duration": "4 Tage 3 Nächte",
+        "best_for": "Das volle Senaru Erlebnis inklusive Gipfel",
+        "cta_label": "4-Tage-Paket",
+        "cta_url": "/tours/mount-rinjani-trek/4-day-senaru-summit-lake"
+      }
+    ],
+    "read_more_label": "Mehr lesen"
+  },
+  "cta": {
+    "section_title": "Bereit für Rinjani?",
+    "title": "Buchen Sie jetzt Ihren Trek",
+    "desc": "Der zugänglichste Trek, komplett betreut von Go2Rinjani.",
+    "cta_label": "Trek Buchen"
+  }
+}

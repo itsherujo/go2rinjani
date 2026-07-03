@@ -1,0 +1,71 @@
+---
+import { useTranslations } from "../../../i18n/utils";
+import SectionTitle from "../../../components/ui/Typography/SectionTitle.astro";
+import Section from "../../../components/ui/Layout/Section.astro";
+
+import certifiedIcon from "../../../assets/svg/mount-rinjani-trek/certified.svg";
+import supportIcon from "../../../assets/svg/mount-rinjani-trek/support.svg";
+import experienceIcon from "../../../assets/svg/mount-rinjani-trek/experience.svg";
+import responsibleIcon from "../../../assets/svg/mount-rinjani-trek/responsible.svg";
+
+interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang, "mount-rinjani-trek");
+
+const sectionTitle = t("why_trek.section_title");
+const items = t("why_trek.items", { returnObjects: true }) as any[];
+
+const icons: Record<string, any> = {
+  "certified-guides": certifiedIcon,
+  "full-support": supportIcon,
+  "all-levels": experienceIcon,
+  conservation: responsibleIcon,
+};
+---
+
+<Section class="py-12">
+  {/* Section Header */}
+  <div class="w-full flex flex-col mb-6 lg:mb-8">
+    <SectionTitle class="mb-2 lg:mb-4">{sectionTitle}</SectionTitle>
+    <div class="w-full h-px bg-foreground my-4 lg:my-6"></div>
+  </div>
+
+  {/* Grid */}
+  <div class="w-full">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
+      {
+        items.map((item: any, idx: number) => {
+          const iconSrc = icons[item.id] || certifiedIcon;
+
+          return (
+            <div class="relative overflow-hidden bg-gray-100 border border-foreground flex flex-col p-6 min-[481px]:p-8 lg:p-10 min-h-[350px] lg:min-h-[420px]">
+              {/* Decor SVG */}
+              <div class="absolute top-0 right-0 w-36 min-[481px]:w-48 lg:w-56 translate-x-[15%] translate-y-[-15%] pointer-events-none opacity-100 flex justify-end items-start text-foreground">
+                <img
+                  src={iconSrc.src}
+                  alt=""
+                  aria-hidden="true"
+                  class="w-full h-full object-contain"
+                />
+              </div>
+
+              {/* Content */}
+              <div class="mt-auto relative z-10 w-full lg:w-[95%] text-foreground">
+                <span class="text-base lg:text-lg mb-3 block">0{idx + 1}</span>
+                <h3 class="font-semibold text-2xl lg:text-[2rem] leading-tight mb-4">
+                  {item.title}
+                </h3>
+                <p class="text-base lg:text-lg leading-relaxed mix-blend-multiply">
+                  {item.desc}
+                </p>
+              </div>
+            </div>
+          );
+        })
+      }
+    </div>
+  </div>
+</Section>

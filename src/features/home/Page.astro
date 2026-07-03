@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from './components/Hero.astro';
+import About from './components/About.astro';
+import BlogHighlight from './components/BlogHighlight.astro';
+import BlogCards from './components/BlogCards.astro';
+import Testimonial from '../../components/sections/Testimonial.astro';
+import { PAGE_OG_IMAGES } from '../../data/page-og-images';
+---
+
+<BaseLayout ogImage={PAGE_OG_IMAGES.home}>
+  <Hero />
+  <About />
+  <Testimonial />
+  <BlogHighlight />
+  <BlogCards />
+</BaseLayout>

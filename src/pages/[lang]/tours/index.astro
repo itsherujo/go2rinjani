@@ -1,0 +1,11 @@
+---
+export const prerender = true;
+import ToursPage from '../../../features/tours/Page.astro';
+
+export function getStaticPaths() {
+  const langs = ["id", "zh", "de", "fr", "es"];
+  return langs.map(lang => ({ params: { lang } }));
+}
+---
+
+<ToursPage />

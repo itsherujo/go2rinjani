@@ -1,0 +1,39 @@
+---
+export const prerender = true;
+import { getCollection, render } from "astro:content";
+import LegalLayout from "../../layouts/LegalLayout.astro";
+
+export async function getStaticPaths() {
+  const allLegalEntries = await getCollection("legal");
+
+  // Filter only English entries (id starts with "en/")
+  const enEntries = allLegalEntries.filter((entry) => entry.id.startsWith("en/"));
+
+  return enEntries.map((entry) => {
+    const slug = entry.id.replace(/^en\//, "");
+    return {
+      params: { slug },
+      props: { entry },
+    };
+  });
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const slug = entry.id.replace(/^en\//, "");
+
+// Determine the section from frontmatter or navigation data
+const section = entry.data.section || "Legal Documents";
+const articleTitle = entry.data.title;
+---
+
+<LegalLayout
+  title={articleTitle}
+  description={entry.data.description}
+  section={section}
+  articleTitle={articleTitle}
+  currentSlug={slug}
+  lang="en"
+>
+  <Content />
+</LegalLayout>

@@ -1,0 +1,15 @@
+{
+  "seo": {
+    "meta_title": "Acara & Agenda | Go2Rinjani",
+    "meta_description": "Temukan acara dan agenda mendatang kami."
+  },
+  "calendar": {
+    "title": "Agenda",
+    "filter_label": "saring berdasarkan lokasi:",
+    "filter_locations": ["Gunung Rinjani", "Gunung Stampol"],
+    "read_more": "baca selengkapnya",
+    "months": ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"],
+    "days_desktop": ["minggu", "senin", "selasa", "rabu", "kamis", "jumat", "sabtu"],
+    "days_mobile": ["min", "sen", "sel", "rab", "kam", "jum", "sab"]
+  }
+}

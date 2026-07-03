@@ -1,0 +1,62 @@
+{
+  "seo": {
+    "meta_title": "Payment Information | Go2Rinjani",
+    "meta_description": "Secure payment options for your Mount Rinjani trek — bank transfer, Wise, Revolut, and PayPal. Pay safely with Go2Rinjani."
+  },
+  "title": "Payment Information",
+  "subtitle": "Here are the available payment methods you can use to send your payment safely.",
+  "trust": {
+    "secure": {
+      "title": "Secure & Trusted",
+      "desc": "Bank-level encryption on all transactions."
+    },
+    "help": {
+      "title": "Need Help?",
+      "desc": "Our team is always ready to assist you."
+    }
+  },
+  "tabletSub": "Choose your preferred method \u2014 all payments are securely processed.",
+  "methods": {
+    "bank": "Bank Transfer",
+    "wise": "Wise",
+    "revolut": "Revolut",
+    "paypal": "PayPal"
+  },
+  "bankTransfer": {
+    "desc": "Transfer directly from your bank account",
+    "recommended": "Recommended",
+    "bankName": "Bank Name",
+    "accountNumber": "Account Number",
+    "accountHolder": "Account Holder",
+    "swiftCode": "SWIFT Code",
+    "bankAddress": "Bank Address",
+    "copyAccountNumber": "Copy account number",
+    "copySwiftCode": "Copy SWIFT code",
+    "copyBankAddress": "Copy bank address",
+    "notice": "Please include your <1>invoice number</1> in the payment reference."
+  },
+  "wise": {
+    "desc": "International transfers, low fees",
+    "step1": "Open Wise",
+    "step2": "Bank Transfer",
+    "step3": "Our details",
+    "feature": "Fast transfer \u00b7 lower fees"
+  },
+  "revolut": {
+    "desc": "Pay via bank transfer feature",
+    "international": "International",
+    "multicurency": "Multi-currency",
+    "secure": "Secure",
+    "notice": "Use same bank details as Bank Transfer."
+  },
+  "paypal": {
+    "desc": "Available upon request via invoice",
+    "optional": "Optional",
+    "fee": "4.5% PayPal fee will be borne by the user",
+    "invoiceInfo": "We will create an invoice for you",
+    "sendEmail": "Invoice will be sent via email",
+    "btnRequest": "Request Invoice"
+  },
+  "mobileSecure": "All payments are processed with bank-level encryption",
+  "footerNote": "Once your payment has been sent, please share the payment proof with us for faster confirmation."
+}

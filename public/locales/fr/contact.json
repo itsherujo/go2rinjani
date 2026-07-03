@@ -1,0 +1,55 @@
+{
+  "title": "PLANIFIEZ VOTRE TREK AU MONT RINJANI - CONTACTEZ-NOUS",
+  "address": "Jl. Pariwisata Senaru, Dusun, Tumpang Sari, Kec. Bayan, Mataram, Nusa Tenggara Bar. 83354",
+  "office": {
+    "title": "Bureau sur place — Senaru, Lombok",
+    "schedule": {
+      "friday": "Fermé",
+      "saturday": "Ouvert 24h/24",
+      "sunday": "Ouvert 24h/24",
+      "monday": "Ouvert 24h/24",
+      "tuesday": "Ouvert 24h/24",
+      "wednesday": "Ouvert 24h/24",
+      "thursday": "Ouvert 24h/24"
+    }
+  },
+  "online": {
+    "title": "Demandes en ligne",
+    "schedule": {
+      "friday": "Fermé",
+      "saturday": "7h00 - 23h30",
+      "sunday": "7h00 - 23h30",
+      "monday": "7h00 - 23h30",
+      "tuesday": "7h00 - 23h30",
+      "wednesday": "7h00 - 23h30",
+      "thursday": "7h00 - 23h30"
+    }
+  },
+  "days": {
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche",
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi"
+  },
+  "form": {
+    "header": "UNE QUESTION SUR LE RINJANI ?",
+    "description": "Demandez-nous n'importe quoi — itinéraires, dates, taille du groupe ou forfaits personnalisés. L'équipe Go2Rinjani répond dans les 24 heures.",
+    "yourDetails": "Vos Coordonnées",
+    "firstName": "Prénom*",
+    "firstNamePlaceholder": "Entrez votre prénom",
+    "lastName": "Nom de famille*",
+    "lastNamePlaceholder": "Entrez votre nom de famille",
+    "phone": "Numéro de téléphone*",
+    "phonePlaceholder": "Entrez le numéro de téléphone",
+    "email": "Adresse e-mail*",
+    "emailPlaceholder": "Entrez l'adresse e-mail",
+    "message": "Parlez-nous de votre trek",
+    "messagePlaceholder": "ex. Je suis intéressé par un trek de 3 jours à Sembalun pour 2 personnes en juillet...",
+    "termsAgree": "En soumettant ce formulaire, j'accepte le traitement de mes données personnelles selon les termes de la Politique de Confidentialité.",
+    "formComplete": "Je comprends que les formulaires incomplets seront rejetés et j'ai complété mon formulaire.",
+    "submit": "SOUMETTRE"
+  }
+}

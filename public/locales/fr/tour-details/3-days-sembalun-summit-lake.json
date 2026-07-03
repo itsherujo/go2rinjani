@@ -1,0 +1,176 @@
+{
+  "seo": {
+    "meta_title": "Trek Mont Rinjani 3 Jours — Sembalun, Sommet & Lac | Go2Rinjani",
+    "meta_description": "Ascension du Mont Rinjani en 3 jours via Sembalun — le sommet (3 726 m), descente au lac Segara Anak, et sources chaudes. Guides certifiés et logistique complète."
+  },
+  "hero": {
+    "title": "Sommet du Mont Rinjani | Trek Sembalun 3 Jours (Lac & Sources d'Eau Chaude)",
+    "desc": "Le package le plus populaire de Go2Rinjani — l'itinéraire de 3 jours depuis Sembalun combine la totalité de l'expérience du Mont Rinjani : l'ascension du sommet à 3 726 m, la descente vers les rives sacrées du lac Segara Anak, et une baignade dans les sources chaudes volcaniques. Le tout pris en charge de A à Z par nos guides et porteurs certifiés."
+  },
+  "intro": {
+    "label": "3 Jours 2 Nuits — Route de Sembalun",
+    "title": "L'expérience complète du Rinjani — Sommet, Lac & Sources Chaudes",
+    "desc": "L'itinéraire de 3 jours de Sembalun est le trek le plus complet pour accéder à tout le Mont Rinjani – sans avoir à passer quatre jours en montagne. Commençant dans la vallée de Sembalun à 1 156 m, la piste s'élève à travers les savanes, puis vous amène au bord du cratère Plawangan Sembalun (2 639 m), pour une dernière poussée au sommet de 3 726 m. Sur les autres jours, descente au lac turquoise Segara Anak et à ses sources volcaniques. De plus, la descente par la piste de Torean est disponible en option pour ceux désirant explorer une nouvelle vallée au retour."
+  },
+  "highlights": {
+    "section_title": "À quoi s'attendre",
+    "items": [
+      {
+        "id": "sembalun-savannah",
+        "title": "Piste de la Savane",
+        "desc": "Le trek débute par la magnifique et dramatique savane ouverte située sur le versant est de Rinjani."
+      },
+      {
+        "id": "rinjani-summit",
+        "title": "Sommet du Rinjani à 3 726 m",
+        "desc": "Une marche pré-aube depuis le bord du cratère pour atteindre le point culminant de Lombok."
+      },
+      {
+        "id": "segara-anak-descent",
+        "title": "Descente vers le lac Segara Anak",
+        "desc": "Après le sommet, plongez au cœur du sommet pour rejoindre le magnifique lac de cratère sacré à 2 008 m d'altitude."
+      },
+      {
+        "id": "hot-springs",
+        "title": "Sources thermales naturelles",
+        "desc": "Baignez-vous dans l'eau chaude jaillissant du sol volcanique, un soulagement bien mérité."
+      },
+      {
+        "id": "torean-option",
+        "title": "Option : Piste de Torean",
+        "desc": "Lors de la descente finale, passez par la vallée majestueuse du sentier de Torean avec ses scènes forestières incroyables."
+      }
+    ]
+  },
+  "itinerary": {
+    "section_title": "Itinéraire de l'aventure de 3 Jours",
+    "intro": "Trois jours, deux nuits pour tout faire : de l'aube au-dessus du volcan au calme mystique du lac.",
+    "days": [
+      {
+        "day": "Jour 1",
+        "title": "Sembalun à Plawangan Sembalun",
+        "desc": "Briefing puis ascension progressive vers Plawangan Sembalun. Nuit au bord du cratère, face au lac.",
+        "highlights": [
+          "Points de repos (Postes 1, 2, et 3)",
+          "Atteinte de Plawangan Sembalun à 2 639 m",
+          "Première nuit au bord du cratère"
+        ]
+      },
+      {
+        "day": "Jour 2",
+        "title": "Sommet — Descente au lac Segara Anak",
+        "desc": "Départ avant le lever du jour. Sommet (3 726 m). Puis redescente pour le petit déjeuner, et enfin la grande descente jusqu'au lac. Baignade prévue.",
+        "highlights": [
+          "Sommet du Rinjani",
+          "Descente vers Segara Anak",
+          "Sources chaudes naturelles"
+        ]
+      },
+      {
+        "day": "Jour 3",
+        "title": "Retour à la Base (via Sembalun ou Torean)",
+        "desc": "Remontée vers le bord du cratère, puis descente jusqu'à l'un des villages de base pour être reconduit à votre hébergement.",
+        "highlights": [
+          "Matinée au bord du lac",
+          "Remontée abrupte depuis le cratère",
+          "Fin de la piste, puis transfert de retour"
+        ]
+      }
+    ],
+    "schedule_label": "Programme de l'Itinéraire"
+  },
+  "inclusions": {
+    "section_title": "Le package comprend",
+    "intro": "Le trek Rinjani classique (3J2N) avec Go2Rinjani comprend :",
+    "included": [
+      "Guides locaux agréés par le Parc National",
+      "Porteurs pour l'équipement de la base de camp",
+      "Le permis d'Entrée au Parc National",
+      "Une gamme complète de plats chauds et frais",
+      "Le transfert en voiture avant et après la randonnée",
+      "Équipements de couchage y compris tente et sac de couchage"
+    ],
+    "excluded": [
+      "Vos articles personnels tels que vestes ou chaussures",
+      "Pourboires pour l'équipe (Apprécié mais pas obligatoire)"
+    ],
+    "included_label": "Inclus",
+    "excluded_label": "Non Inclus"
+  },
+  "trek_details": {
+    "section_title": "La Piste en Un Coup d'Œil",
+    "intro": "Des détails utiles pour la planification du Trek Sembalun 3 jours.",
+    "details": [
+      {
+        "label": "Durée",
+        "value": "3 Jours 2 Nuits"
+      },
+      {
+        "label": "Itinéraire",
+        "value": "Route Sembalun — avec option de descente via Torean"
+      },
+      {
+        "label": "Altitude Maximale",
+        "value": "3 726 m d'altitude — le plus haut sommet de Lombok"
+      },
+      {
+        "label": "Altitude du Lac Segara Anak",
+        "value": "2 008 m d'altitude"
+      },
+      {
+        "label": "Point de Départ",
+        "value": "Vallée de Sembalun, Est de Lombok (1 156 m)"
+      },
+      {
+        "label": "Difficulté",
+        "value": "Difficile — expérience en trekking recommandée"
+      },
+      {
+        "label": "Meilleure Saison",
+        "value": "Avril – Décembre (saison sèche). Fermé Janvier – Mars."
+      },
+      {
+        "label": "Permis",
+        "value": "Permis du Parc National du Mont Rinjani — inclus"
+      },
+      {
+        "label": "Taille du Groupe",
+        "value": "Minimum 2 — maximum 6 par groupe. Groupes privés disponibles."
+      },
+      {
+        "label": "Option Route Torean",
+        "value": "Disponible dans ce forfait — à demander à la réservation"
+      }
+    ]
+  },
+  "choose_duration": {
+    "section_title": "Je ne suis pas sûr de ce package, est-ce un bon choix ?",
+    "read_more_label": "Lire la suite",
+    "items": [
+      {
+        "duration": "2 Jours 1 Nuit",
+        "best_for": "Ceux avec très peu de temps; objectif seul: Le sommet",
+        "cta_label": "Voir 2 Jours",
+        "cta_url": "/tours/mount-rinjani-trek/2-days-sembalun-summit"
+      },
+      {
+        "duration": "3 Jours 2 Nuits",
+        "best_for": "Idéal pour tout vivre; l'équilibre parfait",
+        "cta_label": "Vous y êtes",
+        "cta_url": "/tours/mount-rinjani-trek/3-days-sembalun-summit-lake"
+      },
+      {
+        "duration": "4 Jours 3 Nuits",
+        "best_for": "Rythme plus lent et doux.",
+        "cta_label": "Voir 4 Jours",
+        "cta_url": "/tours/mount-rinjani-trek/4-days-sembalun-expedition"
+      }
+    ]
+  },
+  "cta": {
+    "section_title": "Prêts pour l'Aventure Rinjani Classique ?",
+    "title": "Laissez-nous gérer le matériel, contentez-vous de la vue.",
+    "desc": "Rejoignez un de nos treks pour Mount Rinjani de 3 Jours avec nos professionnels et amis locaux.",
+    "cta_label": "Réserver ce Tour"
+  }
+}

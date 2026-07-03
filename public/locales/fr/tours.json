@@ -1,0 +1,26 @@
+{
+  "seo": {
+    "meta_title": "Forfaits Mont Rinjani — Treks, Sommet & Lac | Go2Rinjani",
+    "meta_description": "Explorez les forfaits touristiques du Mont Rinjani avec Go2Rinjani - treks sur le cratère, ascensions du sommet, et lac Segara Anak."
+  },
+  "hero": {
+    "title": "Forfaits de Randonnée au Mont Rinjani pour Chaque Trekkeur",
+    "desc": "Go2Rinjani propose des forfaits de randonnée guidés au Mont Rinjani pour tous les niveaux. Chaque trek comprend des guides locaux certifiés, des porteurs, des permis et une assistance complète au campement."
+  },
+  "packages": [
+    {
+      "id": "mount-rinjani",
+      "title": "Treks au Mont Rinjani",
+      "desc": "Choisissez parmi six forfaits de randonnée guidée au Mont Rinjani à travers deux itinéraires emblématiques : Sembalun et Senaru. Des ascensions du sommet en 2 jours aux expéditions complètes en 4 jours incluant le bord du cratère, les sources chaudes et le lac Segara Anak. Tous les itinéraires incluent des guides locaux certifiés, des porteurs, des permis, des repas et une assistance complète.",
+      "cta_label": "Voir tous les forfaits Rinjani",
+      "cta_url": "/tours/mount-rinjani"
+    }
+  ],
+  "stampol_callout": {
+    "section_title": "Rinjani Complet ou Fermé à Vos Dates ?",
+    "title": "Trek du Mont Stampol — Votre Meilleure Alternative à Lombok",
+    "desc": "Lorsque le Mont Rinjani est fermé pour la saison ou complet à vos dates, le Mont Stampol offre un superbe trek de 2 jours sur le bord du cratère sur les pentes extérieures du parc national — des sentiers plus calmes, une forêt tropicale luxuriante et des vues panoramiques sur la caldeira du Rinjani et le lac Segara Anak.",
+    "cta_label": "Découvrez le Trek du Mont Stampol",
+    "cta_url": "/tours/mount-stampol-trek"
+  }
+}

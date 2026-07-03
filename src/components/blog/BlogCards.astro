@@ -1,0 +1,14 @@
+---
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import BlogCardsIsland from './BlogCardsIsland';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "home");
+---
+
+<BlogCardsIsland 
+  client:visible 
+  title={t("featured_post.title")}
+  desc={t("featured_post.desc")}
+  ctaLabel={t("featured_post.cta_label")}
+/>

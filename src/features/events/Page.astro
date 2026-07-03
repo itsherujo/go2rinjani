@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import AgendaSection from './components/AgendaSection.astro';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "events");
+
+// We fall back to English text if translations are missing
+const title = t("seo.meta_title", { defaultValue: "Events & Agenda | Go2Rinjani" });
+const description = t("seo.meta_description", { defaultValue: "Discover our upcoming events and agenda." });
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="flex flex-col w-full">
+    <AgendaSection />
+  </div>
+</BaseLayout>

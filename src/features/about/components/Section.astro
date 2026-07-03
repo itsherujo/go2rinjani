@@ -1,0 +1,38 @@
+---
+import type { AboutImage } from '../data/constants';
+
+interface Props {
+  title: string;
+  desc: string;
+  images: AboutImage[];
+}
+
+const { title, desc, images } = Astro.props;
+---
+
+<section class="w-full px-4 xl:px-5 py-8">
+  <div class="mb-8 lg:mb-12">
+    <h2 class="text-[2rem] leading-[1.05] min-[481px]:text-4xl lg:text-[3.5rem] lg:leading-[1.1] font-medium tracking-tight text-foreground mb-3 min-[481px]:mb-4">
+      {title}
+    </h2>
+    <p class="text-base min-[481px]:text-lg lg:text-3xl font-light text-foreground max-w-full lg:max-w-[95%] leading-snug lg:leading-tight">
+      {desc}
+    </p>
+  </div>
+  <div class="flex flex-row w-[calc(100%+2rem)] min-[481px]:w-full -ml-4 min-[481px]:ml-0 px-4 min-[481px]:px-0 overflow-x-auto min-[481px]:overflow-visible snap-x snap-mandatory scroll-px-4 gap-4 lg:gap-5 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] scrollbar-none">
+    <div class="shrink-0 min-[481px]:shrink w-[calc(100%-2rem)] min-[481px]:flex-1 min-[481px]:w-auto snap-start min-[481px]:snap-align-none aspect-4/5 min-[481px]:aspect-auto h-auto min-[481px]:h-[50vh] lg:h-[70vh] overflow-hidden bg-gray-100">
+      <img
+        src={images[0].src}
+        alt={images[0].alt}
+        class="w-full h-full object-cover"
+      />
+    </div>
+    <div class="shrink-0 min-[481px]:shrink w-[calc(100%-2rem)] min-[481px]:flex-1 min-[481px]:w-auto snap-start min-[481px]:snap-align-none aspect-4/5 min-[481px]:aspect-auto h-auto min-[481px]:h-[50vh] lg:h-[70vh] overflow-hidden bg-gray-100">
+      <img
+        src={images[1].src}
+        alt={images[1].alt}
+        class="w-full h-full object-cover"
+      />
+    </div>
+  </div>
+</section>

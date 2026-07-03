@@ -1,0 +1,143 @@
+{
+  "layout_type": "alternative",
+  "seo": {
+    "meta_title": "Mount Stampol Trek — Beste Rinjani-Alternative auf Lombok | Go2Rinjani",
+    "meta_description": "Trek Mount Stampol — Lomboks beste Alternative, wenn der Rinjani geschlossen oder ausgebucht ist. 2-tägige Kraterrand-Wanderung mit zertifizierten Guides."
+  },
+  "hero": {
+    "title": "Mount Stampol Trek — Lomboks beste Alternative zum Rinjani",
+    "desc": "Wenn der Mount Rinjani für die Saison geschlossen oder an Ihren Daten ausgebucht ist, liefert der Mount Stampol — eine 2-tägige Kraterrand-Wanderung an den äußeren Hängen des Rinjani-Nationalparks, mit Panoramablick auf die Caldera des Rinjani, den Segara-Anak-See und den Mount Agung auf Bali.",
+    "cta_label": "Diese Wanderung buchen"
+  },
+  "intro": {
+    "label": "Mount Stampol Trek",
+    "title": "Immer noch an den Hängen des Rinjani — Ohne die Massen",
+    "desc": "Mit 2.608 m Höhe an den nördlichen Außenhängen des Mount-Rinjani-Nationalparks ist der Mount Stampol eine der lohnenswertesten versteckten Wanderungen Lomboks. Der Weg schlängelt sich durch Kaffee-, Nelken- und Vanilleplantagen, bevor er in den unberührten Regenwald eintritt — und an einem ruhigen Kraterrand-Zeltplatz mit freiem Blick auf die massive Caldera des Rinjani ankommt. Go2Rinjani ist Ihr zertifizierter lokaler Guide für jeden Schritt der Reise."
+  },
+  "highlights": {
+    "section_title": "Was Sie auf dem Weg erwartet",
+    "items": [
+      {
+        "id": "plantations",
+        "title": "Gewürzplantagen",
+        "desc": "Wandern Sie durch aromatische Kaffee-, Nelken- und Vanilleplantagen, die von den Einheimischen des Dorfes Bayan bewirtschaftet werden — ein sinnliches Erlebnis, das es nur auf dem Stampol-Pfad gibt."
+      },
+      {
+        "id": "rainforest",
+        "title": "Unberührter Regenwald",
+        "desc": "Betreten Sie den dichten, unberührten Regenwald an den oberen Hängen — minimaler Fußverkehr, frische Bergluft und die Geräusche der Natur auf jedem Schritt."
+      },
+      {
+        "id": "crater-rim",
+        "title": "Stampol Kraterrand",
+        "desc": "Erreichen Sie den Kraterrand auf 2.608 m für einen atemberaubenden Sonnenuntergang, eine Übernachtung unter den Sternen und einen Sonnenaufgang über der Caldera des Rinjani am nächsten Morgen."
+      },
+      {
+        "id": "rinjani-views",
+        "title": "Panoramablick auf den Rinjani",
+        "desc": "Vom Kraterrand genießen Sie einen unverbauten Panoramablick auf den Mount Rinjani, den Segara-Anak-See und an klaren Morgen den Mount Agung in Bali."
+      }
+    ]
+  },
+  "inclusions": {
+    "section_title": "Inklusivleistungen & Ausschlüsse",
+    "intro": "Jede Mount Stampol Wanderung mit Go2Rinjani ist ein All-Inclusive-Erlebnis — hier ist genau das, was in Ihrem Paket enthalten ist.",
+    "included_label": "Inbegriffen",
+    "excluded_label": "Nicht inbegriffen",
+    "included": [
+      "Zertifizierter lokaler Guide",
+      "Träger (bis zu 25 kg Campingausrüstung)",
+      "Eintrittsgenehmigung für das Dorf (Teres Genit, Bayan)",
+      "Alle Mahlzeiten am Berg (3x täglich) + Heißgetränke + Mineralwasser",
+      "Komplette Campingausrüstung: Zelt, Schlafsack, Matratze, Kissen, Kochgeschirr",
+      "Hotelabholung und -rücktransfer (Senaru, Mataram, Flughafen, Senggigi, Bangsal)",
+      "1 Übernachtung vor der Wanderung in Senaru"
+    ],
+    "excluded": [
+      "Persönliche Wanderausrüstung (Jacke, Trekkingschuhe, Tagesrucksack)",
+      "Reiseversicherung",
+      "Trinkgelder für Guides und Träger (geschätzt, aber nicht obligatorisch)",
+      "Transfers von Selong Belanak oder der Region Sekotong (gegen Aufpreis)"
+    ]
+  },
+  "itinerary": {
+    "section_title": "Ihr 2-tägiges Stampol-Abenteuer",
+    "schedule_label": "Reiseroutenplan",
+    "intro": "Ein komplettes Bergerlebnis in zwei Tagen — von den Gewürzplantagen am Ausgangspunkt bis zum Sonnenaufgang über der Caldera des Rinjani am Gipfel.",
+    "days": [
+      {
+        "day": "Tag 1",
+        "title": "Dorf Nangka Rempek zum Stampol Kraterrand",
+        "desc": "Nach dem Frühstück in Ihrer Unterkunft in Senaru bringt Sie Go2Rinjani zum Ausgangspunkt im Dorf Nangka Rempek (600 m). Registrierung im örtlichen Trekkingbüro, dann beginnt die Wanderung — durch Gewürzplantagen, drei Rastplätze und dichten Regenwald. Ankunft am Stampol Kraterrand (2.608 m) rechtzeitig zum Sonnenuntergang. Abendessen und Übernachtung im Zelt unter dem Sternenhimmel.",
+        "highlights": [
+          "Abholung von der Unterkunft in Senaru",
+          "Registrierung am Ausgangspunkt im Dorf Nangka Rempek (600 m)",
+          "Wanderung durch Kaffee-, Nelken- & Vanilleplantagen",
+          "Posten 1 (867 m) — kurze Pause",
+          "Posten 2 (1.445 m) — Pause & Bergblick",
+          "Posten 3 (2.134 m) — Mittagessen zubereitet von Trägern",
+          "Ankunft am Stampol Kraterrand (2.608 m) — Sonnenuntergang & Lageraufbau",
+          "Abendessen & Übernachtung auf dem Kraterrand-Campingplatz"
+        ]
+      },
+      {
+        "day": "Tag 2",
+        "title": "Sonnenaufgang am Kraterrand — Abstieg nach Nangka Rempek",
+        "desc": "Wachen Sie vor dem Morgengrauen auf, um den Sonnenaufgang über der Caldera des Mount Rinjani und dem Segara-Anak-See zu erleben. Nach dem Frühstück im Camp beginnt der Abstieg über denselben Weg — mit Pausen an den Posten 3, 2 und 1. Rückkehr zum Dorf Nangka Rempek vor dem Mittag, gefolgt vom Transfer zurück zu Ihrer Unterkunft.",
+        "highlights": [
+          "Frühes Aufwachen für den Sonnenaufgang über der Caldera des Rinjani",
+          "Frühstück auf dem Kraterrand-Campingplatz",
+          "Abstieg durch die Posten 3, 2 und 1",
+          "Ankunft im Dorf Nangka Rempek vor dem Mittag",
+          "Rücktransfer nach Senaru oder zum nächsten Zielort"
+        ]
+      }
+    ]
+  },
+  "trek_details": {
+    "section_title": "Die Wanderung auf einen Blick",
+    "intro": "Alles, was Sie wissen müssen, bevor Sie Ihre Mount Stampol Wanderung buchen.",
+    "btn_book_spot": "Platz buchen",
+    "btn_read_details": "Alle Details lesen",
+    "details": [
+      {
+        "label": "Dauer",
+        "value": "2 Tage, 1 Nacht"
+      },
+      {
+        "label": "Gipfelhöhe",
+        "value": "2.608 m über dem Meeresspiegel"
+      },
+      {
+        "label": "Ausgangspunkt",
+        "value": "Dorf Nangka Rempek, Nord-Lombok (600 m)"
+      },
+      {
+        "label": "Gesamtdistanz",
+        "value": "14 km Hin- und Rückweg"
+      },
+      {
+        "label": "Schwierigkeit",
+        "value": "Mittelschwer — geeignet für Anfänger mit guter Kondition"
+      },
+      {
+        "label": "Beste Jahreszeit",
+        "value": "April – Dezember (Trockenzeit). Ganzjährig geöffnet."
+      },
+      {
+        "label": "Genehmigung",
+        "value": "Dorfgenehmigung über Teres Genit, Bayan (keine Nationalparkgenehmigung)"
+      },
+      {
+        "label": "Gruppengröße",
+        "value": "Minimum 2 — Maximum 6 pro Gruppe"
+      }
+    ]
+  },
+  "cta": {
+    "section_title": "Rinjani für die Saison geschlossen oder ausgebucht?",
+    "title": "Mount Stampol ist geöffnet — Buchen Sie Ihre Wanderung noch heute",
+    "desc": "Im Gegensatz zum Mount Rinjani wird der Mount Stampol mit lokalen Genehmigungen des Dorfes Bayan betrieben — was bedeutet, dass er geöffnet bleibt, wenn der Rinjani für die Saison schließt. Go2Rinjani kümmert sich um alles: Genehmigungen, Guides, Träger, Mahlzeiten und Transfers. Sie müssen nur noch ankommen.",
+    "cta_label": "Mount Stampol Wanderung buchen"
+  }
+}

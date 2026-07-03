@@ -1,0 +1,178 @@
+---
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+import SectionTitle from "../../../components/ui/Typography/SectionTitle.astro";
+import H3Title from "../../../components/ui/Typography/H3Title.astro";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "how-it-works");
+
+const hlHtml = '<span class="bg-stampol-blue px-1 md:px-2 rounded-sm mx-0.5">';
+const hlClose = '</span>';
+
+const s1Title = (t("steps.step1.title") as string).replace('<1>', hlHtml).replace('</1>', hlClose);
+const s1Desc1 = (t("steps.step1.desc1") as string).replace('<1>', `<a href="/${lang}/tours" class="text-emerald-700 underline underline-offset-4 decoration-emerald-700/30 font-medium">`).replace('</1>', '</a>');
+const s1Desc2 = (t("steps.step1.desc2") as string).replace('<1>', '<strong>').replace('</1>', '</strong>').replace('<2>', '<strong>').replace('</2>', '</strong>');
+const s1Desc3 = (t("steps.step1.desc3") as string).replace('<1>', `<a href="/${lang}/tours" class="text-emerald-700 underline underline-offset-4 decoration-emerald-700/30 font-medium">`).replace('</1>', '</a>');
+
+const s2Title = (t("steps.step2.title") as string).replace('<1>', hlHtml).replace('</1>', hlClose);
+const s2List3 = (t("steps.step2.list3") as string).replace('<1>', `<a href="/${lang}/contact" class="text-emerald-700 underline underline-offset-4 decoration-emerald-700/30 font-medium">`).replace('</1>', '</a>');
+
+const s3Title = (t("steps.step3.title") as string).replace('<1>', hlHtml).replace('</1>', hlClose);
+
+const s4Title = (t("steps.step4.title") as string).replace('<1>', hlHtml).replace('</1>', hlClose);
+const s4Desc1 = (t("steps.step4.desc1") as string).replace('<1>', '<strong>').replace('</1>', '</strong>');
+const s4Desc2 = (t("steps.step4.desc2") as string).replace(/<br\/>/g, '<br/>');
+const s4Desc3 = (t("steps.step4.desc3") as string).replace('<1>', `<a href="/${lang}/payment-information" class="text-emerald-700 underline underline-offset-4 decoration-emerald-700/30 font-medium">`).replace('</1>', '</a>');
+
+const s5Title = (t("steps.step5.title") as string).replace('<1>', hlHtml).replace('</1>', hlClose);
+const s5List1 = (t("steps.step5.list1") as string).replace('<1>', '<strong>').replace('</1>', '</strong>');
+const s5List2 = (t("steps.step5.list2") as string).replace('<1>', '<strong>').replace('</1>', '</strong>');
+
+const s6Title = (t("steps.step6.title") as string).replace('<1>', hlHtml).replace('</1>', hlClose);
+---
+
+<div class="w-full bg-background">
+  <div class="px-4 xl:px-5 py-16 md:py-24">
+    <SectionTitle class="mb-2 lg:mb-4 text-[3.5rem] md:text-6xl lg:text-[7.5rem] font-bold tracking-tighter text-foreground leading-none">
+      {t("steps.title")}
+    </SectionTitle>
+    
+    <div class="w-full border-t-[1.5px] border-foreground mt-6 mb-12 md:mb-20"></div>
+    
+    <div class="flex flex-col gap-12 md:gap-16">
+      {/* Step 1 */}
+      <div class="flex justify-between items-start border-b-[1.5px] border-foreground pb-12 md:pb-16 gap-4 md:gap-8">
+        <div class="flex-1 max-w-[80%] md:max-w-3xl">
+          <H3Title class="text-2xl md:text-3xl lg:text-4xl mb-4 md:mb-6 font-medium text-foreground">
+            <Fragment set:html={s1Title} />
+          </H3Title>
+          <div class="text-[15px] md:text-base text-foreground/80 space-y-4 md:space-y-6 font-normal leading-relaxed">
+            <p set:html={s1Desc1}></p>
+            <p set:html={s1Desc2}></p>
+            <p set:html={s1Desc3}></p>
+            <ul class="list-disc pl-5 space-y-2">
+              <li>{t("steps.step1.list1")}</li>
+              <li>{t("steps.step1.list2")}</li>
+              <li>{t("steps.step1.list3")}</li>
+            </ul>
+            <p>{t("steps.step1.desc4")}</p>
+          </div>
+        </div>
+        <div class="text-6xl md:text-8xl lg:text-[9rem] font-medium tracking-tighter leading-none text-foreground">
+          01
+        </div>
+      </div>
+
+      {/* Step 2 */}
+      <div class="flex justify-between items-start border-b-[1.5px] border-foreground pb-12 md:pb-16 gap-4 md:gap-8">
+        <div class="flex-1 max-w-[80%] md:max-w-3xl">
+          <H3Title class="text-2xl md:text-3xl lg:text-4xl mb-4 md:mb-6 font-medium text-foreground">
+            <Fragment set:html={s2Title} />
+          </H3Title>
+          <div class="text-[15px] md:text-base text-foreground/80 space-y-4 md:space-y-6 font-normal leading-relaxed">
+            <p>{t("steps.step2.desc1")}</p>
+            <ul class="list-disc pl-5 space-y-2">
+              <li>{t("steps.step2.list1")}</li>
+              <li>{t("steps.step2.list2")}</li>
+              <li set:html={s2List3}></li>
+            </ul>
+            <p>{t("steps.step2.desc2")}</p>
+          </div>
+        </div>
+        <div class="text-6xl md:text-8xl lg:text-[9rem] font-medium tracking-tighter leading-none text-foreground">
+          02
+        </div>
+      </div>
+
+      {/* Step 3 */}
+      <div class="flex justify-between items-start border-b-[1.5px] border-foreground pb-12 md:pb-16 gap-4 md:gap-8">
+        <div class="flex-1 max-w-[80%] md:max-w-3xl">
+          <H3Title class="text-2xl md:text-3xl lg:text-4xl mb-4 md:mb-6 font-medium text-foreground">
+            <Fragment set:html={s3Title} />
+          </H3Title>
+          <div class="text-[15px] md:text-base text-foreground/80 space-y-4 md:space-y-6 font-normal leading-relaxed">
+            <p>{t("steps.step3.desc1")}</p>
+            <ul class="list-disc pl-5 space-y-2">
+              <li>{t("steps.step3.list1")}</li>
+              <li>{t("steps.step3.list2")}</li>
+              <li>{t("steps.step3.list3")}</li>
+              <li>{t("steps.step3.list4")}</li>
+              <li>{t("steps.step3.list5")}</li>
+            </ul>
+            <p>{t("steps.step3.desc2")}</p>
+          </div>
+        </div>
+        <div class="text-6xl md:text-8xl lg:text-[9rem] font-medium tracking-tighter leading-none text-foreground">
+          03
+        </div>
+      </div>
+
+      {/* Step 4 */}
+      <div class="flex justify-between items-start border-b-[1.5px] border-foreground pb-12 md:pb-16 gap-4 md:gap-8">
+        <div class="flex-1 max-w-[80%] md:max-w-3xl">
+          <H3Title class="text-2xl md:text-3xl lg:text-4xl mb-4 md:mb-6 font-medium text-foreground">
+            <Fragment set:html={s4Title} />
+          </H3Title>
+          <div class="text-[15px] md:text-base text-foreground/80 space-y-4 md:space-y-6 font-normal leading-relaxed">
+            <p set:html={s4Desc1}></p>
+            <div>
+              <p class="mb-2" set:html={s4Desc2}></p>
+              <ul class="list-disc pl-5 space-y-2 mt-2">
+                <li>{t("steps.step4.list1")}</li>
+                <li>{t("steps.step4.list2")}</li>
+                <li>
+                  {t("steps.step4.list3")}
+                  <ul class="list-[circle] pl-5 mt-2 space-y-2">
+                    <li>{t("steps.step4.list3a")}</li>
+                    <li>{t("steps.step4.list3b")}</li>
+                    <li>{t("steps.step4.list3c")}</li>
+                    <li>{t("steps.step4.list3d")}</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <p set:html={s4Desc3}></p>
+          </div>
+        </div>
+        <div class="text-6xl md:text-8xl lg:text-[9rem] font-medium tracking-tighter leading-none text-foreground">
+          04
+        </div>
+      </div>
+
+      {/* Step 5 */}
+      <div class="flex justify-between items-start border-b-[1.5px] border-foreground pb-12 md:pb-16 gap-4 md:gap-8">
+        <div class="flex-1 max-w-[80%] md:max-w-3xl">
+          <H3Title class="text-2xl md:text-3xl lg:text-4xl mb-4 md:mb-6 font-medium text-foreground">
+            <Fragment set:html={s5Title} />
+          </H3Title>
+          <div class="text-[15px] md:text-base text-foreground/80 space-y-4 md:space-y-6 font-normal leading-relaxed">
+            <p>{t("steps.step5.desc1")}</p>
+            <ul class="list-disc pl-5 space-y-2">
+              <li set:html={s5List1}></li>
+              <li set:html={s5List2}></li>
+            </ul>
+            <p>{t("steps.step5.desc2")}</p>
+          </div>
+        </div>
+        <div class="text-6xl md:text-8xl lg:text-[9rem] font-medium tracking-tighter leading-none text-foreground">
+          05
+        </div>
+      </div>
+
+      {/* Step 6 */}
+      <div class="flex justify-between items-start border-b-0 pb-0 gap-4 md:gap-8">
+        <div class="flex-1 max-w-[80%] md:max-w-3xl">
+          <H3Title class="text-2xl md:text-3xl lg:text-4xl mb-4 md:mb-6 font-medium text-foreground">
+            <Fragment set:html={s6Title} />
+          </H3Title>
+          <div class="text-[15px] md:text-base text-foreground/80 space-y-4 md:space-y-6 font-normal leading-relaxed">
+            <p>{t("steps.step6.desc1")}</p>
+          </div>
+        </div>
+        <div class="text-6xl md:text-8xl lg:text-[9rem] font-medium tracking-tighter leading-none text-foreground">
+          06
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

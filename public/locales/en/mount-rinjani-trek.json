@@ -1,0 +1,134 @@
+{
+  "seo": {
+    "meta_title": "Mount Rinjani Trek Packages — Sembalun & Senaru Routes | Go2Rinjani",
+    "meta_description": "Explore all Mount Rinjani trek packages with Go2Rinjani — 2, 3, and 4-day itineraries across Sembalun and Senaru routes. Summit climbs, crater rim hikes, and Segara Anak lake descents for all levels."
+  },
+  "hero": {
+    "title": "Mount Rinjani Trek — Choose Your Route & Duration",
+    "desc": "Go2Rinjani offers six guided Mount Rinjani trek packages across two iconic routes — Sembalun and Senaru. Whether you are chasing the summit at 3,726 m, descending to Segara Anak lake, or hiking the crater rim, every trek is fully supported by certified local guides, porters, and permits."
+  },
+  "routes": [
+    {
+      "id": "sembalun-route",
+      "title": "Sembalun Route",
+      "desc": "The Sembalun Route approaches Mount Rinjani from the east through open savannah landscapes and traditional Sasak farmland — offering the most direct path to the summit at 3,726 m. All Sembalun packages include the option to add the Torean Route on the descent for an extended expedition.",
+      "packages": [
+        {
+          "id": "2-day-sembalun-summit",
+          "duration": "2 Days 1 Night",
+          "title": "Crater Rim & Summit",
+          "highlights": [
+            "Summit push to 3,726 m",
+            "Crater rim views over Segara Anak lake",
+            "Sembalun savannah trail",
+            "Certified guide & porter included"
+          ],
+          "cta_label": "Discover More",
+          "cta_url": "/tours/mount-rinjani-trek/2-day-sembalun-summit"
+        },
+        {
+          "id": "3-day-sembalun-summit-lake",
+          "duration": "3 Days 2 Nights",
+          "title": "Summit, Lake & Hot Spring",
+          "highlights": [
+            "Summit push to 3,726 m",
+            "Descent to Segara Anak lake",
+            "Volcanic hot spring soak",
+            "Optional Torean Route descent"
+          ],
+          "cta_label": "Discover More",
+          "cta_url": "/tours/mount-rinjani-trek/3-day-sembalun-summit-lake"
+        },
+        {
+          "id": "4-day-sembalun-expedition",
+          "duration": "4 Days 3 Nights",
+          "title": "Full Sembalun Expedition",
+          "highlights": [
+            "Summit push to 3,726 m",
+            "Extended time at Segara Anak lake",
+            "Volcanic hot spring soak",
+            "Optional Torean Route descent"
+          ],
+          "cta_label": "Discover More",
+          "cta_url": "/tours/mount-rinjani-trek/4-day-sembalun-expedition"
+        }
+      ]
+    },
+    {
+      "id": "senaru-route",
+      "title": "Senaru Route",
+      "desc": "The Senaru Route approaches Mount Rinjani from the west through dense tropical rainforest and the ancient Sasak village of Senaru — a lush, immersive trail ideal for trekkers who want to experience the full biodiversity of Rinjani National Park.",
+      "packages": [
+        {
+          "id": "2-day-senaru-crater-rim",
+          "duration": "2 Days 1 Night",
+          "title": "Crater Rim Senaru",
+          "highlights": [
+            "Crater rim at Pelawangan Senaru",
+            "Panoramic views over Segara Anak lake",
+            "Trek through dense Rinjani rainforest",
+            "No summit — suitable for all fitness levels"
+          ],
+          "cta_label": "Discover More",
+          "cta_url": "/tours/mount-rinjani-trek/2-day-senaru-crater-rim"
+        },
+        {
+          "id": "3-days-senaru-lake",
+          "duration": "3 Days 2 Nights",
+          "title": "Crater Rim, Lake & Hot Spring",
+          "highlights": [
+            "Crater rim at Pelawangan Senaru",
+            "Descent to Segara Anak lake",
+            "Volcanic hot spring soak",
+            "No summit — moderate difficulty"
+          ],
+          "cta_label": "Discover More",
+          "cta_url": "/tours/mount-rinjani-trek/3-day-senaru-lake"
+        },
+        {
+          "id": "4-days-senaru-summit-lake",
+          "duration": "4 Days 3 Nights",
+          "title": "Summit, Lake & Hot Spring",
+          "highlights": [
+            "Summit push to 3,726 m",
+            "Descent to Segara Anak lake",
+            "Volcanic hot spring soak",
+            "Full Rinjani experience via Senaru"
+          ],
+          "cta_label": "Discover More",
+          "cta_url": "/tours/mount-rinjani-trek/4-day-senaru-summit-lake"
+        }
+      ]
+    }
+  ],
+  "why_trek": {
+    "section_title": "Why Trek Rinjani with Go2Rinjani",
+    "items": [
+      {
+        "id": "certified-guides",
+        "title": "Certified Local Guides",
+        "desc": "Every Mount Rinjani trek is led by certified local guides born and raised in the villages surrounding Rinjani National Park — guides who know every trail, every campsite, and every story the mountain holds."
+      },
+      {
+        "id": "full-support",
+        "title": "Fully Supported Treks",
+        "desc": "Go2Rinjani handles all permits, porters, camping equipment, and meals — so you arrive, trek, and summit without logistics stress. Every trekker is fully supported from trailhead to finish."
+      },
+      {
+        "id": "all-levels",
+        "title": "All Experience Levels Welcome",
+        "desc": "From first-time hikers tackling the Senaru crater rim to experienced mountaineers pushing for the summit at 3,726 m — Go2Rinjani has a Mount Rinjani trek package suited to your fitness and goals."
+      },
+      {
+        "id": "conservation",
+        "title": "Responsible Trekking",
+        "desc": "Go2Rinjani is committed to the conservation of Mount Rinjani National Park and the welfare of local Sasak porters and communities — a portion of every trek contributes directly to trail conservation efforts."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Hike Mount Rinjani?",
+    "desc": "Choose your route, pick your duration, and let Go2Rinjani handle the rest. Six Mount Rinjani trek packages — one mountain, endless stories.",
+    "cta_label": "Book Your Rinjani Trek"
+  }
+}

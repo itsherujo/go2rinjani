@@ -1,0 +1,15 @@
+{
+  "seo": {
+    "meta_title": "Events & Agenda | Go2Rinjani",
+    "meta_description": "Discover our upcoming events and agenda."
+  },
+  "calendar": {
+    "title": "Agenda",
+    "filter_label": "filter by location:",
+    "filter_locations": ["Mount Rinjani", "Mount Stampol"],
+    "read_more": "read more",
+    "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "days_desktop": ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"],
+    "days_mobile": ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]
+  }
+}

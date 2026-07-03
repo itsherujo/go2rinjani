@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Reserve y Asegure<br/> Su Viaje Fácilmente en Pocos<br/> Pasos",
+    "subtitle": "La transparencia y la simplicidad son el núcleo de nuestro proceso de reserva. Con pasos claros y confirmación segura, sabrá exactamente qué esperar, en cada paso del camino."
+  },
+  "steps": {
+    "title": "Los Pasos",
+    "step1": {
+      "title": "Elija Su <1>Paquete de Senderismo</1>.",
+      "desc1": "Navegue por nuestra cuidada selección de paquetes de senderismo del Monte Rinjani y elija el que mejor se adapte a sus preferencias, horario y nivel de condición física. Explore nuestros paquetes turísticos de Rinjani <1>aquí</1>.",
+      "desc2": "Después de seleccionar su ruta y duración preferidas, decida si desea un <1>paquete privado</1> o un <2>paquete compartido/grupal</2>—esto afectará los precios generales y la experiencia.",
+      "desc3": "Si no está seguro de qué opción le conviene más, le recomendamos visitar nuestra página de <1>Precios de Senderismo en Rinjani</1>. Allí, encontrará:",
+      "list1": "Una comparación completa de los beneficios de los paquetes privados frente a los grupales",
+      "list2": "Detalles de precios actualizados para cada opción",
+      "list3": "Información clave que puede ayudarlo a tomar la decisión correcta en función de su estilo de viaje y presupuesto",
+      "desc4": "Nuestro equipo también estará encantado de ayudarlo si necesita más aclaraciones."
+    },
+    "step2": {
+      "title": "<1>Contáctenos</1> para Reservar y Confirmar.",
+      "desc1": "Una vez que haya seleccionado su paquete, comuníquese con nosotros para iniciar el proceso de reserva. Puede contactarnos a través de:",
+      "list1": "WhatsApp",
+      "list2": "Correo electrónico",
+      "list3": "Nuestra página de <1>Contacto</1>",
+      "desc2": "Nuestro equipo lo guiará por los siguientes pasos para garantizar una reserva sin problemas."
+    },
+    "step3": {
+      "title": "Proporcione los <1>Detalles del Excursionista</1>.",
+      "desc1": "Para continuar con su reserva, requeriremos cierta información básica para cada participante:",
+      "list1": "Nombre completo",
+      "list2": "Fecha de nacimiento",
+      "list3": "Nacionalidad",
+      "list4": "Número de pasaporte",
+      "list5": "Edad",
+      "desc2": "Alternativamente, puede enviarnos una foto clara de su pasaporte para mayor comodidad."
+    },
+    "step4": {
+      "title": "Pague el <1>Depósito</1>.",
+      "desc1": "Para asegurar su asiento y reservar su permiso de senderismo de Rinjani, se requiere un <1>depósito de USD $50 por persona</1>.",
+      "desc2": "¿Por qué un depósito?<br/>El depósito garantiza:",
+      "list1": "Su permiso de senderismo está reservado oficialmente",
+      "list2": "Su asiento está asegurado para su fecha seleccionada",
+      "list3": "Se inician los arreglos previos a la caminata, que incluyen:",
+      "list3a": "Programación de la recogida",
+      "list3b": "Preparación de alimentos y logística",
+      "list3c": "Coordinación del equipo",
+      "list3d": "Y más",
+      "desc3": "Los métodos de pago se describen claramente en nuestra página de <1>Información de Pago</1>—consulte la sección en la parte inferior de la página para obtener detalles completos."
+    },
+    "step5": {
+      "title": "<1>Confirmación</1> de Reserva",
+      "desc1": "Una vez que se haya realizado su depósito, su reserva estará oficialmente confirmada.",
+      "list1": "Puede conservar su <1>recibo de pago o captura de pantalla del depósito</1> como comprobante de la reserva.",
+      "list2": "Su <1>chat o correspondencia escrita</1> con nosotros también sirve como registro de confirmación de su reserva.",
+      "desc2": "Esto significa que no necesita ningún archivo de confirmación adicional. Simplemente mantenga estos registros seguros para su referencia."
+    },
+    "step6": {
+      "title": "¡<1>Relájese</1> y Prepárese!",
+      "desc1": "Con todo confirmado, ahora puede sentarse y esperar su aventura en Rinjani. Nuestro equipo se encargará del resto y lo mantendrá informado a medida que se acerque su fecha de excursión."
+    }
+  }
+}

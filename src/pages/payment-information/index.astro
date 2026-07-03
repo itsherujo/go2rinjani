@@ -1,0 +1,29 @@
+---
+export const prerender = true;
+import PaymentLayout from "../../layouts/PaymentLayout.astro";
+import PaymentMain from "../../features/payment/components/PaymentMain.astro";
+import PaymentPageScripts from "../../features/payment/components/PaymentPageScripts.astro";
+import { useTranslations } from "../../i18n/utils";
+import { buildBookingTranslations } from "../../features/payment/utils/bookingTranslations";
+
+const lang = "en";
+const t = useTranslations(lang, "payment-information");
+
+const pageTitle = t("seo.meta_title", {
+  defaultValue: `${t("title")} | Go2Rinjani`,
+}) as string;
+const pageDescription = t("seo.meta_description", {
+  defaultValue: t("subtitle") as string,
+}) as string;
+const bookingTranslations = buildBookingTranslations(lang);
+---
+
+<PaymentLayout
+  lang={lang}
+  title={pageTitle}
+  description={pageDescription}
+  bookingTranslations={bookingTranslations}
+>
+  <PaymentMain />
+  <PaymentPageScripts />
+</PaymentLayout>

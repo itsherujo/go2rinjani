@@ -1,0 +1,35 @@
+{
+  "seo": {
+    "meta_title": "Sobre Go2Rinjani — Guías Certificados de Trekking en el Monte Rinjani",
+    "meta_description": "Go2Rinjani es un operador turístico certificado en Lombok. Conozca a nuestros guías locales, aprenda nuestra historia y descubra por qué los excursionistas confían en nosotros."
+  },
+  "hero": {
+    "title": "Guías Certificados del Monte Rinjani — Experiencia Local Real",
+    "desc": "Go2Rinjani es un operador certificado con sede en Senaru, Lombok, fundado por guías locales con décadas de experiencia. Nos encargamos de permisos, porteadores, campamentos, comidas y seguridad para que todos puedan concentrarse en la montaña."
+  },
+  "hub": {
+    "title": "Nuestra Experiencia: Rutas, Guías y el Viaje",
+    "desc": "En Go2Rinjani, nuestros guías certificados lideran caminatas por todas las rutas del Rinjani — exploraciones del borde del cráter, el lago Segara Anak y la cima de 3.726 m. Cada itinerario está diseñado en base a conocimiento y seguridad."
+  },
+  "reimagined": {
+    "title": "Experiencias de Trekking Diseñadas para Cada Nivel",
+    "desc": "Los senderos de Rinjani son paisajes vivos, formados por fuerzas volcánicas y la antigua cultura Sasak. En Go2Rinjani, diseñamos cada caminata con un ritmo cuidadoso, haciendo que la montaña sea accesible, ya sea que viaje solo o en grupo."
+  },
+  "community": {
+    "title": "Una Comunidad de Trekking Arraigada en Lombok",
+    "desc": "Go2Rinjani construye una comunidad que une a aventureros de todo el mundo con el pueblo local Sasak de Lombok. Nuestras caminatas sirven como punto de encuentro para mentes libres compartiendo los senderos de Rinjani."
+  },
+  "discovery": {
+    "title": "Descubre Rinjani: Maravillas Volcánicas y Tradiciones Sasak",
+    "desc": "Aquí es donde cada caminata se convierte en una historia que vale la pena contar. Descubre maravillas volcánicas a lo largo de la Ruta Torean y párate en la cumbre del monte Rinjani llevándote a casa una experiencia única."
+  },
+  "closing": {
+    "title": "Camina por el Monte Rinjani con Go2Rinjani",
+    "desc": "Sube a los senderos de Rinjani con guías que conocen cada camino, cada campamento y cada relato de la montaña. En Go2Rinjani, lo inesperado es siempre parte del plan."
+  },
+  "cta": {
+    "title": "¿Listo para Escalar el Monte Rinjani?",
+    "desc": "Navega por nuestros paquetes turísticos y encuentra el trekking perfecto para ti.",
+    "label": "Ver rutas disponibles"
+  }
+}

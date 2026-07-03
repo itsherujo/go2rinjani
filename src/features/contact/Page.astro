@@ -1,0 +1,50 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ContactHero from "./components/ContactHero.astro";
+import ContactMap from "./components/ContactMap.astro";
+import ContactInfo from "./components/ContactInfo.astro";
+import ContactForm from "./components/ContactForm.astro";
+import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+import { SITE } from "../../data/site";
+import { getCanonicalUrl } from "../../utils/seo";
+import { buildLocalBusinessSchema } from "../../utils/schema";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "contact");
+
+const title = t("seo.meta_title", { defaultValue: "Go2Rinjani - Contact Us" });
+const description = t("seo.meta_description", {
+  defaultValue: "Get in touch with Go2Rinjani.",
+});
+
+const pageUrl = getCanonicalUrl(Astro.site, "/contact", lang as any);
+
+const schemas = [
+  buildLocalBusinessSchema({
+    name: SITE.name,
+    description: description as string,
+    url: pageUrl,
+    phone: SITE.phone,
+    streetAddress: SITE.address.streetAddress,
+    city: SITE.address.city,
+    region: SITE.address.region,
+    postalCode: SITE.address.postalCode,
+    country: SITE.address.country,
+    lat: SITE.geo.lat,
+    lng: SITE.geo.lng,
+  }),
+];
+---
+
+<BaseLayout
+  title={title as string}
+  description={description as string}
+  schemas={schemas}
+>
+  <div class="w-full bg-background min-h-screen">
+    <ContactHero />
+    <ContactMap />
+    <ContactInfo />
+    <ContactForm />
+  </div>
+</BaseLayout>

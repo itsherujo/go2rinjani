@@ -1,0 +1,39 @@
+---
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+import permataIcon from "../../../assets/svg/payment-information/permata_bank.svg";
+import wiseIcon from "../../../assets/svg/payment-information/wise.svg";
+import revolutIcon from "../../../assets/svg/payment-information/revolut.svg";
+import paypalIcon from "../../../assets/svg/payment-information/paypal.svg";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "payment-information");
+
+const tabs = [
+  { id: "bank", label: t("methods.bank") as string, icon: permataIcon.src },
+  { id: "wise", label: t("methods.wise") as string, icon: wiseIcon.src },
+  { id: "revolut", label: t("methods.revolut") as string, icon: revolutIcon.src },
+  { id: "paypal", label: t("methods.paypal") as string, icon: paypalIcon.src },
+];
+---
+
+<div class="flex md:hidden gap-2 overflow-x-auto pb-1 scrollbar-hide -mx-4 px-4 sm:mx-0 sm:px-0" id="payment-tabs">
+  {tabs.map((tab) => (
+    <button
+      data-tab={tab.id}
+      class:list={[
+        "flex items-center gap-1.5 px-3 py-1.5 rounded-none text-xs font-medium whitespace-nowrap border transition-all shrink-0",
+        tab.id === "bank"
+          ? "bg-foreground border-foreground text-background"
+          : "bg-background border-foreground text-foreground/70",
+      ]}
+      aria-label={`Show ${tab.label} details`}
+    >
+      <img
+        src={tab.icon}
+        alt={tab.label}
+        class:list={["w-3.5 h-3.5 object-contain", tab.id === "bank" && "brightness-0 invert"]}
+      />
+      {tab.label}
+    </button>
+  ))}
+</div>

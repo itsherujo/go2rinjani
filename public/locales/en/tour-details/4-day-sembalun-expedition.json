@@ -1,0 +1,200 @@
+{
+  "seo": {
+    "meta_title": "Mount Rinjani 4-Day Sembalun Expedition — Summit, Lake & Torean | Go2Rinjani",
+    "meta_description": "The ultimate Mount Rinjani trekking experience — 4 days via Sembalun route with summit at 3,726 m, Segara Anak lake camping, volcanic hot springs & optional Torean Route exit."
+  },
+  "hero": {
+    "title": "Mount Rinjani 4-Day Sembalun Expedition — Take Your Time on the Mountain",
+    "desc": "Go2Rinjani's most immersive Sembalun package — the 4-day Rinjani expedition gives you the time to truly experience the mountain. Summit at 3,726 m, two nights at Segara Anak lake, volcanic hot springs, and the option to exit via the scenic Torean Route — all fully supported by certified local guides, porters, and permits."
+  },
+  "intro": {
+    "label": "4 Days 3 Nights — Sembalun Route",
+    "title": "The Full Rinjani Expedition — No Rush, No Compromise",
+    "desc": "The 4-day Sembalun expedition is designed for trekkers who want to fully immerse themselves in Mount Rinjani National Park — without the time pressure of shorter packages. The extra day means more time at Segara Anak lake, a more relaxed summit push, deeper exploration of the crater floor, and the flexibility to add the Torean Route as your exit trail. This is Mount Rinjani trekking at its finest — unhurried, immersive, and unforgettable."
+  },
+  "highlights": {
+    "section_title": "What to Expect on This Trek",
+    "items": [
+      {
+        "id": "sembalun-savannah",
+        "title": "Sembalun Savannah Trail",
+        "desc": "The expedition begins across the open savannah landscapes of Sembalun valley on the eastern slopes of Mount Rinjani National Park — wide, dramatic terrain shaped by traditional Sasak farmland and centuries of volcanic activity."
+      },
+      {
+        "id": "rinjani-summit",
+        "title": "Mount Rinjani Summit at 3,726 m",
+        "desc": "A well-paced summit push from Plawangan Sembalun crater rim to the top of Mount Rinjani at 3,726 m — Lombok's highest peak and Indonesia's second-highest volcano — arriving for sunrise above the clouds with panoramic views over Lombok, Bali, and Sumbawa."
+      },
+      {
+        "id": "segara-anak-extended",
+        "title": "Two Nights at Segara Anak Lake",
+        "desc": "Unlike shorter packages, the 4-day expedition includes two nights camping beside Segara Anak lake at 2,008 m — giving you time to truly experience the sacred crater lake of Mount Rinjani, swim in its turquoise waters, and explore the crater floor at your own pace."
+      },
+      {
+        "id": "hot-springs",
+        "title": "Volcanic Hot Springs",
+        "desc": "Soak in the natural volcanic hot springs on the shores of Segara Anak lake — a well-earned reward after the summit push, and one of the most memorable moments of any Rinjani trekking expedition."
+      },
+      {
+        "id": "torean-route",
+        "title": "Torean Route Exit — A Different Trail Out",
+        "desc": "The 4-day package is the ideal itinerary for trekkers who want to experience the Torean Route — a scenic descent from Segara Anak lake through the Torean valley to Torean village on the northern slopes of Rinjani National Park. A completely different landscape on the way out."
+      }
+    ]
+  },
+  "itinerary": {
+    "section_title": "4-Day Sembalun Expedition Itinerary",
+    "intro": "Four days, three nights on Mount Rinjani — the most unhurried and immersive way to experience Rinjani's summit, crater lake, hot springs, and Torean Route.",
+    "days": [
+      {
+        "day": "Day 1",
+        "title": "Sembalun Trailhead to Plawangan Sembalun Crater Rim",
+        "desc": "After breakfast and pre-trek briefing at your accommodation in Sembalun, Go2Rinjani transfers you to the Sembalun trailhead (1,156 m). Trek through open savannah landscapes and three rest posts before arriving at Plawangan Sembalun crater rim (2,639 m) by late afternoon. Dinner and overnight camping at the crater rim with sweeping views over Segara Anak lake.",
+        "highlights": [
+          "Breakfast & pre-trek briefing in Sembalun",
+          "Transfer to Sembalun trailhead (1,156 m)",
+          "Trek through open savannah — Post 1, 2, 3",
+          "Arrive Plawangan Sembalun crater rim (2,639 m)",
+          "Sunset over Segara Anak lake from crater rim",
+          "Dinner & overnight camp at Plawangan Sembalun"
+        ]
+      },
+      {
+        "day": "Day 2",
+        "title": "Summit Push — Descent to Segara Anak Lake",
+        "desc": "Pre-dawn departure from Plawangan Sembalun for the summit push to 3,726 m — arriving at the top of Mount Rinjani for sunrise. After the summit, descend back to Plawangan Sembalun for breakfast, then continue the descent into the crater to Segara Anak lake (2,008 m). First night camping beside the sacred crater lake.",
+        "highlights": [
+          "Pre-dawn summit push from Plawangan Sembalun (2,639 m)",
+          "Arrive Mount Rinjani summit (3,726 m) at sunrise",
+          "Panoramic views over Lombok, Bali & Sumbawa",
+          "Descend to Plawangan Sembalun — breakfast at camp",
+          "Descent into crater to Segara Anak lake (2,008 m)",
+          "Dinner & first overnight camp beside Segara Anak lake"
+        ]
+      },
+      {
+        "day": "Day 3",
+        "title": "Full Day at Segara Anak Lake — Hot Springs & Crater Exploration",
+        "desc": "A full day beside Segara Anak lake — the highlight of the 4-day expedition. Soak in the volcanic hot springs on the crater floor, swim in the turquoise waters of the lake, explore the inner crater of Mount Rinjani National Park, and rest before the final day's descent. Second overnight camp beside the lake.",
+        "highlights": [
+          "Sunrise over Segara Anak lake",
+          "Volcanic hot spring soak at crater floor",
+          "Swimming in Segara Anak lake",
+          "Free exploration of the inner crater",
+          "Lunch & rest at lakeside camp",
+          "Second overnight camp beside Segara Anak lake"
+        ]
+      },
+      {
+        "day": "Day 4",
+        "title": "Descent to Sembalun or Torean Village",
+        "desc": "Final morning at Segara Anak lake before beginning the descent. Trekkers on the standard route ascend back to Plawangan Sembalun and descend to the Sembalun trailhead. Trekkers on the Torean Route option descend via the scenic Torean valley trail to Torean village. Transfer back to accommodation after completing the expedition.",
+        "highlights": [
+          "Final sunrise over Segara Anak lake",
+          "Breakfast at lakeside camp",
+          "Standard route: ascent to Plawangan Sembalun → descent to Sembalun trailhead",
+          "Torean Route option: descent via Torean valley to Torean village",
+          "Transfer back to accommodation"
+        ]
+      }
+    ],
+    "schedule_label": "Itinerary Schedule"
+  },
+  "inclusions": {
+    "section_title": "Expedition Inclusions & Exclusions",
+    "intro": "Every 4-day Mount Rinjani Sembalun expedition with Go2Rinjani is fully supported — here is exactly what is included.",
+    "included": [
+      "Certified local guide",
+      "Porter (personal camp equipment up to 25 kg)",
+      "Mount Rinjani National Park entrance permit",
+      "All meals on the mountain (3x daily) + hot drinks + mineral water",
+      "Full camping equipment: tent, sleeping bag, mattress, pillow, cooking gear",
+      "Hotel pickup and drop-off (Sembalun, Senaru, Mataram, Airport, Senggigi)",
+      "1 night pre-trek accommodation in Sembalun",
+      "Torean Route exit option (on request at time of booking)"
+    ],
+    "excluded": [
+      "Personal trekking gear (jacket, trekking shoes, trekking poles, daypack)",
+      "Travel insurance",
+      "Tips for guides and porters (appreciated but not mandatory)"
+    ],
+    "included_label": "Included",
+    "excluded_label": "Not Included"
+  },
+  "trek_details": {
+    "section_title": "Expedition At a Glance",
+    "intro": "Everything you need to know before booking your 4-day Mount Rinjani Sembalun expedition.",
+    "details": [
+      {
+        "label": "Duration",
+        "value": "4 Days 3 Nights"
+      },
+      {
+        "label": "Route",
+        "value": "Sembalun Route — with optional Torean Route exit"
+      },
+      {
+        "label": "Summit Elevation",
+        "value": "3,726 m above sea level — Lombok's highest peak"
+      },
+      {
+        "label": "Segara Anak Lake Elevation",
+        "value": "2,008 m above sea level"
+      },
+      {
+        "label": "Trailhead",
+        "value": "Sembalun valley, East Lombok (1,156 m)"
+      },
+      {
+        "label": "Difficulty",
+        "value": "Challenging — prior trekking experience recommended"
+      },
+      {
+        "label": "Best Season",
+        "value": "April – December (dry season). Closed January – March."
+      },
+      {
+        "label": "Permit",
+        "value": "Mount Rinjani National Park permit — included in package"
+      },
+      {
+        "label": "Group Size",
+        "value": "Minimum 2 — maximum 6 per group. Private groups available."
+      },
+      {
+        "label": "Torean Route Option",
+        "value": "Available and recommended on this package — request at time of booking"
+      }
+    ]
+  },
+  "choose_duration": {
+    "section_title": "Not Sure Which Sembalun Package Is Right for You?",
+    "read_more_label": "Read more",
+    "items": [
+      {
+        "duration": "2 Days 1 Night",
+        "best_for": "Trekkers with limited time who want the summit only",
+        "cta_label": "View 2-Day Package",
+        "cta_url": "/tours/mount-rinjani-trek/2-day-sembalun-summit"
+      },
+      {
+        "duration": "3 Days 2 Nights",
+        "best_for": "Trekkers who want summit, lake & hot spring in one efficient trek",
+        "cta_label": "View 3-Day Package",
+        "cta_url": "/tours/mount-rinjani-trek/3-day-sembalun-summit-lake"
+      },
+      {
+        "duration": "4 Days 3 Nights",
+        "best_for": "Trekkers who want the full immersive Rinjani expedition — no rush",
+        "cta_label": "You Are Here",
+        "cta_url": "/tours/mount-rinjani-trek/4-day-sembalun-expedition"
+      }
+    ]
+  },
+  "cta": {
+    "section_title": "Ready for the Ultimate Rinjani Expedition?",
+    "title": "Book Your 4-Day Sembalun Expedition with Go2Rinjani",
+    "desc": "Four days, three nights — the most immersive Mount Rinjani trekking experience available. Go2Rinjani handles all permits, guides, porters, meals, and transfers. The mountain is waiting — take your time.",
+    "cta_label": "Book This Expedition"
+  }
+}

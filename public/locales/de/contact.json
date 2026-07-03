@@ -1,0 +1,55 @@
+{
+  "title": "PLANEN SIE IHREN MOUNT RINJANI TREK - KONTAKT AUFNEHMEN",
+  "address": "Jl. Pariwisata Senaru, Dusun, Tumpang Sari, Kec. Bayan, Mataram, Nusa Tenggara Bar. 83354",
+  "office": {
+    "title": "Büro vor Ort — Senaru, Lombok",
+    "schedule": {
+      "friday": "Geschlossen",
+      "saturday": "24 Stunden geöffnet",
+      "sunday": "24 Stunden geöffnet",
+      "monday": "24 Stunden geöffnet",
+      "tuesday": "24 Stunden geöffnet",
+      "wednesday": "24 Stunden geöffnet",
+      "thursday": "24 Stunden geöffnet"
+    }
+  },
+  "online": {
+    "title": "Online-Anfragen",
+    "schedule": {
+      "friday": "Geschlossen",
+      "saturday": "7.00 - 23.30 Uhr",
+      "sunday": "7.00 - 23.30 Uhr",
+      "monday": "7.00 - 23.30 Uhr",
+      "tuesday": "7.00 - 23.30 Uhr",
+      "wednesday": "7.00 - 23.30 Uhr",
+      "thursday": "7.00 - 23.30 Uhr"
+    }
+  },
+  "days": {
+    "friday": "Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag",
+    "monday": "Montag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwoch",
+    "thursday": "Donnerstag"
+  },
+  "form": {
+    "header": "FRAGEN ZUM RINJANI?",
+    "description": "Fragen Sie uns alles — Routen, Daten, Gruppengröße oder individuelle Pakete. Das Team von Go2Rinjani antwortet innerhalb von 24 Stunden.",
+    "yourDetails": "Ihre Details",
+    "firstName": "Vorname*",
+    "firstNamePlaceholder": "Vorname eingeben",
+    "lastName": "Nachname*",
+    "lastNamePlaceholder": "Nachname eingeben",
+    "phone": "Telefonnummer*",
+    "phonePlaceholder": "Telefonnummer eingeben",
+    "email": "E-Mail-Adresse*",
+    "emailPlaceholder": "E-Mail-Adresse eingeben",
+    "message": "Erzählen Sie uns von Ihrer Tour",
+    "messagePlaceholder": "z.B. Ich interessiere mich für eine 3-tägige Sembalun-Tour für 2 Personen im Juli...",
+    "termsAgree": "Mit dem Absenden dieses Formulars stimme ich der Verarbeitung meiner personenbezogenen Daten gemäß der Datenschutzrichtlinie zu.",
+    "formComplete": "Ich verstehe, dass unvollständige Formulare abgelehnt werden, und ich habe mein Formular vollständig ausgefüllt.",
+    "submit": "ABSENDEN"
+  }
+}

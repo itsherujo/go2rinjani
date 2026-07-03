@@ -1,0 +1,36 @@
+---
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import HeaderIsland from './HeaderIsland';
+import logoUrl from '../../assets/Go2rinjani.svg';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "common");
+
+const isHomePage = Astro.url.pathname === '/' || Astro.url.pathname === `/${lang}` || Astro.url.pathname === `/${lang}/`;
+
+// Translations needed by the nav
+const navLinks = ["about", "tours", "blog", "contact"];
+const navTranslations = navLinks.reduce((acc, link) => {
+  acc[link] = t(`nav.${link}`);
+  return acc;
+}, {} as Record<string, string>);
+navTranslations['menu'] = t('nav.menu');
+navTranslations['bookNow'] = t('nav.bookNow');
+---
+
+{isHomePage && (
+  <div
+    id="big-header"
+    class="hidden min-[481px]:flex w-full items-center justify-center py-12 sm:py-4 px-4 xl:px-5 overflow-hidden bg-white"
+  >
+    <img src={logoUrl.src} alt="Go2rinjani" class="w-full h-auto" />
+  </div>
+)}
+
+<HeaderIsland
+  client:load
+  isHomePage={isHomePage}
+  currentLangCode={lang}
+  navTranslations={navTranslations}
+  logoUrl={logoUrl.src}
+/>

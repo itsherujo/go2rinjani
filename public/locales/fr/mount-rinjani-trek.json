@@ -1,0 +1,134 @@
+{
+  "seo": {
+    "meta_title": "Forfaits Trek Mont Rinjani — Routes Sembalun & Senaru | Go2Rinjani",
+    "meta_description": "Explorez tous les forfaits trek du Mont Rinjani avec Go2Rinjani — 2, 3 et 4 jours d'itinéraires sur les routes de Sembalun et Senaru. Ascension du sommet, randonnée sur le cratère et descente vers le lac Segara Anak."
+  },
+  "hero": {
+    "title": "Trek du Mont Rinjani — Choisissez Votre Route & Durée",
+    "desc": "Go2Rinjani propose six forfaits de trek guidés du Mont Rinjani via deux routes emblématiques — Sembalun et Senaru. Que vous chassiez le sommet à 3 726 m, descendiez vers le lac Segara Anak ou parcouriez le bord du cratère, chaque trek est entièrement assisté par des guides locaux certifiés, des porteurs et inclut les permis."
+  },
+  "routes": [
+    {
+      "id": "sembalun-route",
+      "title": "Route de Sembalun",
+      "desc": "La route de Sembalun approche le Mont Rinjani par l'est à travers des plaines de savane ouverte et des terres agricoles traditionnelles Sasak — offrant le chemin le plus direct vers le sommet à 3 726 m. Tous les forfaits Sembalun incluent la possibilité d'ajouter la route de Torean lors de la descente pour une expédition prolongée.",
+      "packages": [
+        {
+          "id": "2-day-sembalun-summit",
+          "duration": "2 Jours 1 Nuit",
+          "title": "Bord du Cratère & Sommet",
+          "highlights": [
+            "Ascension vers le sommet à 3 726 m",
+            "Vues depuis le cratère sur le lac Segara Anak",
+            "Sentier de la savane de Sembalun",
+            "Guide certifié et porteurs inclus"
+          ],
+          "cta_label": "Découvrir Plus",
+          "cta_url": "/tours/mount-rinjani-trek/2-day-sembalun-summit"
+        },
+        {
+          "id": "3-day-sembalun-summit-lake",
+          "duration": "3 Jours 2 Nuits",
+          "title": "Sommet, Lac & Sources Chaudes",
+          "highlights": [
+            "Ascension vers le sommet à 3 726 m",
+            "Descente vers le lac Segara Anak",
+            "Baignade dans les sources chaudes volcaniques",
+            "Descente facultative par la route de Torean"
+          ],
+          "cta_label": "Découvrir Plus",
+          "cta_url": "/tours/mount-rinjani-trek/3-day-sembalun-summit-lake"
+        },
+        {
+          "id": "4-day-sembalun-expedition",
+          "duration": "4 Jours 3 Nuits",
+          "title": "Expédition Sembalun Complète",
+          "highlights": [
+            "Ascension vers le sommet à 3 726 m",
+            "Séjour prolongé au lac Segara Anak",
+            "Baignade dans les sources chaudes volcaniques",
+            "Descente facultative par la route de Torean"
+          ],
+          "cta_label": "Découvrir Plus",
+          "cta_url": "/tours/mount-rinjani-trek/4-day-sembalun-expedition"
+        }
+      ]
+    },
+    {
+      "id": "senaru-route",
+      "title": "Route de Senaru",
+      "desc": "La route de Senaru approche le Mont Rinjani par l'ouest à travers une forêt tropicale dense et l'ancien village Sasak de Senaru — un sentier luxuriant et immersif idéal pour les randonneurs qui souhaitent découvrir toute la biodiversité du Parc National du Rinjani.",
+      "packages": [
+        {
+          "id": "2-day-senaru-crater-rim",
+          "duration": "2 Jours 1 Nuit",
+          "title": "Cratère de Senaru",
+          "highlights": [
+            "Bord du cratère à Pelawangan Senaru",
+            "Vues panoramiques sur le lac Segara Anak",
+            "Trek à travers la dense forêt du Rinjani",
+            "Sans sommet — adapté à tous les niveaux"
+          ],
+          "cta_label": "Découvrir Plus",
+          "cta_url": "/tours/mount-rinjani-trek/2-day-senaru-crater-rim"
+        },
+        {
+          "id": "3-day-senaru-lake",
+          "duration": "3 Jours 2 Nuits",
+          "title": "Cratère, Lac & Sources Chaudes",
+          "highlights": [
+            "Bord du cratère à Pelawangan Senaru",
+            "Descente vers le lac Segara Anak",
+            "Baignade dans les sources chaudes volcaniques",
+            "Sans sommet — difficulté modérée"
+          ],
+          "cta_label": "Découvrir Plus",
+          "cta_url": "/tours/mount-rinjani-trek/3-day-senaru-lake"
+        },
+        {
+          "id": "4-day-senaru-summit-lake",
+          "duration": "4 Jours 3 Nuits",
+          "title": "Sommet, Lac & Sources Chaudes",
+          "highlights": [
+            "Ascension vers le sommet à 3 726 m",
+            "Descente vers le lac Segara Anak",
+            "Baignade dans les sources chaudes volcaniques",
+            "Expérience complète du Rinjani par Senaru"
+          ],
+          "cta_label": "Découvrir Plus",
+          "cta_url": "/tours/mount-rinjani-trek/4-day-senaru-summit-lake"
+        }
+      ]
+    }
+  ],
+  "why_trek": {
+    "section_title": "Pourquoi Trekker le Rinjani avec Go2Rinjani",
+    "items": [
+      {
+        "id": "certified-guides",
+        "title": "Guides Locaux Certifiés",
+        "desc": "Chaque trek du Mont Rinjani est mené par des guides locaux certifiés nés et élevés dans les villages entourant le Parc National du Rinjani — des guides qui connaissent chaque sentier, chaque campement et chaque histoire de la montagne."
+      },
+      {
+        "id": "full-support",
+        "title": "Treks Entièrement Assistés",
+        "desc": "Go2Rinjani s'occupe de tous les permis, porteurs, équipements de camping et repas — pour que vous arriviez et randonniez sans stress logistique. Chaque trekkeur est pleinement pris en charge du début à la fin."
+      },
+      {
+        "id": "all-levels",
+        "title": "Tous Niveaux Acceptés",
+        "desc": "Des débutants s'attaquant au cratère de Senaru aux alpinistes expérimentés visant le sommet à 3 726 m — Go2Rinjani propose un forfait de trek du Rinjani adapté à votre condition physique et à vos objectifs."
+      },
+      {
+        "id": "conservation",
+        "title": "Trek Responsable",
+        "desc": "Go2Rinjani s'engage dans la conservation du Parc National du Rinjani et le bien-être des porteurs locaux et des communautés — une partie de chaque trek contribue directement aux efforts de conservation."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt pour le Mont Rinjani ?",
+    "desc": "Choisissez votre parcours, choisissez la durée, et laissez Go2Rinjani s'occuper du reste. Six forfaits de trek du Mont Rinjani — une montagne, des histoires infinies.",
+    "cta_label": "Réservez Votre Trek"
+  }
+}

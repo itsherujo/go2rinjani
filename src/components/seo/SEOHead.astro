@@ -1,0 +1,66 @@
+---
+import { DEFAULT_LANG, OG_LOCALE_MAP, type Lang } from "../../i18n/config";
+import {
+  getAlternateUrls,
+  getCanonicalUrl,
+  getLocalizedPath,
+  getPathWithoutLang,
+  getSiteUrl,
+  toAbsoluteUrl,
+} from "../../utils/seo";
+import { SITE } from "../../data/site";
+
+interface Props {
+  title: string;
+  description: string;
+  lang: Lang;
+  /** Defaults to current pathname */
+  pathname?: string;
+  ogImage?: string;
+  ogType?: "website" | "article";
+  noindex?: boolean;
+}
+
+const {
+  title,
+  description,
+  lang,
+  pathname = Astro.url.pathname,
+  ogImage = SITE.defaultOgImagePath,
+  ogType = "website",
+  noindex = false,
+} = Astro.props;
+
+const siteUrl = getSiteUrl(Astro.site);
+const canonical = getCanonicalUrl(Astro.site, pathname, lang);
+const fullOgImage = toAbsoluteUrl(Astro.site, ogImage);
+const alternates = getAlternateUrls(Astro.site, pathname);
+const ogLocale = OG_LOCALE_MAP[lang];
+const xDefaultHref = `${siteUrl}${getLocalizedPath(getPathWithoutLang(pathname), DEFAULT_LANG)}`;
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+{noindex && <meta name="robots" content="noindex, nofollow" />}
+{!noindex && <meta name="robots" content="index, follow" />}
+
+{
+  alternates.map(({ hreflang, href }) => (
+    <link rel="alternate" hreflang={hreflang} href={href} />
+  ))
+}
+<link rel="alternate" hreflang="x-default" href={xDefaultHref} />
+
+<meta property="og:type" content={ogType} />
+<meta property="og:url" content={canonical} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={fullOgImage} />
+<meta property="og:locale" content={ogLocale} />
+<meta property="og:site_name" content={SITE.name} />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={fullOgImage} />

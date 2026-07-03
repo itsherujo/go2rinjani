@@ -1,0 +1,58 @@
+---
+import { useTranslations } from "../../../../i18n/utils";
+import SharedCTA from "../../../../components/ui/SharedCTA.astro";
+
+interface Props {
+  lang: string;
+  slug: string;
+}
+
+const { lang, slug } = Astro.props;
+const t = useTranslations(lang, `tour-details/${slug}`);
+
+// Extract booking pre-fill data from trek_details
+const trekDetails = t("trek_details.details", { returnObjects: true }) as any[];
+const heroTitle = t("hero.title", { defaultValue: "" }) as string;
+
+let durationValue = "";
+let routeValue = "";
+
+if (Array.isArray(trekDetails)) {
+  for (const detail of trekDetails) {
+    const label = (detail.label || "").toLowerCase();
+    if (label === "duration") {
+      const val = detail.value || "";
+      if (val.includes("2 Day")) durationValue = "2D1N";
+      else if (val.includes("3 Day")) durationValue = "3D2N";
+      else if (val.includes("4 Day")) durationValue = "4D3N";
+    }
+    if (label === "route") {
+      const val = (detail.value || "").toLowerCase();
+      if (val.includes("sembalun")) routeValue = "sembalun";
+      else if (val.includes("senaru")) routeValue = "senaru";
+    }
+  }
+}
+
+const bookingDataJson = JSON.stringify({
+  duration: durationValue,
+  route: routeValue,
+  packageName: heroTitle,
+});
+---
+
+<SharedCTA
+  title={t("cta.title") as string}
+  subtitle={t("cta.section_title") as string}
+  desc={t("cta.desc") as string}
+  ctaLabel={t("cta.cta_label", { defaultValue: "Book This Trek" }) as string}
+  ctaHref="#book"
+  bgColorHex="#B8D9EA"
+  className="py-0! my-0!"
+/>
+
+<script define:vars={{ bookingDataJson }}>
+  // Set page-level booking data so the booking form auto-fills
+  window.__pageBookingData = JSON.parse(bookingDataJson);
+</script>
+

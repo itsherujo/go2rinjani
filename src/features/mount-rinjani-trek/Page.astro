@@ -1,0 +1,71 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { useTranslations } from "../../i18n/utils";
+import { getCanonicalUrl } from "../../utils/seo";
+import {
+  buildBreadcrumbSchema,
+  buildItemListSchema,
+} from "../../utils/schema";
+import RinjaniHero from "./components/RinjaniHero.astro";
+import RinjaniRoutes from "./components/RinjaniRoutes.astro";
+import RinjaniWhyTrek from "./components/RinjaniWhyTrek.astro";
+import RinjaniCTA from "./components/RinjaniCTA.astro";
+import { PAGE_OG_IMAGES } from "../../data/page-og-images";
+
+interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang, "mount-rinjani-trek");
+
+const title = t("seo.meta_title", {
+  defaultValue: "Mount Rinjani Trek Packages | Go2Rinjani",
+});
+const description = t("seo.meta_description", {
+  defaultValue:
+    "Explore all Mount Rinjani trek packages with Go2Rinjani — 2, 3, and 4-day itineraries across Sembalun and Senaru routes.",
+});
+
+const routes = (t("routes", { returnObjects: true }) || []) as Array<{
+  title: string;
+  packages?: Array<{ title: string; cta_url: string }>;
+}>;
+
+const listItems = routes.flatMap((route) =>
+  (route.packages ?? []).map((pkg) => ({
+    name: pkg.title,
+    url: getCanonicalUrl(Astro.site, pkg.cta_url, lang as any),
+  })),
+);
+
+const pageUrl = getCanonicalUrl(Astro.site, "/tours/mount-rinjani-trek", lang as any);
+
+const schemas = [
+  buildItemListSchema({
+    name: title as string,
+    description: description as string,
+    items: listItems,
+  }),
+  buildBreadcrumbSchema([
+    { name: "Home", url: getCanonicalUrl(Astro.site, "/", lang as any) },
+    { name: "Tours", url: getCanonicalUrl(Astro.site, "/tours", lang as any) },
+    { name: title as string, url: pageUrl },
+  ]),
+];
+---
+
+<BaseLayout
+  title={title as string}
+  description={description as string}
+  pathname="/tours/mount-rinjani-trek"
+  ogImage={PAGE_OG_IMAGES.mountRinjaniTrek}
+  schemas={schemas}
+>
+  <div class="flex flex-col w-full bg-background">
+    <RinjaniHero lang={lang} />
+    <RinjaniRoutes lang={lang} />
+    <RinjaniWhyTrek lang={lang} />
+    <RinjaniCTA lang={lang} />
+  </div>
+</BaseLayout>

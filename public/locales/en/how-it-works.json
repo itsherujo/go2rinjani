@@ -1,0 +1,65 @@
+{
+  "seo": {
+    "meta_title": "How it Works - Go2Rinjani",
+    "meta_description": "Transparency and simplicity are at the heart of our booking process. Learn how to book your Mount Rinjani trekking package in 6 easy steps."
+  },
+  "hero": {
+    "title": "Easily Book and Secure<br/> Your Trip in Just a Few<br/> Steps",
+    "subtitle": "Transparency and simplicity are at the heart of our booking process. With clear steps and secure confirmation, you'll know exactly what to expect—every step of the way."
+  },
+  "steps": {
+    "title": "The Steps",
+    "step1": {
+      "title": "Choose Your <1>Trekking Package</1>.",
+      "desc1": "Browse through our curated selection of Mount Rinjani trekking packages and choose the one that best fits your preferences, schedule, and fitness level. Explore our Rinjani tour packages <1>here</1>.",
+      "desc2": "After selecting your preferred route and duration, decide whether you'd like a <1>private package</1> or a <2>shared/group package</2>—this will affect the overall pricing and experience.",
+      "desc3": "If you're unsure which option suits you best, we recommend visiting our <1>Rinjani Trekking Price</1> page. There, you'll find:",
+      "list1": "A full comparison of private vs. group package benefits",
+      "list2": "Updated pricing details for each option",
+      "list3": "Key information that can help you make the right decision based on your travel style and budget",
+      "desc4": "Our team is also happy to assist you if you need further clarification"
+    },
+    "step2": {
+      "title": "<1>Contact Us</1> to Book and Confirm.",
+      "desc1": "Once you've selected your package, reach out to us to start the booking process. You can contact us via:",
+      "list1": "WhatsApp",
+      "list2": "Email",
+      "list3": "Our <1>Contact Us</1> page",
+      "desc2": "Our team will guide you through the next steps to ensure a smooth reservation."
+    },
+    "step3": {
+      "title": "Provide <1>Trekker Details</1>.",
+      "desc1": "To proceed with your booking, we will require some basic information for each participant:",
+      "list1": "Full name",
+      "list2": "Date of birth",
+      "list3": "Nationality",
+      "list4": "Passport number",
+      "list5": "Age",
+      "desc2": "Alternatively, you may simply send us a clear photo of your passport for convenience."
+    },
+    "step4": {
+      "title": "Pay the <1>Deposit</1>.",
+      "desc1": "To secure your seat and reserve your Rinjani trekking permit, a <1>deposit of USD $50 per person</1> is required.",
+      "desc2": "Why a deposit?<br/>The deposit ensures:",
+      "list1": "Your trekking permit is officially reserved",
+      "list2": "Your seat is secured for your selected date",
+      "list3": "Pre-trek arrangements are initiated, including:",
+      "list3a": "Pickup scheduling",
+      "list3b": "Food and logistic preparation",
+      "list3c": "Team coordination",
+      "list3d": "And more",
+      "desc3": "Payment methods are outlined clearly on our <1>Payment Information</1> page—please refer to the section at the bottom of the page for full details."
+    },
+    "step5": {
+      "title": "Booking <1>Confirmation</1>",
+      "desc1": "Once your deposit has been made, your booking is officially confirmed.",
+      "list1": "You may keep your <1>payment receipt or deposit screenshot</1> as proof of booking.",
+      "list2": "Your <1>chat or written correspondence</1> with us also serves as your booking confirmation record.",
+      "desc2": "This means you do not need any additional confirmation file. Simply keep these records safe for your reference."
+    },
+    "step6": {
+      "title": "<1>Relax</1> and Get Ready!",
+      "desc1": "With everything confirmed, you can now sit back and look forward to your Rinjani adventure. Our team will handle the rest and keep you informed as your trekking date approaches."
+    }
+  }
+}

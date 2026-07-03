@@ -1,0 +1,158 @@
+{
+  "seo": {
+    "meta_title": "Trek Gunung Rinjani 3 Hari Pelawangan Senaru & Danau | Go2Rinjani",
+    "meta_description": "Mendaki Rinjani via Senaru dalam 3 hari — hutan hujan menuju pelawangan Senaru, turun ke danau Segara Anak, dan berendam di pemandian air panas. Tanpa puncak."
+  },
+  "hero": {
+    "title": "Trek 3 Hari Senaru Rinjani — Hutan Hujan, Danau & Air Panas",
+    "desc": "Pengalaman Rinjani paling mendalam tanpa puncak dari Go2Rinjani — trek danau Senaru 3 hari membawa Anda melintasi hutan hujan tropis lebat ke Pelawangan Senaru, turun ke kawah untuk berkemah di tepi danau Segara Anak, dan pemandian air panas alami. Didukung penuh oleh pemandu lokal bersertifikat dan porter.",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+  },
+  "intro": {
+    "label": "3 Hari 2 Malam — Jalur Senaru",
+    "title": "Danau Kawah Suci Rinjani — Melalui Hutan Hujan, Tanpa Puncak",
+    "desc": "Trek danau Senaru 3 hari dirancang untuk pendaki yang ingin turun ke jantung TNGR — danau Segara Anak yang suci di 2.008 m — tanpa tuntutan fisik menuju puncak. Mulai dari desa adat Sasak Senaru, jalur melintasi hutan hujan tropis lebat ke Pelawangan Senaru (2.641 m), lalu turun ke kawah vulkanik untuk berkemah di samping danau Segara Anak dan berendam di pemandian air panas alaminya."
+  },
+  "highlights": {
+    "section_title": "Apa yang Diharapkan di Trek Ini",
+    "items": [
+      {
+        "id": "senaru-rainforest",
+        "title": "Jalur Hutan Hujan Senaru",
+        "desc": "Jalur Senaru adalah yang paling kaya keanekaragaman hayati di Rinjani — melintasi hutan hujan tropis lebat di lereng barat TNGR."
+      },
+      {
+        "id": "pelawangan-senaru",
+        "title": "Pelawangan Senaru di 2.641 m",
+        "desc": "Capai Pelawangan Senaru — bibir kawah Senaru di 2.641 m — dengan pemandangan luas atas danau Segara Anak di bawah dan Puncak Gunung Rinjani."
+      },
+      {
+        "id": "segara-anak-descent",
+        "title": "Turun ke Danau Segara Anak",
+        "desc": "Turun dari Pelawangan Senaru ke dalam kawah vulkanik suci Gunung Rinjani dan berkemah di samping danau Segara Anak di 2.008 m."
+      },
+      {
+        "id": "hot-springs",
+        "title": "Pemandian Air Panas Vulkanik",
+        "desc": "Berendam di pemandian air panas vulkanik alami di tepi danau Segara Anak — pengalaman yang sangat memulihkan."
+      },
+      {
+        "id": "sasak-culture",
+        "title": "Warisan Budaya Sasak",
+        "desc": "Jalur Senaru melintasi desa adat Sasak Senaru, salah satu komunitas paling tradisional di Lombok."
+      }
+    ]
+  },
+  "itinerary": {
+    "section_title": "Jadwal 3 Hari Danau Senaru",
+    "intro": "Tiga hari, dua malam di jalur Senaru — hutan hujan, pelawangan, danau Segara Anak, dan pemandian air panas tanpa pendakian puncak.",
+    "days": [
+      {
+        "day": "Hari 1",
+        "title": "Desa Senaru ke Pelawangan Senaru",
+        "desc": "Setelah sarapan dan pengarahan di akomodasi Senaru Anda, Go2Rinjani mentransfer Anda ke titik awal. Trekking melintasi hutan hujan tropis dan tiba di Pelawangan Senaru menjelang sore. Makan malam dan berkemah semalam.",
+        "highlights": [
+          "Sarapan & pengarahan di Senaru",
+          "Transfer ke titik awal",
+          "Trek melintasi hutan hujan",
+          "Tiba di Pelawangan Senaru (2.641 m)",
+          "Pemandangan panorama danau & kaldera",
+          "Makan malam & berkemah di Pelawangan Senaru"
+        ]
+      },
+      {
+        "day": "Hari 2",
+        "title": "Turun ke Danau Segara Anak — Berendam Air Panas",
+        "desc": "Setelah matahari terbit, mulai turun ke kawah vulkanik menuju danau Segara Anak. Tiba siang hari, mendirikan tenda di tepi danau, dan berendam di pemandian air panas alami. Berkemah semalam.",
+        "highlights": [
+          "Matahari terbit dari Pelawangan Senaru",
+          "Sarapan di kamp kawah",
+          "Turun ke dalam kawah vulkanik",
+          "Tiba di danau Segara Anak siang hari",
+          "Berendam air panas vulkanik",
+          "Makan malam & berkemah di tepi danau"
+        ]
+      },
+      {
+        "day": "Hari 3",
+        "title": "Danau Segara Anak — Naik & Turun ke Desa Senaru",
+        "desc": "Bangun menghadap danau sebelum memulai pendakian kembali ke Pelawangan Senaru dan turunan penuh kembali ke desa Senaru. Transfer ke akomodasi.",
+        "highlights": [
+          "Matahari terbit di danau Segara Anak",
+          "Sarapan di kamp tepi danau",
+          "Naik ke Pelawangan Senaru",
+          "Turun penuh melintasi hutan hujan",
+          "Transfer kembali ke akomodasi"
+        ]
+      }
+    ],
+    "schedule_label": "Jadwal Perjalanan"
+  },
+  "inclusions": {
+    "section_title": "Inklusi & Eksklusi Trek",
+    "intro": "Setiap trek Danau Senaru 3 hari bersama Go2Rinjani didukung penuh.",
+    "included": [
+      "Pemandu lokal bersertifikat",
+      "Porter (peralatan perkemahan maksimal 25 kg)",
+      "Tiket masuk Taman Nasional Gunung Rinjani",
+      "Semua makanan di gunung (3x sehari) + minuman",
+      "Peralatan berkemah lengkap: tenda, sleeping bag",
+      "Penjemputan & pengantaran",
+      "Akomodasi pratrek 1 malam di Senaru"
+    ],
+    "excluded": [
+      "Perlengkapan pribadi",
+      "Asuransi perjalanan",
+      "Tip untuk staf"
+    ],
+    "included_label": "Termasuk",
+    "excluded_label": "Tidak Termasuk"
+  },
+  "trek_details": {
+    "section_title": "Sekilas Trek",
+    "intro": "Segala yang perlu Anda ketahui sebelum memesan.",
+    "details": [
+      { "label": "Durasi", "value": "3 Hari 2 Malam" },
+      { "label": "Rute", "value": "Senaru — mulai dan selesai di desa Senaru" },
+      { "label": "Ketinggian Pelawangan", "value": "Pelawangan Senaru — 2.641 mdpl" },
+      { "label": "Ketinggian Danau", "value": "2.008 mdpl" },
+      { "label": "Puncak", "value": "Tanpa puncak — hanya danau & pelawangan" },
+      { "label": "Mulai", "value": "Desa Senaru" },
+      { "label": "Kesulitan", "value": "Sedang — cocok untuk kebugaran wajar" },
+      { "label": "Musim Terbaik", "value": "April – Desember" },
+      { "label": "Izin", "value": "Izin Taman Nasional termasuk" },
+      { "label": "Ukuran Grup", "value": "Min 2 — max 6 per grup. Opsi privat tersedia." },
+      { "label": "Opsi Torean", "value": "Tidak tersedia di paket ini" }
+    ]
+  },
+  "choose_duration": {
+    "section_title": "Bukan Paket Senaru Ini Yang Anda Cari?",
+    "items": [
+      {
+        "duration": "2 Hari 1 Malam",
+        "best_for": "Bagi yang ingin pelampangan kawah saja",
+        "cta_label": "Lihat Paket 2 Hari",
+        "cta_url": "/tours/mount-rinjani-trek/2-day-senaru-crater-rim"
+      },
+      {
+        "duration": "3 Hari 2 Malam",
+        "best_for": "Pelawangan, Danau Segara Anak & Air Panas",
+        "cta_label": "Anda Di Sini",
+        "cta_url": "/tours/mount-rinjani-trek/3-day-senaru-lake"
+      },
+      {
+        "duration": "4 Hari 3 Malam",
+        "best_for": "Pengalaman penuh termasuk puncak 3.726 m",
+        "cta_label": "Lihat Paket 4 Hari",
+        "cta_url": "/tours/mount-rinjani-trek/4-day-senaru-summit-lake"
+      }
+    ],
+    "read_more_label": "Baca selengkapnya"
+  },
+  "cta": {
+    "section_title": "Siap Merasakan Danau Segara Anak via Senaru?",
+    "title": "Pesan Trek 3 Hari Senaru Anda",
+    "desc": "Hutan hujan, pelawangan, danau suci, dan pemandian air panas — pengalaman terdalam di Rinjani tanpa puncak.",
+    "cta_label": "Pesan Trek Ini"
+  }
+}

@@ -1,0 +1,24 @@
+---
+export const prerender = true;
+import TourDetailsPage from "../../../features/tour-details/Page.astro";
+import { getTourCanonicalPath } from "../../../utils/tour-routes";
+
+export function getStaticPaths() {
+  const files = import.meta.glob("/public/locales/en/tour-details/*.json");
+
+  return Object.keys(files).map((filePath) => {
+    const filename = filePath.split("/").pop()!;
+    const rawSlug = filename.replace(".json", "");
+    const canonicalSlug = getTourCanonicalPath(rawSlug).replace(/^\/tours\//, "");
+
+    return {
+      params: { slug: canonicalSlug },
+      props: { rawSlug },
+    };
+  });
+}
+
+const { rawSlug } = Astro.props;
+---
+
+<TourDetailsPage slug={rawSlug as string} />

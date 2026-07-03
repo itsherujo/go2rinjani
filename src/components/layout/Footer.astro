@@ -1,0 +1,47 @@
+---
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import FooterIsland from './FooterIsland';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "footer");
+
+const translations = {
+  'newsletter.title': t("footer.newsletter.title"),
+  'newsletter.subtitle': t("footer.newsletter.subtitle"),
+  'newsletter.destinations.label': t("footer.newsletter.destinations.label"),
+  'newsletter.newsletter_type.label': t("footer.newsletter.newsletter_type.label"),
+  'newsletter.form.name_placeholder': t("footer.newsletter.form.name_placeholder"),
+  'newsletter.form.email_placeholder': t("footer.newsletter.form.email_placeholder"),
+  'newsletter.form.submit_label': t("footer.newsletter.form.submit_label"),
+  'newsletter.form.privacy_label': t("footer.newsletter.form.privacy_label"),
+  'social.title': t("footer.social.title"),
+  'contact.title': t("footer.contact.title"),
+  'contact.address': t("footer.contact.address"),
+  'contact.maps_url': t("footer.contact.maps_url"),
+  'contact.hours.title': t("footer.contact.hours.title"),
+  'contact.hours.online.label': t("footer.contact.hours.online.label"),
+  'contact.hours.online.value': t("footer.contact.hours.online.value"),
+  'contact.hours.offline.label': t("footer.contact.hours.offline.label"),
+  'contact.hours.offline.value': t("footer.contact.hours.offline.value"),
+  'license.title': t("footer.license.title"),
+  'license.subtitle': t("footer.license.subtitle"),
+  'copyright': t("footer.copyright"),
+};
+
+const destinations = t("footer.newsletter.destinations.items", { returnObjects: true }) as string[] || [];
+const newsletterTypes = t("footer.newsletter.newsletter_type.items", { returnObjects: true }) as string[] || [];
+const socialItems = t("footer.social.items", { returnObjects: true }) || [];
+const navItems = t("footer.nav.items", { returnObjects: true }) || [];
+const licenseItems = t("footer.license.items", { returnObjects: true }) || [];
+---
+
+<FooterIsland 
+  client:visible 
+  translations={translations}
+  destinations={destinations}
+  newsletterTypes={newsletterTypes}
+  socialItems={socialItems as any}
+  navItems={navItems as any}
+  licenseItems={licenseItems as any}
+  locale={lang}
+/>

@@ -1,0 +1,15 @@
+{
+  "seo": {
+    "meta_title": "Veranstaltungen & Agenda | Go2Rinjani",
+    "meta_description": "Entdecken Sie unsere kommenden Veranstaltungen und die Agenda."
+  },
+  "calendar": {
+    "title": "Agenda",
+    "filter_label": "nach Standort filtern:",
+    "filter_locations": ["Berg Rinjani", "Berg Stampol"],
+    "read_more": "mehr lesen",
+    "months": ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"],
+    "days_desktop": ["sonntag", "montag", "dienstag", "mittwoch", "donnerstag", "freitag", "samstag"],
+    "days_mobile": ["so", "mo", "di", "mi", "do", "fr", "sa"]
+  }
+}

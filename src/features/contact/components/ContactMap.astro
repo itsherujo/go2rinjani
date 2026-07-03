@@ -1,0 +1,41 @@
+---
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+import Section from "../../../components/ui/Layout/Section.astro";
+import ContactMapIsland from "../islands/ContactMapIsland";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "contact");
+---
+
+<Section class="py-0!">
+  <div class="w-full h-[400px] md:h-[500px] lg:h-[600px] border border-black mb-6 relative z-0">
+    <ContactMapIsland client:only="react" addressTranslation={t("address") as string} />
+  </div>
+</Section>
+
+<style>
+  :global(.animate-fade-in-scale) {
+    animation: fadeInScale 0.8s ease-out 0.1s forwards;
+    opacity: 0;
+  }
+  @keyframes fadeInScale {
+    from {
+      opacity: 0;
+      transform: scale(0.98);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* Override Tailwind v4 preflight which sets img { max-width: 100%; height: auto; }
+     — this breaks Leaflet tile rendering which relies on explicit pixel dimensions */
+  :global(.leaflet-container img) {
+    max-width: none !important;
+    height: auto !important;
+  }
+  :global(.leaflet-container .leaflet-tile) {
+    height: auto !important;
+  }
+</style>

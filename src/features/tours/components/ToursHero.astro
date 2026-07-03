@@ -1,0 +1,65 @@
+---
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+import PageHeader from "../../../components/ui/Layout/PageHeader.astro";
+import HeroTitle from "../../../components/ui/Typography/HeroTitle.astro";
+import HeroDesc from "../../../components/ui/Typography/HeroDesc.astro";
+import { toursHeroImages as images } from "../data/tourLayouts";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "tours");
+---
+
+<section class="w-full flex justify-center pt-4 pb-8 flex-col">
+  <PageHeader class="flex flex-col mb-8 lg:mb-12 pt-0 pb-0">
+    <HeroTitle>{t("hero.title")}</HeroTitle>
+    <HeroDesc>{t("hero.desc")}</HeroDesc>
+  </PageHeader>
+
+  <div class="w-full">
+    {/* Desktop / Tablet Grid */}
+    <div
+      class="hidden min-[481px]:grid grid-cols-4 gap-2 lg:gap-5 h-[35vh] lg:h-[49vh] px-4 xl:px-5"
+    >
+      {
+        images.map((img, i) => (
+          <div class="overflow-hidden bg-gray-100 h-full">
+            <img
+              src={img.src}
+              width={img.width}
+              height={img.height}
+              class="w-full h-full object-cover"
+              alt={img.alt || `Trek ${i + 1}`}
+              loading="eager"
+              fetchpriority="high"
+            />
+          </div>
+        ))
+      }
+    </div>
+
+    {/* Mobile Scroll */}
+    <div
+      class="flex min-[481px]:hidden overflow-x-auto scroll-px-4 snap-x snap-mandatory gap-2 px-4 w-full [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] scrollbar-none"
+    >
+      {
+        images.map((img, i) => (
+          <div class="w-[85vw] h-[55vh] shrink-0 snap-start bg-gray-100 overflow-hidden">
+            <img
+              src={img.src}
+              width={img.width}
+              height={img.height}
+              class="w-full h-full object-cover"
+              alt={img.alt || `Trek ${i + 1}`}
+              loading="eager"
+              fetchpriority="high"
+            />
+          </div>
+        ))
+      }
+      {
+        /* Spacer to make sure the user can scroll past the last item comfortably on mobile */
+      }
+      <div class="w-px shrink-0"></div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,165 @@
+{
+  "seo": {
+    "meta_title": "Ascensión al Monte Rinjani 2 Días — Ruta Sembalun | Go2Rinjani",
+    "meta_description": "Conquista la cima del Monte Rinjani a 3.726 m en 2 días por la ruta Sembalun. Guías certificados, soporte completo de campamento. Reserva con Go2Rinjani."
+  },
+  "hero": {
+    "title": "Cima del Monte Rinjani | Trekking Sembalun de 2 Días",
+    "desc": "La ruta más rápida al techo de Lombok. Nuestro trekking de 2 días desde el valle de Sembalun te lleva hasta la cima del Monte Rinjani (3.726 m), el segundo volcán más alto de Indonesia, con vistas panorámicas increíbles."
+  },
+  "intro": {
+    "label": "2 Días 1 Noche — Ruta Sembalun",
+    "title": "El Camino Más Directo a la Cima de Rinjani",
+    "desc": "La Ruta Sembalun es la preferida para alcanzar la cima del Monte Rinjani. Comenzando a los 1.156 m, el sendero sube a través de la sabana antes de llegar al borde del cráter a 2.639 m y luego a la cumbre."
+  },
+  "highlights": {
+    "section_title": "Qué Esperar en Este Trekking",
+    "items": [
+      {
+        "id": "sembalun-savannah",
+        "title": "Sendero de la Sabana de Sembalun",
+        "desc": "El trekking comienza en la extensa sabana del valle de Sembalun — un terreno hermoso en las laderas orientales del parque."
+      },
+      {
+        "id": "plawangan-sembalun",
+        "title": "Borde del Cráter Plawangan Sembalun",
+        "desc": "Llega a Plawangan Sembalun a 2.639 m: aquí acamparemos con vistas impresionantes del lago turquesa Segara Anak."
+      },
+      {
+        "id": "rinjani-summit",
+        "title": "Cumbre del Monte Rinjani a 3.726 m",
+        "desc": "El último esfuerzo hacia la cima del Monte Rinjani a 3.726 m. Obtendrás vistas espectaculares de Bali, Sumbawa y el Estrecho de Lombok."
+      },
+      {
+        "id": "sunrise-summit",
+        "title": "Amanecer Sobre las Nubes",
+        "desc": "Tiempos calculados a la perfección para que llegues a la cima durante uno de los amaneceres más bellos de Indonesia."
+      }
+    ]
+  },
+  "itinerary": {
+    "section_title": "Itinerario del Sembalun 2 Días",
+    "intro": "Un ascenso rápido y directo al Monte Rinjani: dos días, una noche en el cráter, y un amanecer espectacular.",
+    "days": [
+      {
+        "day": "Día 1",
+        "title": "Desde Sembalun hasta el Borde del Cráter Plawangan",
+        "desc": "Después de desayunar, nuestro equipo te traslada al inicio del sendero (1.156 m). Caminata por la sabana para llegar al campamento a 2.639 m. Cena con vistas al lago Segara Anak.",
+        "highlights": [
+          "Desayuno y orientación en Sembalun",
+          "Traslado al inicio (1.156 m)",
+          "Ascenso por la sabana — Postes 1, 2 y 3",
+          "Llegada al borde del cráter (2.639 m)",
+          "Atardecer sobre el lago Segara Anak",
+          "Cena y acampada en Plawangan Sembalun"
+        ]
+      },
+      {
+        "day": "Día 2",
+        "title": "Ascenso a la Cumbre y Descenso a Sembalun",
+        "desc": "Salida antes del amanecer para el ascenso a la cima (3.726 m). Al concluir las fotos, descenso al campamento para el desayuno, seguido de una bajada completa hasta Sembalun y traslado al hotel.",
+        "highlights": [
+          "Salida nocturna desde Plawangan Sembalun",
+          "LLegada a la cima a 3.726 m al amanecer",
+          "Vistas panorámicas increíbles",
+          "Descenso al campamento para el desayuno",
+          "Descenso completo a Sembalun",
+          "Traslado a tu alojamiento"
+        ]
+      }
+    ],
+    "schedule_label": "Horario del Itinerario"
+  },
+  "inclusions": {
+    "section_title": "Incluido y No Incluido",
+    "intro": "Toda la logística organizada para garantizar tu aventura en el Monte Rinjani.",
+    "included": [
+      "Guía local certificado",
+      "Porteadores (para equipamiento del campamento)",
+      "Permiso de entrada al Parque Nacional Monte Rinjani",
+      "Todas las comidas en la montaña, agua mineral y bebidas calientes",
+      "Equipamiento completo de camping (tienda, saco de dormir, colchoneta, etc.)",
+      "Transporte de ida y vuelta a tu hotel",
+      "1 noche de alojamiento previa en Sembalun"
+    ],
+    "excluded": [
+      "Equipamiento personal (ropa adecuada, botas, bastones)",
+      "Seguro de viaje",
+      "Propinas para guías y porteadores"
+    ],
+    "included_label": "Incluido",
+    "excluded_label": "No Incluido"
+  },
+  "trek_details": {
+    "section_title": "Detalles del Trekking",
+    "intro": "Todo lo necesario antes de reservar esta aventura en Sembalun.",
+    "details": [
+      {
+        "label": "Duración",
+        "value": "2 Días 1 Noche"
+      },
+      {
+        "label": "Ruta",
+        "value": "Ruta Sembalun — inicio y fin en Sembalun"
+      },
+      {
+        "label": "Elevación de Cumbre",
+        "value": "3.726 m sobre el nivel del mar — la cima de Lombok"
+      },
+      {
+        "label": "Inicio del Sendero",
+        "value": "Valle de Sembalun, Este de Lombok (1.156 m)"
+      },
+      {
+        "label": "Dificultad",
+        "value": "Desafiante — se recomienda experiencia"
+      },
+      {
+        "label": "Mejor Temporada",
+        "value": "Abril – Diciembre (temporada seca). Cerrado Enero – Marzo."
+      },
+      {
+        "label": "Permiso",
+        "value": "Permiso de Parque Nacional — incluido"
+      },
+      {
+        "label": "Tamaño del Grupo",
+        "value": "Mínimo 2 — máximo 6 por grupo. Grupos privados disponibles."
+      },
+      {
+        "label": "Opción Ruta Torean",
+        "value": "No disponible en 2 días — ver paquete 3 o 4 días"
+      }
+    ]
+  },
+  "choose_duration": {
+    "section_title": "¿No estás seguro de qué paquete elegir?",
+    "items": [
+      {
+        "duration": "2 Días 1 Noche",
+        "best_for": "Con poco tiempo y que solo buscan la cima",
+        "cta_label": "Ver Paquete 2 Días",
+        "cta_url": "/tours/mount-rinjani-trek/2-days-sembalun-summit"
+      },
+      {
+        "duration": "3 Días 2 Noches",
+        "best_for": "Para una experiencia completa",
+        "cta_label": "Estás Aquí",
+        "cta_url": "/tours/mount-rinjani-trek/3-days-sembalun-summit-lake"
+      },
+      {
+        "duration": "4 Días 3 Noches",
+        "best_for": "Para disfrutar cada paso a un ritmo cómodo",
+        "cta_label": "Ver Paquete 4 Días",
+        "cta_url": "/tours/mount-rinjani-trek/4-days-sembalun-expedition"
+      }
+    ],
+    "read_more_label": "Leer más"
+  },
+  "cta": {
+    "section_title": "¿Listo para la Cima del Rinjani?",
+    "title": "Reserva Tu Trekking Sembalun de 2 Días con Go2Rinjani",
+    "desc": "Go2Rinjani se encarga de todo. Solo necesitas traer tu determinación y ganas de aventura. El techo de Lombok te espera.",
+    "cta_label": "Reserva Este Trek"
+  }
+}

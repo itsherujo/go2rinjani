@@ -1,0 +1,33 @@
+---
+export const prerender = true;
+import BaseLayout from "../layouts/BaseLayout.astro";
+import FaqSection from "../features/faq/components/FaqSection.astro";
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import { buildFAQSchema } from "../utils/schema";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "faq");
+
+const items = t("items", { returnObjects: true }) as Array<{
+  id: string;
+  title: string;
+  text: string;
+}>;
+
+const title = t("seo.meta_title", {
+  defaultValue: `${t("heading")} | Go2Rinjani`,
+});
+const description = t("seo.meta_description", {
+  defaultValue: t("paragraph"),
+});
+
+const schemas = [
+  buildFAQSchema(
+    items.map((item) => ({ question: item.title, answer: item.text })),
+  ),
+];
+---
+
+<BaseLayout title={title} description={description} schemas={schemas}>
+  <FaqSection />
+</BaseLayout>

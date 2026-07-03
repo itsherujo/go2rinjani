@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import Hero from './components/Hero.astro';
+import Section from './components/Section.astro';
+import Closing from './components/Closing.astro';
+import CTA from './components/CTA.astro';
+import Testimonial from '../../components/sections/Testimonial.astro';
+import { aboutImages } from './data/constants';
+import { PAGE_OG_IMAGES } from '../../data/page-og-images';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "about");
+
+// Get SEO data
+const title = t("seo.meta_title", { defaultValue: "About Us | Go2Rinjani" });
+const description = t("seo.meta_description", { defaultValue: "Discover our story" });
+---
+
+<BaseLayout title={title} description={description} ogImage={PAGE_OG_IMAGES.about}>
+  <div class="flex flex-col w-full">
+    <Hero />
+
+    <Section
+      title={t("hub.title")}
+      desc={t("hub.desc")}
+      images={aboutImages.sections.hub}
+    />
+
+    <Section
+      title={t("reimagined.title")}
+      desc={t("reimagined.desc")}
+      images={aboutImages.sections.reimagined}
+    />
+
+    <Section
+      title={t("community.title")}
+      desc={t("community.desc")}
+      images={aboutImages.sections.community}
+    />
+
+    <Section
+      title={t("discovery.title")}
+      desc={t("discovery.desc")}
+      images={aboutImages.sections.discovery}
+    />
+
+    <Closing />
+    <Testimonial />
+    <CTA />
+  </div>
+</BaseLayout>

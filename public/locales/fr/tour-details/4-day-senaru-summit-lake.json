@@ -1,0 +1,170 @@
+{
+  "seo": {
+    "meta_title": "Trek Mont Rinjani 4 Jours Senaru — Sommet, Lac & Sources | Go2Rinjani",
+    "meta_description": "L'expérience Senaru Rinjani ultime — 4 jours dans la forêt vierge, sommet à 3 726 m, lac Segara Anak, camping et sources thermales. Guides certifiés inclus."
+  },
+  "hero": {
+    "title": "Trek Mont Rinjani 4 Jours Senaru — Sommet, Lac & Sources Thermales",
+    "desc": "Le Trek 4 jours Senaru Sommet & Lac de Go2Rinjani rassemble tout ce que le Parc National a de meilleur : forêt vierge luxuriante, sommet vertigineux à 3726 m, bivouac au lac sacré et détente dans les sources volcaniques chaudes.",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+  },
+  "intro": {
+    "label": "4 Jours 3 Nuits — Route Senaru",
+    "title": "Le Trek Ultime du Rinjani — Tous les Incontournables en 4 Jours",
+    "desc": "Ce trek vous donne le temps d'explorer pleinement le volcan depuis le versant Ouest (Senaru). Après une ascension en forêt jusqu'au rebord de cratère (2 641m), vous partirez de nuit pour l'ascension du sommet. Vous aurez ainsi une pleine journée de détente bien méritée aux abords du majestueux lac Segara Anak."
+  },
+  "highlights": {
+    "section_title": "À Quoi S'attendre sur ce Trek",
+    "items": [
+      {
+        "id": "senaru-rainforest",
+        "title": "La Forêt Tropicale de Senaru",
+        "desc": "Commencez en douceur entourés d'arbres gigantesques et de chants d'oiseaux."
+      },
+      {
+        "id": "pelawangan-senaru",
+        "title": "Cratère Pelawangan Senaru à 2 641 m",
+        "desc": "Un panorama inoubliable sur le lac en contrebas. C'est ici le camp de base pour la longue ascension finale."
+      },
+      {
+        "id": "rinjani-summit",
+        "title": "Sommet du Mont Rinjani (3 726 m)",
+        "desc": "Une marche difficile en plein milieu de la nuit jusqu'à l'un des sommets volcaniques les plus hauts d'Indonésie pour un lever de soleil sublime."
+      },
+      {
+        "id": "segara-anak-lake",
+        "title": "Lac Segara Anak (2 008 m)",
+        "desc": "La descente au cœur de la montagne. Ces 4 jours vous garantissent du temps qualitatif au bord du lac mystique."
+      },
+      {
+        "id": "hot-springs",
+        "title": "Sources Chaudes Naturelles",
+        "desc": "Après l'ascension monumentale, guérissez dans les chaudes rivières et piscines naturelles à deux pas de la tente."
+      },
+      {
+        "id": "sasak-culture",
+        "title": "Imprégnation Totale avec l'équipe Sasak",
+        "desc": "Profitez des 4 jours au coté de votre équipe de guides et de porteurs hors pairs de la communauté de Senaru."
+      }
+    ]
+  },
+  "itinerary": {
+    "section_title": "Programme des 4 Jours (Senaru)",
+    "intro": "L'horaire détaillé pour cet exploit : Forêt, Sommet, Cratère, Sources Chaudes et Lac.",
+    "days": [
+      {
+        "day": "Jour 1",
+        "title": "De Senaru vers le Camp de Base de Pelawangan",
+        "desc": "Mise en jambe dans l'imposante forêt pour 6-7h d'ascension jusqu'au bord du cratère où le premier grand spectacle vous attendra, suivi du repas et de repos.",
+        "highlights": [
+          "Transfert porte à porte vers le point de départ",
+          "Forêt magique, chaude et vivante",
+          "Arrivée au Pelawangan Senaru (2 641m)",
+          "Coucher de soleil sur le Cratère"
+        ]
+      },
+      {
+        "day": "Jour 2",
+        "title": "Le Sommet en Nocturne & Contournement vers Le Lac",
+        "desc": "Ascension en pleine nuit (vers 2h30 du matin) pour atteindre 3726m. Ensuite descente vertigineuse rejoignant le fond du cratère, Segara Anak.",
+        "highlights": [
+          "Effort Ultime au milieu des Etoiles",
+          "Aube divine à 3 726 m d'altitude sur l'Archipel",
+          "Descente technique vers le Camp Rive Lac",
+          "Première Nuit Etoilée proche de la Caldeira"
+        ]
+      },
+      {
+        "day": "Jour 3",
+        "title": "Journée Royale au cœur du Lac et des Sources Chaudes",
+        "desc": "Repos tant mérité dans cet incroyable micro système où volcan chaud et lac immense de Segara Anak s'entremêlent librement.",
+        "highlights": [
+          "Long et doux sommeil",
+          "Sauts & nages joyeuses en Sources Volcaniques",
+          "Exploration facile & Nuit de camping N°2 au lac"
+        ]
+      },
+      {
+        "day": "Jour 4",
+        "title": "Montée d'Adieux & Plongée en Forêt de Retour",
+        "desc": "Triste retour en longeant la pente pour quitter le Cratère à nouveau avant de parcourir la longue descente jusqu'au village pour la clôture officielle.",
+        "highlights": [
+          "Matinée douce au camp",
+          "Ascension retour intense du cratère",
+          "Marche agréable en Forêt Tropicale vers le fond",
+          "Retours vers la plaine"
+        ]
+      }
+    ],
+    "schedule_label": "Programme"
+  },
+  "inclusions": {
+    "section_title": "Inclus / Non Inclus",
+    "intro": "Vous n'avez besoin que d'habits et du minimum de voyage. Le reste sera procuré par nos équipes.",
+    "included": [
+      "Le Meilleur Guide Compétent et English Speaker",
+      "Le Support Logistique Indispensable (Porteurs d'Équipe)",
+      "Tous Billets Forestiers & Parcs d'Immigration Locaux Rinjani",
+      "Énorme Quantité de Provisions, Eau Épurée (3 Repas quotidiens + collations)",
+      "Logement Bivouac Pro, Doux et Spacieux",
+      "Soutien Navette Transports Aller De Lombok & Retour",
+      "Guesthouse 1 Soir Pré Trekking"
+    ],
+    "excluded": [
+      "Bâtons de Randonnees, Vestes Grand Froid, Lampes Frontales (Possibles sur Location)",
+      "Polices d’Aide au Rapatriement de Secours et Protection Personnelle",
+      "Bonus à destination des incroyables accompagnateurs."
+    ],
+    "included_label": "Inclus",
+    "excluded_label": "Exclus"
+  },
+  "trek_details": {
+    "section_title": "Détails Cruciaux Rapides",
+    "intro": "Ce récapitulatif contient l'information claire avant que l'aventure ne devienne officielle.",
+    "details": [
+      { "label": "Durée d'Immersion", "value": "4 Jours et 3 Nuits Complètes sur Volcan" },
+      { "label": "Format Départ", "value": "De Senaru, Sortie au même endroit." },
+      { "label": "Sommet Altitude Majeure", "value": "Mont Rinjani Point Max: 3 726 m" },
+      { "label": "Point Nuit Majeur", "value": "Le Cratère Culmine à 2 641m" },
+      { "label": "Repose Zone Basse", "value": "La Piscine Lac est à 2 008m" },
+      { "label": "Mise En Jambe", "value": "Le Village de Senaru est à 601m" },
+      { "label": "Exigence Physique", "value": "Dureté Intense: Préparation Cardiaque et Volonté Sont Exigées" },
+      { "label": "Mois Faisant L'unanimité", "value": "Mois de Mai à Octobre / Novembre. Interdit en Février/Mars. " },
+      { "label": "Organisation Billet", "value": "Tickets pris en charge à votre nom avant arrivée" },
+      { "label": "Conditions Équipe", "value": "Privé et Non Privé Accessible (jusqu'a 6)." },
+      { "label": "Remarque", "value": "La route Torean n’apparaît aucunement ici" }
+    ]
+  },
+  "choose_duration": {
+    "section_title": "Vous avez mal compris ce format, ce n'est pas le bon Trek?",
+    "items": [
+      {
+        "duration": "Moins Long, 2 Jours 1 Nuit",
+        "best_for": "Ne pas faire le sommet ni le Lac, juste un panorama 1 soir",
+        "cta_label": "Regarder ce produit",
+        "cta_url": "/tours/mount-rinjani-trek/2-day-senaru-crater-rim"
+      },
+      {
+        "duration": "Idéal, 3 Jours 2 Nuits",
+        "best_for": "Seulement le cratère, lac et sources, évitant le sommet de 3726m mortel",
+        "cta_label": "Regarder ce produit",
+        "cta_url": "/tours/mount-rinjani-trek/3-day-senaru-lake"
+      },
+      {
+        "duration": "Vous Etes Ici, 4 Jours 3 Nuits",
+        "best_for": "Tout expérimenter, le pur cheminement",
+        "cta_label": "Vous Etes Ici",
+        "cta_url": "/tours/mount-rinjani-trek/4-day-senaru-summit-lake"
+      }
+    ],
+    "read_more_label": "En savoir plus"
+  },
+  "cta": {
+    "section_title": "Prêt pour le Tournoi Du Montagneux ?",
+    "title": "Réservation Valide 4 Jours Sommet/Lac de Rinjani",
+    "desc": "Forêt, Cratère, Sources et Lac : Que votre cœur l'envoûte de joie et bonheur pur. Appelez et confirmez votre épreuve !",
+    "cta_label": "Passer À l'Action",
+    "secondary_cta_label": "Ouvrir Menu Général Rinjani",
+    "secondary_cta_url": "/tours/mount-rinjani"
+  }
+}

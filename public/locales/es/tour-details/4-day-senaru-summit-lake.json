@@ -1,0 +1,167 @@
+{
+  "seo": {
+    "meta_title": "Trek Mont Rinjani 4 Días Senaru — Cumbre, Lago & Termas | Go2Rinjani",
+    "meta_description": "La mayor experiencia en Rinjani — 4 días vía ruta Senaru con ascenso a la cumbre (3,726 m), acampar en el lago Segara Anak y relajar en piscinas volcánicas."
+  },
+  "hero": {
+    "title": "Mont Rinjani Trek 4 Días Vía Senaru — Bosque, Cumbre y Lago",
+    "desc": "El programa de 4 días de Go2Rinjani en Senaru te da absolutamente todos los atractivos del Parque Nacional. Descubre la exótica vegetación espesa y avista flora local antes de enfrentarte a la cima principal con sus 3,726 metros y deleitarse con sus lagos cálidos volcánicos de Segara Anak.",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+  },
+  "intro": {
+    "label": "4 Días 3 Noches — Ruta Senaru",
+    "title": "La Verdadera Gloria Senaru Rinjani Trek — Exploración Extrema en Cuatro Días",
+    "desc": "Disfrutando este Trek a la cumbre desde Senaru serás testigo de los secretos que se ocultan y del atardecer que adormila todos los ruidos selváticos. Partimos en la ancestral comunidad Sasak Senaru, para ir abriendo camino por 2 días previos al ascenso hasta finalmente obtener y sumplantar tu propia recompensa sobre los 3726 de altura rodeados del hermoso anillo o collar Segara Anak del Rinjani"
+  },
+  "highlights": {
+    "section_title": "Atractivos Increíbles en 4 Días",
+    "items": [
+      {
+        "id": "senaru-rainforest",
+        "title": "Sierras tropicales y Vegetación Verde de Senaru",
+        "desc": "Explora tu lado animal en las montañas con el bosque endémico del cual surgen innumerables cuentos de monos o vegetación vibrante."
+      },
+      {
+        "id": "pelawangan-senaru",
+        "title": "Campo Base Cima de Pelawangan Senaru 2641 m",
+        "desc": "Asombroso y helado, donde nos aclimataremos bajo la inaudita escena de los astros que circundan en el campo Rinjani"
+      },
+      {
+        "id": "rinjani-summit",
+        "title": "Conquista Cima Rinjani Mayor 3.726 m",
+        "desc": "Tu objetivo principal será escalar horas durante la madrugada, para contemplar la inmensidad del paisaje isleño de Indonesia de Bali y Sumbawa envueltas por mares del Océano y picos soleados"
+      },
+      {
+        "id": "segara-anak-lake",
+        "title": "Acampada Lago Segara Anak Inferior",
+        "desc": "Estar inmerso con este gigantesco paraíso verde azul volcánico escondido dentro del Cratér, para admirarlo libremente entre tiempo ganado durante el trek."
+      },
+      {
+        "id": "hot-springs",
+        "title": "Múltiples Remansos de Agua Termal",
+        "desc": "Piscinas sanadoras ricas en sales a orillas del campamento, purificadas con la actividad del mismo monte Gunung Barujari."
+      },
+      {
+        "id": "sasak-culture",
+        "title": "Inolvidable Empatía Cutural Sasak Local",
+        "desc": "Ser guiado y asistido bajo mano e instrucción de gente oriunda e impecables nativos devotos que conocen desde niños."
+      }
+    ]
+  },
+  "itinerary": {
+    "section_title": "Bitácora Completa Trekking 4 Días Cumbre de Senaru",
+    "intro": "Pautas a tomar en cuenta los siguientes cuatros días, donde te probaremos sobre lo que se interpone hasta el Monte Mayor 3726M y Las Áreas Bajas Ocultas",
+    "days": [
+      {
+        "day": "Día 1",
+        "title": "Alineación de Grupo Subiendo Por Senaru hasta Borde",
+        "desc": "Inicia la exploración profunda de las colinas para superar Pos 1-Pos 3 por debajo de árboles que bloquean el sol con llegada al área expuesta para acampar a 2,641 m de Cima Senaru",
+        "highlights": [
+          "Recogida y Despacho Rápido desde Centro Base Senaru",
+          "Día soleado adentrándose al denso bioma trópico",
+          "Cena Rica Caliente rodeado de panorama de nube y atardecer"
+        ]
+      },
+      {
+        "day": "Día 2",
+        "title": "Madrugada En Ascenso a Cima — Traslado Descendiendo a Segara Anak",
+        "desc": "Fuerte ascenso, para lograr llegar junto el naciente radiante sol al punto 3.726. Luego se retorna y en un momento largo descendemos por los senderos técnicos del cráter.",
+        "highlights": [
+          "Comienzo Nocturno a oscuras de ascenso Extremo",
+          "Arribo al Top Monte Rinjani y Festividad Rápida Cima",
+          "Camino abrupto, llegada Cratér Volcanico Acampar Segara Anak Noche #1"
+        ]
+      },
+      {
+        "day": "Día 3",
+        "title": "Expedición Local Descanso Full Segara Anak Y Aguas Sanadoras",
+        "desc": "Se te recompensará tras los fuertes días transcurridos nadar sin rumbo ni tiempo sobre aguas cálidas, re-creación sana alrededor de montañas majestuosas.",
+        "highlights": [
+          "No madrugadas, Desayunos de tarde sobre las orillas Segara",
+          "Zambullirse dentro y sobre fuentes minerales termales.",
+          "Pesca recreativa y Cenas románticas Noche Libre #2"
+        ]
+      },
+      {
+        "day": "Día 4",
+        "title": "Ascensión Rápida Retorno Por Borde Boscoso de Senaru",
+        "desc": "Empinar último trago a cuesta, ascendiendo y despidiéndonos del cráter volcánico. Seguidamente se sigue y deshace por lo escalado del día uno hacía la comunidad de Senaru.",
+        "highlights": [
+          "Escala Rápida desde fondo acuático Lago al Cráter Cima Superior",
+          "Rutas ligeras ya de caída en la selva verde hasta las estancias",
+          "Despido solemne de Guías, Chofer Alojamiento Elegido Fin Actividad"
+        ]
+      }
+    ],
+    "schedule_label": "Itinerario"
+  },
+  "inclusions": {
+    "section_title": "Equidad e Integración General De Reserva Inclusiones",
+    "intro": "Para la máxima capacidad que brindamos, todo está listado para tus cuatro días:",
+    "included": [
+      "Líder Conductor del Equipo (Guía Nativo Inglés Fuent)",
+      "Unidad De Trabajo Extremo (Porteadores de Equipamiento MAX 25 KG y tu bolsa)",
+      "Adhesión Exclusiva Seguro + Entradas Aportadas del Parque Nacional Pagar",
+      "Gourmet Estilo Rural Especial Cocinado en Fresco / Aguas/ Cafés ilim.",
+      "Equipo Para Exteriores Pro, Colchoneta Inflable Superior, Mantas Carpas Robustas",
+      "Logística Navieras, PickUp Transfers Hoteleros Islas Mataram Etc",
+      "Noche Complementaria Al Alojarse en Posadas Rústicas Senaru de Espera"
+    ],
+    "excluded": [
+      "Complementarias Personales Básicos de Resguardos Extra fríos.",
+      "Coste Asegurado Individual / Seguro Médicos o Riesgos Fuera.",
+      "Compensaciones Dinerarias / Generosamente a los Operarios (Guías)"
+    ],
+    "included_label": "Incluido",
+    "excluded_label": "No Incluido"
+  },
+  "trek_details": {
+    "section_title": "Información Previa Técnica Para Sus Apuntes Duros",
+    "intro": "Todos tus detalles que son imperativos recordares sobre tu hazaña magna de 4 días y la gran cumbre inmensa en Rinjani Senaru:",
+    "details": [
+      { "label": "Tiempos Estimados", "value": "4 Días Contiguos 3 Noches Fuera" },
+      { "label": "Línea Recorrida", "value": "Punto Inicial Y Acabado de Retiro Identico por Poblado Senaru" },
+      { "label": "Pico Pico Máximo de Ind", "value": "A los 3,726 Metros Submarinos Nivel" },
+      { "label": "Elevación Punteada Acampe Borde", "value": "Punto Frío y Medio 2.641m Senaru Rem" },
+      { "label": "Base Valle Centralizada Lago", "value": "Ecosistema Plano Segara situado entre 2.008M" },
+      { "label": "El Punto Partida Original", "value": "La Sede Cívica Antigua Lombok Norte Senaru" },
+      { "label": "Niveles Agudos", "value": "Clasificado muy Pesado: Prohibido débiles con poco Ejercicio Corazonado" },
+      { "label": "Temporadas De Aperturas Reales", "value": "Mayor Sol Abril/Diciembre y Resto meses del año Bloqueado Nacional." },
+      { "label": "Gestiones Legal", "value": "Todo ya fue incorporado previamente del pasaje Tiquets PNR Rinjani" },
+      { "label": "Medidas de Manadas Compañías", "value": "Dos 2 Personas para despachar al Max de Seis Mínimos, (Grupos Individual VIP SÍ)" },
+      { "label": "Avisos Torean O Similares", "value": "Ningún Paso O Traza O Caminos Aburridos Torean Abarcan Este Plan" }
+    ]
+  },
+  "choose_duration": {
+    "section_title": "¿No Convencido Quizás Por Otros Modos de Camino y Tiempo Senaru?",
+    "items": [
+      {
+        "duration": "Modalidad Súper Exprés de Senaru",
+        "best_for": "Los que Quieran sólo mirar rápidamente el hueco de Cráter borde pero ni bajar y menos Subir Sommet 2 Días Opcional",
+        "cta_label": "Ir Pack Básico",
+        "cta_url": "/tours/mount-rinjani-trek/2-day-senaru-crater-rim"
+      },
+      {
+        "duration": "Modalidad Relax Intermedio Senaru",
+        "best_for": "Bajaras si Gustarías Disfrutar La Termal, Lagunas Del Centro Volcán. Pero Jamás Tocar Rinjani Cielo Altoo de 3 Dias Opcional",
+        "cta_label": "Ir Variante Lago Solamente",
+        "cta_url": "/tours/mount-rinjani-trek/3-day-senaru-lake"
+      },
+      {
+        "duration": "Modalidad Hardcore Absoluto Todos los Aspectos",
+        "best_for": "Viajero Agresivo Deseoso y Plausible de Todas Acciones de Aventuras Sin Perdon. Este es El Que Tu Tienes Marcado de 4 Días Actual",
+        "cta_label": "Paquete Marcado Viendo",
+        "cta_url": "/tours/mount-rinjani-trek/4-day-senaru-summit-lake"
+      }
+    ],
+    "read_more_label": "Leer más"
+  },
+  "cta": {
+    "section_title": "¿Listo tu Instinto Valiente y Tenaz de Llegar Cima Mayor?",
+    "title": "Finaliza Tu Pase Reservando Este Último Test de Endurance Montañes en Indonesia Rinjani",
+    "desc": "Con Go2Rinjani Estarás protegido ante toda aventura inclemente sin faltarte nada, Súmate y atrévete subiendo las rutas del Occidente indonesio. Prepárate Para El Espectáculo de Cielo en La Cima y Laguna.",
+    "cta_label": "Deseo Comprar Evento Ya",
+    "secondary_cta_label": "Explorar Todos Los Viajes Rinjani Packs Aquí",
+    "secondary_cta_url": "/tours/mount-rinjani"
+  }
+}

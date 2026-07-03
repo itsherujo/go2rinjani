@@ -1,0 +1,136 @@
+{
+  "seo": {
+    "meta_title": "Trek Monte Rinjani 2 Días Borde del Cráter Senaru — Sin Cumbre | Go2Rinjani",
+    "meta_description": "Sube al borde del cráter Senaru del Monte Rinjani en 2 días — camina por la exuberante selva hasta Pelawangan Senaru a 2,641 m con vistas panorámicas sobre el lago Segara Anak. Sin cumbre."
+  },
+  "hero": {
+    "title": "Trek 2 Días Monte Rinjani Senaru — Borde del Cráter a través de la Selva",
+    "desc": "No todas las caminatas en Rinjani tienen que terminar en la cumbre — el trek de 2 días borde del cráter de Senaru de Go2Rinjani te lleva a través de la densa selva tropical del Parque Nacional hasta Pelawangan Senaru a 2,641 m, con vistas panorámicas sobre el lago Segara Anak.",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+  },
+  "intro": {
+    "label": "2 Días 1 Noche — Ruta Senaru",
+    "title": "La caminata más accesible del Monte Rinjani",
+    "desc": "Ideal para senderistas que desean una verdadera experiencia de montaña sin el esfuerzo físico de llegar a la cumbre. A través de la densa selva tropical, ricas en biodiversidad antes de llegar a Pelawangan Senaru con vistas despejadas."
+  },
+  "highlights": {
+    "section_title": "Qué esperar de este Trek",
+    "items": [
+      {
+        "id": "senaru-village",
+        "title": "Inicio en el Pueblo de Senaru",
+        "desc": "El trek comienza en el antiguo pueblo Sasak de Senaru, un punto de partida lleno de cultura, en las laderas orientales del Rinjani."
+      },
+      {
+        "id": "rainforest-trail",
+        "title": "Densa Selva Tropical",
+        "desc": "La ruta de Senaru se define por su exuberante y densa selva tropical: un paisaje completamente distinto."
+      },
+      {
+        "id": "pelawangan-senaru",
+        "title": "Borde del Cráter Pelawangan Senaru a 2,641 m",
+        "desc": "Llega a Pelawangan Senaru y disfruta de las vistas imponentes de la caldera del monte."
+      },
+      {
+        "id": "caldera-views",
+        "title": "Vistas Panorámicas de la Caldera",
+        "desc": "Vistas panorámicas completas del lago sagrado y sus alrededores."
+      }
+    ]
+  },
+  "itinerary": {
+    "section_title": "Día a Día",
+    "intro": "Dos días, una noche explorando Senaru y su majestuosa vegetación.",
+    "days": [
+      {
+        "day": "Día 1",
+        "title": "Senaru al Borde del Cráter Perlawangan Senaru",
+        "desc": "Transferencia al inicio del trek y recorrido a través de frondosa selva, hasta llegar a Pelawangan Senaru para establecer campamento y cenar al borde del cráter.",
+        "highlights": [
+          "Desayuno y charla de inicio",
+          "Trek a través de selva — Puesto 1, 2, 3",
+          "Llegada al cráter Pelawangan Senaru",
+          "Cena y acampada"
+        ]
+      },
+      {
+        "day": "Día 2",
+        "title": "Amanecer en Senaru — Descenso",
+        "desc": "Ver el amanecer antes de iniciar el descenso por la misma ruta selva para regresar a Senaru. Traslado a tu alojamiento.",
+        "highlights": [
+          "Amanecer sobre la caldera Rinjani",
+          "Desayuno en Pelawangan Senaru",
+          "Descenso a la selva tropical",
+          "Traslado al hotel"
+        ]
+      }
+    ],
+    "schedule_label": "Itinerario"
+  },
+  "inclusions": {
+    "section_title": "Inclusiones & Exclusiones",
+    "intro": "Todo lo que incluye el trek a Senaru de 2 días.",
+    "included": [
+      "Guía local certificado",
+      "Porteador (equipo hasta 25 kg)",
+      "Permisos del Parque",
+      "Comidas e hidratación completa",
+      "Equipo de acampada completo",
+      "Recogida y regreso al hotel",
+      "1 Noche de alojamiento pre-trek"
+    ],
+    "excluded": [
+      "Equipo personal",
+      "Seguro de viaje",
+      "Propinas"
+    ],
+    "included_label": "Incluido",
+    "excluded_label": "No Incluido"
+  },
+  "trek_details": {
+    "section_title": "Detalles del Trek",
+    "intro": "Todo lo necesario antes de reservar.",
+    "details": [
+      { "label": "Duración", "value": "2 Días 1 Noche" },
+      { "label": "Ruta", "value": "Ruta Senaru" },
+      { "label": "Elevación", "value": "Pelawangan Senaru — 2,641 m" },
+      { "label": "Cumbre", "value": "Sin cumbre en este plan" },
+      { "label": "Inicio", "value": "Pueblo Senaru" },
+      { "label": "Dificultad", "value": "Moderado" },
+      { "label": "Temporada", "value": "Abril – Diciembre" },
+      { "label": "Permiso", "value": "Incluido" },
+      { "label": "Grupo", "value": "Mín 2 — máx 6" },
+      { "label": "Ruta Torean", "value": "No disponible" }
+    ]
+  },
+  "choose_duration": {
+    "section_title": "¿No estás seguro de qué ruta elegir?",
+    "items": [
+      {
+        "duration": "2 Días 1 Noche",
+        "best_for": "Los que solo desean ver el cráter sin la cumbre",
+        "cta_label": "Estás aquí",
+        "cta_url": "/tours/mount-rinjani-trek/2-day-senaru-crater-rim"
+      },
+      {
+        "duration": "3 Días 2 Noches",
+        "best_for": "Cráter, lago Segara Anak & fuentes termales",
+        "cta_label": "Ver Paquete de 3 Días",
+        "cta_url": "/tours/mount-rinjani-trek/3-day-senaru-lake"
+      },
+      {
+        "duration": "4 Días 3 Noches",
+        "best_for": "Experiencia completa incluyendo la cumbre",
+        "cta_label": "Ver Paquete de 4 Días",
+        "cta_url": "/tours/mount-rinjani-trek/4-day-senaru-summit-lake"
+      }
+    ],
+    "read_more_label": "Leer más"
+  },
+  "cta": {
+    "section_title": "¿Listo para escalar?",
+    "title": "Reserva Ahora",
+    "desc": "El programa de Rinjani más amigable de 2 Días.",
+    "cta_label": "Reservar Trek"
+  }
+}

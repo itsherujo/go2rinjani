@@ -1,0 +1,75 @@
+{
+  "seo": {
+    "meta_title": "Trekking al Monte Rinjani y Excursiones Guiadas | Go2Rinjani",
+    "meta_description": "Planifique su ruta al monte Rinjani con Go2Rinjani — guías locales certificados, excursiones por el borde del cráter, ascensiones a la cumbre y descensos al lago Segara Anak."
+  },
+  "hero": {
+    "title": "Trekking y Ascensiones al Monte Rinjani para Todos",
+    "desc": "Desde los bosques de Senaru hasta la cumbre a 3.726 m — Go2Rinjani ofrece excursiones guiadas, descensos al lago Segara Anak y expediciones de varios días, liderados por guías certificados.",
+    "cta_label": "Descubre Nuestras Rutas"
+  },
+  "destinations": {
+    "section_title": "Rutas de Trekking del Monte Rinjani",
+    "items": [
+      {
+        "id": "crater-rim",
+        "title": "Borde del Cráter",
+        "desc": "La icónica caminata por la cresta sobre el lago Segara Anak, con vistas panorámicas de Lombok y Bali."
+      },
+      {
+        "id": "summit-climb",
+        "title": "Ascenso a la Cumbre",
+        "desc": "Un asalto guiado a 3.726 m — el punto más alto de Lombok, por encima de las nubes al amanecer."
+      },
+      {
+        "id": "segara-anak",
+        "title": "Segara Anak",
+        "desc": "Descendemos al sagrado lago del cráter y acampamos junto a sus aguas turquesas y aguas termales."
+      },
+      {
+        "id": "sembalun-route",
+        "title": "Ruta de Sembalun",
+        "desc": "Un moderno sendero de sabana a través de prados abiertos, a pocos pasos del valle de Sembalun."
+      }
+    ]
+  },
+  "about": {
+    "label": "Nosotros",
+    "cta_label": "Lee Sobre Go2Rinjani",
+    "desc": "Go2Rinjani es un operador turístico certificado del Monte Rinjani con sede en Lombok. Un refugio confiable para los excursionistas que buscan la cumbre, la emoción de descubrir y la calidez de la aventura."
+  },
+  "experience": {
+    "title": "La vida en la ruta hacia el Rinjani: Cruda, Real e Inolvidable",
+    "desc": "La montaña nunca es solo una montaña, es esa sensación de logro que te llevas a casa.",
+    "cta_label": "Descubre Nuestra Historia",
+    "section_title": "En el Sendero",
+    "items": [
+      {
+        "id": "senaru-trail",
+        "title": "Sendero de Senaru",
+        "desc": "El sendero es exuberante y lleno de vida, serpenteando por la selva. Desde el amanecer hasta el anochecer, la montaña es tuya para explorar."
+      },
+      {
+        "id": "crater-camp",
+        "title": "Campamento del Cráter",
+        "desc": "En Go2Rinjani desayunamos, comemos caliente y descansamos en el campamento, en cualquier momento y en cualquier lugar."
+      },
+      {
+        "id": "sembalun-savannah",
+        "title": "Sabana de Sembalun",
+        "desc": "Nuestro sendero es vasto y cautivador, formado por las tradicionales tierras de cultivo Sasak justo fuera del parque."
+      }
+    ]
+  },
+  "agenda": {
+    "label": "Agenda",
+    "cta_label": "Descubre Nuestros Eventos",
+    "title": "Asegúrate de no perderte lo que sucede en Go2Rinjani",
+    "desc": "Go2Rinjani reúne a aventureros donde pueden hacer trekking, conectarse y crear recuerdos juntos."
+  },
+  "featured_post": {
+    "title": "Trekking Inteligente en el Monte Rinjani: Tu Guía de Preparación",
+    "desc": "¿Estás planeando tu primera caminata al Monte Rinjani y no sabes por dónde empezar? Go2Rinjani lo cubre todo, desde los permisos y empacar hasta la ruta y la cumbre.",
+    "cta_label": "Leer Más"
+  }
+}

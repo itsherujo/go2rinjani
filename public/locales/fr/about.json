@@ -1,0 +1,35 @@
+{
+  "seo": {
+    "meta_title": "À Propos de Go2Rinjani — Guides Certifiés du Mont Rinjani",
+    "meta_description": "Go2Rinjani est un voyagiste certifié basé à Lombok. Rencontrez nos guides locaux, découvrez notre histoire et gravissez le volcan."
+  },
+  "hero": {
+    "title": "Guides Certifiés du Mont Rinjani — Expertise Locale",
+    "desc": "Go2Rinjani est un tour-opérateur certifié au Mont Rinjani, basé à Senaru, Lombok — fondé par des guides locaux réunissant des décennies d'expérience. Nous nous occupons de tout : permis, porteurs, hébergements, repas et sécurité."
+  },
+  "hub": {
+    "title": "Notre Expertise du Mont Rinjani : Routes et Guides",
+    "desc": "Chez Go2Rinjani, nos guides certifiés mènent les treks à travers les principaux itinéraires du Rinjani. Chaque ascension est conçue avec la sécurité, le rythme de marche et des connaissances locales."
+  },
+  "reimagined": {
+    "title": "Des Expériences de Trekking Rinjani Conçues pour Chacun",
+    "desc": "Les sentiers du Rinjani sont des paysages vivants. Chez Go2Rinjani, nous concevons chaque trek minutieusement avec des itinéraires aménagés rendant la montagne véritablement accessible à tous."
+  },
+  "community": {
+    "title": "Une Communauté Mondiale Ancrée à Lombok",
+    "desc": "Go2Rinjani bâtit une communauté de marcheurs, mêlant des aventuriers du monde entier au peuple local Sasak de Lombok. Nos treks sont un terrain de rencontre ouvert à tous."
+  },
+  "discovery": {
+    "title": "Découvrez Rinjani : Merveilles Volcaniques et Récits",
+    "desc": "Go2Rinjani, c'est là que chaque randonnée devient une histoire précieuse. Les voyageurs découvrent des merveilles incroyables de la nature, avec des souvenirs mémorables."
+  },
+  "closing": {
+    "title": "Gravissez le Mont Rinjani avec Go2Rinjani",
+    "desc": "Embarquez sur les sentiers du Rinjani avec des guides qui connaissent chaque lacet, chaque bout de chemin. Une aventure garantie et remplie de paysages magnifiques."
+  },
+  "cta": {
+    "title": "Prêt pour le Mont Rinjani ?",
+    "desc": "Parcourez nos offres de treks au Mont Rinjani et trouvez celle qui vous convient le mieux.",
+    "label": "Voir les treks"
+  }
+}

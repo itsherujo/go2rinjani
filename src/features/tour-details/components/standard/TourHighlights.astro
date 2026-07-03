@@ -1,0 +1,154 @@
+---
+import { useTranslations } from "../../../../i18n/utils";
+import SectionTitle from "../../../../components/ui/Typography/SectionTitle.astro";
+import H3Title from "../../../../components/ui/Typography/H3Title.astro";
+
+interface Props {
+  lang: string;
+  slug: string;
+}
+
+const { lang, slug } = Astro.props;
+const t = useTranslations(lang, `tour-details/${slug}`);
+
+import { standardHighlightsMap } from "./data/standardImages";
+import { senaruHighlightsMap } from "./data/senaruImages";
+
+const allHighlightsMap = { ...standardHighlightsMap, ...senaruHighlightsMap };
+
+const highlights = t("highlights.items", { returnObjects: true }) as any[];
+---
+
+{
+  highlights && highlights.length > 0 && (
+    <section class="w-full px-4 xl:px-5 bg-background relative overflow-hidden">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-2">
+        <SectionTitle class="mb-0">
+          {t("highlights.section_title")}
+        </SectionTitle>
+
+        {highlights.length > 4 && (
+          <div class="hidden min-[481px]:flex items-center gap-3 pb-1">
+            <button
+              class="tour-highlights-scroll-left w-10 h-10 rounded-full border border-foreground/30 flex items-center justify-center hover:bg-foreground/5 hover:border-foreground/60 transition-all focus:outline-none"
+              aria-label="Previous"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="w-4 h-4"
+              >
+                <path d="m12 19-7-7 7-7" />
+                <path d="M19 12H5" />
+              </svg>
+            </button>
+            <button
+              class="tour-highlights-scroll-right w-10 h-10 rounded-full border border-foreground/30 flex items-center justify-center hover:bg-foreground/5 hover:border-foreground/60 transition-all focus:outline-none"
+              aria-label="Next"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="w-4 h-4"
+              >
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        )}
+      </div>
+
+      <div class="w-full h-px bg-foreground/30 mb-6 md:mb-8" />
+
+      <div class="relative">
+        <div
+          class={`tour-highlights-container flex overflow-x-auto snap-x snap-mandatory gap-4 md:gap-6 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] scrollbar-none ${highlights.length > 4 ? "pb-4" : "min-[481px]:grid min-[481px]:grid-cols-4 min-[481px]:gap-4"}`}
+        >
+          {highlights.map((item: any, idx: number) => (
+            <div
+              class={`flex-none w-[85vw] snap-start flex flex-col group cursor-pointer ${highlights.length > 4 ? "min-[481px]:w-[320px] lg:w-[350px] xl:w-[400px]" : "min-[481px]:w-auto"}`}
+            >
+              <div class="aspect-3/4 overflow-hidden mb-4 bg-gray-100">
+                <img
+                  src={allHighlightsMap[item.id]?.src || `https://picsum.photos/seed/${item.title.replace(/ /g, "")}/600/800`}
+                  width={allHighlightsMap[item.id]?.width}
+                  height={allHighlightsMap[item.id]?.height}
+                  alt={allHighlightsMap[item.id]?.alt || item.title}
+                  class="w-full h-full object-cover group-hover:scale-105 active:scale-105 transition-transform duration-700 ease-out"
+                  referrerpolicy="no-referrer"
+                />
+              </div>
+              <H3Title class="mb-2 font-semibold!">{item.title}</H3Title>
+              <p class="text-sm md:text-base text-foreground/80 leading-relaxed">
+                {item.desc}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        {highlights.length > 4 && (
+          <div class="tour-highlights-fade pointer-events-none absolute inset-y-0 right-0 w-16 bg-linear-to-l from-background to-transparent transition-opacity duration-300 md:w-32 lg:w-48 opacity-100" />
+        )}
+      </div>
+    </section>
+  )
+}
+
+<script>
+  function setupHighlightsScroll() {
+    const containers = document.querySelectorAll(".tour-highlights-container");
+
+    containers.forEach((container) => {
+      const leftBtn = container.parentElement?.parentElement?.querySelector(
+        ".tour-highlights-scroll-left",
+      );
+      const rightBtn = container.parentElement?.parentElement?.querySelector(
+        ".tour-highlights-scroll-right",
+      );
+      const fadeElem = container.parentElement?.querySelector(
+        ".tour-highlights-fade",
+      ) as HTMLElement;
+
+      if (!leftBtn || !rightBtn) return;
+
+      const handleScroll = () => {
+        if (!fadeElem) return;
+        const { scrollLeft, scrollWidth, clientWidth } = container;
+        const canScrollRight = scrollWidth - scrollLeft - clientWidth > 5;
+        fadeElem.style.opacity = canScrollRight ? "1" : "0";
+      };
+
+      container.addEventListener("scroll", handleScroll);
+      window.addEventListener("resize", handleScroll);
+      handleScroll();
+
+      leftBtn.addEventListener("click", () => {
+        const scrollAmount = (container as HTMLElement).offsetWidth * 0.8;
+        container.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+      });
+
+      rightBtn.addEventListener("click", () => {
+        const scrollAmount = (container as HTMLElement).offsetWidth * 0.8;
+        container.scrollBy({ left: scrollAmount, behavior: "smooth" });
+      });
+    });
+  }
+
+  setupHighlightsScroll();
+  document.addEventListener("astro:page-load", setupHighlightsScroll);
+</script>

@@ -1,0 +1,61 @@
+{
+  "seo": {
+    "meta_title": "Pertanyaan yang Sering Diajukan tentang Gunung Rinjani | Go2Rinjani",
+    "meta_description": "Semua yang perlu Anda ketahui sebelum mendaki Gunung Rinjani — mulai dari ketinggian dan akses hingga keamanan, perizinan, dan waktu terbaik untuk mendaki."
+  },
+  "title": "(FAQ)",
+  "number": "03",
+  "heading": "Pertanyaan yang Sering Diajukan tentang Gunung Rinjani",
+  "paragraph": "Semua yang perlu Anda ketahui sebelum mendaki Gunung Rinjani — mulai dari ketinggian dan akses hingga keamanan, perizinan, dan waktu terbaik untuk mendaki.",
+  "button": {
+    "front": "Minta Harga",
+    "back": "Minta Harga"
+  },
+  "items": [
+    {
+      "id": "01",
+      "title": "Berapa ketinggian Gunung Rinjani?",
+      "text": "Gunung Rinjani berdiri di ketinggian 3.726 meter (12.224 kaki) di atas permukaan laut, menjadikannya gunung berapi tertinggi kedua di Indonesia."
+    },
+    {
+      "id": "02",
+      "title": "Apakah Gunung Rinjani buka selama musim hujan?",
+      "text": "Tidak. Taman Nasional resmi ditutup dari Januari hingga Maret karena hujan lebat, angin kencang, dan risiko tanah longsor. Waktu terbaik untuk mendaki adalah selama musim kemarau, dari April hingga November."
+    },
+    {
+      "id": "03",
+      "title": "Bisakah mendaki Gunung Rinjani tanpa pemandu?",
+      "text": "Tidak, sangat diwajibkan untuk menyewa pemandu berlisensi dan porter untuk memasuki Taman Nasional Gunung Rinjani. Go2Rinjani menyediakan pemandu lokal bersertifikat yang memastikan keamanan dan kenyamanan Anda."
+    },
+    {
+      "id": "04",
+      "title": "Berapa lama waktu yang dibutuhkan untuk mendaki Gunung Rinjani?",
+      "text": "Pendakian ke Tepi Kawah biasanya memakan waktu 2 Hari/1 Malam. Pendakian Puncak membutuhkan 3 Hari/2 Malam. Untuk pengalaman lengkap termasuk danau kawah dan sumber air panas, Anda memerlukan pendakian 4 Hari/3 Malam."
+    },
+    {
+      "id": "05",
+      "title": "Bagaimana cara menuju Gunung Rinjani?",
+      "text": "Sebagian besar pengunjung terbang ke Bandara Internasional Lombok (LOP) atau tiba dengan kapal cepat dari Bali. Dari sana, dibutuhkan sekitar 2,5 hingga 3 jam berkendara ke gerbang pendakian di desa Senaru atau Sembalun."
+    },
+    {
+      "id": "06",
+      "title": "Apakah Gunung Rinjani adalah gunung berapi aktif?",
+      "text": "Ya, Gunung Rinjani adalah gunung berapi aktif. Letusan terakhirnya terjadi pada tahun 2016 dari Gunung Barujari, kerucut vulkanik kecil yang terletak di dalam danau kawah."
+    },
+    {
+      "id": "07",
+      "title": "Apakah Gunung Rinjani aman?",
+      "text": "Mendaki Gunung Rinjani pada umumnya aman jika Anda pergi dengan pemandu yang berpengalaman, berlisensi, dan peralatan yang memadai. Namun, medannya menantang, dan penyakit ketinggian dapat terjadi di atas 3.000 meter. Kebugaran fisik yang baik sangat disarankan."
+    },
+    {
+      "id": "08",
+      "title": "Apa jenis gunung berapi Gunung Rinjani?",
+      "text": "Gunung Rinjani adalah stratovulkanik masif (juga dikenal sebagai gunung berapi komposit). Gunung ini memiliki kaldera besar berukuran 6 kali 8,5 kilometer, yang sebagian diisi oleh danau kawah Segara Anak yang menakjubkan."
+    },
+    {
+      "id": "09",
+      "title": "Di mana letak Gunung Rinjani?",
+      "text": "Gunung Rinjani terletak di bagian utara-tengah pulau Lombok, di provinsi Nusa Tenggara Barat, Indonesia."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+---
+import AgendaCalendarIsland from '../islands/AgendaCalendarIsland';
+import { getLangFromUrl, useTranslations } from '../../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "events");
+
+// Fetch the entire calendar object from the JSON
+const calendarTranslations = t("calendar", { returnObjects: true });
+---
+
+<section class="w-full relative bg-white">
+  {/* We mount the calendar island with client:visible to hydrate it as soon as it enters the viewport */}
+  <AgendaCalendarIsland client:visible translations={calendarTranslations} />
+</section>

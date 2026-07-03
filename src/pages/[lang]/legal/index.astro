@@ -1,0 +1,20 @@
+---
+export const prerender = true;
+import { navigationData } from "../../../features/legal/data/navigation";
+
+export function getStaticPaths() {
+  const supportedLangs = ["id", "zh", "de", "fr", "es"];
+
+  return supportedLangs.map((lang) => ({
+    params: { lang },
+  }));
+}
+
+const { lang } = Astro.params;
+
+// Find the first valid slug in the navigation data dynamically
+const firstSection = navigationData[0];
+const firstItemSlug = firstSection?.items?.[0]?.slug || "terms-and-conditions";
+
+return Astro.redirect(`/${lang}/legal/${firstItemSlug}`);
+---

@@ -1,0 +1,14 @@
+---
+import { getLangFromUrl, useTranslations } from '../../../i18n/utils';
+import SharedCTA from '../../../components/ui/SharedCTA.astro';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "about");
+---
+
+<SharedCTA
+  title={t("cta.title")}
+  desc={t("cta.desc")}
+  ctaLabel={t("cta.label")}
+  ctaHref="/treks"
+/>

@@ -1,0 +1,38 @@
+{
+  "seo": {
+    "meta_title": "Blog Trekking Mont Rinjani — Guides, Astuces & Histoires",
+    "meta_description": "Lisez le blog de Go2Rinjani pour des guides, des conseils, l'état de la météo et des promotions exclusives — écrit par des guides locaux certifiés."
+  },
+  "hero": {
+    "title": "Blog Trekking Mont Rinjani : Guides & Découvertes",
+    "desc": "Tout ce dont vous avez besoin pour planifier, préparer et gravir le Mont Rinjani. De la route de Sembalun aux conseils sur l'équipement, ceci est votre ressource numéro un pour le sommet."
+  },
+  "featured": {
+    "title": "Trek Malin au Mont Rinjani : Le Guide du Débutant",
+    "desc": "Nouveau au Rinjani ? Les guides de Go2Rinjani vous accompagnent : choix du parcours (Sembalun ou Senaru), ce qu'il faut emporter, permis et ce à quoi s'attendre au sommet à 3 726 m.",
+    "cta_label": "Lire la suite"
+  },
+  "specials": {
+    "section_title": "Offres Spéciales Exclusives Go2Rinjani",
+    "posts": [
+      {
+        "badge": "SPÉCIAL",
+        "date": "07 OCTOBRE 2025",
+        "title": "Saison des Pluies au Rinjani — Économisez 15%",
+        "desc": "Réservez avant le 31 décembre et économisez 15% sur un itinéraire de 3 ou 4 jours. Les treks en saison humide offrent des sentiers calmes et de magnifiques paysages luxuriants."
+      },
+      {
+        "badge": "SPÉCIAL",
+        "date": "15 SEPTEMBRE 2025",
+        "title": "Go2Rinjani x Eiger : Collection Limitée",
+        "desc": "Go2Rinjani s'associe à Eiger, la plus grande marque outdoor indonésienne, pour lancer une gamme d'équipements de trekking conçue exclusivement pour le Rinjani."
+      },
+      {
+        "badge": "SPÉCIAL",
+        "date": "15 SEPTEMBRE 2025",
+        "title": "Le Sommet et la Cause : Go2Rinjani Soutient Ses Porteurs",
+        "desc": "Chaque trek réservé ce mois-ci contribue financièrement à la conservation des sentiers et aide directement les familles de nos braves porteurs de la tribu locale Sasak."
+      }
+    ]
+  }
+}

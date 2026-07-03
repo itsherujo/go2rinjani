@@ -1,0 +1,61 @@
+{
+  "seo": {
+    "meta_title": "Frequently Asked Questions about Mount Rinjani | Go2Rinjani",
+    "meta_description": "Everything you need to know before trekking Mount Rinjani — from altitude and access to safety, permits, and the best time to climb."
+  },
+  "title": "(FAQ)",
+  "number": "03",
+  "heading": "Frequently Asked Questions about Mount Rinjani",
+  "paragraph": "Everything you need to know before trekking Mount Rinjani — from altitude and access to safety, permits, and the best time to climb.",
+  "button": {
+    "front": "Request Price",
+    "back": "Request Price"
+  },
+  "items": [
+    {
+      "id": "01",
+      "title": "How high is Mount Rinjani?",
+      "text": "Mount Rinjani stands at 3,726 metres (12,224 ft) above sea level, making it the second-highest volcano in Indonesia."
+    },
+    {
+      "id": "02",
+      "title": "Is Mount Rinjani open during the rainy season?",
+      "text": "No. The National Park is officially closed from January to March due to heavy rain, strong winds, and the risk of landslides. The best time to climb is during the dry season, from April to November."
+    },
+    {
+      "id": "03",
+      "title": "Can you climb Mount Rinjani without a guide?",
+      "text": "No, it is mandatory to hire a licensed guide and porters to enter the Mount Rinjani National Park. Go2Rinjani provides certified local guides who ensure your safety and comfort."
+    },
+    {
+      "id": "04",
+      "title": "How long does it take to climb Mount Rinjani?",
+      "text": "A trek to the Crater Rim typically takes 2 Days/1 Night. A Summit trek takes 3 Days/2 Nights. For a complete experience including the crater lake and hot springs, you will need a 4 Days/3 Nights trek."
+    },
+    {
+      "id": "05",
+      "title": "How do you get to Mount Rinjani?",
+      "text": "Most visitors fly into Lombok International Airport (LOP) or arrive by fast boat from Bali. From there, it's a 2.5 to 3-hour drive to the trekking gates in Senaru or Sembalun villages."
+    },
+    {
+      "id": "06",
+      "title": "Is Mount Rinjani an active volcano?",
+      "text": "Yes, Mount Rinjani is an active volcano. Its most recent eruption occurred in 2016 from Gunung Barujari, the small volcanic cone located inside the crater lake."
+    },
+    {
+      "id": "07",
+      "title": "Is Mount Rinjani safe?",
+      "text": "Trekking Mount Rinjani is generally safe if you go with an experienced, licensed guide and proper equipment. However, the terrain is challenging, and altitude sickness can occur above 3,000 metres. Good physical fitness is highly recommended."
+    },
+    {
+      "id": "08",
+      "title": "What type of volcano is Mount Rinjani?",
+      "text": "Mount Rinjani is a massive stratovolcano (also known as a composite volcano). It features a large 6 by 8.5-kilometre caldera, partially filled by the stunning Segara Anak crater lake."
+    },
+    {
+      "id": "09",
+      "title": "Where is Mount Rinjani?",
+      "text": "Mount Rinjani is located in the central-northern part of Lombok island, within the West Nusa Tenggara province of Indonesia."
+    }
+  ]
+}

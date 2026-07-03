@@ -1,0 +1,26 @@
+{
+  "seo": {
+    "meta_title": "Paket Tur Gunung Rinjani — Trekking, Puncak & Danau | Go2Rinjani",
+    "meta_description": "Jelajahi paket tur Gunung Rinjani bersama Go2Rinjani — pendakian tepi kawah, pendakian puncak, danau Segara Anak, dan ekspedisi rute Sembalun. Semua level diterima."
+  },
+  "hero": {
+    "title": "Paket Tur Gunung Rinjani untuk Setiap Jenis Pendaki",
+    "desc": "Go2Rinjani menawarkan paket tur Gunung Rinjani berpemandu untuk semua tingkat pengalaman — dari sabana terbuka Sembalun hingga tepi danau Segara Anak yang sakral. Setiap pendakian mencakup pemandu lokal bersertifikat, porter, izin, dan dukungan kemah penuh."
+  },
+  "packages": [
+    {
+      "id": "mount-rinjani",
+      "title": "Trek Gunung Rinjani",
+      "desc": "Pilih dari enam paket pendakian Gunung Rinjani berpemandu melalui dua rute ikonik — Sembalun dan Senaru. Dari pendakian puncak 2 hari hingga ekspedisi penuh 4 hari dengan tepi kawah, pemandian air panas, dan danau Segara Anak. Semua itinerary mencakup pemandu lokal bersertifikat, porter, izin, makanan, dan dukungan kemah penuh.",
+      "cta_label": "Lihat Semua Paket Rinjani",
+      "cta_url": "/tours/mount-rinjani"
+    }
+  ],
+  "stampol_callout": {
+    "section_title": "Rinjani Penuh atau Ditutup pada Tanggal Anda?",
+    "title": "Trek Gunung Stampol — Alternatif Terbaik Anda di Lombok",
+    "desc": "Bila Gunung Rinjani ditutup untuk musim tersebut atau sudah penuh dipesan pada tanggal perjalanan Anda, Gunung Stampol menawarkan pendakian tepi kawah 2 hari yang menakjubkan di lereng luar Taman Nasional Gunung Rinjani — jalur yang lebih tenang, hutan hujan yang lebat, dan pemandangan panorama kaldera Rinjani serta danau Segara Anak.",
+    "cta_label": "Temukan Trek Gunung Stampol",
+    "cta_url": "/tours/mount-stampol-trek"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Réservez et Sécurisez<br/> Votre Voyage Facilement en Quelques<br/> Étapes",
+    "subtitle": "Transparence et simplicité sont au cœur de notre processus de réservation. Avec des étapes claires et une confirmation sécurisée, vous saurez exactement à quoi vous attendre—à chaque étape du processus."
+  },
+  "steps": {
+    "title": "Les Étapes",
+    "step1": {
+      "title": "Choisissez Votre <1>Forfait Trekking</1>.",
+      "desc1": "Parcourez notre sélection rigoureuse de forfaits de trekking au mont Rinjani et choisissez celui qui correspond le mieux à vos préférences, votre emploi du temps et votre niveau de forme physique. Découvrez nos forfaits touristiques Rinjani <1>ici</1>.",
+      "desc2": "Après avoir sélectionné votre itinéraire et votre durée préférés, décidez si vous souhaitez un <1>forfait privé</1> ou un <2>forfait partagé/groupe</2>—cela affectera le prix global et l'expérience.",
+      "desc3": "Si vous n'êtes pas sûr de l'option qui vous convient le mieux, nous vous recommandons de visiter notre page <1>Prix du Trekking au Rinjani</1>. Vous y trouverez :",
+      "list1": "Une comparaison complète des avantages des forfaits privés par rapport aux groupes",
+      "list2": "Des détails de prix mis à jour pour chaque option",
+      "list3": "Des informations clés pouvant vous aider à prendre la bonne décision en fonction de votre style de voyage et de votre budget",
+      "desc4": "Notre équipe est également ravie de vous aider si vous avez besoin de plus de précisions."
+    },
+    "step2": {
+      "title": "<1>Contactez-Nous</1> pour Réserver et Confirmer.",
+      "desc1": "Une fois votre forfait sélectionné, contactez-nous pour lancer le processus de réservation. Vous pouvez nous contacter via :",
+      "list1": "WhatsApp",
+      "list2": "Email",
+      "list3": "Notre page de <1>Contact</1>",
+      "desc2": "Notre équipe vous guidera dans les prochaines étapes pour garantir une réservation fluide."
+    },
+    "step3": {
+      "title": "Fournissez les <1>Détails des Randonneurs</1>.",
+      "desc1": "Pour procéder à votre réservation, nous aurons besoin de quelques informations de base pour chaque participant :",
+      "list1": "Nom complet",
+      "list2": "Date de naissance",
+      "list3": "Nationalité",
+      "list4": "Numéro de passeport",
+      "list5": "Âge",
+      "desc2": "Alternativement, vous pouvez simplement nous envoyer une photo claire de votre passeport pour plus de commodité."
+    },
+    "step4": {
+      "title": "Payez l'<1>Acompte</1>.",
+      "desc1": "Pour sécuriser votre place et réserver votre permis de trekking Rinjani, un <1>acompte de 50 $ US par personne</1> est requis.",
+      "desc2": "Pourquoi un acompte ?<br/>L'acompte garantit :",
+      "list1": "Votre permis de trekking est officiellement réservé",
+      "list2": "Votre place est sécurisée pour la date sélectionnée",
+      "list3": "Les préparatifs préalables au trek sont lancés, notamment :",
+      "list3a": "Planification de la prise en charge",
+      "list3b": "Préparation de la nourriture et de la logistique",
+      "list3c": "Coordination de l'équipe",
+      "list3d": "Et plus encore",
+      "desc3": "Les méthodes de paiement sont clairement décrites sur notre page <1>Informations de Paiement</1>—veuillez vous référer à la section en bas de la page pour tous les détails."
+    },
+    "step5": {
+      "title": "<1>Confirmation</1> de Réservation",
+      "desc1": "Une fois votre acompte effectué, votre réservation est officiellement confirmée.",
+      "list1": "Vous pouvez conserver votre <1>reçu de paiement ou une capture d'écran de l'acompte</1> comme preuve de réservation.",
+      "list2": "Votre <1>chat ou correspondance écrite</1> avec nous sert également de dossier de confirmation de réservation.",
+      "desc2": "Cela signifie que vous n'avez besoin d'aucun fichier de confirmation supplémentaire. Gardez simplement ces dossiers en sécurité pour votre référence."
+    },
+    "step6": {
+      "title": "<1>Détendez-vous</1> et Préparez-vous !",
+      "desc1": "Une fois tout confirmé, vous pouvez maintenant vous asseoir et attendre avec impatience votre aventure Rinjani. Notre équipe s'occupe du reste et vous tient informé à l'approche de la date de votre trekking."
+    }
+  }
+}

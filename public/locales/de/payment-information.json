@@ -1,0 +1,62 @@
+{
+  "seo": {
+    "meta_title": "Zahlungsinformationen | Go2Rinjani",
+    "meta_description": "Sichere Zahlungsoptionen für Ihre Mount-Rinjani-Tour — Banküberweisung, Wise, Revolut und PayPal. Zahlen Sie sicher mit Go2Rinjani."
+  },
+  "title": "Zahlungsinformationen",
+  "subtitle": "Hier finden Sie die verfügbaren Zahlungsmethoden, mit denen Sie Ihre Zahlung sicher senden können.",
+  "trust": {
+    "secure": {
+      "title": "Sicher & Vertrauenswürdig",
+      "desc": "Verschlüsselung auf Bankenniveau bei allen Transaktionen."
+    },
+    "help": {
+      "title": "Brauchen Sie Hilfe?",
+      "desc": "Unser Team ist immer bereit, Ihnen zu helfen."
+    }
+  },
+  "tabletSub": "Wählen Sie Ihre bevorzugte Methode \u2014 alle Zahlungen werden sicher verarbeitet.",
+  "methods": {
+    "bank": "Banküberweisung",
+    "wise": "Wise",
+    "revolut": "Revolut",
+    "paypal": "PayPal"
+  },
+  "bankTransfer": {
+    "desc": "Direkt von Ihrem Bankkonto überweisen",
+    "recommended": "Empfohlen",
+    "bankName": "Bankname",
+    "accountNumber": "Kontonummer",
+    "accountHolder": "Kontoinhaber",
+    "swiftCode": "SWIFT-Code",
+    "bankAddress": "Bankadresse",
+    "copyAccountNumber": "Kontonummer kopieren",
+    "copySwiftCode": "SWIFT-Code kopieren",
+    "copyBankAddress": "Bankadresse kopieren",
+    "notice": "Bitte geben Sie bei der Zahlung Ihre <1>Rechnungsnummer</1> als Referenz an."
+  },
+  "wise": {
+    "desc": "Internationale Überweisungen, niedrige Gebühren",
+    "step1": "Wise öffnen",
+    "step2": "Banküberweisung",
+    "step3": "Unsere Daten",
+    "feature": "Schnelle Überweisung \u00b7 niedrige Gebühren"
+  },
+  "revolut": {
+    "desc": "Über die Banküberweisungsfunktion bezahlen",
+    "international": "International",
+    "multicurency": "Mehrwährungsfähig",
+    "secure": "Sicher",
+    "notice": "Verwenden Sie die gleichen Bankdaten wie bei der Banküberweisung."
+  },
+  "paypal": {
+    "desc": "Auf Anfrage per Rechnung verfügbar",
+    "optional": "Optional",
+    "fee": "Die PayPal-Gebühr von 4,5 % trägt der Benutzer",
+    "invoiceInfo": "Wir erstellen Ihnen eine Rechnung",
+    "sendEmail": "Die Rechnung wird per E-Mail gesendet",
+    "btnRequest": "Rechnung anfordern"
+  },
+  "mobileSecure": "Alle Zahlungen werden mit Bankenverschlüsselung abgewickelt",
+  "footerNote": "Sobald Ihre Zahlung gesendet wurde, leiten Sie uns bitte den Zahlungsnachweis für eine schnellere Bestätigung weiter."
+}

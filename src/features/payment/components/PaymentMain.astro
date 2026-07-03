@@ -1,0 +1,32 @@
+---
+import PaymentSidebar from "./PaymentSidebar.astro";
+import PaymentMethodTabs from "./PaymentMethodTabs.astro";
+import BankTransferCard from "./BankTransferCard.astro";
+import WiseCard from "./WiseCard.astro";
+import RevolutCard from "./RevolutCard.astro";
+import PayPalCard from "./PayPalCard.astro";
+import PaymentFooter from "./PaymentFooter.astro";
+---
+
+<div
+  class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 lg:py-16 flex flex-col md:flex-row gap-8 lg:gap-12"
+>
+  <PaymentSidebar />
+
+  <main class="flex-1 flex flex-col gap-4">
+    <PaymentMethodTabs />
+
+    <div class="flex flex-col gap-4">
+      <BankTransferCard />
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <WiseCard />
+        <RevolutCard />
+      </div>
+
+      <PayPalCard />
+    </div>
+
+    <PaymentFooter />
+  </main>
+</div>

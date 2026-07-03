@@ -1,0 +1,38 @@
+{
+  "seo": {
+    "meta_title": "Blog de Trekking en el Monte Rinjani — Guías y Consejos",
+    "meta_description": "Lee el blog de trekking de Go2Rinjani para obtener guías, consejos de empaque, información meteorológica y ofertas exclusivas — escrito por guías certificados."
+  },
+  "hero": {
+    "title": "Blog de Trekking del Monte Rinjani: Historias y Guías",
+    "desc": "Todo lo que necesitas para planificar y escalar el Monte Rinjani, escrito por guías locales certificados de Go2Rinjani. Desde consejos de la ruta Sembalun hasta empacar listas y cambios de clima, este es tu recurso principal."
+  },
+  "featured": {
+    "title": "Trekking Inteligente en el Monte Rinjani: Guía Completa",
+    "desc": "¿Nuevo en el trekking por el Monte Rinjani? Nuestros guías te ayudarán — elegir la ruta (Sembalun o Senaru), qué empacar, cómo funcionan los permisos y qué esperar en el día de la cumbre a 3.726 m.",
+    "cta_label": "Leer Más"
+  },
+  "specials": {
+    "section_title": "Ofertas Especiales y Exclusivas para el Trekking Go2Rinjani",
+    "posts": [
+      {
+        "badge": "ESPECIAL",
+        "date": "07 OCTUBRE 2025",
+        "title": "Ofertas de Trekking por Rinjani en Temporada de Lluvia: Ahorra un 15%",
+        "desc": "Reserva tu excursión antes del 31 de diciembre y ahorra un 15% en un itinerario de 3 o 4 días. Las caminatas en temporada de lluvias ofrecen senderos más tranquilos y paisajes frondosos."
+      },
+      {
+        "badge": "ESPECIAL",
+        "date": "15 SEPTIEMBRE 2025",
+        "title": "Go2Rinjani x Eiger: Colección Limitada de Equipaje",
+        "desc": "Go2Rinjani se ha asociado con Eiger para lanzar una colección limitada de equipos y ropa de trekking diseñada específicamente para los senderos del Rinjani."
+      },
+      {
+        "badge": "ESPECIAL",
+        "date": "15 SEPTIEMBRE 2025",
+        "title": "Asciende y Retribuye: Go2Rinjani Apoya la Conservación y los Porteadores",
+        "desc": "Cada caminata al Monte Rinjani reservada este mes contribuye a la conservación de los senderos a través del Parque Nacional Rinjani y ayuda directamente a las familias de nuestros valientes porteadores Sasak."
+      }
+    ]
+  }
+}

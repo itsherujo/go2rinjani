@@ -1,0 +1,26 @@
+---
+import TourHero from "./TourHero.astro";
+import TourInfoGrid from "./TourInfoGrid.astro";
+import TourHighlights from "./TourHighlights.astro";
+import TourInclusions from "./TourInclusions.astro";
+import TourItinerary from "./TourItinerary.astro";
+import TourBookingCTA from "./TourBookingCTA.astro";
+
+interface Props {
+  lang: string;
+  slug: string;
+}
+
+const { lang, slug } = Astro.props;
+---
+
+<div class="w-full bg-background text-black min-h-screen font-sans">
+  <div class="w-full">
+    <TourHero lang={lang} slug={slug} />
+    <TourInfoGrid lang={lang} slug={slug} />
+    <TourHighlights lang={lang} slug={slug} />
+    <TourInclusions lang={lang} slug={slug} />
+    <TourItinerary lang={lang} slug={slug} />
+    <TourBookingCTA lang={lang} slug={slug} />
+  </div>
+</div>

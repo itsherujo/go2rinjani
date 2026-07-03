@@ -1,0 +1,48 @@
+---
+import { useTranslations } from "../../../../i18n/utils";
+import Section from "../../../../components/ui/Layout/Section.astro";
+import SectionTitle from "../../../../components/ui/Typography/SectionTitle.astro";
+import SectionDesc from "../../../../components/ui/Typography/SectionDesc.astro";
+
+interface Props {
+  lang: string;
+  slug: string;
+}
+
+const { lang, slug } = Astro.props;
+const t = useTranslations(lang, `tour-details/${slug}`);
+
+const inclusions = t("inclusions.included", { returnObjects: true }) as string[];
+const exclusions = t("inclusions.excluded", { returnObjects: true }) as string[];
+---
+
+{(inclusions?.length > 0 || exclusions?.length > 0) && (
+  <Section class="mb-0 lg:mb-0">
+    <div class="mb-8 lg:mb-12">
+      <SectionTitle>{t("inclusions.section_title")}</SectionTitle>
+      <SectionDesc>{t("inclusions.intro")}</SectionDesc>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 border-t border-black pt-8">
+      <div class="flex flex-col border-r border-transparent md:border-black/10 pr-0 md:pr-12">
+        <h4 class="text-xl font-medium mb-4">
+          {t("inclusions.included_label")}
+        </h4>
+        {inclusions?.map((inc) => (
+          <div class="border-b border-black py-4 flex justify-between items-center text-base md:text-lg">
+            <span>{inc}</span>
+          </div>
+        ))}
+      </div>
+      <div class="flex flex-col md:pl-12 mt-12 md:mt-0">
+        <h4 class="text-xl font-medium mb-4">
+          {t("inclusions.excluded_label")}
+        </h4>
+        {exclusions?.map((exc) => (
+          <div class="border-b border-black py-4 flex justify-between items-center text-base md:text-lg">
+            <span>{exc}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </Section>
+)}

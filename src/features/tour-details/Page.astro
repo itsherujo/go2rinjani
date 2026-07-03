@@ -1,0 +1,101 @@
+---
+import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { SITE } from "../../data/site";
+import {
+  getCanonicalUrl,
+  toAbsoluteUrl,
+} from "../../utils/seo";
+import {
+  buildBreadcrumbSchema,
+  buildTouristTripSchema,
+} from "../../utils/schema";
+import {
+  getTourCanonicalPath,
+  getTourHeroImagePath,
+} from "../../utils/tour-seo";
+
+import StandardTourHero from "./components/standard/TourHero.astro";
+import StandardTourIntro from "./components/standard/TourIntro.astro";
+import StandardTourHighlights from "./components/standard/TourHighlights.astro";
+import StandardTourItinerary from "./components/standard/TourItinerary.astro";
+import StandardTourInclusions from "./components/standard/TourInclusions.astro";
+import StandardTourDetailsGlance from "./components/standard/TourDetailsGlance.astro";
+import StandardTourChooseDuration from "./components/standard/TourChooseDuration.astro";
+import StandardTourCTA from "./components/standard/TourCTA.astro";
+
+import AlternativeTourLayout from "./components/alternative/AlternativeTourLayout.astro";
+
+interface Props {
+  slug: string;
+}
+
+const { slug } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const namespace = `tour-details/${slug}`;
+const t = useTranslations(lang, namespace);
+
+const title = t("seo.meta_title");
+const description = t("seo.meta_description");
+const layoutType = t("layout_type");
+
+const canonicalPath = getTourCanonicalPath(slug);
+const heroSrc = getTourHeroImagePath(slug);
+const ogImage = heroSrc ?? SITE.defaultOgImagePath;
+const pageUrl = getCanonicalUrl(Astro.site, canonicalPath, lang as any);
+
+const breadcrumbItems = [
+  { name: "Home", url: getCanonicalUrl(Astro.site, "/", lang as any) },
+  { name: "Tours", url: getCanonicalUrl(Astro.site, "/tours", lang as any) },
+];
+
+if (canonicalPath.startsWith("/tours/mount-rinjani-trek/")) {
+  const tTours = useTranslations(lang, "tours");
+  const toursPackages = (tTours("packages", { returnObjects: true }) || []) as Array<{
+    id: string;
+    title: string;
+  }>;
+  const rinjaniPackage = toursPackages.find((p) => p.id === "mount-rinjani");
+  const rinjaniTitle = rinjaniPackage ? rinjaniPackage.title : "Mount Rinjani Treks";
+
+  breadcrumbItems.push({
+    name: rinjaniTitle,
+    url: getCanonicalUrl(Astro.site, "/tours/mount-rinjani-trek", lang as any),
+  });
+}
+
+breadcrumbItems.push({ name: title as string, url: pageUrl });
+
+const schemas = [
+  buildTouristTripSchema({
+    name: title as string,
+    description: description as string,
+    url: pageUrl,
+    image: heroSrc ? toAbsoluteUrl(Astro.site, heroSrc) : undefined,
+  }),
+  buildBreadcrumbSchema(breadcrumbItems),
+];
+---
+
+<BaseLayout
+  title={title as string}
+  description={description as string}
+  pathname={canonicalPath}
+  ogImage={ogImage}
+  schemas={schemas}
+>
+  {layoutType === "alternative" ? (
+    <AlternativeTourLayout slug={slug} lang={lang} />
+  ) : (
+    <div class="w-full bg-background text-foreground min-h-screen font-sans flex flex-col gap-12 md:gap-16 pt-4 md:pt-8 pb-12 md:pb-24">
+      <StandardTourHero slug={slug} lang={lang} />
+      <StandardTourIntro slug={slug} lang={lang} />
+      <StandardTourHighlights slug={slug} lang={lang} />
+      <StandardTourItinerary slug={slug} lang={lang} />
+      <StandardTourInclusions slug={slug} lang={lang} />
+      <StandardTourDetailsGlance slug={slug} lang={lang} />
+      <StandardTourChooseDuration slug={slug} lang={lang} />
+      <StandardTourCTA slug={slug} lang={lang} />
+    </div>
+  )}
+</BaseLayout>

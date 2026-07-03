@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Buchen und Sichern Sie<br/> Ihre Reise Einfach in Wenigen<br/> Schritten",
+    "subtitle": "Transparenz und Einfachheit stehen im Mittelpunkt unseres Buchungsprozesses. Mit klaren Schritten und sicherer Bestätigung wissen Sie bei jedem Schritt genau, was Sie erwartet."
+  },
+  "steps": {
+    "title": "Die Schritte",
+    "step1": {
+      "title": "Wählen Sie Ihr <1>Trekking-Paket</1>.",
+      "desc1": "Durchstöbern Sie unsere sorgfältig zusammengestellte Auswahl an Mount Rinjani Trekking-Paketen und wählen Sie dasjenige aus, das am besten zu Ihren Vorlieben, Ihrem Zeitplan und Ihrem Fitnesslevel passt. Entdecken Sie unsere Rinjani-Tourpakete <1>hier</1>.",
+      "desc2": "Nachdem Sie Ihre bevorzugte Route und Dauer ausgewählt haben, entscheiden Sie, ob Sie ein <1>privates Paket</1> oder ein <2>Gruppenpaket</2> wünschen—dies wirkt sich auf den Gesamtpreis und das Erlebnis aus.",
+      "desc3": "Wenn Sie sich nicht sicher sind, welche Option am besten zu Ihnen passt, empfehlen wir Ihnen den Besuch unserer Seite <1>Rinjani Trekking Preise</1>. Dort finden Sie:",
+      "list1": "Einen vollständigen Vergleich der Vorteile von Privat- vs. Gruppenpaketen",
+      "list2": "Aktualisierte Preisdetails für jede Option",
+      "list3": "Wichtige Informationen, die Ihnen helfen, basierend auf Ihrem Reisestil und Budget die richtige Entscheidung zu treffen",
+      "desc4": "Unser Team hilft Ihnen auch gerne weiter, wenn Sie weitere Klärung benötigen."
+    },
+    "step2": {
+      "title": "<1>Kontaktieren Sie uns</1>, um zu Buchen und zu Bestätigen.",
+      "desc1": "Sobald Sie Ihr Paket ausgewählt haben, kontaktieren Sie uns, um den Buchungsvorgang zu starten. Sie erreichen uns über:",
+      "list1": "WhatsApp",
+      "list2": "E-Mail",
+      "list3": "Unsere <1>Kontaktseite</1>",
+      "desc2": "Unser Team führt Sie durch die nächsten Schritte, um eine reibungslose Reservierung zu gewährleisten."
+    },
+    "step3": {
+      "title": "Geben Sie die <1>Trekker-Details</1> an.",
+      "desc1": "Um mit Ihrer Buchung fortzufahren, benötigen wir einige grundlegende Informationen für jeden Teilnehmer:",
+      "list1": "Vollständiger Name",
+      "list2": "Geburtsdatum",
+      "list3": "Nationalität",
+      "list4": "Passnummer",
+      "list5": "Alter",
+      "desc2": "Alternativ können Sie uns der Einfachheit halber auch einfach ein deutliches Foto Ihres Reisepasses senden."
+    },
+    "step4": {
+      "title": "Zahlen Sie die <1>Anzahlung</1>.",
+      "desc1": "Um Ihren Platz zu sichern und Ihre Rinjani-Trekking-Genehmigung zu reservieren, ist eine <1>Anzahlung von 50 USD pro Person</1> erforderlich.",
+      "desc2": "Warum eine Anzahlung?<br/>Die Anzahlung stellt sicher:",
+      "list1": "Ihre Trekking-Genehmigung ist offiziell reserviert",
+      "list2": "Ihr Platz ist für das von Ihnen gewählte Datum gesichert",
+      "list3": "Vorbereitungen vor der Wanderung werden eingeleitet, darunter:",
+      "list3a": "Planung der Abholung",
+      "list3b": "Lebensmittel- und Logistikvorbereitung",
+      "list3c": "Teamkoordination",
+      "list3d": "Und mehr",
+      "desc3": "Die Zahlungsmethoden sind auf unserer Seite <1>Zahlungsinformationen</1> klar beschrieben—weitere Details finden Sie im Abschnitt unten auf der Seite."
+    },
+    "step5": {
+      "title": "Buchungs-<1>Bestätigung</1>",
+      "desc1": "Sobald Ihre Anzahlung geleistet wurde, ist Ihre Buchung offiziell bestätigt.",
+      "list1": "Sie können Ihren <1>Zahlungsbeleg oder einen Screenshot der Anzahlung</1> als Buchungsnachweis aufbewahren.",
+      "list2": "Ihre <1>Chat- oder schriftliche Korrespondenz</1> mit uns dient ebenfalls als Nachweis Ihrer Buchungsbestätigung.",
+      "desc2": "Das bedeutet, dass Sie keine zusätzliche Bestätigungsdatei benötigen. Bewahren Sie diese Aufzeichnungen einfach zur Referenz sicher auf."
+    },
+    "step6": {
+      "title": "<1>Entspannen</1> Sie sich und Machen Sie sich Bereit!",
+      "desc1": "Da alles bestätigt ist, können Sie sich nun zurücklehnen und sich auf Ihr Rinjani-Abenteuer freuen. Unser Team kümmert sich um den Rest und hält Sie auf dem Laufenden, während Ihr Trekking-Termin näher rückt."
+    }
+  }
+}

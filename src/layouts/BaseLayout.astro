@@ -1,0 +1,115 @@
+---
+import "../styles/global.css";
+import { Font } from "astro:assets";
+import Header from "../components/layout/Header.astro";
+import Footer from "../components/layout/Footer.astro";
+import BookingFormIsland from "../components/shared/BookingFormIsland";
+import GlobalToastContainer from "../components/ui/Toast/GlobalToastContainer";
+import SEOHead from "../components/seo/SEOHead.astro";
+import SchemaOrg from "../components/seo/SchemaOrg.astro";
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import type { Lang } from "../i18n/config";
+import {
+  buildOrganizationSchema,
+  buildWebSiteSchema,
+} from "../utils/schema";
+
+interface Props {
+  title?: string;
+  description?: string;
+  hideNavigation?: boolean;
+  ogImage?: string;
+  ogType?: "website" | "article";
+  noindex?: boolean;
+  /** Override canonical/hreflang path (e.g. preferred tour URL) */
+  pathname?: string;
+  schemas?: Record<string, unknown>[];
+}
+
+const {
+  title,
+  description,
+  hideNavigation = false,
+  ogImage,
+  ogType = "website",
+  noindex = false,
+  pathname,
+  schemas = [],
+} = Astro.props;
+
+const lang = getLangFromUrl(Astro.url) as Lang;
+const t = useTranslations(lang, "home");
+const tCommon = useTranslations(lang, "common");
+
+const pageTitle = title || t("seo.meta_title") || "Go2Rinjani";
+const pageDescription =
+  description ||
+  t("seo.meta_description") ||
+  "Go2Rinjani - Trekking to Mount Rinjani";
+
+const defaultSchemas = [buildOrganizationSchema(), buildWebSiteSchema()];
+const allSchemas = [...defaultSchemas, ...schemas];
+
+// Build booking form translations object for the island
+const bookingTranslations = {
+  title: tCommon("bookingForm.title") as string,
+  guestDetail: tCommon("bookingForm.guestDetail") as string,
+  fullName: tCommon("bookingForm.fullName") as string,
+  email: tCommon("bookingForm.email") as string,
+  groupSize: tCommon("bookingForm.groupSize") as string,
+  packageDetail: tCommon("bookingForm.packageDetail") as string,
+  duration: tCommon("bookingForm.duration") as string,
+  route: tCommon("bookingForm.route") as string,
+  packageName: tCommon("bookingForm.packageName") as string,
+  note: tCommon("bookingForm.note") as string,
+  tourDate: tCommon("bookingForm.tourDate") as string,
+  dd: tCommon("bookingForm.dd") as string,
+  mm: tCommon("bookingForm.mm") as string,
+  yyyy: tCommon("bookingForm.yyyy") as string,
+  sendInquiry: tCommon("bookingForm.sendInquiry") as string,
+  whatsapp: tCommon("bookingForm.whatsapp") as string,
+  sendEmail: tCommon("bookingForm.sendEmail") as string,
+  durations: {
+    "2d1n": tCommon("bookingForm.durations.2d1n") as string,
+    "3d2n": tCommon("bookingForm.durations.3d2n") as string,
+    "4d3n": tCommon("bookingForm.durations.4d3n") as string,
+  },
+  routes: {
+    sembalun: tCommon("bookingForm.routes.sembalun") as string,
+    senaru: tCommon("bookingForm.routes.senaru") as string,
+  },
+};
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <SEOHead
+      title={pageTitle}
+      description={pageDescription}
+      lang={lang}
+      pathname={pathname}
+      ogImage={ogImage}
+      ogType={ogType}
+      noindex={noindex}
+    />
+    <Font cssVariable="--font-inter" preload />
+    <SchemaOrg schema={allSchemas} />
+    <slot name="head" />
+  </head>
+  <body
+    class="bg-background text-foreground min-h-screen flex flex-col font-sans selection:bg-black selection:text-white antialiased"
+  >
+    {!hideNavigation && <Header />}
+    <main class="grow">
+      <slot />
+    </main>
+    {!hideNavigation && <Footer />}
+    <BookingFormIsland client:idle translations={bookingTranslations} />
+    <GlobalToastContainer client:load />
+  </body>
+</html>

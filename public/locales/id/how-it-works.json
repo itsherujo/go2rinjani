@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Pesan dan Amankan<br/> Perjalanan Anda dengan Mudah dalam Beberapa<br/> Langkah",
+    "subtitle": "Transparansi dan kesederhanaan adalah inti dari proses pemesanan kami. Dengan langkah-langkah yang jelas dan konfirmasi yang aman, Anda akan tahu persis apa yang diharapkan—di setiap tahapnya."
+  },
+  "steps": {
+    "title": "Langkah-Langkah",
+    "step1": {
+      "title": "Pilih <1>Paket Trekking</1> Anda.",
+      "desc1": "Jelajahi pilihan paket trekking Gunung Rinjani kami dan pilih satu yang paling sesuai dengan preferensi, jadwal, dan tingkat kebugaran Anda. Temukan paket wisata Rinjani kami <1>di sini</1>.",
+      "desc2": "Setelah memilih rute dan durasi yang Anda inginkan, tentukan apakah Anda menginginkan <1>paket privat</1> atau <2>paket gabungan/grup</2>—ini akan memengaruhi harga dan pengalaman secara keseluruhan.",
+      "desc3": "Jika Anda tidak yakin opsi mana yang paling sesuai, kami sarankan untuk mengunjungi halaman <1>Harga Trekking Rinjani</1> kami. Di sana, Anda akan menemukan:",
+      "list1": "Perbandingan lengkap antara manfaat paket privat vs. grup",
+      "list2": "Detail harga terbaru untuk setiap opsi",
+      "list3": "Informasi utama yang dapat membantu Anda mengambil keputusan yang tepat berdasarkan gaya perjalanan dan anggaran Anda",
+      "desc4": "Tim kami juga dengan senang hati membantu jika Anda memerlukan penjelasan lebih lanjut."
+    },
+    "step2": {
+      "title": "<1>Hubungi Kami</1> untuk Memesan dan Mengonfirmasi.",
+      "desc1": "Setelah Anda memilih paket, hubungi kami untuk memulai proses pemesanan. Anda dapat menghubungi kami melalui:",
+      "list1": "WhatsApp",
+      "list2": "Email",
+      "list3": "Halaman <1>Hubungi Kami</1>",
+      "desc2": "Tim kami akan memandu Anda ke langkah berikutnya untuk memastikan kelancaran reservasi."
+    },
+    "step3": {
+      "title": "Berikan <1>Detail Pendaki</1>.",
+      "desc1": "Untuk melanjutkan pemesanan, kami memerlukan beberapa informasi dasar untuk setiap peserta:",
+      "list1": "Nama lengkap",
+      "list2": "Tanggal lahir",
+      "list3": "Kewarganegaraan",
+      "list4": "Nomor paspor",
+      "list5": "Usia",
+      "desc2": "Sebagai alternatif, Anda cukup mengirimi kami foto paspor Anda dengan jelas untuk kemudahan."
+    },
+    "step4": {
+      "title": "Bayar <1>Deposit</1>.",
+      "desc1": "Untuk mengamankan kursi Anda dan mereservasi izin pendakian Rinjani Anda, diperlukan <1>deposit sebesar USD $50 per orang</1>.",
+      "desc2": "Mengapa harus deposit?<br/>Deposit ini memastikan:",
+      "list1": "Izin pendakian Anda resmi direservasi",
+      "list2": "Kursi Anda diamankan untuk tanggal yang Anda pilih",
+      "list3": "Persiapan pra-pendakian dimulai, termasuk:",
+      "list3a": "Penjadwalan penjemputan",
+      "list3b": "Persiapan makanan dan logistik",
+      "list3c": "Koordinasi tim",
+      "list3d": "Dan lainnya",
+      "desc3": "Metode pembayaran diuraikan secara jelas di halaman <1>Informasi Pembayaran</1> kami—silakan lihat bagian bawah halaman untuk detail selengkapnya."
+    },
+    "step5": {
+      "title": "<1>Konfirmasi</1> Pemesanan",
+      "desc1": "Setelah deposit Anda dibayarkan, pemesanan Anda resmi dikonfirmasi.",
+      "list1": "Anda dapat menyimpan <1>tanda terima pembayaran atau tangkapan layar deposit</1> sebagai bukti pemesanan.",
+      "list2": "<1>Obrolan atau korespondensi tertulis</1> Anda dengan kami juga berfungsi sebagai catatan konfirmasi pemesanan Anda.",
+      "desc2": "Ini berarti Anda tidak memerlukan file konfirmasi tambahan apa pun. Cukup simpan catatan ini dengan aman untuk referensi Anda."
+    },
+    "step6": {
+      "title": "<1>Bersantai</1> dan Bersiaplah!",
+      "desc1": "Dengan semuanya yang telah dikonfirmasi, kini Anda bisa bersantai dan menantikan petualangan Rinjani Anda. Tim kami akan mengurus sisanya dan terus memberi Anda informasi menjelang tanggal pendakian Anda."
+    }
+  }
+}

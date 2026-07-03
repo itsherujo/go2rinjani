@@ -1,0 +1,155 @@
+{
+  "seo": {
+    "meta_title": "Trek Mont Rinjani 3 Jours Senaru — Cratère, Lac & Sources | Go2Rinjani",
+    "meta_description": "Partez pour 3 jours de trek au Rinjani via Senaru : forêt vierge, bord du cratère Pelawangan Senaru, lac Segara Anak, et sources chaudes. Pas de sommet."
+  },
+  "hero": {
+    "title": "Trek 3 Jours Mont Rinjani Senaru — Forêt, Lac & Sources",
+    "desc": "L'expérience la plus immersive mais sans sommet au Rinjani : ce trek de 3 jours vous mène à travers la forêt tropicale dense jusqu'au cratère, puis au fond pour découvrir le lac sacré et ses sources thermales relaxantes.",
+    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+  },
+  "intro": {
+    "label": "3 Jours 2 Nuits — Route Senaru",
+    "title": "Le Cœur de la Montagne Sacrée — Sans le Sommet",
+    "desc": "Ce trek est conçu pour ceux qui souhaitent pleinement apprécier le cœur du Parc National avec le lac Segara Anak (2 008 m) sans l'effort colossal du sommet. Départ du vieux village de Senaru, traversée de la forêt, jusqu'à camper au bord du lac et se tremper dans ses sources naturelles chaudes."
+  },
+  "highlights": {
+    "section_title": "À quoi s'attendre sur ce Trek",
+    "items": [
+      {
+        "id": "senaru-rainforest",
+        "title": "La Forêt Vierge de Senaru",
+        "desc": "Cheminez dans la forêt, écosystème tropical dense et paradis pour les oiseaux."
+      },
+      {
+        "id": "pelawangan-senaru",
+        "title": "Cratère de Pelawangan Senaru à 2 641 m",
+        "desc": "Atteignez la bordure et observez le sommet, un point vertigineux et sublime."
+      },
+      {
+        "id": "segara-anak-descent",
+        "title": "Descente au Lac Segara Anak",
+        "desc": "Rendez-vous dans les entrailles du volcan vers les eaux calmes du Segara Anak."
+      },
+      {
+        "id": "hot-springs",
+        "title": "Sources Chaudes Volcaniques",
+        "desc": "Goûtez à la chaleur des sources naturelles volcaniques au fond du cratère."
+      },
+      {
+        "id": "sasak-culture",
+        "title": "Culture Sasak Ancestrale",
+        "desc": "Un voyage mystique au pays Sasak avec Go2Rinjani."
+      }
+    ]
+  },
+  "itinerary": {
+    "section_title": "Programme des 3 Jours",
+    "intro": "L'horaire jour par jour du circuit Senaru avec lac.",
+    "days": [
+      {
+        "day": "Jour 1",
+        "title": "De Senaru au bord du Cratère",
+        "desc": "Après un petit-déjeuner riche, transfert et ascension via les 3 postes de la forêt tropicale. Camping au cratère.",
+        "highlights": [
+          "Petit-déjeuner & instruction",
+          "Forêt dense",
+          "Arrivée au bord du cratère 2 641m",
+          "Vues panoramiques et splendides",
+          "Diner et nuit en tente"
+        ]
+      },
+      {
+        "day": "Jour 2",
+        "title": "Vers le lac Segara Anak",
+        "desc": "Lever de soleil depuis le Pelawangan. Descente au lac de cratère. Après-midi baignade dans les sources chaudes. Repas du soir.",
+        "highlights": [
+          "Aube éclatante sur le Rinjani",
+          "Descente au lac",
+          "Arrivée au bord du l'eau",
+          "Bains dans les sources",
+          "Camping sous la voûte céleste"
+        ]
+      },
+      {
+        "day": "Jour 3",
+        "title": "Marche de Retour vers Senaru",
+        "desc": "Dernier moment paisible au lac. Ascension pour sortir du cratère et longue descente pour regagner Senaru. Retour hotel.",
+        "highlights": [
+          "Petit-déjeuner au lac",
+          "Montée au Pelawangan",
+          "Descente complète en forêt",
+          "Retour logement"
+        ]
+      }
+    ],
+    "schedule_label": "Programme"
+  },
+  "inclusions": {
+    "section_title": "Inclus / Non Inclus",
+    "intro": "Notre formule intègre tout le nécessaire pour 3 jours confortables.",
+    "included": [
+      "Guide Local Certifié",
+      "Porteurs",
+      "Frais d'entrée",
+      "Repas complets + eau",
+      "Matériels de camping intégrals",
+      "Prise en charge Aller / Retour",
+      "Une Nuit avant trek"
+    ],
+    "excluded": [
+      "Petites affaires personnelles",
+      "Assurance médicale",
+      "Pourboires"
+    ],
+    "included_label": "Inclus",
+    "excluded_label": "Exclus"
+  },
+  "trek_details": {
+    "section_title": "Le Trek en Bref",
+    "intro": "Vérifiez vos détails et conditions partiques ici.",
+    "details": [
+      { "label": "Durée", "value": "3 Jours 2 Nuits" },
+      { "label": "Route", "value": "Senaru (allé / retour)" },
+      { "label": "Altitude Cratère", "value": "2 641 m" },
+      { "label": "Altitude Lac", "value": "2 008 m" },
+      { "label": "Sommet", "value": "Non" },
+      { "label": "Début", "value": "Village de Senaru" },
+      { "label": "Difficulté", "value": "Moyenne/Soutenue" },
+      { "label": "Saison", "value": "Avril – Décembre" },
+      { "label": "Permis", "value": "Parc National (Inclus)" },
+      { "label": "Groupe", "value": "Max 6 personnes" },
+      { "label": "Torean", "value": "Pas dans cette offre" }
+    ]
+  },
+  "choose_duration": {
+    "section_title": "Ce n'est pas le trek idéal ?",
+    "items": [
+      {
+        "duration": "2 Jours 1 Nuit",
+        "best_for": "Ne pas descendre au lac, mais profiter de la vue",
+        "cta_label": "Voir forfait 2 jours",
+        "cta_url": "/tours/mount-rinjani-trek/2-day-senaru-crater-rim"
+      },
+      {
+        "duration": "3 Jours 2 Nuits",
+        "best_for": "Forêt, Cratère, et Lac",
+        "cta_label": "Vous êtes ici",
+        "cta_url": "/tours/mount-rinjani-trek/3-day-senaru-lake"
+      },
+      {
+        "duration": "4 Jours 3 Nuits",
+        "best_for": "Le Pack Total avec Sommet 3 726 m",
+        "cta_label": "Voir forfait 4 jours",
+        "cta_url": "/tours/mount-rinjani-trek/4-day-senaru-summit-lake"
+      }
+    ],
+    "read_more_label": "En savoir plus"
+  },
+  "cta": {
+    "section_title": "L'Aventure Segara Anak vous attend",
+    "title": "Réservez ce Trek 3 Jours",
+    "desc": "Ne ratez pas l'occasion de découvrir ensemble des paysages somptueux.",
+    "cta_label": "Je Veux Venir"
+  }
+}

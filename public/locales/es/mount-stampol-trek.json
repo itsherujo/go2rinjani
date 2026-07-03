@@ -1,0 +1,146 @@
+{
+  "seo": {
+    "meta_title": "Mount Stampol Trek — Best Rinjani Alternative in Lombok | Go2Rinjani",
+    "meta_description": "Trek Mount Stampol — Lombok's finest alternative when Rinjani is closed or fully booked. 2-day crater rim trek with certified guides, lush rainforest & panoramic Rinjani views."
+  },
+
+  "hero": {
+    "title": "Mount Stampol Trek — Lombok's Best Alternative to Rinjani",
+    "desc": "When Mount Rinjani is closed for the season or fully booked on your dates, Mount Stampol delivers — a 2-day crater rim trek on the outer slopes of Rinjani National Park, with panoramic views of Rinjani's caldera, Segara Anak lake, and Mount Agung in Bali.",
+    "cta_label": "Book This Trek"
+  },
+
+  "intro": {
+    "label": "Mount Stampol Trek",
+    "title": "Still on the Rinjani Slopes — Without the Crowds",
+    "desc": "Standing at 2,608 m on the northern outer slopes of Mount Rinjani National Park, Mount Stampol is one of Lombok's most rewarding hidden treks. The trail winds through coffee, clove, and vanilla plantations before entering untouched rainforest — arriving at a quiet crater rim campsite with unobstructed views of Rinjani's massive caldera. Go2Rinjani is your certified local guide for every step of the journey."
+  },
+
+  "highlights": {
+    "section_title": "What Awaits You on the Trail",
+    "items": [
+      {
+        "id": "plantations",
+        "title": "Spice Plantations",
+        "desc": "Trek through aromatic coffee, clove, and vanilla plantations farmed by Bayan village locals — a sensory experience unique to the Stampol trail."
+      },
+      {
+        "id": "rainforest",
+        "title": "Untouched Rainforest",
+        "desc": "Enter dense, untouched rainforest on the upper slopes — minimal foot traffic, fresh mountain air, and the sounds of nature at every turn."
+      },
+      {
+        "id": "crater-rim",
+        "title": "Stampol Crater Rim",
+        "desc": "Reach the crater rim at 2,608 m for a stunning sunset, overnight camping under the stars, and a sunrise over Rinjani's caldera the following morning."
+      },
+      {
+        "id": "rinjani-views",
+        "title": "Panoramic Rinjani Views",
+        "desc": "From the crater rim, enjoy unobstructed panoramic views of Mount Rinjani, Segara Anak lake, and on clear mornings, Mount Agung across the Lombok Strait in Bali."
+      }
+    ]
+  },
+
+  "inclusions": {
+    "section_title": "Trek Inclusions & Exclusions",
+    "intro": "Every Mount Stampol trek with Go2Rinjani is fully supported — here is exactly what is included in your package.",
+    "included": [
+      "Certified local guide",
+      "Porter (up to 25 kg of camp equipment)",
+      "Village entrance permit (Teres Genit, Bayan)",
+      "All meals on the mountain (3x daily) + hot drinks + mineral water",
+      "Full camping equipment: tent, sleeping bag, mattress, pillow, cooking gear",
+      "Hotel pickup and drop-off (Senaru, Mataram, Airport, Senggigi, Bangsal)",
+      "1 night pre-trek accommodation in Senaru"
+    ],
+    "excluded": [
+      "Personal trekking gear (jacket, trekking shoes, daypack)",
+      "Travel insurance",
+      "Tips for guides and porters (appreciated but not mandatory)",
+      "Transfers from Selong Belanak or Sekotong area (additional fee applies)"
+    ]
+  },
+
+  "itinerary": {
+    "section_title": "Your 2-Day Stampol Adventure",
+    "intro": "A complete mountain experience in two days — from spice plantations at the trailhead to sunrise over Rinjani's caldera at the top.",
+    "days": [
+      {
+        "day": "Day 1",
+        "title": "Nangka Rempek Village to Stampol Crater Rim",
+        "desc": "After breakfast at your pre-trek accommodation in Senaru, Go2Rinjani transfers you to the trailhead at Nangka Rempek Village (600 m). Registration at the local trekking office, then the trek begins — through spice plantations, three rest posts, and dense rainforest. Arrive at Stampol Crater Rim (2,608 m) in time for sunset. Dinner and overnight camping under the stars.",
+        "highlights": [
+          "Pickup from accommodation in Senaru",
+          "Trailhead registration at Nangka Rempek Village (600 m)",
+          "Trek through coffee, clove & vanilla plantations",
+          "Post 1 (867 m) — short break",
+          "Post 2 (1,445 m) — rest & mountain views",
+          "Post 3 (2,134 m) — lunch prepared by porters",
+          "Arrive Stampol Crater Rim (2,608 m) — sunset & camp setup",
+          "Dinner & overnight at crater rim campsite"
+        ]
+      },
+      {
+        "day": "Day 2",
+        "title": "Sunrise at the Crater Rim — Descent to Nangka Rempek",
+        "desc": "Wake before dawn for sunrise over Mount Rinjani's caldera and Segara Anak lake. After breakfast at camp, begin the descent via the same trail — passing through Posts 3, 2, and 1 with rest stops along the way. Return to Nangka Rempek Village before noon, followed by transfer back to your accommodation.",
+        "highlights": [
+          "Early wake-up for sunrise over Rinjani's caldera",
+          "Breakfast at Stampol Crater Rim campsite",
+          "Descent through Posts 3, 2, and 1",
+          "Arrive Nangka Rempek Village before noon",
+          "Transfer back to Senaru or onward destination"
+        ]
+      }
+    ]
+  },
+
+  "trek_details": {
+    "section_title": "Trek At a Glance",
+    "intro": "Everything you need to know before you book your Mount Stampol trek.",
+    "details": [
+      {
+        "label": "Duration",
+        "value": "2 days, 1 night"
+      },
+      {
+        "label": "Summit Elevation",
+        "value": "2,608 m above sea level"
+      },
+      {
+        "label": "Trailhead",
+        "value": "Nangka Rempek Village, North Lombok (600 m)"
+      },
+      {
+        "label": "Total Distance",
+        "value": "14 km round trip"
+      },
+      {
+        "label": "Difficulty",
+        "value": "Moderate — suitable for beginners with good fitness"
+      },
+      {
+        "label": "Best Season",
+        "value": "April – December (dry season). Open year-round."
+      },
+      {
+        "label": "Permit",
+        "value": "Village permit via Teres Genit, Bayan (not a National Park permit)"
+      },
+      {
+        "label": "Group Size",
+        "value": "Minimum 2 — maximum 6 per group"
+      }
+    ]
+  },
+
+  "cta": {
+    "section_title": "Rinjani Closed or Fully Booked on Your Dates?",
+    "title": "Mount Stampol Is Open — Book Your Trek Today",
+    "desc": "Unlike Mount Rinjani, Mount Stampol operates under local Bayan village permits — meaning it stays open when Rinjani closes for the season. Go2Rinjani handles everything: permits, guides, porters, meals, and transfers. All you need to do is show up.",
+    "cta_label": "Book Mount Stampol Trek",
+    "secondary_cta_label": "Back to All Trek Packages",
+    "secondary_cta_url": "/tours"
+  }
+}

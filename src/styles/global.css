@@ -1,0 +1,124 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --color-brand-teal: #7abcb0;
+  --color-brand-coral: #ef7d6b;
+  --color-brand-pink: #e5a5a0;
+  --color-brand-blue: #a1c4e6;
+  --color-brand-dark: #111111;
+
+  --color-stampol-blue: #B8D9EA;
+  --color-stampol-green: #60B6A7;
+  --color-stampol-orange: #D77B51;
+  --color-stampol-yellow: #F4E2AB;
+  --color-stampol-red-light: #DB6355;
+  --color-stampol-red-dark: #CB5D53;
+
+  --color-whatsapp-primary: #111111;
+  --color-whatsapp-hover: #45a049;
+
+  --color-background: #ffffff;
+  --color-surface-dark: #000000;
+  --color-foreground: #111111;
+  --color-text-inverse: #ffffff;
+  
+  /* Legal-v2 Theme Variables */
+  --font-serif: "EB Garamond", serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-bg-light: #F5F5F5;
+  --color-text-muted: rgba(0, 0, 0, 0.4);
+  --color-cobalt-600: oklch(50.58% .2886 264.84);
+}
+
+@layer components {
+  /* Match original site prose sizing */
+  .legal-prose {
+    --tw-prose-body: rgb(0 0 0 / 0.8);
+    --tw-prose-headings: rgb(0 0 0 / 0.8);
+    --tw-prose-links: var(--color-brand-blue);
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
+    line-height: 180%;
+  }
+  .legal-prose :where(:not(.not-prose, .not-prose *)):where(:not(header, header *)),
+  .legal-prose :where(:not(.not-prose, .not-prose *)) + :where(:not(.not-prose, .not-prose *)) {
+    margin-top: 1.5rem;
+    max-width: 47rem;
+    text-align: justify;
+    width: 100%;
+  }
+  .legal-prose h2:where(:not(.not-prose, .not-prose *)) {
+    font-size: 0.875rem;
+    letter-spacing: -0.025em;
+    line-height: 1.55556;
+    font-weight: 600;
+    margin-top: 5rem;
+    max-width: 47rem;
+    width: 100%;
+    text-align: left;
+  }
+  .legal-prose h3:where(:not(.not-prose, .not-prose *)) {
+    font-size: 0.875rem;
+    line-height: 1.55556;
+    font-weight: 600;
+    margin-top: 4rem;
+    max-width: 47rem;
+    width: 100%;
+    text-align: left;
+  }
+  .legal-prose h2 + h3:where(:not(.not-prose, .not-prose *)) {
+    margin-top: 1.5rem;
+    max-width: 47rem;
+  }
+  .legal-prose h4:where(:not(.not-prose, .not-prose *)) {
+    font-size: 0.875rem;
+    line-height: 2;
+    font-weight: 600;
+    margin-top: 3rem;
+    max-width: 47rem;
+  }
+  .legal-prose :is(h2, h3, h4):where(:not(.not-prose, .not-prose *)) {
+    scroll-margin-top: 3rem;
+    max-width: 47rem;
+    text-align: left;
+  }
+  .legal-prose hr {
+    border: none;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    text-align: center;
+    max-width: 47rem;
+    width: 100%;
+  }
+  .legal-prose table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .grid-layout {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 2.5rem;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer base {
+  input, textarea, select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    line-height: normal;
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "PLANIFICA TU TREKKING AL MONTE RINJANI - PONTE EN CONTACTO",
+  "address": "Jl. Pariwisata Senaru, Dusun, Tumpang Sari, Kec. Bayan, Mataram, Nusa Tenggara Bar. 83354",
+  "office": {
+    "title": "Oficina en el lugar — Senaru, Lombok",
+    "schedule": {
+      "friday": "Cerrado",
+      "saturday": "Abierto 24 Horas",
+      "sunday": "Abierto 24 Horas",
+      "monday": "Abierto 24 Horas",
+      "tuesday": "Abierto 24 Horas",
+      "wednesday": "Abierto 24 Horas",
+      "thursday": "Abierto 24 Horas"
+    }
+  },
+  "online": {
+    "title": "Consultas en línea",
+    "schedule": {
+      "friday": "Cerrado",
+      "saturday": "7.00 am - 11.30 pm",
+      "sunday": "7.00 am - 11.30 pm",
+      "monday": "7.00 am - 11.30 pm",
+      "tuesday": "7.00 am - 11.30 pm",
+      "wednesday": "7.00 am - 11.30 pm",
+      "thursday": "7.00 am - 11.30 pm"
+    }
+  },
+  "days": {
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves"
+  },
+  "form": {
+    "header": "¿ALGUNA PREGUNTA SOBRE EL RINJANI?",
+    "description": "Pregúntanos cualquier cosa — rutas, fechas, tamaño del grupo o paquetes personalizados. El equipo de Go2Rinjani responde en 24 horas.",
+    "yourDetails": "Tus Datos",
+    "firstName": "Nombre*",
+    "firstNamePlaceholder": "Ingresa tu nombre",
+    "lastName": "Apellido*",
+    "lastNamePlaceholder": "Ingresa tu apellido",
+    "phone": "Número de teléfono*",
+    "phonePlaceholder": "Ingresa el número de teléfono",
+    "email": "Correo electrónico*",
+    "emailPlaceholder": "Ingresa el correo electrónico",
+    "message": "Cuéntanos sobre tu trekking",
+    "messagePlaceholder": "ej. Estoy interesado en un trekking de 3 días en Sembalun para 2 personas en julio...",
+    "termsAgree": "Al enviar este formulario, acepto el procesamiento de mis datos personales según los términos de la Política de Privacidad.",
+    "formComplete": "Entiendo que los formularios incompletos serán rechazados y que he completado mi formulario.",
+    "submit": "ENVIAR"
+  }
+}

@@ -1,0 +1,25 @@
+---
+import PackageCallout from "../../../components/ui/PackageCallout.astro";
+
+interface Props {
+  id: string;
+  title: string;
+  desc: string;
+  ctaLabel: string;
+  ctaUrl?: string;
+  images: any[];
+  layoutCols: string;
+}
+
+const { id, title, desc, ctaLabel, ctaUrl, images, layoutCols } = Astro.props;
+---
+
+<PackageCallout
+  title={title}
+  desc={desc}
+  ctaLabel={ctaLabel}
+  ctaUrl={ctaUrl || `/tours/${id}`}
+  images={images}
+  layoutCols={layoutCols}
+  bgColor="bg-brand-teal"
+/>

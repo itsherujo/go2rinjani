@@ -1,0 +1,31 @@
+---
+import { getLangFromUrl, useTranslations } from '../../../i18n/utils';
+import BlogCardsIsland from '../islands/BlogCardsIsland';
+import { getCollection } from 'astro:content';
+import blogImages from '../../../content/blog/data/images.json';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "home");
+
+const allPosts = await getCollection("blog");
+const featuredSlug = "trekking-smart-on-mount-rinjani-your-complete-preparation-guide";
+
+const featuredPost = allPosts.find(post => post.id === `locales/${lang}/${featuredSlug}`) 
+  || allPosts.find(post => post.id === `locales/en/${featuredSlug}`);
+
+const imageObj = blogImages as Record<string, string>;
+const featuredImage = imageObj[featuredSlug] || featuredPost?.data.image || "/images/blog/planning-your-first-mount-rinjani-trek.avif";
+
+const title = featuredPost?.data.title || t("featured_post.title");
+const desc = featuredPost?.data.description || t("featured_post.desc");
+const href = lang === 'en' ? `/blog/${featuredSlug}` : `/${lang}/blog/${featuredSlug}`;
+---
+
+<BlogCardsIsland 
+  client:visible 
+  title={title}
+  desc={desc}
+  ctaLabel={t("featured_post.cta_label")}
+  href={href}
+  imageSrc={featuredImage}
+/>

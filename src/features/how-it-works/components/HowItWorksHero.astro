@@ -1,0 +1,23 @@
+---
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+import HeroTitle from "../../../components/ui/Typography/HeroTitle.astro";
+import HeroDesc from "../../../components/ui/Typography/HeroDesc.astro";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "how-it-works");
+
+const rawTitle = t("hero.title") as string;
+// Add classes to <br/> tags inside the raw title
+const parsedTitle = rawTitle.replace(/<br\/>/g, '<br class="hidden md:block"/>');
+---
+
+<div class="w-full bg-foreground text-background pt-10 pb-12 px-4 xl:px-5">
+  <div class="w-full flex flex-col items-start gap-6 lg:gap-8">
+    <HeroTitle class="text-background max-w-[90%] md:max-w-4xl lg:max-w-[1000px] mb-0">
+      <Fragment set:html={parsedTitle} />
+    </HeroTitle>
+    <HeroDesc class="text-background/80 max-w-full md:max-w-2xl lg:max-w-3xl text-sm md:text-base lg:text-lg">
+      {t("hero.subtitle")}
+    </HeroDesc>
+  </div>
+</div>

@@ -1,0 +1,133 @@
+{
+  "layout_type": "alternative",
+  "seo": {
+    "meta_title": "Pendakian Gunung Stampol — Alternatif Rinjani Terbaik di Lombok | Go2Rinjani",
+    "meta_description": "Pendakian Gunung Stampol — Alternatif terbaik saat Rinjani ditutup. Trek 2 hari ke bibir kawah dengan pemandu bersertifikat."
+  },
+  "hero": {
+    "title": "Jalur Pendakian Gunung Stampol — Alternatif Terbaik ke Rinjani",
+    "desc": "Ketika Gunung Rinjani ditutup untuk musim ini atau sudah penuh, Gunung Stampol hadir sebagai solusi — jalur pendakian kawah 2 hari di lereng luar, dengan pemandangan Segara Anak.",
+    "cta_label": "Pesan Perjalanan Ini"
+  },
+  "intro": {
+    "label": "Pendakian Gunung Stampol",
+    "title": "Tetap di Lereng Rinjani — Tanpa Keramaian",
+    "desc": "Di ketinggian 2.608 mdpl, Gunung Stampol adalah salah satu jalur tersembunyi yang paling memuaskan di Lombok. Jalur ini berkelok melalui kebun kopi sebelum masuk ke hutan hujan perawan."
+  },
+  "highlights": {
+    "section_title": "Apa yang Menunggu Anda di Jalur Ini",
+    "items": [
+      {
+        "id": "plantations",
+        "title": "Perkebunan Rempah",
+        "desc": "Mendaki melewati perkebunan kopi, cengkeh, dan vanili yang dikerjakan oleh penduduk desa Bayan."
+      },
+      {
+        "id": "rainforest",
+        "title": "Hutan Hujan Perawan",
+        "desc": "Memasuki hutan hujan lebat minim pendaki lain, udara gunung yang segar, dan suara alam di setiap tikungan."
+      },
+      {
+        "id": "crater-rim",
+        "title": "Bibir Kawah Stampol",
+        "desc": "Mencapai bibir kawah 2.608 mdpl untuk matahari terbenam memukau dan berkemah di bawah bintang."
+      },
+      {
+        "id": "rinjani-views",
+        "title": "Pemandangan Rinjani",
+        "desc": "Nikmati pemandangan Gunung Rinjani, danau Segara Anak, dan Gunung Agung tanpa halangan."
+      }
+    ]
+  },
+  "inclusions": {
+    "section_title": "Fasilitas Termasuk dan Tidak Termasuk",
+    "intro": "Setiap pendakian Gunung Stampol dengan Go2Rinjani didukung sepenuhnya.",
+    "included_label": "Termasuk",
+    "excluded_label": "Tidak Termasuk",
+    "included": [
+      "Pemandu lokal bersertifikat",
+      "Porter (membawa hingga 25 kg peralatan kemah)",
+      "Izin masuk desa",
+      "Semua makanan di gunung (3x sehari)",
+      "Peralatan berkemah lengkap",
+      "Antar-jemput hotel",
+      "Akomodasi 1 malam sebelum pendakian"
+    ],
+    "excluded": [
+      "Peralatan mendaki pribadi",
+      "Asuransi perjalanan",
+      "Tip pemandu dan porter",
+      "Transfer area yang jauh"
+    ]
+  },
+  "itinerary": {
+    "section_title": "Petualangan 2 Hari Anda",
+    "schedule_label": "Jadwal Rencana Perjalanan",
+    "intro": "Pengalaman gunung lengkap dalam dua hari dari titik awal hingga matahari terbit.",
+    "days": [
+      {
+        "day": "Hari 1",
+        "title": "Desa Nangka Rempek ke Bibir Kawah",
+        "desc": "Setelah sarapan, Anda diantar ke titik awal. Mendaki hutan hujan untuk tiba di Kawah 2.608 m saat matahari terbenam. Berkemah.",
+        "highlights": [
+          "Penjemputan hotel",
+          "Registrasi awal",
+          "Mendaki melewati perkebunan",
+          "Makan siang bersama porter",
+          "Tiba di kawah menikmati senja",
+          "Makan malam"
+        ]
+      },
+      {
+        "day": "Hari 2",
+        "title": "Matahari Terbit — Turun ke Desa",
+        "desc": "Bangun sebelum fajar untuk melihat matahari terbit. Setelah sarapan di perkemahan, turun melalui jalur yang sama.",
+        "highlights": [
+          "Matahari terbit",
+          "Sarapan area perkemahan",
+          "Perjalanan turun",
+          "Tiba sebelum tengah hari",
+          "Transfer kembali"
+        ]
+      }
+    ]
+  },
+  "trek_details": {
+    "section_title": "Sekilas Tentang Pendakian",
+    "intro": "Segala yang perlu Anda ketahui sebelum memesan.",
+    "btn_book_spot": "Pesan Tempat",
+    "btn_read_details": "Detail Lengkap",
+    "details": [
+      {
+        "label": "Durasi",
+        "value": "2 hari, 1 malam"
+      },
+      {
+        "label": "Ketinggian",
+        "value": "2.608 mdpl"
+      },
+      {
+        "label": "Jarak",
+        "value": "14 km pulang-pergi"
+      },
+      {
+        "label": "Kesulitan",
+        "value": "Sedang"
+      },
+      {
+        "label": "Musim Terbaik",
+        "value": "April – Desember"
+      },
+      {
+        "label": "Jumlah Grup",
+        "value": "2 — 6 per grup"
+      }
+    ]
+  },
+  "cta": {
+    "section_title": "Rinjani Tutup Penuh?",
+    "title": "Gunung Stampol Bebas Masuk — Pesan Sekarang",
+    "desc": "Go2Rinjani mengurus semuanya untuk Anda dari titik jemput ke kawah.",
+    "cta_label": "Pesan Pendakian"
+  }
+}

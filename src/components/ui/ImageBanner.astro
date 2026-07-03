@@ -1,0 +1,47 @@
+---
+import AnimatedArrowIsland from "./AnimatedArrowIsland";
+
+interface Props {
+  imageSrc: string;
+  imageAlt: string;
+  bgColor: string;
+  title: string;
+  desc: string;
+  ctaLabel: string;
+  ctaHref: string;
+}
+
+const { imageSrc, imageAlt, bgColor, title, desc, ctaLabel, ctaHref } =
+  Astro.props;
+---
+
+<section class="w-full px-4 py-4 xl:px-5 xl:py-12">
+  <div class="w-full relative flex flex-col">
+    <img
+      src={imageSrc}
+      alt={imageAlt}
+      class="w-full h-[35dvh] sm:h-[70vh] md:h-[40vh] lg:h-[80vh] object-cover object-center"
+      loading="eager"
+      fetchpriority="high"
+    />
+    <div class={`w-full p-4 lg:p-6 ${bgColor}`}>
+      <h2
+        class="text-3xl md:text-6xl lg:text-[6rem] leading-[1.05] font-medium tracking-tight mb-4 lg:mb-6 max-w-5xl text-black whitespace-pre-line"
+      >
+        {title}
+      </h2>
+      <p
+        class="text-lg md:text-2xl mb-4 lg:mb-12 max-w-5xl text-black whitespace-pre-line"
+      >
+        {desc}
+      </p>
+      <AnimatedArrowIsland
+        client:visible
+        text={ctaLabel}
+        href={ctaHref}
+        textClassName="text-xs md:text-base tracking-[0.10]"
+        paddingClassName="py-0 md:py-[11px]"
+      />
+    </div>
+  </div>
+</section>

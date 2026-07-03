@@ -1,0 +1,182 @@
+{
+  "seo": {
+    "meta_title": "Pendakian Puncak Rinjani 3 Hari — Sembalun, Danau & Air Panas | Go2Rinjani",
+    "meta_description": "Mendaki Gunung Rinjani dalam 3 hari via rute Sembalun — puncak 3.726 mdpl, turun ke danau Segara Anak, dan berendam di air panas. Pemandu & fasilitas lengkap."
+  },
+  "hero": {
+    "title": "Puncak Gunung Rinjani | Trek Sembalun 3 Hari (Danau & Air Panas)",
+    "desc": "Paket paling populer dari Go2Rinjani — trek puncak dan danau Sembalun 3 hari ini menggabungkan pengalaman penuh Gunung Rinjani dalam tiga hari: mencapai puncak 3.726 m, turun ke danau suci Segara Anak, dan berendam di sumber air panas vulkanik Rinjani. Semua didukung penuh oleh pemandu lokal berlisensi, porter, dan izin masuk."
+  },
+  "intro": {
+    "label": "3 Hari 2 Malam — Rute Sembalun",
+    "title": "Pengalaman Rinjani Sepenuhnya — Puncak, Danau & Air Panas",
+    "desc": "Rute Sembalun 3 hari adalah trek paling lengkap bagi pendaki yang menginginkan semuanya — tanpa harus menghabiskan empat hari di gunung. Mulai dari lembah Sembalun di 1.156 mdpl, rute ini mendaki melintasi padang sabana menuju Plawangan Sembalun (2.639 mdpl), ke puncak di 3.726 mdpl, kemudian turun ke kawah untuk berkemah di samping Danau Segara Anak dan berendam di sumber air panas vulkanik. Ada juga opsi keluar via Jalur Torean."
+  },
+  "highlights": {
+    "section_title": "Apa yang Diharapkan pada Trek Ini",
+    "items": [
+      {
+        "id": "sembalun-savannah",
+        "title": "Jalur Sabana Sembalun",
+        "desc": "Trek dimulai melintasi padang sabana terbuka di lembah Sembalun di lereng timur Taman Nasional Gunung Rinjani."
+      },
+      {
+        "id": "rinjani-summit",
+        "title": "Puncak Rinjani 3.726 m",
+        "desc": "Keberangkatan sebelum fajar dari Plawangan Sembalun menuju puncak Rinjani di 3.726 mdpl — tiba di puncak saat matahari terbit di atas awan."
+      },
+      {
+        "id": "segara-anak-descent",
+        "title": "Turun ke Danau Segara Anak",
+        "desc": "Setelah puncak, turun ke dalam kawah suci Rinjani dan berkemah di samping Danau Segara Anak di ketinggian 2.008 mdpl."
+      },
+      {
+        "id": "hot-springs",
+        "title": "Sumber Air Panas Vulkanik",
+        "desc": "Berendam di sumber air panas vulkanik alami di tepi Danau Segara Anak — hadiah yang sangat sepadan setelah pendakian puncak."
+      },
+      {
+        "id": "torean-option",
+        "title": "Opsi Turun via Rute Torean",
+        "desc": "Pendaki yang ingin mencoba jalur berbeda dapat memilih turun via Rute Torean — jalur lembah yang indah menuju desa Torean."
+      }
+    ]
+  },
+  "itinerary": {
+    "section_title": "Itinerary Sembalun 3 Hari 2 Malam",
+    "intro": "Tiga hari, dua malam di Gunung Rinjani — puncak, danau kawah, air panas, dan opsi untuk keluar via Rute Torean yang indah.",
+    "days": [
+      {
+        "day": "Hari 1",
+        "title": "Dari Sembalun ke Tepi Kawah Plawangan Sembalun",
+        "desc": "Setelah sarapan dan briefing di Sembalun, transfer ke titik awal (1.156 m). Trek melintasi sabana menuju Plawangan Sembalun (2.639 m) pada sore hari. Makan malam & berkemah dengan pemandangan Danau Segara Anak.",
+        "highlights": [
+          "Transfer ke Sembalun trailhead (1.156 m)",
+          "Trek melintasi sabana terbuka — Pos 1, 2, 3",
+          "Tiba di Plawangan Sembalun (2.639 m)",
+          "Makan malam & berkemah semalaman"
+        ]
+      },
+      {
+        "day": "Hari 2",
+        "title": "Menuju Puncak — Turun ke Danau Segara Anak",
+        "desc": "Keberangkatan sebelum subuh untuk mendaki ke puncak (3.726 m) guna menikmati matahari terbit. Turun kembali ke Plawangan Sembalun untuk sarapan, dilanjutkan ke Danau Segara Anak (2.008 m) dan berendam di air panas vulkanik.",
+        "highlights": [
+          "Puncak Rinjani (3.726 mdpl) saat matahari terbit",
+          "Turun ke Plawangan Sembalun — sarapan di kemah",
+          "Turun ke kawah Danau Segara Anak (2.008 m)",
+          "Berendam di sumber air panas",
+          "Berkemah di tepi Danau Segara Anak"
+        ]
+      },
+      {
+        "day": "Hari 3",
+        "title": "Danau Segara Anak — Kembali ke Sembalun / Torean",
+        "desc": "Matahari terbit di danau sebelum pendakian kembali ke Plawangan Sembalun dan turun hingga ke Sembalun atau memilih opsi rute Lembah Torean. Transfer kembali ke akomodasi Anda setelah trek selesai.",
+        "highlights": [
+          "Matahari terbit di atas Danau Segara Anak",
+          "Naik kembali ke Plawangan Sembalun",
+          "Turun ke Sembalun atau opsi turun via Torean",
+          "Transfer kembali ke akomodasi"
+        ]
+      }
+    ],
+    "schedule_label": "Jadwal Perjalanan"
+  },
+  "inclusions": {
+    "section_title": "Termasuk & Tidak Termasuk",
+    "intro": "Setiap trek Sembalun 3 hari didukung penuh — berikut rinciannya.",
+    "included": [
+      "Pemandu lokal berlisensi",
+      "Porter untuk peralatan kemah",
+      "Tiket masuk Taman Nasional",
+      "Semua makanan (3x sehari) + air & minuman panas",
+      "Peralatan berkemah lengkap",
+      "Antar jemput (Sembalun, Senaru, Mataram, Senggigi dsb)",
+      "1 malam akomodasi sebelum pendakian di Sembalun"
+    ],
+    "excluded": [
+      "Peralatan pribadi (jaket, sepatu tracking)",
+      "Asuransi perjalanan",
+      "Tip pemandu dan porter"
+    ],
+    "included_label": "Termasuk",
+    "excluded_label": "Tidak Termasuk"
+  },
+  "trek_details": {
+    "section_title": "Ringkasan Trek",
+    "intro": "Hal-hal yang perlu Anda ketahui tentang pendakian 3 Hari Gunung Rinjani via Sembalun.",
+    "details": [
+      {
+        "label": "Durasi",
+        "value": "3 Hari 2 Malam"
+      },
+      {
+        "label": "Rute",
+        "value": "Rute Sembalun — dengan opsi turun via Torean"
+      },
+      {
+        "label": "Elevasi Puncak",
+        "value": "3.726 mdpl — puncak tertinggi Lombok"
+      },
+      {
+        "label": "Elevasi Danau Segara Anak",
+        "value": "2.008 mdpl"
+      },
+      {
+        "label": "Titik Awal",
+        "value": "Lembah Sembalun, Lombok Timur (1.156 mdpl)"
+      },
+      {
+        "label": "Tingkat Kesulitan",
+        "value": "Menantang — disarankan memiliki pengalaman mendaki"
+      },
+      {
+        "label": "Musim Terbaik",
+        "value": "April – Desember (musim kemarau). Ditutup Januari – Maret."
+      },
+      {
+        "label": "Izin",
+        "value": "Izin Taman Nasional Gunung Rinjani — termasuk dalam paket"
+      },
+      {
+        "label": "Ukuran Grup",
+        "value": "Minimal 2 — maksimal 6 per grup. Grup private tersedia."
+      },
+      {
+        "label": "Opsi Jalur Torean",
+        "value": "Tersedia di paket ini — bisa diajukan saat pemesanan"
+      }
+    ]
+  },
+  "choose_duration": {
+    "section_title": "Belum Yakin Pilih Paket yang Mana?",
+    "read_more_label": "Baca selengkapnya",
+    "items": [
+      {
+        "duration": "2 Hari 1 Malam",
+        "best_for": "Bagi yang hanya ingin fokus menaklukkan puncak",
+        "cta_label": "Lihat Paket 2 Hari",
+        "cta_url": "/tours/mount-rinjani-trek/2-days-sembalun-summit"
+      },
+      {
+        "duration": "3 Hari 2 Malam",
+        "best_for": "Paket paling lengkap: puncak, danau & air panas",
+        "cta_label": "Anda Di Sini",
+        "cta_url": "/tours/mount-rinjani-trek/3-days-sembalun-summit-lake"
+      },
+      {
+        "duration": "4 Hari 3 Malam",
+        "best_for": "Jalur yang lebih santai untuk menikmati alam",
+        "cta_label": "Lihat Paket 4 Hari",
+        "cta_url": "/tours/mount-rinjani-trek/4-days-sembalun-expedition"
+      }
+    ]
+  },
+  "cta": {
+    "section_title": "Siap Mendapatkan Pengalaman Lengkap di Rinjani?",
+    "title": "Pesan Perjalanan Puncak Sembalun 3 Hari 2 Malam",
+    "desc": "Trekking 3 hari 2 malam untuk menggapai Puncak Rinjani, melihat Danau Segara Anak, dan berendam di air panas. Go2Rinjani mengatur segalanya.",
+    "cta_label": "Pesan Trek Ini"
+  }
+}

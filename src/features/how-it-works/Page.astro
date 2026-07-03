@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HowItWorksHero from "./components/HowItWorksHero.astro";
+import HowItWorksSteps from "./components/HowItWorksSteps.astro";
+import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang, "how-it-works");
+
+const title = t("seo.meta_title", { defaultValue: "How it Works - Go2Rinjani" });
+const description = t("seo.meta_description", { defaultValue: "Learn how to book your Mount Rinjani trekking package in 6 easy steps." });
+---
+
+<BaseLayout title={title as string} description={description as string}>
+  <div class="w-full bg-background flex flex-col items-center">
+    <HowItWorksHero />
+    <HowItWorksSteps />
+  </div>
+</BaseLayout>
