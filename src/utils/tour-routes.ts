@@ -33,6 +33,10 @@ export function getTourRedirectTarget(pathname: string): string | null {
     rest = segments.slice(1);
   }
 
+  if (rest[0] === "treks") {
+    return `${langPrefix}/tours`;
+  }
+
   if (rest[0] !== "tours" || rest.length < 2) {
     return null;
   }
@@ -47,6 +51,9 @@ export function getTourRedirectTarget(pathname: string): string | null {
     const segment = rest[1]!;
     if (segment === "mount-rinjani-trek" || segment === "mount-stampol-trek") {
       return null;
+    }
+    if (segment === "mount-rinjani") {
+      return `${langPrefix}/tours/mount-rinjani-trek`;
     }
     if (segment.includes("stampol")) {
       return `${langPrefix}/tours/mount-stampol-trek`;
