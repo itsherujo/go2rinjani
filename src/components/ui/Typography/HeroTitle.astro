@@ -3,14 +3,15 @@ import { cn } from "../../../lib/utils";
 
 interface Props extends astroHTML.JSX.HTMLAttributes {
   class?: string;
+  as?: 'h1' | 'h2' | 'h3';
 }
 
-const { class: className = "", ...props } = Astro.props;
+const { class: className = "", as: HeadingTag = 'h1', ...props } = Astro.props;
 ---
 
-<h1
+<HeadingTag
   class={cn("text-[2.23rem] leading-[1.05] min-[481px]:text-4xl lg:text-[5.5rem] lg:leading-none font-normal tracking-tight text-foreground max-w-full lg:max-w-[90%] mb-4 lg:mb-6", className)}
   {...props}
 >
   <slot />
-</h1>
+</HeadingTag>

@@ -18,7 +18,11 @@ export default defineConfig({
     react(),
     mdx(),
     sitemap({
-      filter: (page) => !isTourAliasPath(new URL(page).pathname),
+      filter: (page) => {
+        const path = new URL(page).pathname;
+        const isLegalRedirect = /\/legal\/?$/.test(path) || /\/[a-z]{2}\/legal\/?$/.test(path);
+        return !isTourAliasPath(path) && !isLegalRedirect;
+      },
     }),
   ],
   i18n: {

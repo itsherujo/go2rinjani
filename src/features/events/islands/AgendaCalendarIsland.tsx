@@ -98,7 +98,7 @@ export default function AgendaCalendarIsland({ translations }: { translations: T
         <div
           className="week_head___84Qt fontSize4 paddingRight5 paddingBottom8 paddingLeft5"
         >
-          <div className="week_title__2biB_ paddingRight7">{translations.title}</div>
+          <h1 className="week_title__2biB_ paddingRight7">{translations.title}</h1>
         </div>
         <div
           className="week_subhead__FqVXI week_head___84Qt fontSize4 marginTop5 paddingRight5 paddingLeft5"

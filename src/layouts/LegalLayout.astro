@@ -90,6 +90,18 @@ const schemas = [
       currentSlug={currentSlug}
       lang={lang}
     >
+      {
+        (lang !== "en" || currentSlug === "privacy-policy" || currentSlug === "cookie-policy") && (
+          <header class="not-prose my-6 grid">
+            <h1 class="mt-6 text-center font-sans text-4xl tracking-tight text-black/80">
+              {articleTitle}
+            </h1>
+            <p class="mt-6 text-center font-sans text-[0.625rem] text-black">
+              ╌╌╌╌
+            </p>
+          </header>
+        )
+      }
       <slot />
     </LegalPageIsland>
   </body>

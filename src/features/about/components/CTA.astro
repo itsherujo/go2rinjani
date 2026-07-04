@@ -10,5 +10,5 @@ const t = useTranslations(lang, "about");
   title={t("cta.title")}
   desc={t("cta.desc")}
   ctaLabel={t("cta.label")}
-  ctaHref="/treks"
+  ctaHref={lang === "en" ? "/tours" : `/${lang}/tours`}
 />

@@ -9,20 +9,24 @@ const t = useTranslations(lang, "how-it-works");
 const hlHtml = '<span class="bg-stampol-blue px-1 md:px-2 rounded-sm mx-0.5">';
 const hlClose = '</span>';
 
+const getLink = (path: string) => {
+  return lang === "en" ? path : `/${lang}${path}`;
+};
+
 const s1Title = (t("steps.step1.title") as string).replace('<1>', hlHtml).replace('</1>', hlClose);
-const s1Desc1 = (t("steps.step1.desc1") as string).replace('<1>', `<a href="/${lang}/tours" class="text-emerald-700 underline underline-offset-4 decoration-emerald-700/30 font-medium">`).replace('</1>', '</a>');
+const s1Desc1 = (t("steps.step1.desc1") as string).replace('<1>', `<a href="${getLink("/tours")}" class="text-emerald-700 underline underline-offset-4 decoration-emerald-700/30 font-medium">`).replace('</1>', '</a>');
 const s1Desc2 = (t("steps.step1.desc2") as string).replace('<1>', '<strong>').replace('</1>', '</strong>').replace('<2>', '<strong>').replace('</2>', '</strong>');
-const s1Desc3 = (t("steps.step1.desc3") as string).replace('<1>', `<a href="/${lang}/tours" class="text-emerald-700 underline underline-offset-4 decoration-emerald-700/30 font-medium">`).replace('</1>', '</a>');
+const s1Desc3 = (t("steps.step1.desc3") as string).replace('<1>', `<a href="${getLink("/tours")}" class="text-emerald-700 underline underline-offset-4 decoration-emerald-700/30 font-medium">`).replace('</1>', '</a>');
 
 const s2Title = (t("steps.step2.title") as string).replace('<1>', hlHtml).replace('</1>', hlClose);
-const s2List3 = (t("steps.step2.list3") as string).replace('<1>', `<a href="/${lang}/contact" class="text-emerald-700 underline underline-offset-4 decoration-emerald-700/30 font-medium">`).replace('</1>', '</a>');
+const s2List3 = (t("steps.step2.list3") as string).replace('<1>', `<a href="${getLink("/contact")}" class="text-emerald-700 underline underline-offset-4 decoration-emerald-700/30 font-medium">`).replace('</1>', '</a>');
 
 const s3Title = (t("steps.step3.title") as string).replace('<1>', hlHtml).replace('</1>', hlClose);
 
 const s4Title = (t("steps.step4.title") as string).replace('<1>', hlHtml).replace('</1>', hlClose);
 const s4Desc1 = (t("steps.step4.desc1") as string).replace('<1>', '<strong>').replace('</1>', '</strong>');
 const s4Desc2 = (t("steps.step4.desc2") as string).replace(/<br\/>/g, '<br/>');
-const s4Desc3 = (t("steps.step4.desc3") as string).replace('<1>', `<a href="/${lang}/payment-information" class="text-emerald-700 underline underline-offset-4 decoration-emerald-700/30 font-medium">`).replace('</1>', '</a>');
+const s4Desc3 = (t("steps.step4.desc3") as string).replace('<1>', `<a href="${getLink("/payment-information")}" class="text-emerald-700 underline underline-offset-4 decoration-emerald-700/30 font-medium">`).replace('</1>', '</a>');
 
 const s5Title = (t("steps.step5.title") as string).replace('<1>', hlHtml).replace('</1>', hlClose);
 const s5List1 = (t("steps.step5.list1") as string).replace('<1>', '<strong>').replace('</1>', '</strong>');
