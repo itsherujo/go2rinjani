@@ -1,6 +1,6 @@
 ---
 import ImageBanner from "../ui/ImageBanner.astro";
-import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import { getLangFromUrl, useTranslations, getLocalizedPath } from '../../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang, "home");
@@ -13,5 +13,5 @@ const t = useTranslations(lang, "home");
   title={t("experience.title")}
   desc={t("experience.desc")}
   ctaLabel={t("experience.cta_label")}
-  ctaHref="/about"
+  ctaHref={getLocalizedPath("/about", lang)}
 />

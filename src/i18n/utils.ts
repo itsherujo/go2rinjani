@@ -77,3 +77,6 @@ function resolveKey(obj: any, path: string) {
 function keyExists(obj: any, path: string) {
   return resolveKey(obj, path) !== undefined;
 }
+
+export { getLocalizedPath } from "../utils/localizedPath";
+

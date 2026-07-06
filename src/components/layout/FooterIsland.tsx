@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { toastManager } from "../../stores/toastManager";
+import { getLocalizedPath } from "../../utils/localizedPath";
 import { actions } from "astro:actions";
 import type { SocialItem, NavItem, LicenseItem } from "../../types";
 
@@ -322,7 +323,7 @@ export default function FooterIsland({
               {socialItems.map((link, idx) => (
                 <a
                   key={idx}
-                  href={link.url}
+                  href={getLocalizedPath(link.url, locale)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-300 active:text-gray-300 transition-colors"

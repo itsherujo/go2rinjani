@@ -58,12 +58,8 @@ export default defineConfig({
     optimizeDeps: {
       exclude: ['settings', 'astro:zod', 'astro:schema'],
     },
-    resolve: {
-      alias: import.meta.env.PROD ? {
-        'react-dom/server': 'react-dom/server.edge',
-      } : {
-        'react-dom/server': 'react-dom/server.edge',
-      },
+    define: {
+      'process.env.NODE_ENV': '"development"',
     },
   }
 });

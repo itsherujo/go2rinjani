@@ -9,7 +9,8 @@
     "dev": "astro dev --host",
     "build": "astro build && node strip-html-comments.js",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^14.1.1",
@@ -42,6 +43,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.9",
     "@cloudflare/workers-types": "^4.20260525.1",
+    "patch-package": "^8.0.1",
     "prettier": "^3.8.3",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.8.0",

@@ -1,0 +1,21 @@
+diff --git a/node_modules/astro/dist/core/logger/impls/json.js b/node_modules/astro/dist/core/logger/impls/json.js
+index 5ecae66..281bcde 100644
+--- a/node_modules/astro/dist/core/logger/impls/json.js
++++ b/node_modules/astro/dist/core/logger/impls/json.js
+@@ -8,6 +8,16 @@ function jsonLoggerDestination(config = {}) {
+   const { pretty = false, level = "info" } = config;
+   return {
+     write(event) {
++      if (typeof process === 'undefined' || !process.stderr) {
++        const message = event.message.replace(SGR_REGEX, "");
++        const out = JSON.stringify({ message, label: event.label, level: event.level }) + (event.newLine ? "\\n" : "");
++        if (levels[event.level] < levels["error"]) {
++          console.log(out);
++        } else {
++          console.error(out);
++        }
++        return;
++      }
+       let dest = process.stderr;
+       if (levels[event.level] < levels["error"]) {
+         dest = process.stdout;

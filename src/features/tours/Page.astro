@@ -4,7 +4,7 @@ import ToursHero from "./components/ToursHero.astro";
 import ToursPackage from "./components/ToursPackage.astro";
 import ToursCallout from "./components/ToursCallout.astro";
 import { packageLayouts } from "./data/tourLayouts";
-import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+import { getLangFromUrl, useTranslations, getLocalizedPath } from "../../i18n/utils";
 import { getCanonicalUrl } from "../../utils/seo";
 import { buildItemListSchema } from "../../utils/schema";
 import { PAGE_OG_IMAGES } from "../../data/page-og-images";
@@ -77,7 +77,7 @@ const schemas = [
               title={pkg.title}
               desc={pkg.desc}
               ctaLabel={pkg.cta_label}
-              ctaUrl={pkg.cta_url}
+              ctaUrl={getLocalizedPath(pkg.cta_url, lang)}
               images={layoutData.images}
               layoutCols={layoutData.cols}
             />

@@ -1,7 +1,7 @@
 ---
 import AnimatedArrowIsland from "../../../components/ui/AnimatedArrowIsland";
 import Highlight from "./Highlight.astro";
-import { getLangFromUrl, useTranslations } from '../../../i18n/utils';
+import { getLangFromUrl, useTranslations, getLocalizedPath } from '../../../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang, "home");
@@ -17,7 +17,7 @@ const t = useTranslations(lang, "home");
         <AnimatedArrowIsland
           client:visible
           text={t("about.cta_label")}
-          href="/about"
+          href={getLocalizedPath("/about", lang)}
           hideBorders={true}
           slideLeft={true}
           textClassName="text-xs lg:text-lg font-normal"
