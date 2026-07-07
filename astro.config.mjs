@@ -48,7 +48,7 @@ export default defineConfig({
       NOTIFICATION_EMAIL: envField.string({
         context: "server",
         access: "secret",
-        default: "jofrzl21@gmail.com",
+        default: "go2rinjani@gmail.com",
       }),
     },
   },
