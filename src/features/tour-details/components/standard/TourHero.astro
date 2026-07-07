@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import { useTranslations } from "../../../../i18n/utils";
 
 interface Props {
@@ -19,14 +20,19 @@ const heroImage = allHeroImages[slug];
 
 <section class="w-full px-4 xl:px-5">
   <div class="w-full relative flex flex-col border border-foreground bg-background">
-    <img
-      src={heroImage?.src || ""}
-      width={heroImage?.width || 800}
-      height={heroImage?.height || 600}
-      alt={heroImage?.alt || t("hero.title")}
-      class="w-full h-[40dvh] sm:h-[50vh] md:h-[60dvh] lg:h-[70dvh] object-cover object-center"
-      referrerpolicy="no-referrer"
-    />
+    {
+      heroImage ? (
+        <Image
+          src={heroImage}
+          alt={heroImage.alt || t("hero.title")}
+          class="w-full h-[40dvh] sm:h-[50vh] md:h-[60dvh] lg:h-[70dvh] object-cover object-center"
+          widths={[360, 540, 720, 1080, heroImage.width]}
+          sizes="(max-width: 480px) 440px, (max-width: 768px) 720px, 100vw"
+        />
+      ) : (
+        <div class="w-full h-[40dvh] sm:h-[50vh] md:h-[60dvh] lg:h-[70dvh] bg-gray-100" />
+      )
+    }
     <div class="w-full p-6 lg:p-8 xl:p-10 bg-brand-pink border-t border-foreground text-foreground">
       <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4 lg:mb-6 max-w-5xl whitespace-pre-line">
         {t("hero.title")}

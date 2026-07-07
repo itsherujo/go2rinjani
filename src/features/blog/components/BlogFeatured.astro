@@ -33,6 +33,7 @@ const t = useTranslations(lang, "blog");
         <AnimatedArrowIsland
           client:visible
           text={t("featured.cta_label") as string}
+          ariaLabel={`${t("featured.cta_label")}: ${t("featured.title")}`}
           href={lang === 'en' ? '/blog/trekking-smart-on-mount-rinjani-your-complete-preparation-guide' : `/${lang}/blog/trekking-smart-on-mount-rinjani-your-complete-preparation-guide`}
           hideBorders={true}
           textClassName="text-[11px] lg:text-[13px] tracking-widest uppercase font-medium"

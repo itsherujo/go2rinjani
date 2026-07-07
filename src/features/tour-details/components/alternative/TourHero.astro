@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import { useTranslations } from "../../../../i18n/utils";
 import PageHeader from "../../../../components/ui/Layout/PageHeader.astro";
 import HeroTitle from "../../../../components/ui/Typography/HeroTitle.astro";
@@ -12,8 +13,6 @@ interface Props {
 
 const { lang, slug } = Astro.props;
 const t = useTranslations(lang, `tour-details/${slug}`);
-
-const title = t("hero.title") as string;
 ---
 
 <PageHeader class="mb-4 lg:mb-6">
@@ -21,14 +20,13 @@ const title = t("hero.title") as string;
   <HeroDesc>{t("hero.desc")}</HeroDesc>
 </PageHeader>
 <div class="w-full relative px-0 min-[481px]:px-4 xl:px-5">
-  <img
-    src={coverImage.src}
-    width={coverImage.width}
-    height={coverImage.height}
+  <Image
+    src={coverImage}
     alt={coverImage.alt}
     class="w-full h-[40vh] min-[481px]:h-[60vh] lg:h-[80vh] object-cover px-4 min-[481px]:px-0"
     loading="eager"
     fetchpriority="high"
-    referrerpolicy="no-referrer"
+    widths={[360, 540, 720, 1080, coverImage.width]}
+    sizes="(max-width: 480px) 440px, (max-width: 768px) 720px, 100vw"
   />
 </div>

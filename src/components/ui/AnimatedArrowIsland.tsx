@@ -13,6 +13,7 @@ interface AnimatedArrowProps {
   slideLeft?: boolean;
   textClassName?: string;
   paddingClassName?: string;
+  ariaLabel?: string;
 }
 
 export default function AnimatedArrowIsland({
@@ -27,6 +28,7 @@ export default function AnimatedArrowIsland({
   slideLeft = false,
   textClassName = "text-[11px] font-bold",
   paddingClassName = "py-[11px]",
+  ariaLabel,
 }: AnimatedArrowProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
@@ -290,6 +292,9 @@ export default function AnimatedArrowIsland({
   if (href) {
     props.href = href;
     props["data-astro-prefetch"] = "true";
+    if (ariaLabel) {
+      props["aria-label"] = ariaLabel;
+    }
   }
 
   return (

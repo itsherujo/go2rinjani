@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import { getLangFromUrl, useTranslations } from '../../../i18n/utils';
 import { aboutImages } from '../data/constants';
 
@@ -16,10 +17,14 @@ const t = useTranslations(lang, "about");
     </p>
   </header>
   <div class="w-full relative">
-    <img
+    <Image
       src={aboutImages.hero.src}
       alt={aboutImages.hero.alt}
       class="w-full h-[40vh] min-[481px]:h-[60vh] lg:h-[80vh] object-cover px-4 xl:px-5"
+      loading="eager"
+      fetchpriority="high"
+      widths={[360, 540, 720, 1080, 1440, aboutImages.hero.src.width]}
+      sizes="(max-width: 480px) 440px, (max-width: 768px) 720px, 100vw"
     />
   </div>
 </section>

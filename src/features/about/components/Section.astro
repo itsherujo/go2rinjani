@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import type { AboutImage } from '../data/constants';
 
 interface Props {
@@ -21,17 +22,21 @@ const { title, desc, images } = Astro.props;
   </div>
   <div class="flex flex-row w-[calc(100%+2rem)] min-[481px]:w-full -ml-4 min-[481px]:ml-0 px-4 min-[481px]:px-0 overflow-x-auto min-[481px]:overflow-visible snap-x snap-mandatory scroll-px-4 gap-4 lg:gap-5 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] scrollbar-none">
     <div class="shrink-0 min-[481px]:shrink w-[calc(100%-2rem)] min-[481px]:flex-1 min-[481px]:w-auto snap-start min-[481px]:snap-align-none aspect-4/5 min-[481px]:aspect-auto h-auto min-[481px]:h-[50vh] lg:h-[70vh] overflow-hidden bg-gray-100">
-      <img
+      <Image
         src={images[0].src}
         alt={images[0].alt}
         class="w-full h-full object-cover"
+        widths={[360, 540, 720, images[0].src.width]}
+        sizes="(max-width: 480px) 440px, (max-width: 768px) 360px, 50vw"
       />
     </div>
     <div class="shrink-0 min-[481px]:shrink w-[calc(100%-2rem)] min-[481px]:flex-1 min-[481px]:w-auto snap-start min-[481px]:snap-align-none aspect-4/5 min-[481px]:aspect-auto h-auto min-[481px]:h-[50vh] lg:h-[70vh] overflow-hidden bg-gray-100">
-      <img
+      <Image
         src={images[1].src}
         alt={images[1].alt}
         class="w-full h-full object-cover"
+        widths={[360, 540, 720, images[1].src.width]}
+        sizes="(max-width: 480px) 440px, (max-width: 768px) 360px, 50vw"
       />
     </div>
   </div>

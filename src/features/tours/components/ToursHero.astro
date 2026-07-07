@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
 import PageHeader from "../../../components/ui/Layout/PageHeader.astro";
 import HeroTitle from "../../../components/ui/Typography/HeroTitle.astro";
@@ -23,14 +24,14 @@ const t = useTranslations(lang, "tours");
       {
         images.map((img, i) => (
           <div class="overflow-hidden bg-gray-100 h-full">
-            <img
-              src={img.src}
-              width={img.width}
-              height={img.height}
+            <Image
+              src={img}
               class="w-full h-full object-cover"
               alt={img.alt || `Trek ${i + 1}`}
               loading="eager"
               fetchpriority="high"
+              widths={[240, 540, 720, img.width]}
+              sizes="(max-width: 480px) 440px, (max-width: 768px) 720px, 25vw"
             />
           </div>
         ))
@@ -44,14 +45,14 @@ const t = useTranslations(lang, "tours");
       {
         images.map((img, i) => (
           <div class="w-[85vw] h-[55vh] shrink-0 snap-start bg-gray-100 overflow-hidden">
-            <img
-              src={img.src}
-              width={img.width}
-              height={img.height}
+            <Image
+              src={img}
               class="w-full h-full object-cover"
               alt={img.alt || `Trek ${i + 1}`}
               loading="eager"
               fetchpriority="high"
+              widths={[360, 540, 720, img.width]}
+              sizes="(max-width: 480px) 440px, (max-width: 768px) 720px, 85vw"
             />
           </div>
         ))

@@ -110,6 +110,7 @@ const bookingTranslations = {
     </main>
     {!hideNavigation && <Footer />}
     <BookingFormIsland client:idle translations={bookingTranslations} />
-    <GlobalToastContainer client:load />
+    <GlobalToastContainer client:idle />
   </body>
 </html>
+

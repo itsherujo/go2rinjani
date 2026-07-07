@@ -4,15 +4,15 @@ import agendaImg from "../../../assets/images/home/mount-rinjani-sunrise-crater-
 
 export const homeImages = {
   hero: {
-    src: heroImg.src,
+    src: heroImg,
     alt: "A group of happy trekkers celebrating at the peak during a Mount Rinjani summit climb, holding a go2rinjani flag with the vast crater lake below."
   },
   experience: {
-    src: experienceImg.src,
+    src: experienceImg,
     alt: "Hikers trekking along the stunning Mount Rinjani trail, enjoying panoramic views of the Segara Anak crater lake and the active volcanic cone."
   },
   agenda: {
-    src: agendaImg.src,
+    src: agendaImg,
     alt: "A group of adventurers sitting on the rocky edge of Mount Rinjani at sunrise, watching the morning light illuminate the clouds and crater lake."
   }
 };

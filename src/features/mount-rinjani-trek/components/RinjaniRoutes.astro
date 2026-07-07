@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import { useTranslations } from "../../../i18n/utils";
 import SectionTitle from "../../../components/ui/Typography/SectionTitle.astro";
 import SectionDesc from "../../../components/ui/Typography/SectionDesc.astro";
@@ -40,25 +41,21 @@ const routes = t("routes", { returnObjects: true }) as any[];
           <div class="w-full mb-4 lg:mb-8">
             <div class="flex flex-row w-[calc(100%+2rem)] min-[481px]:w-full -ml-4 min-[481px]:ml-0 px-4 min-[481px]:px-0 overflow-x-auto min-[481px]:overflow-visible snap-x snap-mandatory scroll-px-4 gap-4 lg:gap-5 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] scrollbar-none">
               <div class="shrink-0 min-[481px]:shrink w-[calc(100%-2rem)] min-[481px]:flex-1 min-[481px]:w-auto snap-start min-[481px]:snap-align-none aspect-4/5 min-[481px]:aspect-auto h-auto min-[481px]:h-[50vh] lg:h-[60vh] overflow-hidden bg-gray-200">
-                <img
-                  src={images[0].src}
-                  width={images[0].width}
-                  height={images[0].height}
+                <Image
+                  src={images[0]}
                   alt={images[0].alt || `${route.title} view 1`}
                   class="w-full h-full object-cover"
-                  loading="lazy"
-                  referrerpolicy="no-referrer"
+                  widths={[360, 540, 720, images[0].width]}
+                  sizes="(max-width: 480px) 440px, (max-width: 768px) 360px, 50vw"
                 />
               </div>
               <div class="shrink-0 min-[481px]:shrink w-[calc(100%-2rem)] min-[481px]:flex-1 min-[481px]:w-auto snap-start min-[481px]:snap-align-none aspect-4/5 min-[481px]:aspect-auto h-auto min-[481px]:h-[50vh] lg:h-[60vh] overflow-hidden bg-gray-200">
-                <img
-                  src={images[1].src}
-                  width={images[1].width}
-                  height={images[1].height}
+                <Image
+                  src={images[1]}
                   alt={images[1].alt || `${route.title} view 2`}
                   class="w-full h-full object-cover"
-                  loading="lazy"
-                  referrerpolicy="no-referrer"
+                  widths={[360, 540, 720, images[1].width]}
+                  sizes="(max-width: 480px) 440px, (max-width: 768px) 360px, 50vw"
                 />
               </div>
             </div>

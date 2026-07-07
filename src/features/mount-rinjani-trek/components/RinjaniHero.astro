@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import { useTranslations } from "../../../i18n/utils";
 import PageHeader from "../../../components/ui/Layout/PageHeader.astro";
 import HeroTitle from "../../../components/ui/Typography/HeroTitle.astro";
@@ -24,15 +25,14 @@ const t = useTranslations(lang, "mount-rinjani-trek");
     <div
       class="w-full h-[40vh] min-[481px]:h-[60vh] lg:h-[70vh] bg-gray-100 overflow-hidden relative"
     >
-      <img
-        src={coverImage.src}
-        width={coverImage.width}
-        height={coverImage.height}
+      <Image
+        src={coverImage}
         class="w-full h-full object-cover"
         alt={coverImage.alt}
         loading="eager"
         fetchpriority="high"
-        referrerpolicy="no-referrer"
+        widths={[360, 540, 720, 1080, coverImage.width]}
+        sizes="(max-width: 480px) 440px, (max-width: 768px) 720px, 100vw"
       />
     </div>
   </div>

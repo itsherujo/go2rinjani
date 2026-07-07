@@ -8,8 +8,8 @@ import { toursHeroImages } from "../features/tours/data/tourLayouts";
 import { rinjaniHeroImage } from "../features/mount-rinjani-trek/data/rinjaniImages";
 
 export const PAGE_OG_IMAGES = {
-  home: homeImages.hero.src,
-  about: aboutImages.hero.src,
+  home: homeImages.hero.src.src,
+  about: aboutImages.hero.src.src,
   /** First image in the tours hero grid (Sembalun savannah) */
   tours: toursHeroImages[0]!.src,
   mountRinjaniTrek: rinjaniHeroImage.src,

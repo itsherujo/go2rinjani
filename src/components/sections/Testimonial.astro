@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import testimonials from '../../data/testimonials.json';
 import googleLogo from '@/assets/review/google/google-logo.svg';
 import googleVerifiedBadge from '@/assets/review/google/google-verified-badge.svg';
@@ -11,7 +12,7 @@ const getAvatarSrc = (imagePath: string) => {
   if (!imagePath) return "https://cdn.prod.website-files.com/6350808bc45bd0c902af10e6/67572f6d09dc73acabbf029a_testimonial-jobbatical.png";
   if (imagePath.startsWith('/assets/review/')) {
     const localPath = '/src' + imagePath;
-    return avatars[localPath]?.default?.src || imagePath;
+    return avatars[localPath]?.default || imagePath;
   }
   return imagePath;
 };
@@ -83,7 +84,11 @@ const renderStars = (t: any, idx: number) => {
                         <img src={tripadvisorLogo.src} alt="TripAdvisor Logo" class="absolute top-0 right-0 h-5 w-auto object-contain object-top-right mt-0.5" />
                       )}
                       <div class="am-case-study-person-details flex items-start gap-4">
-                        <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image)} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        {typeof getAvatarSrc(t.image) === 'string' ? (
+                          <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image) as string} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        ) : (
+                          <Image src={getAvatarSrc(t.image) as any} alt={t.name} width={36} height={36} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        )}
                         <div class="am-paragraph-14 flex-1 text-gray-900! flex flex-col pt-0">
                           <div class="font-bold flex items-center gap-1.5 leading-tight">
                             {t.name}
@@ -118,7 +123,11 @@ const renderStars = (t: any, idx: number) => {
                         <img src={tripadvisorLogo.src} alt="TripAdvisor Logo" class="absolute top-0 right-0 h-5 w-auto object-contain object-top-right mt-0.5" />
                       )}
                       <div class="am-case-study-person-details flex items-start gap-4">
-                        <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image)} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        {typeof getAvatarSrc(t.image) === 'string' ? (
+                          <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image) as string} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        ) : (
+                          <Image src={getAvatarSrc(t.image) as any} alt={t.name} width={36} height={36} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        )}
                         <div class="am-paragraph-14 flex-1 text-gray-900! flex flex-col pt-0">
                           <div class="font-bold flex items-center gap-1.5 leading-tight">
                             {t.name}
@@ -157,7 +166,11 @@ const renderStars = (t: any, idx: number) => {
                         <img src={tripadvisorLogo.src} alt="TripAdvisor Logo" class="absolute top-0 right-0 h-5 w-auto object-contain object-top-right mt-0.5" />
                       )}
                       <div class="am-case-study-person-details flex items-start gap-4">
-                        <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image)} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        {typeof getAvatarSrc(t.image) === 'string' ? (
+                          <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image) as string} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        ) : (
+                          <Image src={getAvatarSrc(t.image) as any} alt={t.name} width={36} height={36} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        )}
                         <div class="am-paragraph-14 flex-1 text-gray-900! flex flex-col pt-0">
                           <div class="font-bold flex items-center gap-1.5 leading-tight">
                             {t.name}
@@ -192,7 +205,11 @@ const renderStars = (t: any, idx: number) => {
                         <img src={tripadvisorLogo.src} alt="TripAdvisor Logo" class="absolute top-0 right-0 h-5 w-auto object-contain object-top-right mt-0.5" />
                       )}
                       <div class="am-case-study-person-details flex items-start gap-4">
-                        <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image)} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        {typeof getAvatarSrc(t.image) === 'string' ? (
+                          <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image) as string} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        ) : (
+                          <Image src={getAvatarSrc(t.image) as any} alt={t.name} width={36} height={36} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        )}
                         <div class="am-paragraph-14 flex-1 text-gray-900! flex flex-col pt-0">
                           <div class="font-bold flex items-center gap-1.5 leading-tight">
                             {t.name}
@@ -231,7 +248,11 @@ const renderStars = (t: any, idx: number) => {
                         <img src={tripadvisorLogo.src} alt="TripAdvisor Logo" class="absolute top-0 right-0 h-5 w-auto object-contain object-top-right mt-0.5" />
                       )}
                       <div class="am-case-study-person-details flex items-start gap-4">
-                        <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image)} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        {typeof getAvatarSrc(t.image) === 'string' ? (
+                          <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image) as string} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        ) : (
+                          <Image src={getAvatarSrc(t.image) as any} alt={t.name} width={36} height={36} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        )}
                         <div class="am-paragraph-14 flex-1 text-gray-900! flex flex-col pt-0">
                           <div class="font-bold flex items-center gap-1.5 leading-tight">
                             {t.name}
@@ -266,7 +287,11 @@ const renderStars = (t: any, idx: number) => {
                         <img src={tripadvisorLogo.src} alt="TripAdvisor Logo" class="absolute top-0 right-0 h-5 w-auto object-contain object-top-right mt-0.5" />
                       )}
                       <div class="am-case-study-person-details flex items-start gap-4">
-                        <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image)} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        {typeof getAvatarSrc(t.image) === 'string' ? (
+                          <img alt={t.name} loading="lazy" src={getAvatarSrc(t.image) as string} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        ) : (
+                          <Image src={getAvatarSrc(t.image) as any} alt={t.name} width={36} height={36} class="am-customer-stories-testimonial-img shrink-0 mt-0.5" />
+                        )}
                         <div class="am-paragraph-14 flex-1 text-gray-900! flex flex-col pt-0">
                           <div class="font-bold flex items-center gap-1.5 leading-tight">
                             {t.name}

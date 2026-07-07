@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import AnimatedArrowIsland from "../../../components/ui/AnimatedArrowIsland";
 import { getLangFromUrl, useTranslations } from '../../../i18n/utils';
 import { homeImages } from '../data/images';
@@ -9,11 +10,13 @@ const t = useTranslations(lang, "home");
 
 <section class="w-full px-4 xl:px-5 py-4 lg:py-9 border-t border-b border-black">
   <div class="w-full mb-4">
-    <img
+    <Image
       src={homeImages.agenda.src}
       alt={homeImages.agenda.alt}
       class="w-full h-[35vh] sm:h-[70vh] md:h-[40vh] lg:h-[80vh] object-cover"
       loading="lazy"
+      widths={[360, 540, 720, 1080, 1440, homeImages.agenda.src.width]}
+      sizes="(max-width: 480px) 440px, (max-width: 768px) 720px, 100vw"
     />
   </div>
 

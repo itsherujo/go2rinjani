@@ -175,6 +175,7 @@ export default function HeaderIsland({
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="w-8 h-3.5 relative flex flex-col justify-between"
+          aria-label="Toggle menu"
         >
           <span
             className={`w-full h-px bg-black transition-all duration-300 origin-center ${isMenuOpen ? "absolute top-1/2 -translate-y-1/2 rotate-25" : ""}`}
