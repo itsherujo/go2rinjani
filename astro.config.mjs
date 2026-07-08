@@ -63,8 +63,5 @@ export default defineConfig({
     optimizeDeps: {
       exclude: ['settings', 'astro:zod', 'astro:schema'],
     },
-    define: {
-      'process.env.NODE_ENV': '"development"',
-    },
   }
 });
