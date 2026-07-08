@@ -15,8 +15,10 @@ const t = useTranslations(lang, "home");
       alt={homeImages.agenda.alt}
       class="w-full h-[35vh] sm:h-[70vh] md:h-[40vh] lg:h-[80vh] object-cover"
       loading="lazy"
+      quality={55}
+      format="webp"
       widths={[360, 540, 720, 1080, 1440, homeImages.agenda.src.width]}
-      sizes="(max-width: 480px) 440px, (max-width: 768px) 720px, 100vw"
+      sizes="(max-width: 480px) 360px, (max-width: 768px) 720px, (max-width: 1280px) 1080px, 1440px"
     />
   </div>
 

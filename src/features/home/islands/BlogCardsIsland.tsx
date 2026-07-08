@@ -6,13 +6,17 @@ export default function BlogCardsIsland({
   desc,
   ctaLabel,
   href,
-  imageSrc
+  imageSrc,
+  imageWidth,
+  imageHeight,
 }: {
   title: string;
   desc: string;
   ctaLabel: string;
   href?: string;
   imageSrc: string;
+  imageWidth?: number;
+  imageHeight?: number;
 }) {
   return (
     <section className="w-full px-4 xl:px-5 py-8 md:py-12">
@@ -22,6 +26,9 @@ export default function BlogCardsIsland({
           <motion.img
             src={imageSrc}
             alt={title}
+            width={imageWidth || 600}
+            height={imageHeight || 450}
+            loading="lazy"
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.3 }}

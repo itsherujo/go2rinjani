@@ -14,6 +14,11 @@ export default defineConfig({
   site: "https://go2rinjani.com",
   output: 'server',
   adapter: cloudflare(),
+
+  image: {
+    domains: ["cdn.prod.website-files.com"],
+  },
+
   integrations: [
     react(),
     mdx(),

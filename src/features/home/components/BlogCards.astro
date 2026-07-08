@@ -1,8 +1,10 @@
 ---
 import { getLangFromUrl, useTranslations } from '../../../i18n/utils';
+import { getImage } from 'astro:assets';
 import BlogCardsIsland from '../islands/BlogCardsIsland';
 import { getCollection } from 'astro:content';
 import blogImages from '../../../content/blog/data/images.json';
+import blogFeaturedImg from '../../../assets/images/home/planning-your-first-mount-rinjani-trek.avif';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang, "home");
@@ -13,8 +15,13 @@ const featuredSlug = "trekking-smart-on-mount-rinjani-your-complete-preparation-
 const featuredPost = allPosts.find(post => post.id === `locales/${lang}/${featuredSlug}`) 
   || allPosts.find(post => post.id === `locales/en/${featuredSlug}`);
 
-const imageObj = blogImages as Record<string, string>;
-const featuredImage = imageObj[featuredSlug] || featuredPost?.data.image || "/images/blog/planning-your-first-mount-rinjani-trek.avif";
+// Pre-optimize the image at build time via Astro's image pipeline
+const optimizedImage = await getImage({
+  src: blogFeaturedImg,
+  width: 600,
+  quality: 55,
+  format: 'webp',
+});
 
 const title = featuredPost?.data.title || t("featured_post.title");
 const desc = featuredPost?.data.description || t("featured_post.desc");
@@ -27,5 +34,7 @@ const href = lang === 'en' ? `/blog/${featuredSlug}` : `/${lang}/blog/${featured
   desc={desc}
   ctaLabel={t("featured_post.cta_label")}
   href={href}
-  imageSrc={featuredImage}
+  imageSrc={optimizedImage.src}
+  imageWidth={optimizedImage.attributes.width || 600}
+  imageHeight={optimizedImage.attributes.height || 450}
 />
