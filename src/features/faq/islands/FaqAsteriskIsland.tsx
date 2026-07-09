@@ -6,7 +6,7 @@ export default function FaqAsteriskIsland() {
   
   return (
     <motion.img
-      src="https://cdn.prod.website-files.com/6596aca1a31aa73c7b252db2/65bbe88948cb73219ee807ba_asterisk-large.svg"
+      src="/assets/asterisk-large.svg"
       loading="lazy"
       alt=""
       className="section-icon-image"

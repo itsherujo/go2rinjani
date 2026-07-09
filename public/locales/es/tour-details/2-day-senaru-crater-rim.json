@@ -5,8 +5,7 @@
   },
   "hero": {
     "title": "Trek 2 Días Monte Rinjani Senaru — Borde del Cráter a través de la Selva",
-    "desc": "No todas las caminatas en Rinjani tienen que terminar en la cumbre — el trek de 2 días borde del cráter de Senaru de Go2Rinjani te lleva a través de la densa selva tropical del Parque Nacional hasta Pelawangan Senaru a 2,641 m, con vistas panorámicas sobre el lago Segara Anak.",
-    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+    "desc": "No todas las caminatas en Rinjani tienen que terminar en la cumbre — el trek de 2 días borde del cráter de Senaru de Go2Rinjani te lleva a través de la densa selva tropical del Parque Nacional hasta Pelawangan Senaru a 2,641 m, con vistas panorámicas sobre el lago Segara Anak."
   },
   "intro": {
     "label": "2 Días 1 Noche — Ruta Senaru",
@@ -91,16 +90,46 @@
     "section_title": "Detalles del Trek",
     "intro": "Todo lo necesario antes de reservar.",
     "details": [
-      { "label": "Duración", "value": "2 Días 1 Noche" },
-      { "label": "Ruta", "value": "Ruta Senaru" },
-      { "label": "Elevación", "value": "Pelawangan Senaru — 2,641 m" },
-      { "label": "Cumbre", "value": "Sin cumbre en este plan" },
-      { "label": "Inicio", "value": "Pueblo Senaru" },
-      { "label": "Dificultad", "value": "Moderado" },
-      { "label": "Temporada", "value": "Abril – Diciembre" },
-      { "label": "Permiso", "value": "Incluido" },
-      { "label": "Grupo", "value": "Mín 2 — máx 6" },
-      { "label": "Ruta Torean", "value": "No disponible" }
+      {
+        "label": "Duración",
+        "value": "2 Días 1 Noche"
+      },
+      {
+        "label": "Ruta",
+        "value": "Ruta Senaru"
+      },
+      {
+        "label": "Elevación",
+        "value": "Pelawangan Senaru — 2,641 m"
+      },
+      {
+        "label": "Cumbre",
+        "value": "Sin cumbre en este plan"
+      },
+      {
+        "label": "Inicio",
+        "value": "Pueblo Senaru"
+      },
+      {
+        "label": "Dificultad",
+        "value": "Moderado"
+      },
+      {
+        "label": "Temporada",
+        "value": "Abril – Diciembre"
+      },
+      {
+        "label": "Permiso",
+        "value": "Incluido"
+      },
+      {
+        "label": "Grupo",
+        "value": "Mín 2 — máx 6"
+      },
+      {
+        "label": "Ruta Torean",
+        "value": "No disponible"
+      }
     ]
   },
   "choose_duration": {

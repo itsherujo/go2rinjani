@@ -5,8 +5,7 @@
   },
   "hero": {
     "title": "林查尼火山4天塞纳鲁徒步 — 顶峰，湖泊与温泉",
-    "desc": "Go2Rinjani最完整的塞纳鲁套餐 — 4天塞纳鲁登顶火山湖徒步结合了林查尼国家公园必须体验的一切：茂密的热带雨林、Pelawangan Senaru火山口、3,726米的主峰、神圣的Segara Anak湖以及火山温泉。塞纳鲁传奇西部路线的终极体验。",
-    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+    "desc": "Go2Rinjani最完整的塞纳鲁套餐 — 4天塞纳鲁登顶火山湖徒步结合了林查尼国家公园必须体验的一切：茂密的热带雨林、Pelawangan Senaru火山口、3,726米的主峰、神圣的Segara Anak湖以及火山温泉。塞纳鲁传奇西部路线的终极体验。"
   },
   "intro": {
     "label": "4天3夜 — 塞纳鲁路线",
@@ -122,17 +121,50 @@
     "section_title": "徒步概览信息",
     "intro": "预定4天登顶林查尼前您需要知道的详细资讯。",
     "details": [
-      { "label": "徒步时长", "value": "4天3夜" },
-      { "label": "路线设定", "value": "塞纳鲁路线 — 往返路线" },
-      { "label": "顶峰海拔", "value": "3,726 米 — 龙目岛最高点" },
-      { "label": "火山口海拔", "value": "Pelawangan Senaru — 海拔2,641米" },
-      { "label": "火山湖海拔", "value": "海平面上2,008米" },
-      { "label": "起点位置", "value": "北龙目岛Senaru村" },
-      { "label": "困难程度", "value": "艰难 — 强烈建议有徒步经验者参加" },
-      { "label": "最佳徒步季节", "value": "4月 – 12月。每年1月到3月闭山" },
-      { "label": "徒步凭证", "value": "包含林查尼国家公园门票" },
-      { "label": "服务规模", "value": "最低2人最高6人拼团或私团可选" },
-      { "label": "Torean特殊路线", "value": "不包含在这一项产品内" }
+      {
+        "label": "徒步时长",
+        "value": "4天3夜"
+      },
+      {
+        "label": "路线设定",
+        "value": "塞纳鲁路线 — 往返路线"
+      },
+      {
+        "label": "顶峰海拔",
+        "value": "3,726 米 — 龙目岛最高点"
+      },
+      {
+        "label": "火山口海拔",
+        "value": "Pelawangan Senaru — 海拔2,641米"
+      },
+      {
+        "label": "火山湖海拔",
+        "value": "海平面上2,008米"
+      },
+      {
+        "label": "起点位置",
+        "value": "北龙目岛Senaru村"
+      },
+      {
+        "label": "困难程度",
+        "value": "艰难 — 强烈建议有徒步经验者参加"
+      },
+      {
+        "label": "最佳徒步季节",
+        "value": "4月 – 12月。每年1月到3月闭山"
+      },
+      {
+        "label": "徒步凭证",
+        "value": "包含林查尼国家公园门票"
+      },
+      {
+        "label": "服务规模",
+        "value": "最低2人最高6人拼团或私团可选"
+      },
+      {
+        "label": "Torean特殊路线",
+        "value": "不包含在这一项产品内"
+      }
     ]
   },
   "choose_duration": {

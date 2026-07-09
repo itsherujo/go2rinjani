@@ -5,8 +5,7 @@
   },
   "hero": {
     "title": "Trek 3 Días Monte Rinjani Senaru — Selva, Lago & Aguas Termales",
-    "desc": "La experiencia más inmersiva sin cumbre de Go2Rinjani. El trek de 3 días te lleva a través de la densa selva hasta el borde del cráter Pelawangan Senaru, para luego descender al lago sagrado Segara Anak y relajarte en sus aguas termales volcánicas.",
-    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+    "desc": "La experiencia más inmersiva sin cumbre de Go2Rinjani. El trek de 3 días te lleva a través de la densa selva hasta el borde del cráter Pelawangan Senaru, para luego descender al lago sagrado Segara Anak y relajarte en sus aguas termales volcánicas."
   },
   "intro": {
     "label": "3 Días 2 Noches — Ruta Senaru",
@@ -110,17 +109,50 @@
     "section_title": "Detalles del Trek",
     "intro": "Todo lo que necesitas saber de nuestra ruta de 3 días.",
     "details": [
-      { "label": "Duración", "value": "3 Días 2 Noches" },
-      { "label": "Ruta", "value": "Senaru — inicio y final" },
-      { "label": "Elevación Cráter", "value": "2,641 msnm" },
-      { "label": "Elevación Lago", "value": "2,008 msnm" },
-      { "label": "Cumbre", "value": "Programa sin cumbre" },
-      { "label": "Inicio", "value": "Senaru, Lombok Norte" },
-      { "label": "Dificultad", "value": "Moderada" },
-      { "label": "Temporada", "value": "Abril – Diciembre" },
-      { "label": "Permisos", "value": "Incluidos" },
-      { "label": "Grupo", "value": "Mínimo 2 — Máximo 6" },
-      { "label": "Ruta Torean", "value": "No disponible" }
+      {
+        "label": "Duración",
+        "value": "3 Días 2 Noches"
+      },
+      {
+        "label": "Ruta",
+        "value": "Senaru — inicio y final"
+      },
+      {
+        "label": "Elevación Cráter",
+        "value": "2,641 msnm"
+      },
+      {
+        "label": "Elevación Lago",
+        "value": "2,008 msnm"
+      },
+      {
+        "label": "Cumbre",
+        "value": "Programa sin cumbre"
+      },
+      {
+        "label": "Inicio",
+        "value": "Senaru, Lombok Norte"
+      },
+      {
+        "label": "Dificultad",
+        "value": "Moderada"
+      },
+      {
+        "label": "Temporada",
+        "value": "Abril – Diciembre"
+      },
+      {
+        "label": "Permisos",
+        "value": "Incluidos"
+      },
+      {
+        "label": "Grupo",
+        "value": "Mínimo 2 — Máximo 6"
+      },
+      {
+        "label": "Ruta Torean",
+        "value": "No disponible"
+      }
     ]
   },
   "choose_duration": {

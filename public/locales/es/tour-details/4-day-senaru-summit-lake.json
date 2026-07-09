@@ -5,8 +5,7 @@
   },
   "hero": {
     "title": "Mont Rinjani Trek 4 Días Vía Senaru — Bosque, Cumbre y Lago",
-    "desc": "El programa de 4 días de Go2Rinjani en Senaru te da absolutamente todos los atractivos del Parque Nacional. Descubre la exótica vegetación espesa y avista flora local antes de enfrentarte a la cima principal con sus 3,726 metros y deleitarse con sus lagos cálidos volcánicos de Segara Anak.",
-    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+    "desc": "El programa de 4 días de Go2Rinjani en Senaru te da absolutamente todos los atractivos del Parque Nacional. Descubre la exótica vegetación espesa y avista flora local antes de enfrentarte a la cima principal con sus 3,726 metros y deleitarse con sus lagos cálidos volcánicos de Segara Anak."
   },
   "intro": {
     "label": "4 Días 3 Noches — Ruta Senaru",
@@ -119,17 +118,50 @@
     "section_title": "Información Previa Técnica Para Sus Apuntes Duros",
     "intro": "Todos tus detalles que son imperativos recordares sobre tu hazaña magna de 4 días y la gran cumbre inmensa en Rinjani Senaru:",
     "details": [
-      { "label": "Tiempos Estimados", "value": "4 Días Contiguos 3 Noches Fuera" },
-      { "label": "Línea Recorrida", "value": "Punto Inicial Y Acabado de Retiro Identico por Poblado Senaru" },
-      { "label": "Pico Pico Máximo de Ind", "value": "A los 3,726 Metros Submarinos Nivel" },
-      { "label": "Elevación Punteada Acampe Borde", "value": "Punto Frío y Medio 2.641m Senaru Rem" },
-      { "label": "Base Valle Centralizada Lago", "value": "Ecosistema Plano Segara situado entre 2.008M" },
-      { "label": "El Punto Partida Original", "value": "La Sede Cívica Antigua Lombok Norte Senaru" },
-      { "label": "Niveles Agudos", "value": "Clasificado muy Pesado: Prohibido débiles con poco Ejercicio Corazonado" },
-      { "label": "Temporadas De Aperturas Reales", "value": "Mayor Sol Abril/Diciembre y Resto meses del año Bloqueado Nacional." },
-      { "label": "Gestiones Legal", "value": "Todo ya fue incorporado previamente del pasaje Tiquets PNR Rinjani" },
-      { "label": "Medidas de Manadas Compañías", "value": "Dos 2 Personas para despachar al Max de Seis Mínimos, (Grupos Individual VIP SÍ)" },
-      { "label": "Avisos Torean O Similares", "value": "Ningún Paso O Traza O Caminos Aburridos Torean Abarcan Este Plan" }
+      {
+        "label": "Tiempos Estimados",
+        "value": "4 Días Contiguos 3 Noches Fuera"
+      },
+      {
+        "label": "Línea Recorrida",
+        "value": "Punto Inicial Y Acabado de Retiro Identico por Poblado Senaru"
+      },
+      {
+        "label": "Pico Pico Máximo de Ind",
+        "value": "A los 3,726 Metros Submarinos Nivel"
+      },
+      {
+        "label": "Elevación Punteada Acampe Borde",
+        "value": "Punto Frío y Medio 2.641m Senaru Rem"
+      },
+      {
+        "label": "Base Valle Centralizada Lago",
+        "value": "Ecosistema Plano Segara situado entre 2.008M"
+      },
+      {
+        "label": "El Punto Partida Original",
+        "value": "La Sede Cívica Antigua Lombok Norte Senaru"
+      },
+      {
+        "label": "Niveles Agudos",
+        "value": "Clasificado muy Pesado: Prohibido débiles con poco Ejercicio Corazonado"
+      },
+      {
+        "label": "Temporadas De Aperturas Reales",
+        "value": "Mayor Sol Abril/Diciembre y Resto meses del año Bloqueado Nacional."
+      },
+      {
+        "label": "Gestiones Legal",
+        "value": "Todo ya fue incorporado previamente del pasaje Tiquets PNR Rinjani"
+      },
+      {
+        "label": "Medidas de Manadas Compañías",
+        "value": "Dos 2 Personas para despachar al Max de Seis Mínimos, (Grupos Individual VIP SÍ)"
+      },
+      {
+        "label": "Avisos Torean O Similares",
+        "value": "Ningún Paso O Traza O Caminos Aburridos Torean Abarcan Este Plan"
+      }
     ]
   },
   "choose_duration": {

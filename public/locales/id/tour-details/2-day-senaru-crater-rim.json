@@ -5,8 +5,7 @@
   },
   "hero": {
     "title": "Trek 2 Hari Senaru Gunung Rinjani — Pelawangan Melalui Hutan Hujan",
-    "desc": "Tidak semua pendakian Rinjani harus berakhir di puncak — trek 2 hari Pelawangan Senaru Go2Rinjani membawa Anda melintasi hutan hujan tropis yang lebat ke Pelawangan Senaru di 2.641 m, dengan panorama luas Danau Segara Anak dan kaldera Gunung Rinjani. Pengalaman spektakuler, dapat diakses semua tingkat kebugaran.",
-    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+    "desc": "Tidak semua pendakian Rinjani harus berakhir di puncak — trek 2 hari Pelawangan Senaru Go2Rinjani membawa Anda melintasi hutan hujan tropis yang lebat ke Pelawangan Senaru di 2.641 m, dengan panorama luas Danau Segara Anak dan kaldera Gunung Rinjani. Pengalaman spektakuler, dapat diakses semua tingkat kebugaran."
   },
   "intro": {
     "label": "2 Hari 1 Malam — Jalur Senaru",
@@ -93,16 +92,46 @@
     "section_title": "Sekilas Trek",
     "intro": "Segala yang perlu Anda ketahui sebelum memesan trek Rinjani 2 hari via Senaru.",
     "details": [
-      { "label": "Durasi", "value": "2 Hari 1 Malam" },
-      { "label": "Rute", "value": "Jalur Senaru — mulai dan selesai di Senaru" },
-      { "label": "Ketinggian Pelawangan", "value": "Pelawangan Senaru — 2.641 mdpl" },
-      { "label": "Puncak", "value": "Tidak ada puncak pada paket ini" },
-      { "label": "Titik Awal", "value": "Desa Senaru, Lombok Utara" },
-      { "label": "Kesulitan", "value": "Sedang — cocok untuk kebugaran dasar" },
-      { "label": "Musim Terbaik", "value": "April – Desember. Ditutup Jan – Mar." },
-      { "label": "Izin", "value": "Izin TNGR — sudah termasuk" },
-      { "label": "Ukuran Grup", "value": "Min 2 — maks 6 per grup." },
-      { "label": "Opsi Torean", "value": "Tidak tersedia di paket ini" }
+      {
+        "label": "Durasi",
+        "value": "2 Hari 1 Malam"
+      },
+      {
+        "label": "Rute",
+        "value": "Jalur Senaru — mulai dan selesai di Senaru"
+      },
+      {
+        "label": "Ketinggian Pelawangan",
+        "value": "Pelawangan Senaru — 2.641 mdpl"
+      },
+      {
+        "label": "Puncak",
+        "value": "Tidak ada puncak pada paket ini"
+      },
+      {
+        "label": "Titik Awal",
+        "value": "Desa Senaru, Lombok Utara"
+      },
+      {
+        "label": "Kesulitan",
+        "value": "Sedang — cocok untuk kebugaran dasar"
+      },
+      {
+        "label": "Musim Terbaik",
+        "value": "April – Desember. Ditutup Jan – Mar."
+      },
+      {
+        "label": "Izin",
+        "value": "Izin TNGR — sudah termasuk"
+      },
+      {
+        "label": "Ukuran Grup",
+        "value": "Min 2 — maks 6 per grup."
+      },
+      {
+        "label": "Opsi Torean",
+        "value": "Tidak tersedia di paket ini"
+      }
     ]
   },
   "choose_duration": {

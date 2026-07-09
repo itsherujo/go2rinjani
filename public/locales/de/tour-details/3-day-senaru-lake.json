@@ -5,8 +5,7 @@
   },
   "hero": {
     "title": "Mount Rinjani 3-Tage Senaru Trek — Regenwald, See & Heiße Quellen",
-    "desc": "Go2Rinjanis immersivstes Rinjani-Erlebnis ohne Gipfelbesteigung — der 3-tägige Senaru See-Trek führt durch tropischen Regenwald zum Pelawangan Senaru Kraterrand, hinab in den Krater zum Segara Anak See und zu den heißen Vulkangquellen.",
-    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+    "desc": "Go2Rinjanis immersivstes Rinjani-Erlebnis ohne Gipfelbesteigung — der 3-tägige Senaru See-Trek führt durch tropischen Regenwald zum Pelawangan Senaru Kraterrand, hinab in den Krater zum Segara Anak See und zu den heißen Vulkangquellen."
   },
   "intro": {
     "label": "3 Tage 2 Nächte — Senaru Route",
@@ -112,17 +111,50 @@
     "section_title": "Trek auf einen Blick",
     "intro": "Alles, was Sie vor der Buchung wissen müssen.",
     "details": [
-      { "label": "Dauer", "value": "3 Tage 2 Nächte" },
-      { "label": "Route", "value": "Senaru Route" },
-      { "label": "Kraterrand", "value": "Pelawangan Senaru — 2.641 m" },
-      { "label": "See Höhe", "value": "2.008 m" },
-      { "label": "Gipfel", "value": "Kein Gipfel auf diesem Paket" },
-      { "label": "Ausgangspunkt", "value": "Senaru village" },
-      { "label": "Schwierigkeit", "value": "Moderat — für normale Fitness" },
-      { "label": "Beste Jahreszeit", "value": "April – Dezember" },
-      { "label": "Permit", "value": "Inklusive" },
-      { "label": "Gruppengröße", "value": "Min 2 — max 6" },
-      { "label": "Torean Route", "value": "Nicht verfügbar" }
+      {
+        "label": "Dauer",
+        "value": "3 Tage 2 Nächte"
+      },
+      {
+        "label": "Route",
+        "value": "Senaru Route"
+      },
+      {
+        "label": "Kraterrand",
+        "value": "Pelawangan Senaru — 2.641 m"
+      },
+      {
+        "label": "See Höhe",
+        "value": "2.008 m"
+      },
+      {
+        "label": "Gipfel",
+        "value": "Kein Gipfel auf diesem Paket"
+      },
+      {
+        "label": "Ausgangspunkt",
+        "value": "Senaru village"
+      },
+      {
+        "label": "Schwierigkeit",
+        "value": "Moderat — für normale Fitness"
+      },
+      {
+        "label": "Beste Jahreszeit",
+        "value": "April – Dezember"
+      },
+      {
+        "label": "Permit",
+        "value": "Inklusive"
+      },
+      {
+        "label": "Gruppengröße",
+        "value": "Min 2 — max 6"
+      },
+      {
+        "label": "Torean Route",
+        "value": "Nicht verfügbar"
+      }
     ]
   },
   "choose_duration": {

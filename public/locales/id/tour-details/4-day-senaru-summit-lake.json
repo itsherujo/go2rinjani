@@ -5,8 +5,7 @@
   },
   "hero": {
     "title": "Trek 4 Hari Senaru Rinjani — Puncak, Danau & Air Panas",
-    "desc": "Paket Senaru terlengkap dari Go2Rinjani — trek puncak dan danau Senaru selama 4 hari menggabungkan segalanya: hutan hujan tropis lebat, Pelawangan Senaru, puncak di 3.726 m, danau suci Segara Anak, dan pemandian air panas vulkanik.",
-    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+    "desc": "Paket Senaru terlengkap dari Go2Rinjani — trek puncak dan danau Senaru selama 4 hari menggabungkan segalanya: hutan hujan tropis lebat, Pelawangan Senaru, puncak di 3.726 m, danau suci Segara Anak, dan pemandian air panas vulkanik."
   },
   "intro": {
     "label": "4 Hari 3 Malam — Jalur Senaru",
@@ -125,17 +124,50 @@
     "section_title": "Sekilas Trek",
     "intro": "Berikut adalah ringkasan segala yang perlu Anda ketahui.",
     "details": [
-      { "label": "Durasi", "value": "4 Hari 3 Malam" },
-      { "label": "Rute", "value": "Senaru — mulai dan selesai di desa Senaru" },
-      { "label": "Ketinggian Puncak", "value": "3.726 mdpl" },
-      { "label": "Ketinggian Pelawangan", "value": "Pelawangan Senaru — 2.641 mdpl" },
-      { "label": "Ketinggian Danau", "value": "2.008 mdpl" },
-      { "label": "Mulai", "value": "Desa Senaru, Lombok Utara" },
-      { "label": "Kesulitan", "value": "Menantang — disarankan memiliki pengalaman trek" },
-      { "label": "Musim Terbaik", "value": "April – Desember" },
-      { "label": "Izin", "value": "Termasuk di paket" },
-      { "label": "Ukuran Grup", "value": "Min 2 — Max 6 orang per grup" },
-      { "label": "Opsi Jalur Torean", "value": "Tidak tersedia di rute ini" }
+      {
+        "label": "Durasi",
+        "value": "4 Hari 3 Malam"
+      },
+      {
+        "label": "Rute",
+        "value": "Senaru — mulai dan selesai di desa Senaru"
+      },
+      {
+        "label": "Ketinggian Puncak",
+        "value": "3.726 mdpl"
+      },
+      {
+        "label": "Ketinggian Pelawangan",
+        "value": "Pelawangan Senaru — 2.641 mdpl"
+      },
+      {
+        "label": "Ketinggian Danau",
+        "value": "2.008 mdpl"
+      },
+      {
+        "label": "Mulai",
+        "value": "Desa Senaru, Lombok Utara"
+      },
+      {
+        "label": "Kesulitan",
+        "value": "Menantang — disarankan memiliki pengalaman trek"
+      },
+      {
+        "label": "Musim Terbaik",
+        "value": "April – Desember"
+      },
+      {
+        "label": "Izin",
+        "value": "Termasuk di paket"
+      },
+      {
+        "label": "Ukuran Grup",
+        "value": "Min 2 — Max 6 orang per grup"
+      },
+      {
+        "label": "Opsi Jalur Torean",
+        "value": "Tidak tersedia di rute ini"
+      }
     ]
   },
   "choose_duration": {

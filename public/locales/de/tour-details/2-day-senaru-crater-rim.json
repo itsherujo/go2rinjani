@@ -5,8 +5,7 @@
   },
   "hero": {
     "title": "Mount Rinjani 2-Tage Senaru Trek — Kraterrand durch den Regenwald",
-    "desc": "Nicht jede Rinjani-Wanderung muss am Gipfel enden — der 2-tägige Senaru Kraterrand-Trek von Go2Rinjani führt Sie durch dichten tropischen Regenwald zum Pelawangan Senaru auf 2.641 m, mit weitem Panoramablick über den Segara Anak See und die massive Rinjani-Caldera. Ein spektakuläres Rinjani-Erlebnis, zugänglich für alle Fitnesslevel.",
-    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+    "desc": "Nicht jede Rinjani-Wanderung muss am Gipfel enden — der 2-tägige Senaru Kraterrand-Trek von Go2Rinjani führt Sie durch dichten tropischen Regenwald zum Pelawangan Senaru auf 2.641 m, mit weitem Panoramablick über den Segara Anak See und die massive Rinjani-Caldera. Ein spektakuläres Rinjani-Erlebnis, zugänglich für alle Fitnesslevel."
   },
   "intro": {
     "label": "2 Tage 1 Nacht — Senaru Route",
@@ -93,16 +92,46 @@
     "section_title": "Trek auf einen Blick",
     "intro": "Alles, was Sie vor der Buchung wissen müssen.",
     "details": [
-      { "label": "Dauer", "value": "2 Tage 1 Nacht" },
-      { "label": "Route", "value": "Senaru Route" },
-      { "label": "Kraterrand", "value": "Pelawangan Senaru — 2.641 m" },
-      { "label": "Gipfel", "value": "Kein Gipfel auf diesem Paket" },
-      { "label": "Ausgangspunkt", "value": "Senaru village, Nord-Lombok" },
-      { "label": "Schwierigkeit", "value": "Moderat — für normale Fitness geeignet" },
-      { "label": "Beste Jahreszeit", "value": "April – Dezember" },
-      { "label": "Permit", "value": "Inklusive" },
-      { "label": "Gruppengröße", "value": "Min 2 — max 6" },
-      { "label": "Torean Route", "value": "Nicht verfügbar" }
+      {
+        "label": "Dauer",
+        "value": "2 Tage 1 Nacht"
+      },
+      {
+        "label": "Route",
+        "value": "Senaru Route"
+      },
+      {
+        "label": "Kraterrand",
+        "value": "Pelawangan Senaru — 2.641 m"
+      },
+      {
+        "label": "Gipfel",
+        "value": "Kein Gipfel auf diesem Paket"
+      },
+      {
+        "label": "Ausgangspunkt",
+        "value": "Senaru village, Nord-Lombok"
+      },
+      {
+        "label": "Schwierigkeit",
+        "value": "Moderat — für normale Fitness geeignet"
+      },
+      {
+        "label": "Beste Jahreszeit",
+        "value": "April – Dezember"
+      },
+      {
+        "label": "Permit",
+        "value": "Inklusive"
+      },
+      {
+        "label": "Gruppengröße",
+        "value": "Min 2 — max 6"
+      },
+      {
+        "label": "Torean Route",
+        "value": "Nicht verfügbar"
+      }
     ]
   },
   "choose_duration": {

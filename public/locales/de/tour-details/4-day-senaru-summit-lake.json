@@ -5,8 +5,7 @@
   },
   "hero": {
     "title": "Mount Rinjani 4-Tage Senaru Trek — Gipfel, See & Heiße Quellen",
-    "desc": "Go2Rinjanis umfassendstes Senaru-Paket — kombiniert alles, was der Nationalpark zu bieten hat: tropischen Regenwald, Kraterrand, den Mount Rinjani Gipfel, den heiligen Segara Anak See und vulkanische heiße Quellen.",
-    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+    "desc": "Go2Rinjanis umfassendstes Senaru-Paket — kombiniert alles, was der Nationalpark zu bieten hat: tropischen Regenwald, Kraterrand, den Mount Rinjani Gipfel, den heiligen Segara Anak See und vulkanische heiße Quellen."
   },
   "intro": {
     "label": "4 Tage 3 Nächte — Senaru Route",
@@ -122,17 +121,50 @@
     "section_title": "Trek auf einen Blick",
     "intro": "Das wichtigste auf ein Blick übersichtlich gestylt:",
     "details": [
-      { "label": "Dauer", "value": "4 Tage 3 Nächte Vollausblick" },
-      { "label": "Route", "value": "Senaru Linie – Identisch hin/zurück" },
-      { "label": "Gipfel Level", "value": "Tiefere Luft am Gipfel mit 3.726 KM Sealevel" },
-      { "label": "Kraterrand", "value": "Schlafbasis auf Pelawangan mit 2.641m" },
-      { "label": "See Höhe", "value": "Heißes Quellen Paradies bei 2008m" },
-      { "label": "Anfangspunkt", "value": "Senaru Start Point Nordwärts" },
-      { "label": "Fitness / Level", "value": "Viel Fitness ist eine Voraussetzung!" },
-      { "label": "Saison", "value": "Apr - Dez." },
-      { "label": "Tickets", "value": "All incl." },
-      { "label": "Größe", "value": "Kombi und Private Touren möglich" },
-      { "label": "Sonder", "value": "Torean Valley fällt aus dieser Kategorie raus" }
+      {
+        "label": "Dauer",
+        "value": "4 Tage 3 Nächte Vollausblick"
+      },
+      {
+        "label": "Route",
+        "value": "Senaru Linie – Identisch hin/zurück"
+      },
+      {
+        "label": "Gipfel Level",
+        "value": "Tiefere Luft am Gipfel mit 3.726 KM Sealevel"
+      },
+      {
+        "label": "Kraterrand",
+        "value": "Schlafbasis auf Pelawangan mit 2.641m"
+      },
+      {
+        "label": "See Höhe",
+        "value": "Heißes Quellen Paradies bei 2008m"
+      },
+      {
+        "label": "Anfangspunkt",
+        "value": "Senaru Start Point Nordwärts"
+      },
+      {
+        "label": "Fitness / Level",
+        "value": "Viel Fitness ist eine Voraussetzung!"
+      },
+      {
+        "label": "Saison",
+        "value": "Apr - Dez."
+      },
+      {
+        "label": "Tickets",
+        "value": "All incl."
+      },
+      {
+        "label": "Größe",
+        "value": "Kombi und Private Touren möglich"
+      },
+      {
+        "label": "Sonder",
+        "value": "Torean Valley fällt aus dieser Kategorie raus"
+      }
     ]
   },
   "choose_duration": {

@@ -5,8 +5,7 @@
   },
   "hero": {
     "title": "Trek Mont Rinjani 4 Jours Senaru — Sommet, Lac & Sources Thermales",
-    "desc": "Le Trek 4 jours Senaru Sommet & Lac de Go2Rinjani rassemble tout ce que le Parc National a de meilleur : forêt vierge luxuriante, sommet vertigineux à 3726 m, bivouac au lac sacré et détente dans les sources volcaniques chaudes.",
-    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+    "desc": "Le Trek 4 jours Senaru Sommet & Lac de Go2Rinjani rassemble tout ce que le Parc National a de meilleur : forêt vierge luxuriante, sommet vertigineux à 3726 m, bivouac au lac sacré et détente dans les sources volcaniques chaudes."
   },
   "intro": {
     "label": "4 Jours 3 Nuits — Route Senaru",
@@ -122,17 +121,50 @@
     "section_title": "Détails Cruciaux Rapides",
     "intro": "Ce récapitulatif contient l'information claire avant que l'aventure ne devienne officielle.",
     "details": [
-      { "label": "Durée d'Immersion", "value": "4 Jours et 3 Nuits Complètes sur Volcan" },
-      { "label": "Format Départ", "value": "De Senaru, Sortie au même endroit." },
-      { "label": "Sommet Altitude Majeure", "value": "Mont Rinjani Point Max: 3 726 m" },
-      { "label": "Point Nuit Majeur", "value": "Le Cratère Culmine à 2 641m" },
-      { "label": "Repose Zone Basse", "value": "La Piscine Lac est à 2 008m" },
-      { "label": "Mise En Jambe", "value": "Le Village de Senaru est à 601m" },
-      { "label": "Exigence Physique", "value": "Dureté Intense: Préparation Cardiaque et Volonté Sont Exigées" },
-      { "label": "Mois Faisant L'unanimité", "value": "Mois de Mai à Octobre / Novembre. Interdit en Février/Mars. " },
-      { "label": "Organisation Billet", "value": "Tickets pris en charge à votre nom avant arrivée" },
-      { "label": "Conditions Équipe", "value": "Privé et Non Privé Accessible (jusqu'a 6)." },
-      { "label": "Remarque", "value": "La route Torean n’apparaît aucunement ici" }
+      {
+        "label": "Durée d'Immersion",
+        "value": "4 Jours et 3 Nuits Complètes sur Volcan"
+      },
+      {
+        "label": "Format Départ",
+        "value": "De Senaru, Sortie au même endroit."
+      },
+      {
+        "label": "Sommet Altitude Majeure",
+        "value": "Mont Rinjani Point Max: 3 726 m"
+      },
+      {
+        "label": "Point Nuit Majeur",
+        "value": "Le Cratère Culmine à 2 641m"
+      },
+      {
+        "label": "Repose Zone Basse",
+        "value": "La Piscine Lac est à 2 008m"
+      },
+      {
+        "label": "Mise En Jambe",
+        "value": "Le Village de Senaru est à 601m"
+      },
+      {
+        "label": "Exigence Physique",
+        "value": "Dureté Intense: Préparation Cardiaque et Volonté Sont Exigées"
+      },
+      {
+        "label": "Mois Faisant L'unanimité",
+        "value": "Mois de Mai à Octobre / Novembre. Interdit en Février/Mars. "
+      },
+      {
+        "label": "Organisation Billet",
+        "value": "Tickets pris en charge à votre nom avant arrivée"
+      },
+      {
+        "label": "Conditions Équipe",
+        "value": "Privé et Non Privé Accessible (jusqu'a 6)."
+      },
+      {
+        "label": "Remarque",
+        "value": "La route Torean n’apparaît aucunement ici"
+      }
     ]
   },
   "choose_duration": {

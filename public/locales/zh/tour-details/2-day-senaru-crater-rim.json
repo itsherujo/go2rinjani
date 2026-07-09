@@ -5,8 +5,7 @@
   },
   "hero": {
     "title": "林查尼火山2天塞纳鲁徒步 — 穿越雨林的火山口边缘",
-    "desc": "并非每次林查尼徒步都必须以登顶结束 — Go2Rinjani的2天1夜塞纳鲁火山口徒步带您穿过茂密的热带雨林，抵达海拔2,641米的Pelawangan Senaru，欣赏Segara Anak湖和火山口的全景。壮观的体验，适合各个体能水平。",
-    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+    "desc": "并非每次林查尼徒步都必须以登顶结束 — Go2Rinjani的2天1夜塞纳鲁火山口徒步带您穿过茂密的热带雨林，抵达海拔2,641米的Pelawangan Senaru，欣赏Segara Anak湖和火山口的全景。壮观的体验，适合各个体能水平。"
   },
   "intro": {
     "label": "2天1夜 — 塞纳鲁路线",
@@ -93,16 +92,46 @@
     "section_title": "徒步概览",
     "intro": "预订2天塞纳鲁徒步前您需要知道的一切信息。",
     "details": [
-      { "label": "持续时间", "value": "2天1夜" },
-      { "label": "路线", "value": "塞纳鲁路线 — 从Senaru村出发和结束" },
-      { "label": "火山口海拔", "value": "Pelawangan Senaru — 2,641 米" },
-      { "label": "登顶", "value": "本行程无登顶 — 仅火山口边缘" },
-      { "label": "起点", "value": "北龙目岛，Senaru村" },
-      { "label": "难度", "value": "中等 — 适合具备基本体能的游客" },
-      { "label": "最佳季节", "value": "4月至12月（旱季）。1月至3月关闭。" },
-      { "label": "许可证", "value": "已包含国家公园门票" },
-      { "label": "团队规模", "value": "最少2人 — 最多6人。可安排独立成团。" },
-      { "label": "Torean 路线", "value": "本套餐不提供" }
+      {
+        "label": "持续时间",
+        "value": "2天1夜"
+      },
+      {
+        "label": "路线",
+        "value": "塞纳鲁路线 — 从Senaru村出发和结束"
+      },
+      {
+        "label": "火山口海拔",
+        "value": "Pelawangan Senaru — 2,641 米"
+      },
+      {
+        "label": "登顶",
+        "value": "本行程无登顶 — 仅火山口边缘"
+      },
+      {
+        "label": "起点",
+        "value": "北龙目岛，Senaru村"
+      },
+      {
+        "label": "难度",
+        "value": "中等 — 适合具备基本体能的游客"
+      },
+      {
+        "label": "最佳季节",
+        "value": "4月至12月（旱季）。1月至3月关闭。"
+      },
+      {
+        "label": "许可证",
+        "value": "已包含国家公园门票"
+      },
+      {
+        "label": "团队规模",
+        "value": "最少2人 — 最多6人。可安排独立成团。"
+      },
+      {
+        "label": "Torean 路线",
+        "value": "本套餐不提供"
+      }
     ]
   },
   "choose_duration": {

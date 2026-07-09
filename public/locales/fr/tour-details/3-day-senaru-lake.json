@@ -5,8 +5,7 @@
   },
   "hero": {
     "title": "Trek 3 Jours Mont Rinjani Senaru — Forêt, Lac & Sources",
-    "desc": "L'expérience la plus immersive mais sans sommet au Rinjani : ce trek de 3 jours vous mène à travers la forêt tropicale dense jusqu'au cratère, puis au fond pour découvrir le lac sacré et ses sources thermales relaxantes.",
-    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+    "desc": "L'expérience la plus immersive mais sans sommet au Rinjani : ce trek de 3 jours vous mène à travers la forêt tropicale dense jusqu'au cratère, puis au fond pour découvrir le lac sacré et ses sources thermales relaxantes."
   },
   "intro": {
     "label": "3 Jours 2 Nuits — Route Senaru",
@@ -109,17 +108,50 @@
     "section_title": "Le Trek en Bref",
     "intro": "Vérifiez vos détails et conditions partiques ici.",
     "details": [
-      { "label": "Durée", "value": "3 Jours 2 Nuits" },
-      { "label": "Route", "value": "Senaru (allé / retour)" },
-      { "label": "Altitude Cratère", "value": "2 641 m" },
-      { "label": "Altitude Lac", "value": "2 008 m" },
-      { "label": "Sommet", "value": "Non" },
-      { "label": "Début", "value": "Village de Senaru" },
-      { "label": "Difficulté", "value": "Moyenne/Soutenue" },
-      { "label": "Saison", "value": "Avril – Décembre" },
-      { "label": "Permis", "value": "Parc National (Inclus)" },
-      { "label": "Groupe", "value": "Max 6 personnes" },
-      { "label": "Torean", "value": "Pas dans cette offre" }
+      {
+        "label": "Durée",
+        "value": "3 Jours 2 Nuits"
+      },
+      {
+        "label": "Route",
+        "value": "Senaru (allé / retour)"
+      },
+      {
+        "label": "Altitude Cratère",
+        "value": "2 641 m"
+      },
+      {
+        "label": "Altitude Lac",
+        "value": "2 008 m"
+      },
+      {
+        "label": "Sommet",
+        "value": "Non"
+      },
+      {
+        "label": "Début",
+        "value": "Village de Senaru"
+      },
+      {
+        "label": "Difficulté",
+        "value": "Moyenne/Soutenue"
+      },
+      {
+        "label": "Saison",
+        "value": "Avril – Décembre"
+      },
+      {
+        "label": "Permis",
+        "value": "Parc National (Inclus)"
+      },
+      {
+        "label": "Groupe",
+        "value": "Max 6 personnes"
+      },
+      {
+        "label": "Torean",
+        "value": "Pas dans cette offre"
+      }
     ]
   },
   "choose_duration": {

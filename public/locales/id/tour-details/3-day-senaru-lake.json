@@ -5,8 +5,7 @@
   },
   "hero": {
     "title": "Trek 3 Hari Senaru Rinjani — Hutan Hujan, Danau & Air Panas",
-    "desc": "Pengalaman Rinjani paling mendalam tanpa puncak dari Go2Rinjani — trek danau Senaru 3 hari membawa Anda melintasi hutan hujan tropis lebat ke Pelawangan Senaru, turun ke kawah untuk berkemah di tepi danau Segara Anak, dan pemandian air panas alami. Didukung penuh oleh pemandu lokal bersertifikat dan porter.",
-    "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000&auto=format&fit=crop"
+    "desc": "Pengalaman Rinjani paling mendalam tanpa puncak dari Go2Rinjani — trek danau Senaru 3 hari membawa Anda melintasi hutan hujan tropis lebat ke Pelawangan Senaru, turun ke kawah untuk berkemah di tepi danau Segara Anak, dan pemandian air panas alami. Didukung penuh oleh pemandu lokal bersertifikat dan porter."
   },
   "intro": {
     "label": "3 Hari 2 Malam — Jalur Senaru",
@@ -112,17 +111,50 @@
     "section_title": "Sekilas Trek",
     "intro": "Segala yang perlu Anda ketahui sebelum memesan.",
     "details": [
-      { "label": "Durasi", "value": "3 Hari 2 Malam" },
-      { "label": "Rute", "value": "Senaru — mulai dan selesai di desa Senaru" },
-      { "label": "Ketinggian Pelawangan", "value": "Pelawangan Senaru — 2.641 mdpl" },
-      { "label": "Ketinggian Danau", "value": "2.008 mdpl" },
-      { "label": "Puncak", "value": "Tanpa puncak — hanya danau & pelawangan" },
-      { "label": "Mulai", "value": "Desa Senaru" },
-      { "label": "Kesulitan", "value": "Sedang — cocok untuk kebugaran wajar" },
-      { "label": "Musim Terbaik", "value": "April – Desember" },
-      { "label": "Izin", "value": "Izin Taman Nasional termasuk" },
-      { "label": "Ukuran Grup", "value": "Min 2 — max 6 per grup. Opsi privat tersedia." },
-      { "label": "Opsi Torean", "value": "Tidak tersedia di paket ini" }
+      {
+        "label": "Durasi",
+        "value": "3 Hari 2 Malam"
+      },
+      {
+        "label": "Rute",
+        "value": "Senaru — mulai dan selesai di desa Senaru"
+      },
+      {
+        "label": "Ketinggian Pelawangan",
+        "value": "Pelawangan Senaru — 2.641 mdpl"
+      },
+      {
+        "label": "Ketinggian Danau",
+        "value": "2.008 mdpl"
+      },
+      {
+        "label": "Puncak",
+        "value": "Tanpa puncak — hanya danau & pelawangan"
+      },
+      {
+        "label": "Mulai",
+        "value": "Desa Senaru"
+      },
+      {
+        "label": "Kesulitan",
+        "value": "Sedang — cocok untuk kebugaran wajar"
+      },
+      {
+        "label": "Musim Terbaik",
+        "value": "April – Desember"
+      },
+      {
+        "label": "Izin",
+        "value": "Izin Taman Nasional termasuk"
+      },
+      {
+        "label": "Ukuran Grup",
+        "value": "Min 2 — max 6 per grup. Opsi privat tersedia."
+      },
+      {
+        "label": "Opsi Torean",
+        "value": "Tidak tersedia di paket ini"
+      }
     ]
   },
   "choose_duration": {
