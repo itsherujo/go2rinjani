@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import LanguageSwitcherIsland from "./LanguageSwitcherIsland";
 import { openBooking } from "../../stores/booking";
+import { getLocalizedPath } from "../../utils/localizedPath";
 
 export default function HeaderIsland({
   isHomePage,
@@ -46,7 +47,6 @@ export default function HeaderIsland({
   };
 
   const getNavUrl = (link: string) => {
-    const itemLangPrefix = currentLangCode !== "en" ? `/${currentLangCode}` : "";
     const baseToPath =
       link === "how-it-works"
         ? "/how-it-works"
@@ -61,7 +61,8 @@ export default function HeaderIsland({
               : link === "contact"
                 ? "/contact"
                 : "#";
-    return itemLangPrefix + (baseToPath === "/" && itemLangPrefix ? "" : baseToPath);
+    if (baseToPath === "#") return "#";
+    return getLocalizedPath(baseToPath, currentLangCode);
   };
 
   return (

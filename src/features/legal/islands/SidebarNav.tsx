@@ -9,11 +9,11 @@ interface SidebarNavProps {
 
 export default function SidebarNav({ isMobileMenuOpen, currentSlug, lang }: SidebarNavProps) {
   const getLegalUrl = (slug: string) => {
-    if (!lang || lang === "en") return `/legal/${slug}`;
-    return `/${lang}/legal/${slug}`;
+    if (!lang || lang === "en") return `/legal/${slug}/`;
+    return `/${lang}/legal/${slug}/`;
   };
 
-  const homeUrl = !lang || lang === "en" ? "/" : `/${lang}`;
+  const homeUrl = !lang || lang === "en" ? "/" : `/${lang}/`;
 
   return (
     <nav

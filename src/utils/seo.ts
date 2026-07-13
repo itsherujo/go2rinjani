@@ -51,11 +51,18 @@ export function getCanonicalUrl(
   const targetLang = lang || detectedLang;
   const pathWithoutLang = getPathWithoutLang(pathname);
 
+  // Ensure trailing slash for non-root paths
+  const cleanSegments = pathWithoutLang.split("/").filter(Boolean);
+  let normalizedPath = "/" + cleanSegments.join("/");
+  if (normalizedPath !== "/") {
+    normalizedPath += "/";
+  }
+
   if (targetLang && targetLang !== DEFAULT_LANG) {
-    return `${siteUrl}/${targetLang}${pathWithoutLang === "/" ? "" : pathWithoutLang}`;
+    return `${siteUrl}/${targetLang}${normalizedPath === "/" ? "/" : normalizedPath}`;
   }
   
-  return `${siteUrl}${pathWithoutLang}`;
+  return `${siteUrl}${normalizedPath}`;
 }
 
 export function getAlternateUrls(

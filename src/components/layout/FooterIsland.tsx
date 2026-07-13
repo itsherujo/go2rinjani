@@ -342,7 +342,7 @@ export default function FooterIsland({
               {navItems.map((link, idx) => (
                 <a
                   key={idx}
-                  href={link.url}
+                  href={getLocalizedPath(link.url, locale)}
                   className="hover:text-gray-300 active:text-gray-300 transition-colors"
                 >
                   {link.label}

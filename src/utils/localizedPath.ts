@@ -9,9 +9,13 @@ export function getLocalizedPath(path: string, lang: string): string {
     return path;
   }
   
-  // Normalize path (ensure leading slash, remove duplicate slashes, remove trailing slash except for root)
-  const cleanPath = "/" + path.split("/").filter(Boolean).join("/");
+  // Normalize path (ensure leading slash, remove duplicate slashes, ensure trailing slash if not root)
+  const segments = path.split("/").filter(Boolean);
+  let cleanPath = "/" + segments.join("/");
+  if (cleanPath !== "/") {
+    cleanPath += "/";
+  }
   
   if (lang === "en") return cleanPath;
-  return `/${lang}${cleanPath === "/" ? "" : cleanPath}`;
+  return `/${lang}${cleanPath === "/" ? "/" : cleanPath}`;
 }
