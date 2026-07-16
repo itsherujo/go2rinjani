@@ -28,9 +28,14 @@ export function getPathWithoutLang(pathname: string): string {
 }
 
 export function getLocalizedPath(pathWithoutLang: string, lang: Lang): string {
-  const normalized = pathWithoutLang === "/" ? "" : pathWithoutLang;
-  if (lang === DEFAULT_LANG) return normalized || "/";
-  return `/${lang}${normalized}`;
+  const segments = pathWithoutLang.split("/").filter(Boolean);
+  let cleanPath = "/" + segments.join("/");
+  if (cleanPath !== "/") {
+    cleanPath += "/";
+  }
+
+  if (lang === DEFAULT_LANG) return cleanPath;
+  return `/${lang}${cleanPath === "/" ? "/" : cleanPath}`;
 }
 
 export function getCanonicalUrl(
