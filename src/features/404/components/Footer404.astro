@@ -1,6 +1,11 @@
 ---
 import logoUrl from "../../../assets/Go2rinjani.svg";
 import { COMPANY_INFO } from "../../../constants/company";
+import { getLangFromUrl, getLocalizedPath } from "../../../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const termsUrl = getLocalizedPath("/legal/terms-and-conditions", lang);
+const privacyUrl = getLocalizedPath("/legal/privacy-policy", lang);
 ---
 
 <footer class="footer" id="contact">
@@ -50,11 +55,11 @@ import { COMPANY_INFO } from "../../../constants/company";
       </article>
       <a
         class="link contact__code-of-conduct text text--small"
-        href="/legal/terms-and-conditions">Terms and Conditions</a
+        href={termsUrl}>Terms and Conditions</a
       >
       <a
         class="link contact__privacy-policy text text--small"
-        href="/legal/privacy-policy">Privacy Policy</a
+        href={privacyUrl}>Privacy Policy</a
       >
       <article class="contact__social">
         <h2 class="text text--small contact__heading">Follow Us</h2>
